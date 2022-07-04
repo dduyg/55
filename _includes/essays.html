@@ -1,0 +1,38 @@
+<div style="padding-top: 10px" class="ui container ">
+  {% assign language = page.language %}
+  {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
+  {% assign essay_pages_in_lang = essay_pages | where: "language", language %}
+  {% assign essay_categories = essay_pages | where: "language", language | map: "labels" | sort | uniq %}
+
+  {% if essay_categories.size > 1 %}
+  <div class="nonprintable filter-buttons jsOnly">
+    {% for category in essay_categories %}
+      <a class="button ui toggle filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</a>
+    {% endfor %}
+    <a class="button ui toggle filter active" href="#" id="filter-all">{% if language == 'pt' %}Todos{%- elsif language == 'en' -%}All{% endif %}</a>
+  </div>
+  {% endif %}
+
+  {% if essay_pages_in_lang.size > 0 %}
+  <div class="ui unstackable link divided relaxed items" id="filterable">
+      {% for page in essay_pages_in_lang %}
+        {% if page.language == language %}
+          {% include essay-card.html page=page %}
+        {% endif %}
+      {% endfor %}
+  </div>
+  {% else %}
+  <div class="ui container center aligned">
+    <h2 class="ui icon header disabled"><i class="frown icon"></i>
+      <span class="content">
+        {% if language == 'pt' %}Nada aqui{%- elsif language == 'en' -%}Nothing here{% endif %}
+        <span class="sub header">
+          {% if language == 'pt' %}Nenhum texto foi adicionado ainda.{%- elsif language == 'en' -%}No text has been added yet.{% endif %}
+        </span>
+      </span>
+    </h2>
+  </div>
+  {% endif %}
+</div>
+
+<script src="/javascript/filters.js"></script>

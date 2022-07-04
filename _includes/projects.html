@@ -1,0 +1,38 @@
+<div style="padding-top: 10px; padding-bottom: 50px" class="ui container ">
+    {% assign language = page.language %}
+    {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
+    {% assign project_pages_in_lang = project_pages | where: "language", language %}
+    {% assign project_categories = project_pages | where: "language", language | map: "category" | sort | uniq %}
+
+    {% if project_categories.size > 1 %}
+    <div class="nonprintable filter-buttons jsOnly">
+        {% for category in project_categories %}
+        <a class="button ui toggle filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</a>
+        {% endfor %}
+      <a class="button ui toggle filter active" href="#" id="filter-all">{% if language == 'pt' %}Todos{%- elsif language == 'en' -%}All{% endif %}</a>
+    </div>
+    {% endif %}
+
+  {% if project_pages_in_lang.size > 0 %}
+  <div class="ui centered stackable three cards" id="filterable">
+    {% for page in project_pages_in_lang %}
+      {% if page.language == language %}
+        {% include project-card.html page=page %}
+      {% endif %}
+    {% endfor %}
+  </div>
+  {% else %}
+  <div class="ui container center aligned">
+    <h2 class="ui icon header disabled"><i class="frown icon"></i>
+      <span class="content">
+        {% if language == 'pt' %}Nada aqui{%- elsif language == 'en' -%}Nothing here{% endif %}
+        <span class="sub header">
+          {% if language == 'pt' %}Nenhum projeto foi adicionado ainda.{%- elsif language == 'en' -%}No project has been added yet.{% endif %}
+        </span>
+      </span>
+    </h2>
+  </div>
+  {% endif %}
+</div>
+
+<script src="/javascript/filters.js"></script>

@@ -1,0 +1,66 @@
+{% assign language = include.language %}
+{% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
+{% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.language == language" %}
+{% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.language == language" %}
+{% assign portfolio_pages = site.pages | where: "type", "portfolio" | where_exp: "page", "page.language == language" %}
+{% assign num_essays = essay_pages.size %}
+{% assign num_projects = project_pages.size %}
+{% assign num_portfolios = portfolio_pages.size %}
+
+<a href="https://github.com/eitchtee/eitchtee.github.io/" class="ui github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#21ba45; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}.github-corner > svg {z-index: 100;color: #f2f2f2;}.github-corner.inverted > svg {color:#232b32;}</style>
+
+<button class="ui button icon basic darkmode-button jsOnly" id="darkmode" data-tooltip="{% if language == 'pt' %}Alternar tema{% else %}Toggle theme{% endif %}" data-position="bottom right" style="z-index: 2;"><i class="moon icon"></i></button>
+<a href="{{ site.baseurl}}/{% if language=='pt' %}en{% else %}pt{% endif %}/" class="ui button icon basic translate-button" {% if language=='pt' %}data-tooltip="See in English" data-position="bottom right"{% else %}data-tooltip="Ver em Português" data-position="bottom right"{% endif %}><i class="{% if language=='pt' %}us{% else %}br{% endif %} flag"></i></a>
+
+<div style="height: 100%; margin-top: -75px!important; margin-left:0!important; margin-right:0!important" class="ui middle aligned grid ">
+
+  <div class="column">
+
+    <div style="position: relative; top: 75px; z-index: 1" class="ui fluid centered small circular image">
+      <img src="{{ bio.basics.picture }}" alt="{{ bio.basics.short_name }}">
+    </div>
+
+
+    <div style="max-width: 500px; padding-top: 75px; margin-top: 0px" class="ui fluid centered card">
+
+      <div class="center aligned content">
+        <span class="header">{{ bio.basics.short_name }}</span>
+        <div class="meta">
+          <span class="date">{{ bio.basics.label }}</span>
+        </div>
+        <div class="center aligned description">
+          {{ bio.basics.summary }}
+        </div>
+      </div>
+      <div class="center aligned extra content">
+        {% include home-network-links.html language=language %}
+      </div>
+      <div class="center aligned content" style="line-height: 3em">
+        {% if num_projects > 0 %}<a class="ui animated green button" href="{{ site.baseurl}}/{{ language }}/{% if include.language == "pt" %}{{ site.projects-url-pt }}{% else %}{{ site.projects-url-en }}{% endif %}/">
+          <div class="visible content">{% if language == "pt" %}{{ site.projects-page-label-pt }}{% else %}{{ site.projects-page-label-en }}{% endif %}</div>
+          <div class="hidden content">
+            <i class="right arrow icon"></i>
+          </div>
+        </a>{% endif %}
+        {% if num_essays > 0 %}<a class="ui animated green button" href="{{ site.baseurl}}/{{ language }}/{% if include.language == "pt" %}{{ site.essays-url-pt }}{% else %}{{ site.essays-url-en }}{% endif %}/">
+          <div class="visible content">{% if language == "pt" %}{{ site.essays-page-label-pt }}{% else %}{{ site.essays-page-label-en }}{% endif %}</div>
+          <div class="hidden content">
+            <i class="right arrow icon"></i>
+          </div>
+        </a>{% endif %}
+        {% if num_portfolios > 0 %}<a class="ui animated green button" href="{{ site.baseurl}}/{{ language }}/{{ site.portfolio-url }}/">
+          <div class="visible content">{% if language == "pt" %}{{ site.portfolio-page-label-pt }}{% else %}{{ site.portfolio-page-label-en }}{% endif %}</div>
+          <div class="hidden content">
+            <i class="right arrow icon"></i>
+          </div>
+        </a>{% endif %}
+        <a class="ui animated green button" href="{{ site.baseurl}}/{{ language }}/{% if include.language == "pt" %}{{ site.bio-url-pt }}{% else %}{{ site.bio-url-en }}{% endif %}/">
+          <div class="visible content">{% if language == "pt" %}{{ site.bio-page-label-pt }}{% else %}{{ site.bio-page-label-en }}{% endif %}</div>
+          <div class="hidden content">
+            <i class="right arrow icon"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
