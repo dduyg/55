@@ -3,19 +3,60 @@
 {% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.language == language" %}
 {% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.language == language" %}
 {% assign portfolio_pages = site.pages | where: "type", "portfolio" | where_exp: "page", "page.language == language" %}
-{% assign num_essays = essay_pages.size %}
-{% assign num_projects = project_pages.size %}
-{% assign num_portfolios = portfolio_pages.size %}
 
 
 <div class="nonprintable">
-  <nav class="ui stackable menu pointing">
-    <a href="{{ site.baseurl}}/{{ language }}" class="brand item">
-      <img class="ui avatar image" src="{{ bio.basics.picture }}" alt="{{ bio.basics.short_name }}"><span>{{ bio.basics.short_name }}</span>
-    </a>
-    {% if num_projects > 0 %}
-    <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.projects-url-pt }}{% else %}{{ site.projects-url-en }}{% endif %}" class="{% if include.active == "projects" %}active {% endif %}green item">{% if language == "pt" %}{{ site.projects-page-label-pt }}{% else %}{{ site.projects-page-label-en }}{% endif %}</a>
-    {% endif %}
+ <div class="ui center aligned fluid container">
+
+     <div style="padding-bottom: 7px; text-align: center" class="center aligned content">
+       <a href="{{ site.baseurl}}/{{ language }}" class="ui tiny circular image">
+        <img src="{{ bio.basics.picture }}">
+       </a>
+     </div>
+
+     <div class="ui compact text menu">
+    
+       <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.projects-url-pt }}{% else %}{{ site.projects-url-en }}{% endif %}" class="{% if include.active == "projects" %}active {% endif %}mycolor item">
+         <span class="menubutton"> {% if language == "pt" %}{{ site.projects-page-label-pt }}{% else %}{{ site.projects-page-label-en }}{% endif %}</span> 
+       </a>
+
+       <a href="{{ site.baseurl }}/essays" class=" {% if include.active == "essays" %} active {% endif %} mycolor item"> 
+         <span class="menubutton"> Blog </span>
+       </a>
+
+       <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} mycolor item">
+         <span class="menubutton"> About </span>
+       </a>
+
+       <a href="{{ site.baseurl }}/contact" class=" {% if include.active == "contact" %} active {% endif %} mycolor item"> 
+         <span class="menubutton"> Contact </span>
+       </a> 
+     </div>
+
+     <div class="ui hidden divider"></div>
+     
+  </div>
+</div>
+
+<script>
+
+  function onStart(){
+      $('.nonprintable').transition({
+      animation: 'bounce in', //"in" make a reverse animation
+      duration : '1s'
+    });
+  }
+
+  onStart();
+
+  $('#flip-box').hover(function() {
+    $(this).toggleClass('active');
+  });
+
+</script>
+
+
+
 
     {% if num_essays > 0 %}
     <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.essays-url-pt }}{% else %}{{ site.essays-url-en }}{% endif %}" class="{% if include.active == "essays" %}active {% endif %}green item">{% if language == "pt" %}{{ site.essays-page-label-pt }}{% else %}{{ site.essays-page-label-en }}{% endif %}</a>
