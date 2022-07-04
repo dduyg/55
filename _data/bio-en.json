@@ -1,0 +1,343 @@
+{
+  "basics": {
+    "name": "Herculino de Miranda Trotta Neto",
+    "short_name": "Herculino Trotta",
+    "label": "Student",
+    "picture": "/images/photo.jpg",
+    "email": "hello@herculino.com",
+    "website": "https://herculino.com",
+    "summary": "Law student in love with technology.",
+    "phone": "+55 32 9 8899 2043",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Ouro Preto",
+      "region": "Minas Gerais",
+      "countryCode": "Brazil"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "eitchtee",
+        "url": "https://github.com/eitchtee"
+      },
+      {
+        "network": "stack overflow",
+        "username": "herculino-trotta",
+        "url": "https://stackoverflow.com/users/3042266/herculino-trotta"
+      },
+      {
+        "network": "linkedin",
+        "username": "htrotta",
+        "url": "https://www.linkedin.com/in/htrotta/"
+      },
+      {
+        "network": "instagram",
+        "username": "htrotta_",
+        "url": "https://instagram.com/htrotta_"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "disruptive technologies",
+      "keywords": []
+    },
+    {
+      "name": "automation",
+      "keywords": []
+    },
+    {
+      "name": "gamedev",
+      "keywords": []
+    }
+  ],
+  "skills": [
+    {
+      "icon": "code",
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        ["Python", "Advanced"],
+        ["Javascript", "Basic"],
+        ["Godot Script", "Advanced"],
+        ["Dart", "Basic"]
+      ]
+    },
+    {
+      "icon": "crop alternate",
+      "name": "Frameworks",
+      "level": "",
+      "keywords": [
+        ["Django"],
+        ["Flutter"],
+        ["Fomantic UI"],
+        ["Wordpress"]
+      ]
+    },
+    {
+      "icon": "wrench",
+      "name": "Tools",
+      "level": "",
+      "keywords": [
+        ["Git/GitHub"],
+        ["Postman"],
+        ["Adobe Photoshop"],
+        ["Microsoft Office"],
+        ["Google Docs"]
+      ]
+    },
+    {
+      "icon": "laptop",
+      "name": "Systems",
+      "level": "",
+      "keywords": [
+        ["Windows"],
+        ["Ubuntu/Linux"]
+      ]
+    },
+    {
+      "icon": "laptop code",
+      "name": "IDEs",
+      "level": "",
+      "keywords": [
+        ["Pycharm"],
+        ["Webstorm"],
+        ["VSCode"],
+        ["Android Studio"]
+      ]
+    },
+    {
+      "icon": "gamepad",
+      "name": "Game Engines",
+      "level": "",
+      "keywords": [
+        ["Godot Engine"],
+        ["Unity3D"]
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "Portuguese",
+      "level": 4,
+      "fluency": "Native"
+    },
+    {
+      "name": "English",
+      "level": 3,
+      "fluency": "Advanced"
+    },
+    {
+      "name": "Spanish",
+      "level": 1,
+      "fluency": "Basic"
+    }
+    
+  ],
+  "education": [
+    {
+      "institution": "Universidade Federal de Ouro Preto, Brazil",
+      "website": "https://direito.ufop.br/",
+      "area": "Law",
+      "studyType": "B.A.",
+      "startDate": "2017-09-16",
+      "endDate": "Present",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Instituto de Gestão e Tecnologia da Informação, Brazil",
+      "website": "https://www.igti.com.br",
+      "area": "Python Developer Bootcamp",
+      "studyType": "Bootcamp",
+      "startDate": "2020-09-10",
+      "endDate": "2020-11-19",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "work": [
+    {
+      "name": "Alcance Innovation Consulting",
+      "position": "Trainee Innovation Analyst",
+      "website": "",
+      "startDate": "2020-10-20",
+      "endDate": "Present",
+      "summary": "Management support to innovation and digital transformation projects.",
+      "location": "Remote",
+      "highlights": []
+    },
+    {
+      "name": "Universidade Federal de Ouro Preto",
+      "position": "Technical Support",
+      "website": "",
+      "startDate": "2020-08-04",
+      "endDate": "Present",
+      "summary": "Help teachers with the Moodle Platform and other related technologies.",
+      "location": "Remote",
+      "highlights": []
+    },
+    {
+      "name": "Delegacia de Polícia Civil de Ouro Preto",
+      "position": "Trainee Rapporteur",
+      "website": "",
+      "startDate": "2019-02-12",
+      "endDate": "2019-07-01",
+      "summary": "Generate reports about police investigations in the areas of environmental crimes and criminal acts.",
+      "location": "Ouro Preto, Brazil",
+      "highlights": [
+        "Report creation.",
+        "Archive control."
+      ]
+    },
+    {
+      "name": "Universidade Federal de Ouro Preto",
+      "position": "Webmaster",
+      "website": "",
+      "startDate": "2018-05-01",
+      "endDate": "2019-12-31",
+      "summary": "Develop and manage the website <a href=\"https://estudosdebarragens.ufop.br\" target=\"_blank\">estudosdebarragens.ufop.br</a> for the University's project <i>Rede UFOP de Estudos Sobre as Consequências dos Rompimentos de Barragens</i>, and gather the necessary data through partnerships, manual research and web scraping.",
+      "location": "Ouro Preto, Brazil",
+      "highlights": [
+      ]
+    },
+    {
+      "name": "Juizado Especial da Comarca de Muriaé",
+      "position": "Trainee Conciliator",
+      "website": "",
+      "startDate": "2017-06-01",
+      "endDate": "2017-09-14",
+      "summary": "Presiding conciliation sections on Brazil's Special Court.",
+      "location": "Muriaé, Brazil",
+      "highlights": [
+        "Conflict resolution.",
+        "Writing minutes for ratification by the magistrate in charge.",
+        "Costumer service."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Association República Kasa Cheia",
+      "website": "",
+      "position": "Treasurer",
+      "startDate": "2020-03-02",
+      "endDate": "Current",
+      "summary": "Oversee expenditures and look after the association’s fund, making sure their interest is met without loosing liquidity.",
+      "location": "Ouro Preto, Brazil",
+      "highlights": []
+    },
+    {
+      "organization": "Association República Tôa Tôa",
+      "website": "",
+      "position": "Treasurer",
+      "startDate": "2018-01-01",
+      "endDate": "2019-03-01",
+      "summary": "Oversee expenditures and look after the association’s fund, making sure their interest is met without loosing liquidity.",
+      "location": "Ouro Preto, Brazil",
+      "highlights": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "TOEFL ITP",
+      "date": "2017",
+      "awarder": "ETS",
+      "summary": "Level C1: <i>Proficient English user.</i>"
+    },
+    {
+      "title": "Certified Educational Smarketing Professional",
+      "date": "2020",
+      "awarder": "Rubeus Academy",
+      "summary": "Smarketing for educational institutions focusing on an individualized relationship."
+    },
+    {
+      "title": "Scrum Foundation Professional Certificate",
+      "date": "2020",
+      "awarder": "CertiProf",
+      "url": "https://certificates.easy-lms.com/exam/session/1cdac0ce-acd0-4338-a93d-9369cc7fd732",
+      "summary": "Covering all the Scrum framework knowledge, key definitions and roles."
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Google IT Automation with Python Professional Certificate",
+      "date": "2021",
+      "issuer": "Coursera",
+      "summary": "<i></i>",
+      "url": "https://www.coursera.org/account/accomplishments/professional-cert/8W44BW3ST4ZV",
+      "category": "IT"
+    },
+    {
+      "title": "Google IT Support Professional Certificate",
+      "date": "2020",
+      "issuer": "Coursera",
+      "summary": "<i></i>",
+      "url": "https://www.coursera.org/account/accomplishments/professional-cert/8W44BW3ST4ZV",
+      "category": "IT"
+    },
+    {
+      "title": "Python (Basic)",
+      "date": "2020",
+      "issuer": "HackerRank",
+      "summary": "<i>Covering topics like Scalar Types, Operators and Control Flow, Strings, Collections and Iteration, Modularity, Objects and Types and Classes.</i>",
+      "url": "https://www.hackerrank.com/certificates/2e8bc83d4013",
+      "category": "Programming"
+    },
+    {
+      "title": "Javascript (Basic)",
+      "date": "2020",
+      "issuer": "HackerRank",
+      "summary": "<i>Covering topics like Functions, Currying, Hoisting, Scope, Inheritance, Events and Error Handling.</i>",
+      "url": "https://www.hackerrank.com/certificates/8e4e93d661fc",
+      "category": "Programming"
+    },
+    {
+      "title": "Python",
+      "date": "2020",
+      "issuer": "Kaggle Learn",
+      "summary": "<i>This course covers the key Python skills you’ll need so you can start using Python for data science.</i>",
+      "url": "https://www.kaggle.com/learn/certification/eitchtee/python",
+      "category": "Data Science"
+    },
+    {
+      "title": "Intro to Machine Learning",
+      "date": "2020",
+      "issuer": "Kaggle Learn",
+      "summary": "<i>Learning the core ideas in machine learning, and building my first models.</i>",
+      "url": "https://www.kaggle.com/learn/certification/eitchtee/intro-to-machine-learning",
+      "category": "Data Science"
+    },
+    {
+      "title": "Emotional Intelligence Course",
+      "date": "2020",
+      "issuer": "Conquer Online",
+      "summary": "<i>Learning key aspects of self-knowledge, how to deal with stress and pressure, becoming a better team player, anxiety reduction and improving decision making.</i>",
+      "url": "https://drive.conqueronline.com.br/Certificados/Inteligência Emocional Conquer/1603935770380-4392ee96-0707-4f23-b83e-a37e11af1cca.pdf",
+      "category": "Soft Skills"
+    }
+  ],
+  "references": [],
+  "other_skills": [{
+    "name": "Driving License",
+    "keywords": []
+  },
+  {
+    "name": "Quick Learner",
+    "keywords": []
+  },
+  {
+    "name": "Good Communication Skills",
+    "keywords": []
+  },
+  {
+    "name": "Problem Solving Skills",
+    "keywords": []
+  },
+  {
+    "name": "Responsible",
+    "keywords": []
+  }
+]
+}
