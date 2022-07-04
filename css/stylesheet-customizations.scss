@@ -1,10 +1,185 @@
 ---
 # Provide front matter so Jekyll processes this file as SASS.
 ---
+// Put your custom CSS here if you want to override the defaults.
 
-body {
+// Website background change
+body { 
   background-color: #fafafa;
 }
+
+// General links
+a {
+  color: #FF00F4;
+  &:hover {
+    color: #FF00F4;
+  }
+}
+
+// Import 3 new fonts:
+// font-family: 'Inconsolata', monospace;
+// font-family: 'Source Code Pro', monospace;
+// font-family: 'Roboto Mono', monospace;
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+// Font & fontsize change menubar
+.ui.menu {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px !important;
+}
+
+// Customize menubar active items 
+.ui.menu .mycolor.active.item,
+.ui.mycolor.menu .active.item {
+  color: #01868C;
+  font-weight: bold;
+}
+
+// Menubar buttons
+.menubutton {
+  color: #01868C;
+  border: 1px solid #01868C; 
+  border-radius: 0.28571429rem;
+  margin: 0em 0em;
+  padding: 7px; // space within button and text
+}
+
+.ui.text.menu .item { 
+  padding: 5px; // space between buttons
+}
+
+// On #f2f2f2 bg-page transparent card
+.ui.doorzichtig.cards > .card,
+.ui.cards > .doorzichtig.card,
+.ui.doorzichtig.card {
+  box-shadow: 0px 0px 0px 1px transparent, 0px 2px 0px 0px transparent, 0px 1px 3px 0px transparent;
+}
+
+// class="inline-img"
+.inline-img {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+// Aboutpage padding content
+.leftright-padded { 
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+// Blockquotes in markdown
+blockquote { 
+  border-left: 3px solid #1F1F1F;
+  padding-left: 18px;
+}
+
+// Orange button projects
+.ui.myorange.buttons .button,
+.ui.myorange.button {
+  background-color: #FFBD67;
+  color: #000000;
+} 
+
+// Blogpost tags
+.ui.pinky.labels .label,
+.ui.pinky.label {
+  border: 1px solid grey !important; 
+  color: #FFBD67 !important;
+}---
+# Provide front matter so Jekyll processes this file as SASS.
+---
+// Put your custom CSS here if you want to override the defaults.
+
+// Website background change
+body { 
+  background-color: #fafafa;
+}
+
+// General links
+a {
+  color: #FF00F4;
+  &:hover {
+    color: #FF00F4;
+  }
+}
+
+// Import 3 new fonts:
+// font-family: 'Inconsolata', monospace;
+// font-family: 'Source Code Pro', monospace;
+// font-family: 'Roboto Mono', monospace;
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+// Font & fontsize change menubar
+.ui.menu {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px !important;
+}
+
+// Customize menubar active items 
+.ui.menu .mycolor.active.item,
+.ui.mycolor.menu .active.item {
+  color: #01868C;
+  font-weight: bold;
+}
+
+// Menubar buttons
+.menubutton {
+  color: #01868C;
+  border: 1px solid #01868C; 
+  border-radius: 0.28571429rem;
+  margin: 0em 0em;
+  padding: 7px; // space within button and text
+}
+
+.ui.text.menu .item { 
+  padding: 5px; // space between buttons
+}
+
+// On #f2f2f2 bg-page transparent card
+.ui.doorzichtig.cards > .card,
+.ui.cards > .doorzichtig.card,
+.ui.doorzichtig.card {
+  box-shadow: 0px 0px 0px 1px transparent, 0px 2px 0px 0px transparent, 0px 1px 3px 0px transparent;
+}
+
+// class="inline-img"
+.inline-img {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+// Aboutpage padding content
+.leftright-padded { 
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+// Blockquotes in markdown
+blockquote { 
+  border-left: 3px solid #1F1F1F;
+  padding-left: 18px;
+}
+
+// Orange button projects
+.ui.myorange.buttons .button,
+.ui.myorange.button {
+  background-color: #FFBD67;
+  color: #000000;
+} 
+
+// Blogpost tags
+.ui.pinky.labels .label,
+.ui.pinky.label {
+  border: 1px solid grey !important; 
+  color: #FFBD67 !important;
+}
+
+
+// Vanaf nu cloned
 
 :root {
   --scrollbackground: #f2f2f2;
