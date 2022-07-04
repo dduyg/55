@@ -6,7 +6,7 @@ url: "https://glitch-beep.github.io"
 baseurl: ""
 
 bio-page-label-pt: Currículo
-projects-page-label-pt: Projecten
+projects-page-label-pt: Projetos
 essays-page-label-pt: Blog
 portfolio-page-label-pt: Portfólio
 
@@ -21,7 +21,7 @@ theme-projects: projects.html
 theme-essays: essays.html
 theme-portfolio: portfolio.html
 
-projects-url-pt: projecten
+projects-url-pt: projetos
 essays-url-pt: blog
 bio-url-pt: curriculo
 
