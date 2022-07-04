@@ -261,14 +261,6 @@ blockquote {
   margin: 0 0 1.5em;
 }
 
-a {
-  color: var(--greenColor);
-}
-
-a:hover {
-  color: var(--greenColorHover);
-}
-
 .ui.items a.item:hover .content .header, .ui.link.items>.item:hover .content .header {
   color: var(--greenColorHover);
 
