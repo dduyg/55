@@ -28,11 +28,10 @@
     <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.bio-url-pt }}{% else %}{{ site.bio-url-en }}{% endif %}" class=" {% if include.active == "bio" %}active {% endif %}green item">{% if language == "pt" %}{{ site.bio-page-label-pt }}{% else %}{{ site.bio-page-label-en }}{% endif %}</a>
 
   </nav>
-  <button class="ui button icon basic darkmode-button jsOnly" id="darkmode" data-tooltip="{% if language == 'pt' %}Alternar tema{% else %}Toggle theme{% endif %}" data-position="bottom right" style="z-index: 2;"><i class="moon icon"></i></button>
-
+  
   {% if language == 'pt' %}
-  <a href="{{ site.baseurl }}/en/{% if include.active == "projects" %}{{ site.projects-url-en }}{% elsif include.active == "essays" %}{{ site.essays-url-en }}{% elsif include.active == "bio" %}{{ site.bio-url-en }}{% elsif include.active == "portfolio" %}{{ site.portfolio-url }}{% elsif include.active == "404" %}404{% endif %}" class="ui button icon basic translate-button" data-tooltip="See in English" data-position="bottom right"><i class="us flag"></i></a>
+  <a href="{{ site.baseurl }}/en/{% if include.active == "projects" %}{{ site.projects-url-en }}{% elsif include.active == "essays" %}{{ site.essays-url-en }}{% elsif include.active == "bio" %}{{ site.bio-url-en }}{% elsif include.active == "portfolio" %}{{ site.portfolio-url }}{% elsif include.active == "404" %}404{% endif %}" class="circular ui button basic translate-button" data-tooltip="View in English" data-position="bottom right">EN</a>
   {% else %}
-  <a href="{{ site.baseurl }}/pt/{% if include.active == "projects" %}{{ site.projects-url-pt }}{% elsif include.active == "essays" %}{{ site.essays-url-pt }}{% elsif include.active == "bio" %}{{ site.bio-url-pt }}{% elsif include.active == "portfolio" %}{{ site.portfolio-url }}{% elsif include.active == "404" %}404{% endif %}" class="ui button icon basic translate-button" data-tooltip="Ver em Português" data-position="bottom right"><i class="br flag"></i></a>
+  <a href="{{ site.baseurl }}/pt/{% if include.active == "projects" %}{{ site.projects-url-pt }}{% elsif include.active == "essays" %}{{ site.essays-url-pt }}{% elsif include.active == "bio" %}{{ site.bio-url-pt }}{% elsif include.active == "portfolio" %}{{ site.portfolio-url }}{% elsif include.active == "404" %}404{% endif %}" class="circular ui button basic translate-button" data-tooltip="Bekijk in het Nederlands" data-position="bottom right">NL</a>
   {% endif %}
 </div>
