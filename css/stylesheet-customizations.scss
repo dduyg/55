@@ -157,77 +157,7 @@ a:hover {
   border: 3px solid var(--scrollbackground);
 }
 
-/* ------------------------------------------------------------ */
-/* DARKMODE */
 
-body.inverted {
-  background-color: var(--darkBG);
-}
-
-/* Dim images with dark theme on */
-body.inverted img {
-  filter: brightness(.85) contrast(1);
-}
-
-body.inverted img:hover {
-  filter: brightness(1) contrast(1);
-}
-
-body.inverted .header-link {
-  color: #fff;
-}
-
-body.inverted .header-link:hover {
-  color: #fff;
-}
-
-body.inverted .breadlink:hover {
-  color: var(--greenColorLighHover)!important;
-  font-weight: bold;
-}
-
-body.inverted a:hover {
-  color: var(--greenColorLighHover)
-}
-
-body.inverted .icon-color:hover {
-  color: var(--greenColorLighHover);
-}
-
-body.inverted .ui.list>a.item:hover>.icon {
-  color: var(--greenColorLighHover)!important;
-}
-
-.avoid-flicker {
-  display: none!important;
-  visibility: hidden!important;
-}
-
-.inverted a {
-  color: var(--greenLinkColor);
-}
-
-.ui.inverted.list .item a:not(.ui):hover {
-  color: var(--greenLinkColor)!important;
-}
-
-a.ui.ui.ui.inverted.grey.label:hover {
-  color: inherit!important;
-}
-
-.ui.attached.inverted.tabular.menu {
-  border-bottom: 1px solid #555555;
-}
-
-.ui.tabular.menu.inverted {
-  background: none transparent;
-}
-
-.ui.inverted.tabular.menu .active.item {
-  background: #1b1c1d;
-  margin-bottom: -1px;
-  border-color: #555555;
-}
 
 
 .masonry-without-js {
