@@ -4,7 +4,6 @@
 {% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.language == language" %}
 {% assign portfolio_pages = site.pages | where: "type", "portfolio" | where_exp: "page", "page.language == language" %}
 
-
 <div class="nonprintable">
  <div class="ui center aligned fluid container">
 
@@ -57,11 +56,3 @@
   });
 
 </script>
-
-
-    
-
-    
-    <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.bio-url-pt }}{% else %}{{ site.bio-url-en }}{% endif %}" class=" {% if include.active == "bio" %}active {% endif %}green item">{% if language == "pt" %}{{ site.bio-page-label-pt }}{% else %}{{ site.bio-page-label-en }}{% endif %}</a>
-
-  
