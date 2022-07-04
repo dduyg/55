@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: 
+Disallow: /files/
+Disallow: /images/
+Disallow: /javascript/
+Disallow: /css/
+
+
+Sitemap: https://herculino.com/sitemap.xml
