@@ -10,30 +10,48 @@
 
 <a href="{{ site.baseurl}}/{% if language=='pt' %}en{% else %}pt{% endif %}/" class="circular ui button basic translate-button" {% if language=='pt' %}data-tooltip="View in English" data-position="bottom right"{% else %}data-tooltip="Bekijk in het Nederlands" data-position="bottom right"{% endif %}> {% if language=='pt' %} EN {% else %} NL {% endif %}</a>
 
-<div style="height: 100%; margin-top: -75px!important; margin-left:0!important; margin-right:0!important" class="ui middle aligned grid ">
+<div style="height: 100%;" class="ui middle aligned two column centered stackable grid container">
+
+  <div style="text-align: left" class="column">
+    <div  class="ui large image">
+      <img src="/images/1652495409967.png">
+    </div>
+  </div>
 
   <div class="column">
+    <h1 style="font-family: 'Source Code Pro', monospace;"class="header no-bottom">{{ site.data.bio.basics.name }} <span class="wave"><img src="/images/Hand.gif" width="35px"></span></h1>
+    <h2 style="color: #01868C; font-family: 'Source Code Pro', monospace; margin-top: 0px; padding-top: 0px" class="">{{ site.data.bio.basics.label }}</h2>
+    <p style="font-size: 16px;">
+      {{ site.data.bio.basics.summary }}
+    </p>
+    <div class="ui hidden divider"></div>
+    <p style="text-align: center">      
+      {% include home-network-links.html language=language %}     
+    </p>
+    <p style="color: grey; text-align: center">
+      <i>“If one day, my words are against science, choose science."</i>  —Mustafa Kemal Atatürk
+    </p>
+  </div>
+</div>
 
-    <div style="position: relative; top: 75px; z-index: 1" class="ui fluid centered small circular image">
-      <img src="{{ bio.basics.picture }}" alt="{{ bio.basics.short_name }}">
-    </div>
+<script>
 
+  function onStart(){
+      $('.column').transition({
+      animation: 'fly right in', //"in" make a reverse animation
+      duration : '2s'
+    });
+  }
 
-    <div style="max-width: 500px; padding-top: 75px; margin-top: 0px" class="ui fluid centered card">
+  onStart();
 
-      <div class="center aligned content">
-        <span class="header">{{ bio.basics.short_name }}</span>
-        <div class="meta">
-          <span class="date">{{ bio.basics.label }}</span>
-        </div>
-        <div class="center aligned description">
-          {{ bio.basics.summary }}
-        </div>
-      </div>
-      <div class="center aligned extra content">
-        {% include home-network-links.html language=language %}
-      </div>
-      <div class="center aligned content" style="line-height: 3em">
+  $('#flip-box').hover(function() {
+    $(this).toggleClass('active');
+  });
+
+</script> 
+
+<div class="center aligned content" style="line-height: 3em">
         {% if num_projects > 0 %}<a class="ui animated green button" href="{{ site.baseurl}}/{{ language }}/{% if include.language == "pt" %}{{ site.projects-url-pt }}{% else %}{{ site.projects-url-en }}{% endif %}/">
           <div class="visible content">{% if language == "pt" %}{{ site.projects-page-label-pt }}{% else %}{{ site.projects-page-label-en }}{% endif %}</div>
           <div class="hidden content">
@@ -59,6 +77,3 @@
           </div>
         </a>
       </div>
-    </div>
-  </div>
-</div>
