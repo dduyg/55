@@ -1,0 +1,47 @@
+# path to your resume.json
+json_resume_path: "site/_data/bio-en.json"
+
+# pt or en
+# leave empty to use system
+language: "en"
+
+# override for the header
+# leave empty if you want to use the one on your resume.json
+name: "Herculino M. Trotta Neto"
+
+colors:
+  name: "000000"
+  heading: "0e6d24"
+  tagline: "000000"
+  headingrule: "0e6d24"
+  accent: "21BA45"
+  emphasis: "000000"
+  body: "666666"
+
+composition:
+  first-column:
+    - work
+    - new-page
+    - technical-skills
+    - certificates
+  second-column:
+    - education
+    - volunteer
+    - languages
+    - new-page
+    - soft-skills
+    - interests
+    - awards
+
+ignore-certificates-of: []
+
+strings:
+  work: Work Experience
+  technical-skills: Technical Skills
+  certificates: Certificates
+  education: Education
+  volunteer: Volunteer
+  language: Languages
+  soft-skills: Soft Skills
+  interests: Interests
+  awards: Achievements
