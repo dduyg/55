@@ -1,10 +1,9 @@
 {% assign language = include.language %}
 {% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
 {% for profile in bio.basics.profiles %}
-   {% assign network = profile.network | downcase %}
-   <a target="_blank" class="ui circular icon {% if network == "instagram" %}pink{% elsif network == "linkedin" %}blue{% elsif network == "stack overflow" %}orange{% elsif network == "github" %}black{% else %}white{% endif %} button" href="{{ profile.url }}"><i class="large {{ profile.network | downcase }} icon"></i></a>
+   <a href="{{ profile.url }}"> <i style="color:#5a5a5a;" class="big {{ profile.network | downcase }} icon icon-color"></i> </a>
 {% endfor %}
 
 {% if bio.basics.email %}
-  <a target="_blank" class="ui circular mail icon red button" href="mailto:{{ bio.basics.email }}"><i class="large mail icon "></i></a>
+  <a href="mailto:{{ site.data.bio.basics.email }}"> <i style="color:#5a5a5a;" class="big mail outline icon icon-color"></i> </a>
 {% endif %}
