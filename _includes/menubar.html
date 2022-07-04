@@ -20,10 +20,9 @@
        </a>
        <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.essays-url-pt }}{% else %}{{ site.essays-url-en }}{% endif %}" class="{% if include.active == "essays" %}active {% endif %}mycolor item">
          <span class="menubutton"> {% if language == "pt" %}{{ site.essays-page-label-pt }}{% else %}{{ site.essays-page-label-en }}{% endif %}</span>
-       </a>
-
-       <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} mycolor item">
-         <span class="menubutton"> About </span>
+       </a>       
+       <a href="{{ site.baseurl }}/{{ language }}/{{ site.portfolio-url }}" class="{% if include.active == "portfolio" %}active {% endif %}mycolor item">
+         <span class="menubutton"> {% if language == "pt" %}{{ site.portfolio-page-label-pt }}{% else %}{{ site.portfolio-page-label-en }}{% endif %}</span>
        </a>
 
        <a href="{{ site.baseurl }}/contact" class=" {% if include.active == "contact" %} active {% endif %} mycolor item"> 
@@ -56,10 +55,7 @@
 
     
 
-    {% if num_portfolios > 0 %}
-    <a href="{{ site.baseurl }}/{{ language }}/{{ site.portfolio-url }}" class="{% if include.active == "portfolio" %}active {% endif %}green item">{% if language == "pt" %}{{ site.portfolio-page-label-pt }}{% else %}{{ site.portfolio-page-label-en }}{% endif %}</a>
-    {% endif %}
-
+    
     <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.bio-url-pt }}{% else %}{{ site.bio-url-en }}{% endif %}" class=" {% if include.active == "bio" %}active {% endif %}green item">{% if language == "pt" %}{{ site.bio-page-label-pt }}{% else %}{{ site.bio-page-label-en }}{% endif %}</a>
 
   </nav>
