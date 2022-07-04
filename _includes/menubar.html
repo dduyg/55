@@ -23,9 +23,8 @@
        <a href="{{ site.baseurl }}/{{ language }}/{{ site.portfolio-url }}" class="{% if include.active == "portfolio" %}active {% endif %}mycolor item">
          <span class="menubutton"> {% if language == "pt" %}{{ site.portfolio-page-label-pt }}{% else %}{{ site.portfolio-page-label-en }}{% endif %}</span>
        </a>
-
-       <a href="{{ site.baseurl }}/contact" class=" {% if include.active == "contact" %} active {% endif %} mycolor item"> 
-         <span class="menubutton"> Contact </span>
+       <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.bio-url-pt }}{% else %}{{ site.bio-url-en }}{% endif %}" class=" {% if include.active == "bio" %}active {% endif %}mycolor item">
+         <span class="menubutton"> {% if language == "pt" %}{{ site.bio-page-label-pt }}{% else %}{{ site.bio-page-label-en }}{% endif %}</span>
        </a> 
      </div>
 
