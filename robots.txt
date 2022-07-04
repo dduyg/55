@@ -6,4 +6,4 @@ Disallow: /javascript/
 Disallow: /css/
 
 
-Sitemap: https://herculino.com/sitemap.xml
+Sitemap: https://glitch-beep.github.io/sitemap.xml
