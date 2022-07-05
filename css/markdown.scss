@@ -25,16 +25,65 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
+/*******************************
+             Page
+*******************************/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic&subset=latin');
+html,
 body {
-  font-family: Helvetica, arial, sans-serif;
-  font-size: 14px;
-  // line-height: 1.6;
-  // padding-top: 10px;
-  // padding-bottom: 10px;
-  // background-color: white;
-  // padding: 30px;
-  // color: #333;
+  height: 100%;
 }
+html {
+  font-size: 14px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  min-width: 320px;
+  background: #FFFFFF;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.4285em;
+  color: rgba(0, 0, 0, 0.87);
+  font-smoothing: antialiased;
+}
+
+
+/*******************************
+             Headers
+*******************************/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  line-height: 1.2857em;
+  margin: calc(2rem -  0.14285em ) 0em 1rem;
+  font-weight: bold;
+  padding: 0em;
+}
+
+/*******************************
+             Text
+*******************************/
+
+p {
+  margin: 0em 0em 1em;
+  line-height: 1.4285em;
+}
+p:first-child {
+  margin-top: 0em;
+}
+p:last-child {
+  margin-bottom: 0em;
+}
+
+
+
 
 body > *:first-child {
     margin-top: 0 !important;
@@ -43,11 +92,6 @@ body > *:first-child {
 body > *:last-child {
   margin-bottom: 0 !important;
 }
-
-/* a {
-  color: #4183C4;
-  text-decoration: none;
-} */
 
 a.absent {
   color: #cc0000;
