@@ -34,12 +34,8 @@
           <span class="menubutton"> {% if language == "pt" %}{{ site.portfolio-page-label-pt }}{% else %}{{ site.portfolio-page-label-en }}{% endif %}</span>
         </a>
        {% endif %}
-
-        <a class="ui animated green button" href="{{ site.baseurl}}/{{ language }}/{% if include.language == "pt" %}{{ site.bio-url-pt }}{% else %}{{ site.bio-url-en }}{% endif %}/">
-          <div class="visible content">{% if language == "pt" %}{{ site.bio-page-label-pt }}{% else %}{{ site.bio-page-label-en }}{% endif %}</div>
-          <div class="hidden content">
-            <i class="right arrow icon"></i>
-          </div>
+        <a href="{{ site.baseurl}}/{{ language }}/{% if include.language == "pt" %}{{ site.bio-url-pt }}{% else %}{{ site.bio-url-en }}{% endif %}/">
+          <span class="menubutton"> {% if language == "pt" %}{{ site.bio-page-label-pt }}{% else %}{{ site.bio-page-label-en }}{% endif %}</span>
         </a>
 
      <div class="ui hidden divider"></div>
