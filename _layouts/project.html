@@ -4,10 +4,10 @@ layout: projects
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/markdown.css">
 
 <div style="margin-top: 20px; margin-bottom: 20px" class="ui text container">
-    <div class="ui segment">
-        {% if page.language == 'pt' %}
+
+  {% if page.language == 'pt' %}
         <div class="ui breadcrumb">
-            <a href="/pt/" class="section breadlink">Início</a>
+            <a href="/pt/" class="section breadlink">Home</a>
             <i class="right chevron icon divider"></i>
             <a href="/pt/{{ site.projects-url-pt }}" class="section breadlink">{{ site.projects-page-label-pt }}</a>
             <i class="right chevron icon divider"></i>
@@ -21,22 +21,36 @@ layout: projects
             <i class="right chevron icon divider"></i>
             <div class="active section">{{ page.title }}</div>
         </div>>
-        {% endif %}
+   {% endif %} 
 
-        <h1>{{ page.title }}</h1>
-        <div class="ui section divider"></div>
-        {% if content.size > 1 %}
-        {{ content }}
-        {% else %}
-        <div class="ui container center aligned">
-            <h2 class="ui icon header disabled"><i class="frown icon"></i>
-                <span class="content">{% if page.language == 'pt' %}Nada aqui{%- elsif page.language == 'en' -%}Nothing here{% endif %}
-                    <span class="sub header">
-                        {% if page.language == 'pt' %}Este projeto não tem uma descrição.{%- elsif page.language == 'en' -%}This project does not have a description.{% endif %}
-                    </span>
-                </span>
-            </h2>
-        </div>
-        {% endif %}
-    </div>
+   <h1 style="color: #00606E;font-family: 'Source Code Pro', monospace;"> {{ page.title }}</h1>
+      {{ content }}
+   <div class="ui hidden divider"></div>
+
 </div>
+
+
+
+<!-- Naar beneden beweging bij start alinea verwijderen als je niet meer wilt -->
+<script>
+
+  function onStart(){
+      $('.container').transition({
+      animation: 'drop in' //"in" make a reverse animation
+    });
+  }
+
+  onStart();
+
+  $('#flip-box').hover(function() {
+    $(this).toggleClass('active');
+  });
+
+</script>
+
+
+
+
+
+
+
