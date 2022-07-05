@@ -9,9 +9,16 @@
 
 <a href="{{ site.baseurl}}/{% if language=='pt' %}en{% else %}pt{% endif %}/" class="circular ui button basic translate-button" {% if language=='pt' %}data-tooltip="View in English" data-position="bottom right"{% else %}data-tooltip="Bekijk in het Nederlands" data-position="bottom right"{% endif %}> <i class="globe icon"></i>{% if language=='pt' %} NL {% else %} EN {% endif %}</a>
 
+<div class="nonprintable">
+ <div class="ui center aligned fluid container">
 
-<div class="center aligned content" style="line-height: 3em">
-        {% if num_projects > 0 %}<a class="ui animated green button" href="{{ site.baseurl}}/{{ language }}/{% if include.language == "pt" %}{{ site.projects-url-pt }}{% else %}{{ site.projects-url-en }}{% endif %}/">
+     <div style="padding-bottom: 7px; text-align: center" class="center aligned content">
+       <a href="{{ site.baseurl}}/{{ language }}" class="ui tiny circular image">
+        <img src="{{ bio.basics.picture }}">
+       </a>
+     </div>    
+
+       {% if num_projects > 0 %}<a class="ui animated green button" href="{{ site.baseurl}}/{{ language }}/{% if include.language == "pt" %}{{ site.projects-url-pt }}{% else %}{{ site.projects-url-en }}{% endif %}/">
           <div class="visible content">{% if language == "pt" %}{{ site.projects-page-label-pt }}{% else %}{{ site.projects-page-label-en }}{% endif %}</div>
           <div class="hidden content">
             <i class="right arrow icon"></i>
@@ -35,49 +42,6 @@
             <i class="right arrow icon"></i>
           </div>
         </a>
-      </div>
-
-
-
-
-
-<div class="nonprintable">
- <div class="ui center aligned fluid container">
-
-     <div style="padding-bottom: 7px; text-align: center" class="center aligned content">
-       <a href="{{ site.baseurl}}/{{ language }}" class="ui tiny circular image">
-        <img src="{{ bio.basics.picture }}">
-       </a>
-
-      {% if language == 'pt' %}
-      <a href="{{ site.baseurl }}/en/{% if include.active == "projects" %}{{ site.projects-url-en }}{% elsif include.active == "essays" %}{{ site.essays-url-en }}{% elsif include.active == "bio" %}{{ site.bio-url-en }}{% elsif include.active == "portfolio" %}{{ site.portfolio-url }}{% elsif include.active == "404" %}404{% endif %}" class="circular ui button basic translate-button" data-tooltip="View in English" data-position="bottom right"><i class="globe icon"></i>NL</a>
-      {% else %}
-      <a href="{{ site.baseurl }}/pt/{% if include.active == "projects" %}{{ site.projects-url-pt }}{% elsif include.active == "essays" %}{{ site.essays-url-pt }}{% elsif include.active == "bio" %}{{ site.bio-url-pt }}{% elsif include.active == "portfolio" %}{{ site.portfolio-url }}{% elsif include.active == "404" %}404{% endif %}" class="circular ui button basic translate-button" data-tooltip="Bekijk in het Nederlands" data-position="bottom right"><i class="globe icon"></i>EN</a>
-      {% endif %}
-     </div>
-
-     <div class="ui compact text menu">
-       {% if num_projects > 0 %}
-       <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.projects-url-pt }}{% else %}{{ site.projects-url-en }}{% endif %}" class="{% if include.active == "projects" %}active {% endif %}mycolor item">
-         <span class="menubutton"> {% if language == "pt" %}{{ site.projects-page-label-pt }}{% else %}{{ site.projects-page-label-en }}{% endif %}</span> 
-       </a>
-       {% endif %}
-
-       {% if num_essays > 0 %}
-       <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.essays-url-pt }}{% else %}{{ site.essays-url-en }}{% endif %}" class="{% if include.active == "essays" %}active {% endif %}mycolor item">
-         <span class="menubutton"> {% if language == "pt" %}{{ site.essays-page-label-pt }}{% else %}{{ site.essays-page-label-en }}{% endif %}</span>
-       </a>
-       {% endif %}
-
-       {% if num_portfolios > 0 %}       
-       <a href="{{ site.baseurl }}/{{ language }}/{{ site.portfolio-url }}" class="{% if include.active == "portfolio" %}active {% endif %}mycolor item">
-         <span class="menubutton"> {% if language == "pt" %}{{ site.portfolio-page-label-pt }}{% else %}{{ site.portfolio-page-label-en }}{% endif %}</span>
-       </a>
-       {% endif %}
-       <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.bio-url-pt }}{% else %}{{ site.bio-url-en }}{% endif %}" class=" {% if include.active == "bio" %}active {% endif %}mycolor item">
-         <span class="menubutton"> {% if language == "pt" %}{{ site.bio-page-label-pt }}{% else %}{{ site.bio-page-label-en }}{% endif %}</span>
-       </a> 
-     </div>
 
      <div class="ui hidden divider"></div>
      
