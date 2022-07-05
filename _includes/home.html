@@ -1,14 +1,4 @@
-{% assign language = include.language %}
-{% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
-{% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.language == language" %}
-{% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.language == language" %}
-{% assign portfolio_pages = site.pages | where: "type", "portfolio" | where_exp: "page", "page.language == language" %}
-{% assign num_essays = essay_pages.size %}
-{% assign num_projects = project_pages.size %}
-{% assign num_portfolios = portfolio_pages.size %}
-
-
-<a href="{{ site.baseurl}}/{% if language=='pt' %}en{% else %}pt{% endif %}/" class="circular ui button basic translate-button" {% if language=='pt' %}data-tooltip="View in English" data-position="bottom right"{% else %}data-tooltip="Bekijk in het Nederlands" data-position="bottom right"{% endif %}> <i class="globe icon"></i>{% if language=='pt' %} NL {% else %} EN {% endif %}</a>
+{% include home-menu.html %}
 
 <div style="height: 100%;" class="ui middle aligned two column centered stackable grid container">
 
