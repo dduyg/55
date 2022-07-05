@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/vacay-square.png
 title: Vacay
-permalink: projects/vacay
+permalink: en/projects/vacay
 # All dates must be YYYY-MM-DD format!
 date: 2015-12-15
 labels:
@@ -11,6 +11,7 @@ labels:
   - Meteor
   - MongoDB
   - GitHub
+language: en
 summary: A responsive web application for travel planning that my team developed in ICS 415.
 ---
 
