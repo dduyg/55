@@ -1,14 +1,13 @@
-{% assign filters = page.category %}
-<div class="ui card {% for label in filters %} {{ label | remove: " " }} {% endfor %}">
+<a class="card" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
   {% if include.page.image %}
   <div class="image">
-    <img src="{{ site.baseurl }}/{{ include.page.image }}" alt="{{ include.page.title }}">
+    <img src="{{ site.baseurl }}/{{ include.page.image }}">
   </div>
   {% endif %}
   <div class="content">
     <span class="header">{{ include.page.title }}</span>
     <div class="meta">
-      <span class="date">{{ include.page.category | join: " | " }}</span>
+      <span class="date">{{ include.page.date }}</span>
     </div>
 
     <div class="description">
@@ -17,23 +16,13 @@
   </div>
 
   <div class="extra content">
-    <div class="ui small labels">
+    <div class="ui mini labels">
       {% for label in include.page.labels %}
-      <div class="ui grey label">{{ label }}</div>
+      <div style="color:white;background-color:#01868C;" class="ui basic label">{{ label }}</div>
       {% endfor %}
     </div>
   </div>
 
-  {% if page.buttons %}
-  <div class="nonprintable {% if page.buttons.size >= 2 %}ui bottom attached buttons{% endif %}" style="z-index: 1;">
-      {% for button in page.buttons %}
-      <a class="ui bottom attached button {{ button[3] }}" href="{{ button[1] }}" target="_blank"><i class="{{ button[0] }} icon"></i>{{ button [2] }}</a>
-      {% if page.buttons.size == 2 %}
-        {% if {{forloop.index}} == 1 %}
-          <div class="or" data-text="{% if page.language == 'pt' %}ou{% else %}or{% endif %}"></div>
-        {% endif %}
-      {% endif %}
-      {% endfor %}
-  </div>
-  {% endif %}
-</div>
+<div class="ui bottom attached button">Read More</div>
+
+</a>
