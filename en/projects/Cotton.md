@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/cotton-square.png
 title: Cotton
-permalink: en/projects/cotton
+permalink: en/projects/Cotton.md
 # All dates must be YYYY-MM-DD format!
 date: 2014-04-12
 labels:
