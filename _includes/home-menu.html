@@ -20,21 +20,21 @@
   
 
        {% if num_projects > 0 %}
-        <a style="padding: 5px;" href="{{ site.baseurl}}/{{ language }}/{% if include.language == "pt" %}{{ site.projects-url-pt }}{% else %}{{ site.projects-url-en }}{% endif %}/">
+        <a href="{{ site.baseurl}}/{{ language }}/{% if include.language == "pt" %}{{ site.projects-url-pt }}{% else %}{{ site.projects-url-en }}{% endif %}/">
           <span class="homemenubutton"> {% if language == "pt" %}{{ site.projects-page-label-pt }}{% else %}{{ site.projects-page-label-en }}{% endif %}</span>
         </a>
        {% endif %}
        {% if num_essays > 0 %}
-         <a style="padding: 5px;" href="{{ site.baseurl}}/{{ language }}/{% if include.language == "pt" %}{{ site.essays-url-pt }}{% else %}{{ site.essays-url-en }}{% endif %}/">
+         <a href="{{ site.baseurl}}/{{ language }}/{% if include.language == "pt" %}{{ site.essays-url-pt }}{% else %}{{ site.essays-url-en }}{% endif %}/">
           <span class="homemenubutton"> {% if language == "pt" %}{{ site.essays-page-label-pt }}{% else %}{{ site.essays-page-label-en }}{% endif %}</span>
         </a>
        {% endif %}
        {% if num_portfolios > 0 %}
-        <a style="padding: 5px;" href="{{ site.baseurl}}/{{ language }}/{{ site.portfolio-url }}/">
+        <a href="{{ site.baseurl}}/{{ language }}/{{ site.portfolio-url }}/">
           <span class="homemenubutton"> {% if language == "pt" %}{{ site.portfolio-page-label-pt }}{% else %}{{ site.portfolio-page-label-en }}{% endif %}</span>
         </a>
        {% endif %}
-        <a style="padding: 5px;" href="{{ site.baseurl}}/{{ language }}/{% if include.language == "pt" %}{{ site.bio-url-pt }}{% else %}{{ site.bio-url-en }}{% endif %}/">
+        <a href="{{ site.baseurl}}/{{ language }}/{% if include.language == "pt" %}{{ site.bio-url-pt }}{% else %}{{ site.bio-url-en }}{% endif %}/">
           <span class="homemenubutton"> {% if language == "pt" %}{{ site.bio-page-label-pt }}{% else %}{{ site.bio-page-label-en }}{% endif %}</span>
         </a>
 
