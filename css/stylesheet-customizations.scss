@@ -89,6 +89,11 @@ blockquote {
   color: #FFBD67 !important;
 }
 
+// Translate button no border
+.ui.basic.noborder.buttons .button,
+.ui.basic.noborder.button {
+  border: none !important;
+}
 
 
 // Vanaf nu cloned
