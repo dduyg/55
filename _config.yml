@@ -29,7 +29,7 @@ projects-url-en: projects
 essays-url-en: blog
 bio-url-en: cv
 
-portfolio-url: contact
+contact-url: contact
 
 # Specify the rouge syntax highlighter theme. Pick one from css/rouge.
 rouge-theme: base16.dark
