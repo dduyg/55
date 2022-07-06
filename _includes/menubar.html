@@ -35,14 +35,16 @@
        </a>
        {% endif %}
 
+       <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.bio-url-pt }}{% else %}{{ site.bio-url-en }}{% endif %}" class=" {% if include.active == "bio" %}active {% endif %}mycolor item">
+         <span class="menubutton"> {% if language == "pt" %}{{ site.bio-page-label-pt }}{% else %}{{ site.bio-page-label-en }}{% endif %}</span>
+       </a> 
+
        {% if num_portfolios > 0 %}       
        <a href="{{ site.baseurl }}/{{ language }}/{{ site.portfolio-url }}" class="{% if include.active == "portfolio" %}active {% endif %}mycolor item">
          <span class="menubutton"> {% if language == "pt" %}{{ site.portfolio-page-label-pt }}{% else %}{{ site.portfolio-page-label-en }}{% endif %}</span>
        </a>
        {% endif %}
-       <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.bio-url-pt }}{% else %}{{ site.bio-url-en }}{% endif %}" class=" {% if include.active == "bio" %}active {% endif %}mycolor item">
-         <span class="menubutton"> {% if language == "pt" %}{{ site.bio-page-label-pt }}{% else %}{{ site.bio-page-label-en }}{% endif %}</span>
-       </a> 
+       
      </div>
 
      <div class="ui hidden divider"></div>
