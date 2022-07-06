@@ -7,12 +7,12 @@ baseurl: ""
 
 projects-page-label-pt: Projecten
 essays-page-label-pt: Blog
-bio-page-label-pt: Currículo
+bio-page-label-pt: Over
 contact-page-label-pt: Contact
 
 projects-page-label-en: Projects
 essays-page-label-en: Blog
-bio-page-label-en: CV
+bio-page-label-en: About
 contact-page-label-en: Contact
 
 theme-home: theme-home-builtin.html
@@ -23,11 +23,11 @@ theme-contact: theme-contact.html
 
 projects-url-pt: projecten
 essays-url-pt: blog
-bio-url-pt: curriculo
+bio-url-pt: over
 
 projects-url-en: projects
 essays-url-en: blog
-bio-url-en: cv
+bio-url-en: about
 
 contact-url: contact
 
