@@ -16,7 +16,7 @@ bio-page-label-en: CV
 contact-page-label-en: Contact
 
 theme-home: theme-home-builtin.html
-theme-projects: projects.html
+theme-projects: theme-projects-builtin.html
 theme-essays: theme-essays-builtin.html
 theme-bio: theme-bio-builtin.html
 theme-contact: theme-contact.html
