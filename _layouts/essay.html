@@ -4,8 +4,9 @@ layout: essays
 
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/markdown.css">
 
+
 <div style="margin-top: 20px; margin-bottom: 20px" class="ui text container">
-  <div class="ui segment">
+
     {% if page.language == 'pt' %}
     <div class="ui breadcrumb">
         <a href="/pt/" class="section breadlink">Início</a>
@@ -23,27 +24,36 @@ layout: essays
         <div class="active section">{{ page.title }}</div>
     </div>
     {% endif %}
-    <h1>{{ page.title }}</h1>
-    <i class="calendar outline icon grey"></i>
-    <span class="ui grey text">{% if page.language == 'pt' %}{% assign m = page.date | date: "%-m" %}
-      {{ page.date | date: "%-d" }}
-      {% case m %}
-      {% when '1' %}de janeiro de
-      {% when '2' %}de fevereiro de
-      {% when '3' %}de março de
-      {% when '4' %}de abril de
-      {% when '5' %}de maio de
-      {% when '6' %}de junho de
-      {% when '7' %}de julho de
-      {% when '8' %}de agosto de
-      {% when '9' %}de setembro de
-      {% when '10' %}de outubro de
-      {% when '11' %}de novembro de
-      {% when '12' %}de dezembro de
-      {% endcase %}
-      {{ page.date | date: "%Y" }}{% else %}{{ page.date | date_to_string }}{% endif %}</span>
-    <i style="margin-left: 1em;" class="tag icon grey"></i>{% for cat in page.labels %}<span class="ui grey text">{{ cat }}</span>{% endfor %}
-    <div class="ui divider"></div>
-    {{ content }}
-  </div>
+    
+       <h1 style="color: #0005FF;font-family: 'Source Code Pro', monospace;">{{ page.title }}</h1>
+       <span class="date"> <img class="ui avatar image" src="{{ site.data.bio.basics.picture }}"> Last updated on {{ page.date | date_to_string }}</span> 
+     
+       <div style="margin: 8px 0px 0px 30px;" class="ui mini labels">
+         {% for cat in page.labels %}
+         <div class="ui basic label">{{ cat }}</div>
+         {% endfor %}
+       </div>
+
+       <div class="ui hidden divider"></div>
+       {{ content }}
+       <div class="ui hidden divider"></div>
+    
 </div>
+
+
+<!-- Naar beneden beweging bij start alinea verwijderen als je niet meer wilt -->
+<script>
+
+  function onStart(){
+      $('.container').transition({
+      animation: 'drop in' //"in" make a reverse animation
+    });
+  }
+
+  onStart();
+
+  $('#flip-box').hover(function() {
+    $(this).toggleClass('active');
+  });
+
+</script>
