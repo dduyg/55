@@ -6,17 +6,7 @@ layout: default
 
 {% include menubar.html active="404" language=page.language %}
 
-{% if language == 'pt' %}
-<main class="bsod container">
-  <h1 class="neg title"><span class="bg">Erro 404</span></h1>
-  <p>Não encontramos a página que você está procurando, ela pode ter sido movida ou removida. Você pode tentar:</p>
-  <p>* Retornar à página principal.<br />
-  * Enviar um e-mail sobre este erro e tentar novamente mais tarde.</p>
-  <nav class="nav">
-    <a href="{{ site.baseurl }}/" class="link">início</a>&nbsp;|&nbsp;<a href="mailto:{{ site.data.bio-pt.basics.email }}" class="link">e-mail</a>
-  </nav>
-</main>
-{% elsif language == 'en' %}
+
 <main class="bsod container">
   <h1 class="neg title"><span class="bg">Error 404</span></h1>
   <p>We couldn't find the page you're looking for, it could have been moved or removed. You can try:
@@ -26,4 +16,3 @@ layout: default
     <a href="{{ site.baseurl }}/" class="link">home</a>&nbsp;|&nbsp;<a href="mailto:{{ site.data.bio-pt.basics.email }}" class="link">e-mail</a>
   </nav>
 </main>
-{% endif %}
