@@ -19,7 +19,7 @@ theme-bio: bio.html
 theme-home: home.html
 theme-projects: projects.html
 theme-essays: essays.html
-theme-contact: contact.html
+theme-contact: theme-contact.html
 
 projects-url-pt: projecten
 essays-url-pt: blog
