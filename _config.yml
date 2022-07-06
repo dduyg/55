@@ -16,7 +16,7 @@ essays-page-label-en: Blog
 contact-page-label-en: Contact
 
 theme-bio: theme-bio-builtin.html
-theme-home: home.html
+theme-home: theme-home.html
 theme-projects: projects.html
 theme-essays: essays.html
 theme-contact: theme-contact.html
