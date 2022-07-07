@@ -4,7 +4,7 @@
 <div style="height: 100%;" class="ui middle aligned two column centered stackable grid container">
 
   <div class="column">
-    <div style="font-family: 'Source Code Pro', monospace;" class="ui right aligned large header no-bottom"> {{ site.data.bio.basics.contactheader }} </div>
+    <div style="font-family: 'Source Code Pro', monospace;" class="ui right aligned large header no-bottom"> {% if include.bio == 'pt' %}Altijd blij om van je te horen{% else %}Always happy to hear from you{% endif %} </div>
     <p style="font-size: 16px; text-align: right"> {{ site.data.bio.basics.contacttext }} </p> 
   <div class="ui hidden divider"></div>
     <p align="right">
