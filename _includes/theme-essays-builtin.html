@@ -5,7 +5,7 @@
   {% assign essay_categories = essay_pages | where: "language", language | map: "labels" | sort | uniq %}
 
   {% if essay_categories.size > 1 %}  
-  <div class="ui fluid floating labeled icon dropdown button jsOnly">
+  <div class="ui fluid labeled icon dropdown toggle filter button jsOnly">
         <i class="caret down icon"></i>
         <span class="text">Filter</span>
         <div class="menu">
@@ -16,9 +16,9 @@
           <div class="divider"></div>
           {% for category in essay_categories %}
           <div id="all" class="item filterButton" href="#">
-            <spam id="all" class="ui toggle filter active">{% if language == 'pt' %}Alles{%- elsif language == 'en' -%}All{% endif %} </spam>
+            <spam id="all" class="button ui toggle filter active">{% if language == 'pt' %}Alles{%- elsif language == 'en' -%}All{% endif %} </spam>
           </div>
-          <div id="filter-{{ category | remove: " " }}" class="item ui toggle filter" href="#{{ category | remove: " " }}">
+          <div id="filter-{{ category | remove: " " }}" class="button ui toggle filter" href="#{{ category | remove: " " }}">
             <spam id="filter-{{ category | remove: " " }}" class="jsOnly filterButton"> {{ category }} </spam>
           </div>
           {% endfor %}
