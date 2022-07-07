@@ -1,4 +1,3 @@
-{% assign filters = page.labels %}
 <a style="background-color:transparent;" class="card {% for label in filters %} {{ label | remove: " " }} {% endfor %}" {% if page.projecturl %}target="_blank"{% endif %} href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">  
   <div class="content">
     <span style="color: #0005FF;font-family: 'Source Code Pro', monospace;" class="header">{{ include.page.title }}</span>
