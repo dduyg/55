@@ -1,37 +1,22 @@
 {% assign filters = page.labels %}
-<a class="item {% for label in filters %} {{ label | remove: " " }} {% endfor %}" {% if page.projecturl %}target="_blank"{% endif %} href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
+<a class="item {% for label in filters %} {{ label | remove: " " }} {% endfor %}" {% if page.projecturl %}target="_blank"{% endif %} href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">  
+
+<div style="background-color:transparent;" class="card">
   <div class="content">
-    <span class="header">{{ include.page.title }}</span>
+    <span style="color: #0005FF;font-family: 'Source Code Pro', monospace;" class="header">{{ include.page.title }}</span>
     <div class="meta">
-      <span class="date">{% if include.page.language == 'pt' %}{% assign m = include.page.date | date: "%-m" %}
-        {{ include.page.date | date: "%-d" }}
-        {% case m %}
-        {% when '1' %}de janeiro de
-        {% when '2' %}de fevereiro de
-        {% when '3' %}de março de
-        {% when '4' %}de abril de
-        {% when '5' %}de maio de
-        {% when '6' %}de junho de
-        {% when '7' %}de julho de
-        {% when '8' %}de agosto de
-        {% when '9' %}de setembro de
-        {% when '10' %}de outubro de
-        {% when '11' %}de novembro de
-        {% when '12' %}de dezembro de
-        {% endcase %}
-        {{ include.page.date | date: "%Y" }}{% else %}{{ include.page.date | date_to_string }}{% endif %}</span>
+      <span class="date">{{ include.page.date | date_to_string }}</span>
     </div>
 
     <div class="description">
-      <p>{{ include.page.content | markdownify | strip_html | truncatewords: 80 }}</p>
+      {{ include.page.content | markdownify | strip_html | truncatewords: 30 }}
     </div>
-
-    <div class="extra">
+    <div style="margin-top: 9px" class="ui mini labels">
       {% for label in include.page.labels %}
-      <div class="ui grey label">{{ label }}</div>
+      <div class="ui basic label">{{ label }}</div>
       {% endfor %}
     </div>
   </div>
-
+</div>
 
 </a>
