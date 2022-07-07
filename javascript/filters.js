@@ -1,5 +1,5 @@
 let selector_query = window.location.hash.substr(1);
-let filterButtons = $('.button.filter')
+let filterButtons = $('.item.filter')
 
 if (selector_query) {
     let element = $('#filter-' + selector_query)
