@@ -5,7 +5,7 @@
 
   <div class="column">
     <div style="font-family: 'Source Code Pro', monospace;" class="ui right aligned large header no-bottom"> {% if include.bio == 'pt' %}Altijd blij om van je te horen{% else %}Always happy to hear from you{% endif %} </div>
-    <p style="font-size: 16px; text-align: right"> {{ site.data.bio.basics.contacttext }} </p> 
+    <p style="font-size: 16px; text-align: right"> {% if include.bio == 'pt' %}Wil je meer weten over mijn werk of mij, of wil je gewoon even hallo zeggen, stuur me dan een berichtje. Ik hoor graag van je.{% else %}If you want to know more about my work or me, or if you would just like to say hello, send me a message and tell me what you have in mind. I'd love to hear from you.{% endif %} </p> 
   <div class="ui hidden divider"></div>
     <p align="right">
 
