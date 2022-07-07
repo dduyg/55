@@ -1,4 +1,4 @@
-<div style="padding-top: 10px" class="ui container ">
+<div style="padding-top: 20px" class="ui stackable grid container">
   {% assign language = page.language %}
   {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
   {% assign essay_pages_in_lang = essay_pages | where: "language", language %}
@@ -14,7 +14,7 @@
   {% endif %}
 
   {% if essay_pages_in_lang.size > 0 %}
-  <div class="ui unstackable link divided relaxed items" id="filterable">
+  <div class="ui stackable centered one doorzichtig cards" id="filterable">
       {% for page in essay_pages_in_lang %}
         {% if page.language == language %}
           {% include essay-card.html page=page %}
@@ -22,17 +22,12 @@
       {% endfor %}
   </div>
   {% else %}
-  <div class="ui container center aligned">
-    <h2 class="ui icon header disabled"><i class="frown icon"></i>
-      <span class="content">
-        {% if language == 'pt' %}Nada aqui{%- elsif language == 'en' -%}Nothing here{% endif %}
-        <span class="sub header">
-          {% if language == 'pt' %}Nenhum texto foi adicionado ainda.{%- elsif language == 'en' -%}No text has been added yet.{% endif %}
-        </span>
-      </span>
-    </h2>
-  </div>
   {% endif %}
+</div>
+
+<div class="ui hidden divider"></div>
+<img class="ui centered medium image" src="/images/1652558615417.png">
+
 </div>
 
 <script src="/javascript/filters.js"></script>
