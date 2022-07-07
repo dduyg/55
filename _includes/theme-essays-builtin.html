@@ -11,11 +11,11 @@
    <div class="menu">
      {% for category in essay_categories %}
       <div class="item">
-       <a class="button ui toggle filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</a>
+       <a class="filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</a>
       </div>
     {% endfor %}
       <div class="item">
-       <a class="button ui toggle filter active" href="#" id="filter-all">{% if language == 'pt' %}Todos{%- elsif language == 'en' -%}All{% endif %}</a>
+       <a class="filter active" href="#" id="filter-all">{% if language == 'pt' %}Todos{%- elsif language == 'en' -%}All{% endif %}</a>
       </div>
    </div>
 </div>
