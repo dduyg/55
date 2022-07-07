@@ -46,7 +46,10 @@ body { background: $blue; }
       padding: 0 15px 2px 13px;
     }
   }
-  .title { margin-bottom: 15px; }
+  .title { 
+    margin-bottom: 15px;
+    margin-top: 0px; 
+  }
   .nav {
     margin-top: 20px;
     text-align: center;
