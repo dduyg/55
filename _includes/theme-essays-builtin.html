@@ -11,7 +11,9 @@
    <span class="text">Filter posts</span>
    <div class="menu">
     {% for category in essay_categories %}
-      <div id="filter-{{ category | remove: " " }}" class="item">{{ category }}</div>
+      <div id="filter-{{ category | remove: " " }}" class="item">
+       <a class="button ui toggle filter" href="#{{ category | remove: " " }}">{{ category }}</a>   
+      </div>
     {% endfor %}
     <div id="filter-all" class="item active">{% if language == 'pt' %}Alles{%- elsif language == 'en' -%}All{% endif %}</div>
    </div>
