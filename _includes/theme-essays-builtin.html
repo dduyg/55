@@ -1,14 +1,12 @@
-<div style="padding-top: 20px; padding-bottom: 60px" class="ui container ">
+<div style="padding-top: 20px" class="ui stackable grid container">
   {% assign language = page.language %}
   {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
   {% assign essay_pages_in_lang = essay_pages | where: "language", language %}
   {% assign essay_categories = essay_pages | where: "language", language | map: "labels" | sort | uniq %}
 
-<div id="listaProjetos" class="ui one column stackable grid center aligned container"> 
-  <div class="column">
 
 {% if essay_categories.size > 1 %}
-<div class="nonprintable jsOnly ui fluid floating labeled icon dropdown button">
+<div class="nonprintable jsOnly ui labeled icon dropdown button">
    <i class="caret down icon"></i>
    <span class="text">Filter posts</span>
    <div class="menu">
@@ -20,8 +18,6 @@
 </div>
   {% endif %}
 
-  </div> 
-</div>
 
  {% if essay_pages_in_lang.size > 0 %}
   <div class="ui stackable centered one doorzichtig cards" id="filterable">
