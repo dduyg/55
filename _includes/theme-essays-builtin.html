@@ -10,13 +10,9 @@
    <span class="text">Filter posts</span>
    <div class="menu">
      {% for category in essay_categories %}
-      <div class="item">
-       <a class="filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</a>
-      </div>
+      <div class="item filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</div>
     {% endfor %}
-      <div class="item">
-       <a class="filter active" href="#" id="filter-all">{% if language == 'pt' %}Todos{%- elsif language == 'en' -%}All{% endif %}</a>
-      </div>
+      <div class="item filter active" href="#" id="filter-all">{% if language == 'pt' %}Todos{%- elsif language == 'en' -%}All{% endif %}</div>
    </div>
 </div>
   {% endif %}
