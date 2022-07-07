@@ -17,10 +17,10 @@
       <input type="text" placeholder="{% if language == 'pt' %}Zoek tags...{%- elsif language == 'en' -%}Search tags...{% endif %}"> 
     </div> 
     <div class="divider"></div>
+      <div class="item filter active" href="#" id="filter-all">{% if language == 'pt' %}ALLES{%- elsif language == 'en' -%}ALL{% endif %}</div>
      {% for category in essay_categories %}
       <div class="item filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</div>
     {% endfor %}
-      <div class="item filter active" href="#" id="filter-all">{% if language == 'pt' %}Alles{%- elsif language == 'en' -%}All{% endif %}</div>
    </div>
 </div>
   {% endif %}
