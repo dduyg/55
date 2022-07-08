@@ -134,25 +134,6 @@
   </div>
   
 
-  <div style="margin-bottom: 20px" class="ui one column stackable grid container" id="{{ skills | remove: ' ' }}">
-    <div class="column">
-      <h4 class="ui horizontal left aligned divider header">
-        <i class="info circle icon"></i>
-        {{ skills }}
-      </h4>
-      <div class="ui segment">
-        <div class="ui labels small">
-          {% for skill in bio.other_skills %}
-          <div class="ui grey label">
-            {{ skill.name }}
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  </div>
-
-
   {% if bio.languages %}
   <div style="margin-bottom: 20px" class="ui one column stackable grid container" id="{{ languages | remove: ' ' }}">
     <div class="column">
@@ -206,25 +187,6 @@
     </div>
   </div>
   {% endif %}
-
-  <div style="margin-bottom: 20px" class="ui one column stackable grid container" id="{{ interests | remove: ' ' }}">
-    <div class="column">
-      <h4 class="ui horizontal left aligned divider header">
-        <i class="heart icon"></i>
-        {{ interests }}
-      </h4>
-      <div class="ui segment">
-        <div class="ui labels small">
-          {% for interest in bio.interests %}
-          <div class="ui grey label">
-            {{ interest.name }}
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  </div>
-
 
 </div>
 
