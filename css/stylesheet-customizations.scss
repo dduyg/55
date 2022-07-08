@@ -101,7 +101,7 @@ blockquote {
 // Blogpost tags
 .ui.blgtag.labels .label,
 .ui.blgtag.label {
-  box-shadow: 0px 0px 0px 1px black inset !important;
+  border-color: black !important;
   color: black !important; 
   font-family: 'Source Code Pro', monospace;
   font-weight: bold; 
