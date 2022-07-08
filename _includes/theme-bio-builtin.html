@@ -134,59 +134,6 @@
   </div>
   
 
-  {% if bio.languages %}
-  <div style="margin-bottom: 20px" class="ui one column stackable grid container" id="{{ languages | remove: ' ' }}">
-    <div class="column">
-      <h4 class="ui horizontal left aligned divider header">
-        <i class="comments icon"></i>
-        {{ languages }}
-      </h4>
-      <noscript>
-        <div class="ui five stackable cards"  style="padding-top: 6px;">
-          {% for lang in bio.languages %}
-          <div class="ui card">
-            <div class="content no-bottom">
-              <div class="header">{{ lang.name }}</div>
-            </div>
-            <div class="content center aligned">
-              <div class="description">
-                <div class="language">
-                  <div class="progress nonprintable">
-                    {% for i in (1..4) %}
-                    <div class="bar {% if i <= lang.level %}filled{% else %}empty{% endif %}"></div>
-                    {% endfor %}
-                  </div>
-                </div>
-                <div class="ui top pointing grey label">{{ lang.fluency }}</div>
-              </div>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-      </noscript>
-      <div class="ui horizontal stackable segments jsOnly">
-        {% for lang in bio.languages %}
-        <div class="ui segment">
-          <div class="ui green progress" style="min-width: 200px!important;" data-value="{% if lang.level >= 4 %}{{ lang.level | minus: 0.08 }}{% else %}{{ lang.level }}{% endif %}" data-total="4" id="{{ lang.name }}">
-            <div class="bar">
-              <div class="progress"></div>
-            </div>
-            <div class="label">{{ lang.name }}</div>
-          </div>
-          
-          <script>
-            $("#{{ lang.name}}").progress({
-            duration : 0,
-            showActivity: true,
-            label: 'ratio',
-            text: {ratio: '{{ lang.fluency }}'}});          
-          </script>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-  {% endif %}
 
 </div>
 
