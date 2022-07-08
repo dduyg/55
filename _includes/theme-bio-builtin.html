@@ -10,57 +10,7 @@
 {% if include.bio == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
 
 <div class="cv" style="margin-top: 10px; margin-bottom:6em;">
-  <div style="margin-bottom: 20px" class="ui stackable grid container no-bottom nonprintable" id="Download">
-    <!-- <div class="twelve wide column no-bottomm"></div> -->
-    <div class="sixteen wide column no-bottom center aligned">
-      <a class="ui labeled icon button nonprintable" href="{% if include.bio == 'pt' %}/files/Herculino de Miranda Trotta Neto - Curriculo.pdf{% else %}/files/Herculino de Miranda Trotta Neto - CV.pdf{% endif %}" target="_blank">
-        <i class="download icon"></i>
-        {% if include.bio == 'pt' %}Baixar em PDF{% else %}Download as PDF{% endif %}
-      </a>
-    </div>
-  </div>
-
-  <div class="ui stackable grid container">
   
-    <div class="twelve wide column middle aligned">
-      <h1 class="ui left aligned header no-bottom">{{ bio.basics.name }}
-        <span class="sub header">{{ bio.basics.location.city }}, {{ bio.basics.location.region }}, {{ bio.basics.location.countryCode }}</span>
-      </h1>
-    </div>
-
-    <div class="four wide column">
-      <div class="ui middle aligned animated relaxed list">
-        {% if bio.basics.website %}
-        <a class="item" href="{{ bio.basics.website }}" target="_blank">
-          <i class="home icon"></i>
-          <div class="content">
-            <div class="header">{{ bio.basics.website | remove: "http://" | remove: "https://" }}</div>
-          </div>
-        </a>
-        {% endif %}
-
-        {% if bio.basics.email %}
-        <a class="item"  href="mailto:{{ bio.basics.email }}" target="_blank">
-          <i class="mail icon"></i>
-          <div class="content">
-            <div class="header">{{ bio.basics.email }}</div>
-          </div>
-        </a>
-        {% endif %}
-
-        {% for entry in bio.basics.profiles %}
-        <a class="item"  href="{{ entry.url }}" target="_blank">
-          <i class="{{ entry.network | downcase }} icon"></i>
-          <div class="content">
-            <div class="header">{{ entry.username }}</div>
-          </div>
-        </a>
-        {% endfor %}
-        
-      </div>
-    </div>
-  </div>
-
   {% if bio.education %}
   <div style="margin-bottom: 20px" class="ui one column stackable grid container" id="{{ education | remove: ' ' }}">
     <div class="row">
