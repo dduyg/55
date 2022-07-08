@@ -96,6 +96,14 @@ blockquote {
   box-shadow: none !important;
 }
 
+// Filter button blogposts
+.ui.basic.fbblue.buttons .button,
+.ui.basic.fbblue.button {
+  box-shadow: 0px 0px 0px 1px #0005FF inset !important;
+  color: #0005FF !important;
+  font-family: 'Source Code Pro', monospace;
+}
+
 
 // Vanaf nu cloned
 
