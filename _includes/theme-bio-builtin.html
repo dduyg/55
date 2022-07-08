@@ -11,44 +11,18 @@
 
 <div class="cv" style="margin-top: 10px; margin-bottom:6em;">
   
-  {% if bio.education %}
-  <div style="margin-bottom: 20px" class="ui one column stackable grid container" id="{{ education | remove: ' ' }}">
+
+  <div style="margin-bottom: 20px" class="ui one column stackable grid container">
     <div class="row">
       <div class="column">
         <h4 class="ui horizontal left aligned divider header">
           <i class="graduation cap icon"></i>
           {{ education }}
         </h4>
-        <div class="ui three stackable cards"  style="padding-top: 6px;">
-          {% for educ in bio.education %}
-          <div class="ui card {% if educ.endDate == current %}yellow{% else %}green{% endif %}">
-            <div class="content">
-              {% if educ.website.size >= 1 %}
-              <a class="ui top attached grey label" href="{{ educ.website }}" target="_blank"><i class="map marker alternate icon"></i>{{ educ.institution }}</a>
-              {% else %}
-              <div class="ui top attached grey label">
-                <i class="map marker alternate icon"></i>{{ educ.institution }}
-              </div>
-              {% endif %}
-              <div class="header">{{ educ.area }}</div>
-              <div class="meta">
-                <p>{{ educ.studyType }}</p>
-              </div>
-              <div class="description">
-              </div>
-            </div>
-            <div class="extra content">
-              {% assign start = {{educ.startDate | date: "%m" | plus: 0 }} %}
-              {% assign end = {{educ.endDate | date: "%m" | plus: 0 }} %}
-              <div class="right floated"><i class="calendar icon"></i>{{ educ.startDate | date: "%Y" }}.{% if start > 6 %}2{% else %}1{% endif %} - {% if educ.endDate == current %}{{ educ.endDate | date: "%Y" }}{% else %}{{ educ.endDate | date: "%Y" }}.{% if end > 6 %}2{% else %}1{% endif %}{% endif %}</div>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
+        
       </div>
     </div>
   </div>
-  {% endif %}
   
  
   <div style="margin-bottom: 20px" class="ui two column stackable grid container">
