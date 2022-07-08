@@ -8,7 +8,7 @@
   <div class="right floated six wide column">
 
 {% if essay_categories.size > 1 %}
-<div class="nonprintable jsOnly ui fluid floating scrolling labeled icon dropdown fbbt basic button">
+<div class="nonprintable jsOnly ui fluid floating scrolling labeled icon dropdown basic button">
    <i class="caret down icon"></i>
    <span class="text">{% if language == 'pt' %}<b>Filter op tag</b>{%- elsif language == 'en' -%}<b>Filter by tag</b>{% endif %}</span>
    <div class="menu">
@@ -26,6 +26,7 @@
   {% endif %}
 
   </div>
+<div class="two wide column"></div>
 </div>
 
  {% if essay_pages_in_lang.size > 0 %}
