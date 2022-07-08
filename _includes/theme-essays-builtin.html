@@ -4,11 +4,11 @@
   {% assign essay_pages_in_lang = essay_pages | where: "language", language %}
   {% assign essay_categories = essay_pages | where: "language", language | map: "labels" | sort | uniq %}
 
-<div style="max-width: 400px;" class="ui one column stackable grid left aligned container"> 
-  <div class="column">
+<div class="ui one column stackable grid left aligned container"> 
+  <div class="right floated four wide column">
 
 {% if essay_categories.size > 1 %}
-<div class="nonprintable jsOnly ui floating scrolling labeled icon dropdown basic button">
+<div class="nonprintable jsOnly ui fluid floating scrolling labeled icon dropdown basic button">
    <i class="caret down icon"></i>
    <span class="text">{% if language == 'pt' %}<b>Filter op tag</b>{%- elsif language == 'en' -%}<b>Filter by tag</b>{% endif %}</span>
    <div class="menu">
