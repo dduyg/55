@@ -99,8 +99,8 @@ blockquote {
 // Filter button blogposts
 .ui.basic.fbbt.buttons .button,
 .ui.basic.fbbt.button {
-  margin-right: 60px !important;
-  margin-bottom: 40px !important;
+  margin-right: 90px !important;
+  margin-bottom: 25px !important;
 }
 
 
@@ -182,36 +182,6 @@ blockquote {
   color: var(--greenColorHover)!important;
 }
 
-/* ------------------------------------------------------------ */
-/* LANGUAGE BAR */
-
-.language .progress {
-  display: inline-block;  
-}
-.language .progress .bar {
-  height: 12px;
-  width: 20px;
-  display: inline-block;
-}
-.language .progress .bar.empty {
-  border: 1px solid #c0c0c0;
-  background: #d0d0d0;
-}
-.language .progress .bar.filled {
-  border: 1px solid #c0c0c0;
-  background: var(--greenColor);
-  color: var(--greenColor);
-  fill: var(--greenColor);
-}
-
-.ui.list .list>.item a.header, .ui.list>.item a.header:hover {
-  color: var(--greenColorHover)!important;
-}
-
-.ui.list .list>.item a.header, .ui.list>.item a.header {
-  color: rgba(0,0,0,.87)!important;
-}
-
 
 /* ------------------------------------------------------------ */
 /* SCROLLBAR */
@@ -238,7 +208,6 @@ blockquote {
 
 
 
-
 .masonry-without-js {
   columns: 3 200px;
   column-gap: 0.5rem;
@@ -248,7 +217,6 @@ blockquote {
     width: 100%;
   } 
 }
-
 
 .masonry-wrapper {
   padding: 1.5em;
