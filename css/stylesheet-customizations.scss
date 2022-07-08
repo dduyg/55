@@ -5,16 +5,7 @@
 
 // Website background change+fonts
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic&subset=latin');
-html,
 body {
-  height: 100%;
-}
-
-body {
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden;
-  min-width: 320px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.87);
