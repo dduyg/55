@@ -292,31 +292,6 @@
   </div>
   {% endif %}
 
-
-
-  {% if bio.skills %}
-  <div style="margin-bottom: 20px" class="ui three column stackable grid container">
-    {% for skill in bio.skills %}
-    <div class="column" id="{{ skill.name | remove: ' ' }}">
-      <h4 class="ui horizontal left aligned divider header">
-        <i class="{{ skill.icon }} icon"></i>
-        {{ skill.name }}
-      </h4>
-      <div class="ui segment">
-        <div class="ui labels small">
-        {% for keyword in skill.keywords %}
-        <div class="ui grey label" {% if keyword[1] %}data-tooltip="{{ keyword[1] }}"{% endif %}>
-          {{ keyword[0] }}
-        </div>
-        {% endfor %}
-      </div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-  {% endif %}
-
-
   <div style="margin-bottom: 20px" class="ui one column stackable grid container" id="{{ interests | remove: ' ' }}">
     <div class="column">
       <h4 class="ui horizontal left aligned divider header">
