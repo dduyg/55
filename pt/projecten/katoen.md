@@ -2,14 +2,14 @@
 layout: project
 type: project
 image: images/cotton-square.png
-title: Cotton
-permalink: en/projects/cotton
+title: Katoen
+permalink: pt/projecten/katoen
 # All dates must be YYYY-MM-DD format!
 date: 2020-07-03
 labels:
   - Lisp
   - GitHub
-language: en
+language: pt
 summary: A text adventure game I developed for ICS 313.
 ---
 
