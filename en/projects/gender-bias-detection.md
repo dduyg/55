@@ -2,14 +2,14 @@
 layout: project
 type: project
 image: images/micromouse.jpg
-title: Micromouse
-permalink: en/projects/micromouse
+title: Gender Bias Detection
+permalink: en/projects/gender-bias-detection
 # All dates must be YYYY-MM-DD format!
-date: 2020-06-08
+date: 2021-06-08
 labels:
-  - Robotics
-  - Arduino
-  - C++
+  - sentiment analysis
+  - Python
+  - word embeddings
 language: en
 summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
 ---
