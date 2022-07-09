@@ -1,1 +1,1 @@
-## 💌   Technical Portfolio
+## 💎   Technical Portfolio
