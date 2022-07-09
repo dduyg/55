@@ -13,7 +13,6 @@
 
   <div class="ui hidden divider"></div>
     <p align="right">
-       {% assign language = include.language %}
        {% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
          {% for profile in bio.basics.profiles %}
            <a href="{{ profile.url }}"> <button class="ui black icon button"><i class="big {{ profile.network | downcase }} icon"></i> </button></a>
