@@ -1,4 +1,5 @@
 {% assign language = include.language %}
+{% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
 <div style="height: 100%;" class="ui middle aligned two column centered stackable grid container">
 
   <div class="column">
