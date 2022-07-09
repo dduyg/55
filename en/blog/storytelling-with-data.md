@@ -6,7 +6,7 @@ title: Creating an impactful data story
 date: 2021-07-22
 language: en
 labels:
-  - Data storytelling
+  - Data Storytelling
 ---
 
 
