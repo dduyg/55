@@ -5,7 +5,7 @@ image: images/micromouse.jpg
 title: Gender Bias Detectie
 permalink: pt/projecten/gender-bias-detectie
 # All dates must be YYYY-MM-DD format!
-date: 2020-06-08
+date: 2021-06-08
 labels:
   - sentiment analysis
   - Python
