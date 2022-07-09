@@ -1,4 +1,4 @@
-<h3 style="font-family: 'Source Code Pro', monospace;" class="ui dividing header"> <img class="ui mini image" src="/images/goals-icon.png"> <div class="content"> My current goals</div> </h3>
+</div> </h3>
 
  <ul style="list-style-type:none; line-height:180%"><h5 style="color: rgba(0, 0, 0, 0.4); margin: 0px; padding: 0px"> Completed: [✓] &nbsp;&nbsp; Planned: [‒] </h5>      
  <li> [‒] &nbsp; Write at least One Post per Month on Medium </li>
@@ -10,3 +10,29 @@
  <li> [✓] &nbsp; Internship </li>
  <li> [‒] &nbsp; Sell Online Templates </li>
  </ul>
+
+  
+    <h4 class="ui horizontal left aligned divider header">
+        <img class="ui mini image" src="/images/goals-icon.png"> 
+        My current goals
+      </h4>
+      
+      <div class="ui segment">
+        <div class="ui relaxed divided bulleted list">
+          {% for award in bio.awards %}
+          <div class="item">
+            <div class="content">
+              {% if award.url %}
+              <a href="{{award.url}}" target="_blank" class="header">{{ award.title }}, <i>{{ award.awarder }}, {{ award.date }}</i></a>
+              {% else %}
+              <div class="header">{{ award.title }}, <i>{{ award.awarder }}, {{ award.date }}</i></div>
+              {% endif %}
+              {{ award.summary }}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+     
+
+
+  
