@@ -11,7 +11,7 @@ labels:
   - Python
   - word embeddings
 language: en
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+summary: Identifying gender bias in Korean entertainment news comments.
 ---
 
 
