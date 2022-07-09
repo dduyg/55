@@ -7,9 +7,9 @@ permalink: en/projects/gender-bias-detection
 # All dates must be YYYY-MM-DD format!
 date: 2021-06-08
 labels:
-  - sentiment analysis
+  - Sentiment Analysis
   - Python
-  - word embeddings
+  - Word Embeddings
 language: en
 summary: Identifying gender bias in Korean entertainment news comments.
 ---
