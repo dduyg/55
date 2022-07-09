@@ -110,6 +110,10 @@ blockquote {
   box-shadow: none !important;
 }
 
+// essaycard hover title
+.ui.cards a.item:hover .content .header, .ui.link.cards>.card:hover .content .header {
+  color: #FF00F4;
+}
 
 
 // Vanaf nu cloned
