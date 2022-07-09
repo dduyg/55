@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/kdrama.jpg
+image: images/kdrama-squared.png
 title: Gender Bias Detection
 permalink: en/projects/gender-bias-detection
 # All dates must be YYYY-MM-DD format!
