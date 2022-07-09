@@ -6,7 +6,7 @@ title: Het creëren van een impactvol dataverhaal
 date: 2021-07-22
 language: pt
 labels:
-  - Data storytelling
+  - Data Storytelling
 ---
 
 
