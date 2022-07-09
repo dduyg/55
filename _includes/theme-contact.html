@@ -1,10 +1,9 @@
 {% assign language = include.language %}
-{% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
 <div style="height: 100%;" class="ui middle aligned two column centered stackable grid container">
 
   <div class="column">
 
-{% if language=='pt' %}
+{% if language == "pt" %}
     <div style="font-family: 'Source Code Pro', monospace;" class="ui right aligned large header no-bottom"> Altijd blij om van je te horen </div>
     <p style="font-size: 17px; text-align: right"> Wil je meer weten over mijn werk of mij, of wil je gewoon even hallo zeggen, stuur me dan een berichtje. Ik hoor graag van je. </p> 
 {% else %}
