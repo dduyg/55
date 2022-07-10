@@ -1,12 +1,7 @@
 {% assign language = page.language %}
 
                 
-            [‒] Leer DevOps
-            </div>
-          </div>
-          <div class="item">
-            <div class="content">
-              [‒] Leer Japans  
+                 [‒] Leer Japans  
             </div>
           </div>
           <div class="item">
@@ -68,7 +63,11 @@
           </div>
           <div class="item" data-value="[‒]">
             <div class="content">
-            [‒] Learn DevOps
+              {% if page.language == 'pt' %}
+              Leer DevOps
+              {% elsif page.language == 'en' %}
+              Learn DevOps
+              {% endif %}
             </div>
           </div>
           <div class="item">
