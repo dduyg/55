@@ -78,9 +78,13 @@
               Internship
             </div>
           </div>
-          <div class="item">
+          <div class="item" data-value="[‒]">
             <div class="content">
-              [‒] Sell Online Templates
+              {% if page.language == 'pt' %}
+              Verkoop online templates
+              {% elsif page.language == 'en' %}
+              Sell online templates
+              {% endif %}
             </div>
           </div>
 
