@@ -31,13 +31,15 @@ a {
   }
 }
 
-// Import 3 new fonts:
+// Import new fonts:
 // font-family: 'Inconsolata', monospace;
 // font-family: 'Source Code Pro', monospace;
 // font-family: 'Roboto Mono', monospace;
+// font-family: 'Lato', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Roboto+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 // Font & fontsize change menubar
 .ui.menu {
@@ -110,24 +112,11 @@ blockquote {
   box-shadow: none !important;
 }
 
-// Selection list about page
-.ui.selection.list.list > .item:hover,
-.ui.selection.list > .item:hover {
-  background: #01868C;
-}
-.ui.selection.list .list > .item:active,
-.ui.selection.list > .item:active {
-  background: #01868C;
-}
-.ui.selection.list .list > .item.active,
-.ui.selection.list > .item.active {
-  background: #01868C;
-}
-
 // List line-height about page 
 .ui.list .list > .item > .content,
 .ui.list > .item > .content {
   line-height: 140%;
+  font-size: 16px;
 }
 
 
