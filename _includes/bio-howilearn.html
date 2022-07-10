@@ -1,6 +1,40 @@
-<h3 style="font-family: 'Source Code Pro', monospace;" class="ui dividing header"> <img class="ui mini image" src="/images/heart-icon.png"> <div class="content">How I learn</div> </h3>
+{% assign language = page.language %}
 
- <ul style="line-height:140%"><li> Learn by doing, building & creating</li>
- <br> <li> Pursue knowledge in T (breadth and depth)</li>
- <br> <li> Cross-disciplinary</li>
-</ul>
+{% if page.language == 'pt' %}
+      <h3 class="ui horizontal left aligned divider header">
+        <img class="ui mini image" src="/images/heart-icon.png"> 
+        How I learn &nbsp;&nbsp;
+      </h3>
+        
+      <div class="ui segment">
+        <div class="ui relaxed divided selection list">
+
+          <div class="item">
+            <div class="content">
+              Learn by doing, building & creating
+            </div>
+          </div>
+          <div class="item">
+            <div class="content">
+              Pursue knowledge in T (breadth and depth)
+            </div>
+          </div>
+          <div class="item">
+            <div class="content">
+             Cross-disciplinary
+            </div>
+          </div>    
+
+          </div>
+        </div>
+
+ {% elsif page.language == 'en' %}    
+      
+          
+        </div>
+{% endif %}    
+
+
+  
+
+
