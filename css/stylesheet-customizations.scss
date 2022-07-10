@@ -110,6 +110,23 @@ blockquote {
   box-shadow: none !important;
 }
 
+// Selection list about page
+.ui.selection.list.list > .item:hover,
+.ui.selection.list > .item:hover {
+  background: #FF00F4;
+}
+.ui.selection.list .list > .item:active,
+.ui.selection.list > .item:active {
+  background: #FF00F4;
+}
+.ui.selection.list .list > .item.active,
+.ui.selection.list > .item.active {
+  background: #FF00F4;
+}
+
+
+
+
 // essaycard hover title
 .ui.cards > .card > a.header:hover,
 .ui.card > a.header:hover {
