@@ -132,12 +132,10 @@ blockquote {
 
 
 // essaycard hover title
-.ui.cards > .card > a.header:hover,
-.ui.card > a.header:hover {
+.ui.cards > .card > a.header:hover > .header,
+.ui.card > a.header:hover > .header {
   color: #FF00F4;
 }
-
-
 
 
 
