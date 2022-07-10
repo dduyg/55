@@ -1,7 +1,16 @@
-<h3 class="ui horizontal left aligned divider header">
+{% assign language = page.language %}
+
+{% if page.language == 'pt' %}
+  <h3 class="ui horizontal left aligned divider header">
+    <img class="ui image" src="/images/favquotes-icon.png">
+    Favoriete quotes
+  </h3> 
+{% elsif page.language == 'en' %}
+  <h3 class="ui horizontal left aligned divider header">
     <img class="ui image" src="/images/favquotes-icon.png">
     Favorite quotes
-</h3>
+  </h3>
+{% endif %}
       
 <div class="ui segment">
   <div class="ui relaxed divided selection list">
