@@ -1,11 +1,6 @@
 {% assign language = page.language %}
 
-                
-                 [‒] Start een nieuw data science-project 
-            </div>
-          </div>
-          <div class="item">
-            <div class="content">
+                                             
               [✓] Internship
             </div>
           </div>
@@ -78,14 +73,18 @@
               {% endif %}
             </div>
           </div>
-          <div class="item">
+          <div class="item" data-value="[‒]">
             <div class="content">
-              [‒] Make a new Data Science project 
+              {% if page.language == 'pt' %}
+              Start een nieuw data science-project 
+              {% elsif page.language == 'en' %}
+              Start a new data science project
+              {% endif %}
             </div>
           </div>
-          <div class="item">
+          <div class="item" data-value="[✓]">
             <div class="content">
-              [✓] Internship
+              Internship
             </div>
           </div>
           <div class="item">
