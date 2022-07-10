@@ -111,9 +111,14 @@ blockquote {
 }
 
 // essaycard hover title
-.ui.cards a.item:hover .content .header, .ui.link.cards>.card:hover .content .header {
+.ui.cards > .card > a.header:hover,
+.ui.card > a.header:hover {
   color: #FF00F4;
 }
+
+
+
+
 
 
 // Vanaf nu cloned
