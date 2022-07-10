@@ -124,7 +124,11 @@ blockquote {
   background: #01868C;
 }
 
-
+// List line-height about page 
+.ui.list .list > .item > .content,
+.ui.list > .item > .content {
+  line-height: 140%;
+}
 
 
 // essaycard hover title
