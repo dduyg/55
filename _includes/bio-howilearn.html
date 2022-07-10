@@ -1,57 +1,44 @@
 {% assign language = page.language %}
-
-{% if page.language == 'pt' %}
-      <h3 class="ui horizontal left aligned divider header">
-        <img class="ui mini image" src="/images/heart-icon.png"> 
-        Hoe ik leer &nbsp;&nbsp;
-      </h3>
-        
-      <div class="ui segment">
-        <div class="ui relaxed divided animated bulleted list">
-
-          <div class="item">
-            <div class="content">
-              Leren door te doen, te bouwen en te creëren
-            </div>
-          </div>
-          <div class="item">
-            <div class="content">
-              Kennis nastreven in T (breedte en diepte)
-            </div>
-          </div>
-          <div class="item">
-            <div class="content">
-             Cross-disciplinair
-            </div>
-          </div>    
-
-          </div>
-        </div>
-{% elsif page.language == 'en' %}    
-      <h3 class="ui horizontal left aligned divider header">
-        <img class="ui mini image" src="/images/heart-icon.png"> 
+                  
+<h3 class="ui horizontal left aligned divider header">
+      <img class="ui mini image" src="/images/heart-icon.png">
+        {% if page.language == 'pt' %}
+        Hoe ik leer &nbsp;&nbsp;    
+        {% elsif page.language == 'en' %}
         How I learn &nbsp;&nbsp;
-      </h3>
+        {% endif %}
+</h3>
         
-      <div class="ui segment">
-        <div class="ui relaxed divided animated bulleted list">
+ <div class="ui segment">
+   <div class="ui relaxed divided animated bulleted list">
 
           <div class="item">
             <div class="content">
+              {% if page.language == 'pt' %}
+              Leren door te doen, te bouwen en te creëren
+              {% elsif page.language == 'en' %}
               Learn by doing, building & creating
+              {% endif %}
             </div>
           </div>
           <div class="item">
             <div class="content">
+              {% if page.language == 'pt' %}
+              Kennis nastreven in T (breedte en diepte)
+              {% elsif page.language == 'en' %}
               Pursue knowledge in T (breadth and depth)
+              {% endif %}
             </div>
           </div>
           <div class="item">
             <div class="content">
+             {% if page.language == 'pt' %}
+             Cross-disciplinair
+             {% elsif page.language == 'en' %}
              Cross-disciplinary
+             {% endif %}
             </div>
           </div>    
 
-          </div>
-        </div>
-{% endif %}    
+  </div>
+</div>
