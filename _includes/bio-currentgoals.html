@@ -1,12 +1,7 @@
 {% assign language = page.language %}
 
                 
-                 [✓] Een web-app maken
-            </div>
-          </div>
-          <div class="item">
-            <div class="content">
-              [‒] Start een nieuw data science-project 
+                 [‒] Start een nieuw data science-project 
             </div>
           </div>
           <div class="item">
@@ -74,9 +69,13 @@
               {% endif %} 
             </div>
           </div>
-          <div class="item">
+          <div class="item" data-value="[✓]">
             <div class="content">
-              [✓] Make a Web App
+              {% if page.language == 'pt' %}
+              Een Web-App maken
+              {% elsif page.language == 'en' %}
+              Make a Web App
+              {% endif %}
             </div>
           </div>
           <div class="item">
