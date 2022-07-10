@@ -1,12 +1,7 @@
 {% assign language = page.language %}
 
                 
-                 [‒] Leer Japans  
-            </div>
-          </div>
-          <div class="item">
-            <div class="content">
-              [✓] Een web-app maken
+                 [✓] Een web-app maken
             </div>
           </div>
           <div class="item">
@@ -70,9 +65,13 @@
               {% endif %}
             </div>
           </div>
-          <div class="item">
+          <div class="item" data-value="[‒]">
             <div class="content">
-              [‒] Learn Japannese  
+              {% if page.language == 'pt' %}
+              Leer Japans
+              {% elsif page.language == 'en' %}
+              Learn Japannese
+              {% endif %} 
             </div>
           </div>
           <div class="item">
