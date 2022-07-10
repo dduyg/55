@@ -1,11 +1,6 @@
 {% assign language = page.language %}
 
-{% if page.language == 'pt' %}
-      <h3 class="ui horizontal left aligned divider header">
-        <img class="ui mini image" src="/images/goals-icon.png"> 
-        Mijn huidige goals &nbsp;&nbsp;
-      </h3>
-      <h5 style="color: rgba(0, 0, 0, 0.4); margin: 0px; padding: 0px"> Voltooid: [✓] &nbsp;&nbsp; Gepland: [‒] </h5>      
+{color: rgba(0, 0, 0, 0.4); margin: 0px; padding: 0px"> Voltooid: [✓] &nbsp;&nbsp; Gepland: [‒] </h5>      
       
       <div class="ui segment">
         <div class="ui relaxed divided animated list">
@@ -48,18 +43,17 @@
           <div class="item">
             <div class="content">
               [‒] Verkoop online templates
-            </div>
-          </div>
-
-          </div>
-        </div>
-
- {% elsif page.language == 'en' %}    
-      <h3 class="ui horizontal left aligned divider header">
+            
+###    
+<h3 class="ui horizontal left aligned divider header">
         <img class="ui mini image" src="/images/goals-icon.png"> 
-        My current goals &nbsp;&nbsp;
-      </h3>
-      <h5 style="color: rgba(0, 0, 0, 0.4); margin: 0px; padding: 0px"> Completed: [✓] &nbsp;&nbsp; Planned: [‒] </h5>      
+        {% if page.language == 'pt' %} 
+        Mijn huidige goals &nbsp;&nbsp; 
+        {% elsif page.language == 'en' %} 
+        My current goals &nbsp;&nbsp; 
+        {% endif %}
+</h3>
+<h5 style="color: rgba(0, 0, 0, 0.4); margin: 0px; padding: 0px"> Completed: [✓] &nbsp;&nbsp; Planned: [‒] </h5>      
       
       <div class="ui segment">
         <div class="ui relaxed divided animated list">
