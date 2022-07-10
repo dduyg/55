@@ -1,12 +1,7 @@
 {% assign language = page.language %}
 
 
-      [‒] Schrijf ten minste één bericht per maand op Medium
-            </div>
-          </div>
-          <div class="item">
-            <div class="content">
-              [✓] Voltooi de Covid Tracker-website
+                   [✓] Voltooi de Covid Tracker-website
             </div>
           </div>
           <div class="item">
@@ -60,7 +55,11 @@
 
           <div class="item">
             <div class="content">
+              {% if page.language == 'pt' %}
+              [‒] Schrijf ten minste één bericht per maand op Medium
+              {% elsif page.language == 'en' %}
               [‒] Write at least One Post per Month on Medium
+              {% endif %}
             </div>
           </div>
           <div class="item">
