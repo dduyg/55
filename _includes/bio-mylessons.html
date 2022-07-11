@@ -1,7 +1,61 @@
- <h3 style="font-family: 'Source Code Pro', monospace;" class="ui dividing header"><img class="ui mini image" src="/images/Lessons-icon.png"> <div class="content">My lessons</div> </h3>
+The best projects are likely to be overlooked, not trumpeted by a crowd; the best problems to work on are often the ones nobody else even tries to solve.
 
- <ul style="line-height:140%"><li> You can find more meaningful patterns in data and come up with a valuable observation if you understand the broader context.</li>
- <br><li> The best projects are likely to be overlooked, not trumpeted by a crowd; the best problems to work on are often the ones nobody else even tries to solve.</li>
- <br><li> The secret of success lies in the organization of the non-obvious.</li>
- <br><li> It's important to develop the ability to continuously acquire new and better forms of knowledge that we can apply to our work and to our lives.</li>
- </ul>
+The secret of success lies in the organization of the non-obvious.
+
+It's important to develop the ability to continuously acquire new and better forms of knowledge that we can apply to our work and to our lives.
+
+
+
+{% assign language = page.language %}
+                  
+<h3 class="ui horizontal left aligned divider header">
+      <img class="ui mini image" src="/images/Lessons-icon.png"> 
+        {% if page.language == 'pt' %}
+        Mijn lessen &nbsp;&nbsp;    
+        {% elsif page.language == 'en' %}
+        My lessons &nbsp;&nbsp;
+        {% endif %}
+</h3>
+        
+<div class="ui segment">
+  <div class="ui relaxed divided animated ordered list">
+
+          <div class="item" data-value="●">
+            <div class="content">
+              {% if page.language == 'pt' %}
+              Je kunt meer betekenisvolle patronen in data vinden en met een waardevolle observatie komen als je de bredere context begrijpt.
+              {% elsif page.language == 'en' %}
+              You can find more meaningful patterns in data and come up with a valuable observation if you understand the broader context.
+              {% endif %}
+            </div>
+          </div>
+          <div class="item" data-value="●">
+            <div class="content">
+              {% if page.language == 'pt' %}
+              Kennis nastreven in T (breedte en diepte)
+              {% elsif page.language == 'en' %}
+              Pursue knowledge in T (breadth and depth)
+              {% endif %}
+            </div>
+          </div>
+          <div class="item" data-value="●">
+            <div class="content">
+             {% if page.language == 'pt' %}
+             Cross-disciplinair
+             {% elsif page.language == 'en' %}
+             Cross-disciplinary
+             {% endif %}
+            </div>
+          </div>    
+          <div class="item" data-value="●">
+            <div class="content">
+             {% if page.language == 'pt' %}
+             Cross-disciplinair
+             {% elsif page.language == 'en' %}
+             Cross-disciplinary
+             {% endif %}
+            </div>
+          </div>    
+
+  </div>
+</div>
