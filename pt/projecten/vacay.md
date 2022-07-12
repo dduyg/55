@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/dataforest-squared.png
 title: Vacay
 permalink: pt/projecten/vacay
 # All dates must be YYYY-MM-DD format!
