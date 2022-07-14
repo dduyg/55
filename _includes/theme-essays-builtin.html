@@ -8,11 +8,11 @@
   <div class="right floated six wide column">
 
 {% if essay_categories.size > 1 %}
-<div class="nonprintable jsOnly ui fluid floating scrolling labeled icon dropdown basic button">
+<div class="nonprintable jsOnly ui fluid floating multiple search selection dropdown">
    <input type="hidden" name="tag">
    <i class="caret down icon"></i>
    <span class="text">{% if language == 'pt' %}Filter op tag{%- elsif language == 'en' -%}Filter by tag{% endif %}</span>
-   <div class="menu">
+   <div class="scrolling menu">
     <div class="ui icon search input"> 
       <i class="search icon"></i> 
       <input type="text" placeholder="{% if language == 'pt' %}Zoek tags...{%- elsif language == 'en' -%}Search tags...{% endif %}"> 
