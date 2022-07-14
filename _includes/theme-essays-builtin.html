@@ -9,9 +9,9 @@
 
 {% if essay_categories.size > 1 %}
 <div class="nonprintable jsOnly ui fluid floating scrolling labeled icon dropdown basic button">
+   <input type="hidden" name="tag">
    <i class="caret down icon"></i>
    <span class="text">{% if language == 'pt' %}Filter op tag{%- elsif language == 'en' -%}Filter by tag{% endif %}</span>
-   <input type="hidden" name="tag">
    <div class="menu">
     <div class="ui icon search input"> 
       <i class="search icon"></i> 
