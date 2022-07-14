@@ -15,10 +15,12 @@
     <div class="ui icon search input"> 
       <i class="search icon"></i> 
       <input type="text" placeholder="{% if language == 'pt' %}Zoek tags...{%- elsif language == 'en' -%}Search tags...{% endif %}"> 
-    </div> 
-    <div class="divider"></div>
-      <div class="item filter active" href="#" id="filter-all">{% if language == 'pt' %}<b>ALLES</b>{%- elsif language == 'en' -%}<b>ALL</b>{% endif %}</div>
-     {% for category in essay_categories %}
+     </div>
+     <div class="divider"></div>
+     <div class="item filter active" href="#" id="filter-all">{% if language == 'pt' %}<b>ALLES</b>{%- elsif language == 'en' -%}<b>ALL</b>{% endif %}</div> 
+   </div>
+   <div class="scrolling menu">
+      {% for category in essay_categories %}
       <div class="item filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</div>
     {% endfor %}
    </div>
