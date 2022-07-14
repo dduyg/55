@@ -14,7 +14,7 @@
    <div class="default text"> {% if language == 'pt' %}Filter op tag{%- elsif language == 'en' -%}Filter by tag{% endif %}</div>
    <div class="menu">
     {% for category in essay_categories %}
-      <div class="item filter" data-value="{{ category }}" href="#{{ category | remove: " " }}">{{ category }}</div>
+      <div class="item filter" data-value="{{ category }}" id="filter-{{ category | remove: " " }}">{{ category }}</div>
     {% endfor %}
    </div>
 </div>
