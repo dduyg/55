@@ -8,13 +8,18 @@
   <div class="right floated six wide column">
 
 {% if essay_categories.size > 1 %}
-<div class="nonprintable jsOnly ui fluid multiple search selection dropdown">
-   <input type="hidden" name="tag">
-   <i class="dropdown icon"></i>
-   <div class="default text"> {% if language == 'pt' %}Filter op tag{%- elsif language == 'en' -%}Filter by tag{% endif %}</div>
+<div class="nonprintable jsOnly ui fluid floating scrolling labeled icon dropdown basic button">
+   <i class="caret down icon"></i>
+   <span class="text">{% if language == 'pt' %}Filter op tag{%- elsif language == 'en' -%}Filter by tag{% endif %}</span>
    <div class="menu">
-    {% for category in essay_categories %}
-      <div class="item filter" data-value="{{ category }}" id="filter-{{ category | remove: " " }}">{{ category }}</div>
+    <div class="ui icon search input"> 
+      <i class="search icon"></i> 
+      <input type="text" placeholder="{% if language == 'pt' %}Zoek tags...{%- elsif language == 'en' -%}Search tags...{% endif %}"> 
+    </div> 
+    <div class="divider"></div>
+      <div class="item filter active" href="#" id="filter-all">{% if language == 'pt' %}<b>ALLES</b>{%- elsif language == 'en' -%}<b>ALL</b>{% endif %}</div>
+     {% for category in essay_categories %}
+      <div class="item filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</div>
     {% endfor %}
    </div>
 </div>
@@ -42,10 +47,7 @@
 
 <script>
   $('.ui.dropdown')
-   .dropdown({ 
-      clearable: true 
-    })
-  ;
+  .dropdown();
 </script>
 
 <script src="/javascript/filters.js"></script>
