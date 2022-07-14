@@ -8,13 +8,13 @@
   <div class="right floated six wide column">
 
 {% if essay_categories.size > 1 %}
-<div class="nonprintable jsOnly ui fluid floating scrolling labeled icon dropdown basic button">
+<div class="nonprintable jsOnly ui fluid floating labeled icon dropdown basic button">
    <i class="caret down icon"></i>
    <span class="text">{% if language == 'pt' %}Filter op tag{%- elsif language == 'en' -%}Filter by tag{% endif %}</span>
    <div class="menu">
-    <div class="ui icon search input"> 
-      <i class="search icon"></i> 
-      <input type="text" placeholder="{% if language == 'pt' %}Zoek tags...{%- elsif language == 'en' -%}Search tags...{% endif %}"> 
+     <div class="ui icon search input"> 
+       <i class="search icon"></i> 
+       <input type="text" placeholder="{% if language == 'pt' %}Zoek tags...{%- elsif language == 'en' -%}Search tags...{% endif %}"> 
      </div>
      <div class="divider"></div>
      <div class="item filter active" href="#" id="filter-all">{% if language == 'pt' %}<b>ALLES</b>{%- elsif language == 'en' -%}<b>ALL</b>{% endif %}</div> 
