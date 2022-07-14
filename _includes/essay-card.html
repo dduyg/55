@@ -6,7 +6,7 @@
       <span style="color: black;" class="date">{{ include.page.date | date_to_string }}</span>
     </div>
 
-    <div class="description">
+    <div style="color: black;" class="description">
       {{ include.page.content | markdownify | strip_html | truncatewords: 30 }}
     </div>
     <div style="margin-top: 9px" class="ui mini labels">
