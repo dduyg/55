@@ -12,10 +12,9 @@
    <input type="hidden" name="tag">
    <i class="dropdown icon"></i>
    <div class="default text"> {% if language == 'pt' %}Filter op tag{%- elsif language == 'en' -%}Filter by tag{% endif %}</div>
-   <div class="scrolling menu">
-      <div class="item filter active" href="#" id="filter-all">{% if language == 'pt' %}<b>ALLES</b>{%- elsif language == 'en' -%}<b>ALL</b>{% endif %}</div>
-     {% for category in essay_categories %}
-      <div class="item filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</div>
+   <div class="menu">
+    {% for category in essay_categories %}
+      <div class="item" data-value="{{ category | remove: " " }}">{{ category }}</div>
     {% endfor %}
    </div>
 </div>
