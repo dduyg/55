@@ -18,7 +18,6 @@
       </div>
       <div class="divider"></div>
       <div class="header item filter active" href="#" id="filter-all"> <i class="bars icon"></i>{% if language == 'pt' %}<b>ALLE BLOGPOSTS</b>{%- elsif language == 'en' -%}<b>ALL BLOGPOSTS</b>{% endif %}</div>
-      <div class="divider"></div>
      <div class="scrolling menu">
       {% for category in essay_categories %}
       <div class="item filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</div>
