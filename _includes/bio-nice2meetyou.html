@@ -1,9 +1,12 @@
 {% assign language = page.language %}
 
-{% if page.language == 'pt' %}
         <div style="background-color: #01868C; margin-top: 20px;" class="ui mini circular label"><span style="padding: 7px;" class="inline-img hello"><img src="/images/Hand.gif" width="35px"></span></div>
           <div style="color: #01868C; font-family: 'Source Code Pro', monospace;" class="center aligned description">
-             <b> Hallo! Fijn om je te ontmoeten. </b>
+             <b> {% if page.language == 'pt' %}
+             Hallo! Fijn om je te ontmoeten.
+             {% elsif page.language == 'en' %}
+             Hello! It’s nice to meet you
+             {% endif %} </b>
          </div>
      
         <div style="background-color: #FFBD67; margin-top: 20px;" class="ui mini circular label"><span style="padding: 7px;" class="inline-img conversation"><img src="/images/conversation-icon.png" width="35px"></span></div>
@@ -24,16 +27,10 @@
         <div style="background-color: #FFBD67; margin-top: 20px;" class="ui mini circular label"><span style="padding: 7px;" class="inline-img art"><img src="/images/art-icon.png" width="35px"></span></div>
            <div class="center aligned description leftright-padded">
               Naast data science maak ik ook graag digitale kunst. Vooral glitch art en digital collage art. Wist je dat zelfs de meeste afbeeldingen die op deze website worden gebruikt, mijn eigen creaties zijn?
-          </div>    
-{% elsif page.language == 'en' %}
-        <div style="background-color: #01868C; margin-top: 20px;" class="ui mini circular label"><span style="padding: 7px;" class="inline-img hello"><img src="/images/Hand.gif" width="35px"></span></div>
-          <div style="color: #01868C; font-family: 'Source Code Pro', monospace;" class="center aligned description">
-             <b> Hello! It’s nice to meet you </b>
-         </div>
-     
-        <div style="background-color: #FFBD67; margin-top: 20px;" class="ui mini circular label"><span style="padding: 7px;" class="inline-img conversation"><img src="/images/conversation-icon.png" width="35px"></span></div>
-           <div class="center aligned description leftright-padded">
-              Conversations with open 
+          </div>
+
+    
+{% Conversations with open 
               minded people are one 
               of my favourite things.
            </div>
@@ -52,4 +49,4 @@
            <div class="center aligned description leftright-padded">
               Besides data science, I also enjoy creating digital art. Especially glitch art and digital collage art. Did you know that even most of the images used on this website are my own creations?
            </div>
-{% endif %}
+
