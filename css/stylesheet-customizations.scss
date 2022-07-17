@@ -103,7 +103,8 @@ blockquote {
 // Blogpost tags
 .ui.blgtag.labels .label,
 .ui.blgtag.label { 
-  border: 1px solid #0005FF;
+  background-color: #0005FF;
+  color: white;
 }
 
 // Translate button no border
