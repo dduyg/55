@@ -2,7 +2,7 @@
   {% assign language = page.language %}
   {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
   {% assign essay_pages_in_lang = essay_pages | where: "language", language %}
-  {% assign essay_categories = essay_pages | where: "language", language | map: "labels" | sort | uniq %}
+  {% assign essay_categories = essay_pages | where: "language", language | map: "labels" | sort_natural | uniq %}
 
 <div style="padding-top: 15px" class="ui one column stackable grid"> 
   <div class="right floated five wide column">
