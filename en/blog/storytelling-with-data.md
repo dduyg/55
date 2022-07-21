@@ -7,6 +7,7 @@ date: 2021-07-22
 language: en
 labels:
   - Data Storytelling
+  - Data Visualization
 ---
 
 
