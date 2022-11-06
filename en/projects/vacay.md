@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/dataforest-squared.png
+image: images/alchemyofsouls-squared.png
 title: Vacay
 permalink: en/projects/vacay
 # All dates must be YYYY-MM-DD format!
