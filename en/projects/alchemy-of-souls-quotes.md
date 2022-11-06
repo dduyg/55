@@ -2,14 +2,14 @@
 layout: project
 type: project
 image: images/alchemyofsouls-squared.png
-title: Vacay
+title: Random Quotes from Alchemy of Souls
 permalink: en/projects/alchemy-of-souls-quotes
 # All dates must be YYYY-MM-DD format!
 date: 2020-05-21
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
+  - Web Scraping
+  - Data Cleaning
+  - Python
   - GitHub
 language: en
 summary: A responsive web application for travel planning that my team developed in ICS 415.
