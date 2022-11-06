@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/alchemyofsouls-squared.png
-title: Random Quotes from Alchemy of Souls
+title: Alchemy of Souls Quotes
 permalink: en/projects/alchemy-of-souls-quotes
 # All dates must be YYYY-MM-DD format!
 date: 2020-05-21
