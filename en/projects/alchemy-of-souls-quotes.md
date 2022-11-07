@@ -12,7 +12,7 @@ labels:
   - Python
   - GitHub
 language: en
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+summary: A personal project, where I created a web application that randomly pulls quotes from Alchemy of Souls. It expresses how I .
 ---
 
 
