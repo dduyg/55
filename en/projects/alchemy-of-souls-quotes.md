@@ -18,6 +18,7 @@ summary: A personal project, where I created a web application that randomly pul
 
 <img class="ui medium right floated rounded image" src="/images/vacay-home-page.png">
 
+
 I turned raw subtitles data into a collection of favorite quotes
 
 In this project, I want to use data to support my observation during my first six months in the U.S, that the milk tea in New York City is much, much, more expensive than it in Beijing.
