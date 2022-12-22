@@ -24,15 +24,15 @@
 -->
 
      <div class="ui compact text menu">
-       {% if num_projects > 0 %}
-       <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.projects-url-pt }}{% else %}{{ site.projects-url-en }}{% endif %}" class="{% if include.active == "projects" %}active {% endif %}mycolor item">
-         <span class="menubutton"> {% if language == "pt" %}{{ site.projects-page-label-pt }}{% else %}{{ site.projects-page-label-en }}{% endif %}</span> 
-       </a>
-       {% endif %}
-
        {% if num_essays > 0 %}
        <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.essays-url-pt }}{% else %}{{ site.essays-url-en }}{% endif %}" class="{% if include.active == "essays" %}active {% endif %}mycolor item">
          <span class="menubutton"> {% if language == "pt" %}{{ site.essays-page-label-pt }}{% else %}{{ site.essays-page-label-en }}{% endif %}</span>
+       </a>
+       {% endif %}
+
+       {% if num_projects > 0 %}
+       <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.projects-url-pt }}{% else %}{{ site.projects-url-en }}{% endif %}" class="{% if include.active == "projects" %}active {% endif %}mycolor item">
+         <span class="menubutton"> {% if language == "pt" %}{{ site.projects-page-label-pt }}{% else %}{{ site.projects-page-label-en }}{% endif %}</span> 
        </a>
        {% endif %}
 
