@@ -23,7 +23,7 @@ Through most of human history, the world’s land was dominated by wilderness, f
 <br>
 
 <a href="https://www.instagram.com/p/CdyPERnDSg2/?igshid=MDJmNzVkMjY=">
-   <button class="ui black button"> <i class="large github icon"></i> See post on Instagram </button>
+   <button class="ui black button"> <i class="large instagram icon"></i> See post on Instagram </button>
 </a>
 
 
