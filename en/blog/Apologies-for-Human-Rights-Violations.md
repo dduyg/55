@@ -3,12 +3,11 @@ layout: essay
 type: essay
 title: Apologies for Human Rights Violations
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
+date: 2022-11-27
 language: en
 labels:
-  - Questions
-  - Answers
-  - StackOverflow
+  - Data Visualization
+  - Insert Data Post
 ---
 
 
