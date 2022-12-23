@@ -6,8 +6,8 @@ title: The Unequal Distribution of Global Land
 date: 2022-05-20
 language: en
 labels:
-  - Software Engineering
-  - StackOverflow
+  - Data Visualization
+  - Insert Data Post
 ---
 
 <img class="ui medium left floated image" src="https://raw.githubusercontent.com/duygudgd/insert-data/ad0f1d98e3d4e42a68e88556d6147c05524df32f/dataviz-archive/land-use-realities/20220520_LandUseRealities.jpg">
