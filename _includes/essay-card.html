@@ -1,9 +1,9 @@
 {% assign filters = page.labels %}
 <a style="background-color:transparent;" class="card {% for label in filters %} {{ label | remove: " " }} {% endfor %}" {% if page.projecturl %}target="_blank"{% endif %} href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">  
   <div class="content">
-    <span style="color: #0005FF;font-family: 'Source Code Pro', monospace;" class="header">{{ include.page.title }}</span>
+    <span style="color: #458588;font-family: 'Source Code Pro', monospace;" class="header">{{ include.page.title }}</span>
     <div class="meta">
-      <span style="color: #01868C;" class="date">{{ include.page.date | date_to_string }}</span>
+      <span style="color: #51617B;" class="date">{{ include.page.date | date_to_string }}</span>
     </div>
     
     <div style="margin-top: 8px" class="ui mini labels">
