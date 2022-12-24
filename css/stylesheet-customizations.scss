@@ -129,9 +129,9 @@ blockquote {
 :root {
   --scrollbackground: #f2f2f2;
   --scrollcolor: #21BA45;
-  --greenColor: #FF00F4;
-  --greenColorHover: #FF00F4;
-  --greenColorLighHover: #FF00F4;
+  --greenColor: #0005FF;
+  --greenColorHover: #0005FF;
+  --greenColorLighHover: #0005FF;
   --greenLinkColor: #19de47;
   --lightBG: #f2f2f2;
   --darkBG: #232B32;
@@ -146,12 +146,12 @@ blockquote {
 }
 
 .breadlink {
-  color: #FF00F4 !important;
+  color: #0005FF !important;
   font-weight: bold;
 }
 
 .breadlink:hover {
-  color: #FF00F4 !important;
+  color: #0005FF !important;
   font-weight: bold;
 }
 
