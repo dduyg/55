@@ -5,7 +5,7 @@
   {% assign essay_categories = essay_pages | where: "language", language | map: "labels" | sort_natural | uniq %}
 
 <div style="padding-top: 15px" class="ui one column stackable grid"> 
-  <div class="right floated four wide column">
+  <div class="right floated six wide column">
 
 {% if essay_categories.size > 1 %}
 <div class="nonprintable jsOnly ui fluid floating labeled icon dropdown basic button">
