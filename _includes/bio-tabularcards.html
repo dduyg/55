@@ -1,11 +1,10 @@
 <div style="margin-bottom: 20px" class="ui two column stackable grid container">
- 
- {% if bio.certificates %}
-    <div class="column" id="{{ certificates | remove: ' ' }}">
-      <h4 class="ui horizontal left aligned divider header">
-        <i class="certificate icon"></i>
-        {{ certificates }}
-      </h4>
+ <div class="column">
+
+      <h3 class="ui horizontal center aligned divider header">
+        <img class="ui mini image" src="/images/Lessons-icon.png">     
+        Duygu's Notes &nbsp;&nbsp;
+       </h3>
 
       <div class="ui top attached tabular menu jsOnly">
       {% assign certificate_category = bio.certificates | map: "category" | uniq %}
