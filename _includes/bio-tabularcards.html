@@ -7,10 +7,9 @@
        </h3>
 
       <div class="ui top attached tabular menu jsOnly">
-      {% assign certificate_category = bio.certificates | map: "category" | uniq %}
-      {% for category in certificate_category %}
-          <a class="item" data-tab="{{ category }}">{{ category }}</a>
-      {% endfor %}
+        <a class="item active"> Favourite Quotes </a>
+        <a class="item" data-tab="{{ category }}"> hoi </a>
+     
       </div>
 
       {% for category in certificate_category %}
@@ -54,7 +53,7 @@
     </noscript>
     </div>
 
-
+   </div>
   </div>
 <script>
   $('.menu .item')
