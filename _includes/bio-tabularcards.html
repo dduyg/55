@@ -13,20 +13,7 @@
       </div>
 
       <div class="ui bottom attached tab segment" data-tab="quotes">
-        <div class="ui relaxed divided bulleted list">
-        {% for certificate in bio.certificates %}
-          {% if certificate.category == category %}
-          <div class="item">
-            <div class="content">
-              {% if certificate.url %}
-              <a href="{{certificate.url}}" target="_blank" class="header">{{ certificate.title }}, <i>{{ certificate.issuer }}, {{ certificate.date }}</i></a>
-              {% else %}
-              <div class="header">{{ certificate.title }}, <i>{{ certificate.issuer }}, {{ certificate.date }}</i></div>
-              {% endif %}
-              {{ certificate.summary }}
-            </div>
-          </div>
-        </div>
+        {% include bio-quotes.html %}
       </div>
       
       <noscript>
