@@ -12,8 +12,7 @@
         <a class="item" data-tab="lessons"> My Lessons </a>
       </div>
 
-      {% for category in certificate_category %}
-      <div class="ui bottom attached tab segment" data-tab="{{ category }}">
+      <div class="ui bottom attached tab segment" data-tab="quotes">
         <div class="ui relaxed divided bulleted list">
         {% for certificate in bio.certificates %}
           {% if certificate.category == category %}
@@ -27,11 +26,8 @@
               {{ certificate.summary }}
             </div>
           </div>
-          {% endif %}
-        {% endfor %}
         </div>
       </div>
-      {% endfor %}
       
       <noscript>
       <div class="ui segment">
