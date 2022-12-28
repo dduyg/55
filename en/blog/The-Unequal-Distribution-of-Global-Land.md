@@ -10,6 +10,20 @@ labels:
   - Insert Data Post
 ---
 
+<div class="ui one column stackable grid"> 
+ <div class="right floated six wide column">
+    <div class="ui fluid card">
+      <a class="image" href="https://www.instagram.com/p/CldvdIbDw1D/?igshid=MDJmNzVkMjY=">
+       <img class="ui centered large image" src="https://raw.githubusercontent.com/duygudgd/insert-data/main/dataviz-archive/apologies-for-human-rights-violations/ApologiesForHRV-1.png">
+      </a>
+      <a class="ui bottom attached black button" href="https://www.instagram.com/p/CldvdIbDw1D/?igshid=MDJmNzVkMjY=">
+       <span style="color: #fafafa; font-family: 'Source Code Pro', monospace;"> <i class="large instagram icon"></i>See on Instagram </span>
+      </a>
+    </div>
+ </div>
+</div>
+
+
 <div class="ui medium left floated image">
   <img src="https://raw.githubusercontent.com/duygudgd/insert-data/ad0f1d98e3d4e42a68e88556d6147c05524df32f/dataviz-archive/land-use-realities/20220520_LandUseRealities.jpg">
    <a href="https://www.instagram.com/p/CdyPERnDSg2/?igshid=MDJmNzVkMjY=" class="ui bottom attached black label">
