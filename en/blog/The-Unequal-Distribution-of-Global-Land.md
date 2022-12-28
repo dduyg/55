@@ -10,8 +10,8 @@ labels:
   - Insert Data Post
 ---
 
-<div class="ui two column grid">
-  <div class="column">
+<div class="ui one column stackable grid">
+  <div class="right floated six wide column">
     <a href="https://www.instagram.com/p/CdyPERnDSg2/?igshid=MDJmNzVkMjY=" class="ui blglink label">
      <i class="large instagram icon"></i> See on Instagram
     </a>
