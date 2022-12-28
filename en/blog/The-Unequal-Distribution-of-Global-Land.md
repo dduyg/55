@@ -13,22 +13,14 @@ labels:
 <div class="ui one column stackable grid"> 
  <div class="right floated six wide column">
     <div class="ui fluid card">
-      <a class="image" href="https://www.instagram.com/p/CldvdIbDw1D/?igshid=MDJmNzVkMjY=">
-       <img class="ui centered large image" src="https://raw.githubusercontent.com/duygudgd/insert-data/main/dataviz-archive/apologies-for-human-rights-violations/ApologiesForHRV-1.png">
+      <a class="image" href="https://www.instagram.com/p/CdyPERnDSg2/?igshid=MDJmNzVkMjY=">
+        <img class="ui medium image" src="https://raw.githubusercontent.com/duygudgd/insert-data/ad0f1d98e3d4e42a68e88556d6147c05524df32f/dataviz-archive/land-use-realities/20220520_LandUseRealities.jpg">
       </a>
-      <a class="ui bottom attached black button" href="https://www.instagram.com/p/CldvdIbDw1D/?igshid=MDJmNzVkMjY=">
+      <a class="ui bottom attached black button" href="https://www.instagram.com/p/CdyPERnDSg2/?igshid=MDJmNzVkMjY=">
        <span style="color: #fafafa; font-family: 'Source Code Pro', monospace;"> <i class="large instagram icon"></i>See on Instagram </span>
       </a>
     </div>
  </div>
-</div>
-
-
-<div class="ui medium left floated image">
-  <img src="https://raw.githubusercontent.com/duygudgd/insert-data/ad0f1d98e3d4e42a68e88556d6147c05524df32f/dataviz-archive/land-use-realities/20220520_LandUseRealities.jpg">
-   <a href="https://www.instagram.com/p/CdyPERnDSg2/?igshid=MDJmNzVkMjY=" class="ui bottom attached black label">
-     <span style="color: #fafafa; font-family: 'Source Code Pro', monospace;"> <i class="large instagram icon"></i> See on Instagram </span>
-   </a>
 </div>
 
 A mere 1% of the world’s habitable land is human built-up urban area which includes cities, towns, villages, roads and other human infrastructure. While agriculture takes up half of the world’s habitable land.
@@ -36,7 +28,6 @@ A mere 1% of the world’s habitable land is human built-up urban area which inc
 This unequal distribution between land use of humans and land use for human consumption, has left quite an impact on me. Therefore, I wanted to visualize it in a unusual creative way, so that the visualization would grab people's attention.
 
 Through most of human history, the world’s land was dominated by wilderness, forests and grasslands. However, over the last few centuries, this has changed dramatically. In the visualization we see the distribution of global land area today. The expansion of agriculture has been one of humanity’s largest impacts on the environment.
-
 
 
 
