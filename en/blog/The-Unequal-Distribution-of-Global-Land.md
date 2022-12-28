@@ -17,7 +17,7 @@ labels:
   <a class="ui bottom attached black button" href="https://www.instagram.com/p/CdyPERnDSg2/?igshid=MDJmNzVkMjY=">
     <span style="color: #fafafa; font-family: 'Source Code Pro', monospace;"> <i class="large instagram icon"></i>See on Instagram </span>
   </a>
-</div
+</div>
 
 A mere 1% of the world’s habitable land is human built-up urban area which includes cities, towns, villages, roads and other human infrastructure. While agriculture takes up half of the world’s habitable land.
 
