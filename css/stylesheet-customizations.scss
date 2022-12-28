@@ -101,9 +101,9 @@ blockquote {
   color: #000000;
 } 
 
-// Blogpost tags
-.ui.blgtag.labels .label,
-.ui.blgtag.label { 
+// Blogpost button/label linking
+.ui.blglink.labels .label,
+.ui.blglink.label { 
   border: 1px solid #0005FF;
   color: #0005FF;
   background-color: transparent;
