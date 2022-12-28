@@ -95,10 +95,11 @@ blockquote {
 }
 
 // Orange button projects
-.ui.myorange.buttons .button,
-.ui.myorange.button {
-  background-color: #FFBD67;
-  color: #000000;
+.ui.pstlink.buttons .button,
+.ui.pstlink.button {
+  border: 1px solid #0005FF;
+  color: #0005FF;
+  background-color: transparent;
 } 
 
 // Blogpost button/label linking
