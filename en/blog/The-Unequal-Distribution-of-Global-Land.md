@@ -12,7 +12,7 @@ labels:
 
 <div class="ui two column grid">
   <div class="column">
-    <a href="https://www.instagram.com/p/CdyPERnDSg2/?igshid=MDJmNzVkMjY=" class="ui postlink right floated button">
+    <a href="https://www.instagram.com/p/CdyPERnDSg2/?igshid=MDJmNzVkMjY=" class="ui postlink button">
      <i class="large instagram icon"></i> See on Instagram
     </a>
   </div>
