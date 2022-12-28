@@ -19,7 +19,7 @@ Apologies have increased over the years, peaking in 2018 among political figures
 <div class="ui one column stackable centered grid"> 
  <div class="six wide column"> 
 
- <div class="ui centered card">
+ <div class="ui centered fluid card">
   <a class="image" href="https://www.instagram.com/p/CldvdIbDw1D/?igshid=MDJmNzVkMjY=">
     <img class="ui centered large image" src="https://raw.githubusercontent.com/duygudgd/insert-data/main/dataviz-archive/apologies-for-human-rights-violations/ApologiesForHRV-1.png">
   </a>
