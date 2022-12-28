@@ -19,7 +19,7 @@ Apologies have increased over the years, peaking in 2018 among political figures
 <a href="https://www.instagram.com/p/ClMQDZsj9Er/?igshid=MDJmNzVkMjY=" class="ui attached segment">
   <img class="ui centered medium image" src="https://raw.githubusercontent.com/duygudgd/insert-data/main/dataviz-archive/apologies-for-human-rights-violations/ApologiesForHRV-1.png">
 </a>
-<a href="https://www.instagram.com/p/ClMQDZsj9Er/?igshid=MDJmNzVkMjY=" class="ui bottom attached black label">
+<a href="https://www.instagram.com/p/ClMQDZsj9Er/?igshid=MDJmNzVkMjY=" class="ui bottom attached black button">
   <span style="color: #fafafa; font-family: 'Source Code Pro', monospace;"> <i class="large instagram icon"></i>See on Instagram </span>
 </a>
 
