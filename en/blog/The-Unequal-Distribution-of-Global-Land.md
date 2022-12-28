@@ -10,7 +10,16 @@ labels:
   - Insert Data Post
 ---
 
-<div class="ui one column stackable grid"> 
+<div class="ui two column stackable grid"> 
+
+ <div class="column">
+A mere 1% of the world’s habitable land is human built-up urban area which includes cities, towns, villages, roads and other human infrastructure. While agriculture takes up half of the world’s habitable land.
+
+This unequal distribution between land use of humans and land use for human consumption, has left quite an impact on me. Therefore, I wanted to visualize it in a unusual creative way, so that the visualization would grab people's attention.
+
+Through most of human history, the world’s land was dominated by wilderness, forests and grasslands. However, over the last few centuries, this has changed dramatically. In the visualization we see the distribution of global land area today. The expansion of agriculture has been one of humanity’s largest impacts on the environment.
+ </div>
+
  <div class="right floated six wide column">
     <div class="ui fluid card">
       <a class="image" href="https://www.instagram.com/p/CdyPERnDSg2/?igshid=MDJmNzVkMjY=">
@@ -21,13 +30,7 @@ labels:
       </a>
     </div>
  </div>
+
 </div>
-
-A mere 1% of the world’s habitable land is human built-up urban area which includes cities, towns, villages, roads and other human infrastructure. While agriculture takes up half of the world’s habitable land.
-
-This unequal distribution between land use of humans and land use for human consumption, has left quite an impact on me. Therefore, I wanted to visualize it in a unusual creative way, so that the visualization would grab people's attention.
-
-Through most of human history, the world’s land was dominated by wilderness, forests and grasslands. However, over the last few centuries, this has changed dramatically. In the visualization we see the distribution of global land area today. The expansion of agriculture has been one of humanity’s largest impacts on the environment.
-
 
 
