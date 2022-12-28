@@ -10,9 +10,13 @@ labels:
   - Insert Data Post
 ---
 
-<a href="https://www.instagram.com/p/CdyPERnDSg2/?igshid=MDJmNzVkMjY=" class="ui postlink right floated button">
-   <i class="large instagram icon"></i> See on Instagram
-</a>
+<div class="ui two column grid">
+  <div class="column">
+    <a href="https://www.instagram.com/p/CdyPERnDSg2/?igshid=MDJmNzVkMjY=" class="ui postlink right floated button">
+     <i class="large instagram icon"></i> See on Instagram
+    </a>
+  </div>
+</div>
 
 <img class="ui medium right floated image" src="https://raw.githubusercontent.com/duygudgd/insert-data/ad0f1d98e3d4e42a68e88556d6147c05524df32f/dataviz-archive/land-use-realities/20220520_LandUseRealities.jpg">
 
