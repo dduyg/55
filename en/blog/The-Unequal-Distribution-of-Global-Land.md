@@ -20,7 +20,7 @@ This unequal distribution between land use of humans and land use for human cons
 Through most of human history, the world’s land was dominated by wilderness, forests and grasslands. However, over the last few centuries, this has changed dramatically. In the visualization we see the distribution of global land area today. The expansion of agriculture has been one of humanity’s largest impacts on the environment.
  </div>
 
- <div class="right floated six wide column">
+ <div class="column">
     <div class="ui fluid card">
       <a class="image" href="https://www.instagram.com/p/CdyPERnDSg2/?igshid=MDJmNzVkMjY=">
         <img class="ui medium image" src="https://raw.githubusercontent.com/duygudgd/insert-data/ad0f1d98e3d4e42a68e88556d6147c05524df32f/dataviz-archive/land-use-realities/20220520_LandUseRealities.jpg">
