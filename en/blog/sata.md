@@ -1,13 +1,13 @@
 ---
 layout: essay
 type: essay
-title: Creating an impactful data story
+title: The Unequal Distribution of Global Land
 # All dates must be YYYY-MM-DD format!
-date: 2021-07-22
+date: 2022-05-20
 language: en
 labels:
-  - Data Storytelling
   - Data Visualization
+  - Insert Data Post
 ---
 
 
