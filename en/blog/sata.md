@@ -10,22 +10,19 @@ labels:
   - Insert Data Post
 ---
 
+<div class="ui medium right floated image">
+  <a class="image" href="https://www.instagram.com/p/CdyPERnDSg2/?igshid=MDJmNzVkMjY=">
+    <img src="https://raw.githubusercontent.com/duygudgd/insert-data/ad0f1d98e3d4e42a68e88556d6147c05524df32f/dataviz-archive/land-use-realities/20220520_LandUseRealities.jpg">
+  </a>
+  <a class="ui bottom attached black button" href="https://www.instagram.com/p/CdyPERnDSg2/?igshid=MDJmNzVkMjY=">
+    <span style="color: #fafafa; font-family: 'Source Code Pro', monospace;"> <i class="large instagram icon"></i>See on Instagram </span>
+  </a>
+</div>
 
-> Stories are the key source of human knowledge. Those who tell stories rule society. Stories provide patterns and structures and thus help us to adapt to our environments.
+> A mere 1% of the world’s habitable land is human built-up urban area which includes cities, towns, villages, roads and other human infrastructure. While agriculture takes up half of the world’s habitable land.
 
-e more I though about it, the more I wondered to myself...damn that's a really great question; it's one that deserves some more thought. Most people I think stop at the answer I gave previously - he obviously isn't managing his time properly.
+This unequal distribution between land use of humans and land use for human consumption, has left quite an impact on me. Therefore, I wanted to visualize it in a unusual creative way, so that the visualization would grab people's attention.
 
-Here's what I think: the difficult things will always be difficult.
+Through most of human history, the world’s land was dominated by wilderness, forests and grasslands. However, over the last few centuries, this has changed dramatically. In the visualization we see the distribution of global land area today. The expansion of agriculture has been one of humanity’s largest impacts on the environment.
 
-### In the context of programming
 
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
-
-## In the context of relationships
-
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
-lways been difficult, and by nature will continue to be so.
-
-## Okay!
-
-So back to the original premise; why is being one of the club officers so difficult?
