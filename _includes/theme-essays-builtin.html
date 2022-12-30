@@ -12,12 +12,12 @@
    <i class="caret down icon"></i>
    <span class="text">{% if language == 'pt' %}Filter op tag{%- elsif language == 'en' -%}Filter by tag{% endif %}</span>
    <div class="menu">
-      <div class="item filter active" href="#" id="filter-all"> <i class="bars icon"></i>{% if language == 'pt' %} Alle Posts {%- elsif language == 'en' -%} Show All Posts {% endif %}</div>
-      <div class="divider"></div>
       <div class="ui icon search input"> 
         <i class="search icon"></i> 
         <input type="text" placeholder="{% if language == 'pt' %}Zoek tags...{%- elsif language == 'en' -%}Search tags...{% endif %}"> 
       </div>
+     <div class="divider"></div>
+      <div class="item filter active" href="#" id="filter-all"> <i class="bars icon"></i>{% if language == 'pt' %} Alle Posts {%- elsif language == 'en' -%} Show All Posts {% endif %}</div>       
      <div class="scrolling menu">
       {% for category in essay_categories %}
       <div class="item filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</div>
