@@ -13,6 +13,7 @@
     <h2 style="color: #01868B; font-family: 'Source Code Pro', monospace; margin-top: 0px; padding-top: 0px" class="no-bottom">{{ bio.basics.label }}</h2>
     <p style="font-size: 17px;">
       {{ bio.basics.summary }}
+      <a href="{{ site.baseurl}}/{{ language }}/{% if include.language == "pt" %}{{ site.bio-url-pt }}{% else %}{{ site.bio-url-en }}{% endif %}/"> <u style="color: black;”>Get to know more about me</u> </a>
     </p>
     <div class="ui hidden divider"></div>
     <p style="text-align: center">      
