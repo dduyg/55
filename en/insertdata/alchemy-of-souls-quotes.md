@@ -3,12 +3,12 @@ layout: project
 type: project
 image: images/alchemyofsouls-squared.png
 title: Alchemy of Souls Quotes
-permalink: en/projects/alchemy-of-souls-quotes
+permalink: en/insertdata/alchemy-of-souls-quotes
 # All dates must be YYYY-MM-DD format!
 date: 2020-05-21
 labels:
   - Web Scraping
-  - Data Cleaning
+  - Data Cleaning
   - Python
   - GitHub
 language: en
