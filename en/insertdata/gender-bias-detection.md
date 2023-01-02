@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/kdrama-squared.png
 title: Gender Bias Detection
-permalink: en/projects/gender-bias-detection
+permalink: en/insertdata/gender-bias-detection
 # All dates must be YYYY-MM-DD format!
 date: 2021-06-08
 labels:
