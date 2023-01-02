@@ -10,7 +10,7 @@ essays-page-label-pt: Blog
 bio-page-label-pt: Over
 contact-page-label-pt: Contact
 
-projects-page-label-en: Projects
+projects-page-label-en: Insert Data
 essays-page-label-en: Posts
 bio-page-label-en: About
 contact-page-label-en: Contact
@@ -25,7 +25,7 @@ projects-url-pt: projecten
 essays-url-pt: blog
 bio-url-pt: over
 
-projects-url-en: projects
+projects-url-en: insertdata
 essays-url-en: posts
 bio-url-en: about
 
