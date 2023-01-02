@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/cotton-square.png
 title: Cotton
-permalink: en/projects/cotton
+permalink: en/insertdata/cotton
 # All dates must be YYYY-MM-DD format!
 date: 2020-07-03
 labels:
