@@ -1,0 +1,18 @@
+<div style="padding-top: 20px" class="ui container ">
+    {% assign language = page.language %}
+    {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
+    {% assign project_pages_in_lang = project_pages | where: "language", language %}
+    {% assign project_categories = project_pages | where: "language", language | map: "category" | sort | uniq %}
+
+{% if project_pages_in_lang.size > 0 %}
+  <div class="ui stackable centered three cards">
+    {% for page in project_pages_in_lang %}
+      {% if page.language == language %}
+         {% unless page.draft %}
+        {% include project-card.html page=page %}
+         {% endunless %}
+      {% endif %}
+    {% endfor %}
+  </div>
+ {% endif %}
+</div>
