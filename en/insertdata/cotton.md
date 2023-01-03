@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/insertdata/SummerNightBytes-squared.png
+image: images/dataart/SummerNightBytes-squared.png
 title: Summer Night Bytes
 permalink: en/insertdata/cotton
 # All dates must be YYYY-MM-DD format!
