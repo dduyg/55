@@ -1,9 +1,7 @@
 <a class="card" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
  
-  <div class="content">
-    <div class="right floated meta"><span class="date">{{ include.page.date | date: "%b, %Y" }}</span></div>
-    <i class="quote left icon"></i>
-    {{ include.page.title }}
+  <div class="ui top attached grey button">  
+    "{{ include.page.title }}"
   </div>       
     
   {% if include.page.image %}
@@ -11,9 +9,5 @@
     <img src="{{ site.baseurl }}/{{ include.page.image }}">
   </div>
   {% endif %}
-
-  <div class="ui bottom attached grey button">
-   View
-  </div>
 
 </a>
