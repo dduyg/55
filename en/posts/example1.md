@@ -4,14 +4,13 @@ type: essay
 published: false
 title: "Example 1"
 # All dates must be YYYY-MM-DD format!
-date: 2020-05-21
+date: 2022-11-27
 language: en
 labels:
   - Web Scraping
   - Data Cleaning
   - Python
   - GitHub
-
 ---
 
 
