@@ -4,7 +4,7 @@ type: essay
 published: true
 title: "Example"
 # All dates must be YYYY-MM-DD format!
-date: 2023-01-2
+date: 2023-01-02
 language: en
 labels:
   - Python
