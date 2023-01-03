@@ -1,7 +1,8 @@
 ---
 layout: essay
 type: essay
-title: The Unequal Distribution of Global Land
+published: true
+title: "The Unequal Distribution of Global Land"
 # All dates must be YYYY-MM-DD format!
 date: 2022-05-20
 language: en
