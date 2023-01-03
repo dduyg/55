@@ -2,15 +2,16 @@
 layout: essay
 type: essay
 published: true
-title: "Example 1"
+title: "Quotes from Alchemy of Souls"
 # All dates must be YYYY-MM-DD format!
-date: 2022-11-27
+date: 2023-01-03
 language: en
 labels:
   - Web Scraping
   - Data Cleaning
-  - Python
-  - GitHub
+  - JavaScript
+  - HTML
+  - Web Application
 ---
 
 
