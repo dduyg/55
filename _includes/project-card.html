@@ -1,10 +1,10 @@
 <a class="card" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
   
   <div class="content">
-    <div class="right floated meta"><span class="date">{{ include.page.date | date: "%B, %Y" }}</span></div>
     <h5 class="ui header">
      <img src="/images/insertdata-logo.png" class="ui circular image"> {{ include.page.title }}
     </h5>
+    <div class="right floated meta"><span class="date">{{ include.page.date | date: "%B, %Y" }}</span></div>
   </div>
 
   {% if include.page.image %}
