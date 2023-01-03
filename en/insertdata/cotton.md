@@ -1,16 +1,17 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
+published: true
+image: images/insertdata/SummerNightBytes-squared.png
+title: Summer Night Bytes
 permalink: en/insertdata/cotton
 # All dates must be YYYY-MM-DD format!
-date: 2020-07-03
+date: 2021-07-07
 labels:
   - Lisp
-  - GitHub
 language: en
 summary: A text adventure game I developed for ICS 313.
+projecturl: https://dduyg.github.io/
 ---
 
 
