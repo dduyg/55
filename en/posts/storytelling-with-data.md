@@ -1,7 +1,8 @@
 ---
 layout: essay
 type: essay
-title: Creating an impactful data story
+published: true
+title: "Impactful data story"
 # All dates must be YYYY-MM-DD format!
 date: 2021-07-22
 language: en
