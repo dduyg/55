@@ -5,17 +5,21 @@
     {% assign project_categories = project_pages | where: "language", language | map: "category" | sort | uniq %}
 
 {% if project_pages_in_lang.size > 0 %}
-  <div class="ui stackable centered three cards">
-    {% for page in project_pages_in_lang %}
+<div class="slider ui stackable centered cards">
+   <div class="slides">
+   {% for page in project_pages_in_lang %}
       {% if page.language == language %}
          {% unless page.draft %}
         {% include project-card.html page=page %}
          {% endunless %}
       {% endif %}
     {% endfor %}
-  </div>
- {% endif %}
+   </div>
 </div>
+   {% endif %}
+
+</div>
+
 
 
 <script> 
