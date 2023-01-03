@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.12.0/css/semantic.min.css"/>
-
 <div style="padding-top: 20px" class="ui container ">
     {% assign language = page.language %}
     {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
@@ -7,30 +5,14 @@
     {% assign project_categories = project_pages | where: "language", language | map: "category" | sort | uniq %}
 
 {% if project_pages_in_lang.size > 0 %}
-<div class="slider ui stackable centered three cards">
-   <div class="slides">
-   {% for page in project_pages_in_lang %}
+  <div class="ui stackable centered three cards">
+    {% for page in project_pages_in_lang %}
       {% if page.language == language %}
          {% unless page.draft %}
         {% include project-card.html page=page %}
          {% endunless %}
       {% endif %}
     {% endfor %}
-   </div>
+  </div>
+ {% endif %}
 </div>
-   {% endif %}
-
-</div>
-
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script> 
-<script src="http://cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.12.0/javascript<ntic.min.js"></script> 
-<script src="http://cdn.jsdelivr.net/jquery.glide/1.0.6/jquery.glide.min.js"></script>
-
-<script> 
-$('.slider').glide({
-  autoplay: false,
-  arrowsWrapperClass: 'slider-arrows',
-  arrowRightText: '',
-  arrowLeftText: ''
-});
-</script>
