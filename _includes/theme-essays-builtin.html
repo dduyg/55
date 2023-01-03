@@ -35,7 +35,9 @@
   <div class="ui stackable centered one doorzichtig cards" id="filterable">
       {% for page in essay_pages_in_lang %}
         {% if page.language == language %}
-          {% include essay-card.html page=page %}
+          {% unless page.draft %}
+             {% include essay-card.html page=page %}
+          {% endunless %}
         {% endif %}
       {% endfor %}
   </div>
