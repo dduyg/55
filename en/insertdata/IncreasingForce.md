@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/dataart/IncreasingForce-squared.png
+image: images/dataart/IncreasingForce-squared.jpg
 title: Increasing Force
 # All dates must be YYYY-MM-DD format!
 date: 2021-09-07
