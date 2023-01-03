@@ -3,6 +3,7 @@ layout: essay
 type: essay
 published: true
 title: "Apologies for Human Rights Violations"
+permalink: en/posts/ApologiesHRV
 # All dates must be YYYY-MM-DD format!
 date: 2022-11-27
 language: en
