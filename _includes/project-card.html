@@ -1,15 +1,16 @@
 <a class="card" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
+  
+  <div class="content">
+    <div class="right floated meta"><span class="date">{{ include.page.date }}</span></div>
+    <img class="ui avatar image" src="/images/avatar/large/elliot.jpg">
+    <span class="header">{{ include.page.title }}</span>
+  </div>
+
   {% if include.page.image %}
   <div class="image">
     <img src="{{ site.baseurl }}/{{ include.page.image }}">
   </div>
   {% endif %}
-  <div class="content">
-    <span class="header">{{ include.page.title }}</span>
-    <div class="meta">
-      <span class="date">{{ include.page.date | date_to_long_string }}</span>
-    </div>
-  </div>
 
   <div class="ui bottom attached button">
    View
