@@ -3,6 +3,7 @@ layout: essay
 type: essay
 published: false
 title: "Impactful data story"
+permalink: en/posts/linkjetitel3
 # All dates must be YYYY-MM-DD format!
 date: 2021-07-22
 language: en
