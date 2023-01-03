@@ -2,9 +2,12 @@
   
   <div class="content">
     <h5 class="ui header">
-     <img src="/images/insertdata-logo.png" class="ui circular image"> {{ include.page.title }}
+     <img src="/images/insertdata-logo.png" class="ui circular image">
+      <div class="content">
+      {{ include.page.title }}
+      <div class="right floated sub header"><span class="date">{{ include.page.date | date: "%B, %Y" }}</span></div>
+      </div>
     </h5>
-    <div class="right floated meta"><span class="date">{{ include.page.date | date: "%B, %Y" }}</span></div>
   </div>
 
   {% if include.page.image %}
