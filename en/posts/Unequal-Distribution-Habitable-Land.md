@@ -2,7 +2,8 @@
 layout: essay
 type: essay
 published: true
-title: "The Unequal Distribution of Global Land"
+title: "Unequal Distribution of Habitable Land"
+permalink: en/posts/Unequal-Habitable-Land
 # All dates must be YYYY-MM-DD format!
 date: 2022-05-20
 language: en
