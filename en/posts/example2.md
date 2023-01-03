@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: true
+published: false
 title: "Example 2"
 # All dates must be YYYY-MM-DD format!
 date: 2022-11-25
