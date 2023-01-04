@@ -1,13 +1,16 @@
 <a class="card" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
- 
-  <div class="large ui top attached right floated button">  
-    <span style="color: #202020;">{{ include.page.title }}</span>
-  </div>       
     
   {% if include.page.image %}
   <div class="image">
     <img src="{{ site.baseurl }}/{{ include.page.image }}">
   </div>
   {% endif %}
+
+  <div class="content">
+    <div class="right floated meta">
+     <span class="date">Insert Data</span>
+    </div>    
+     <span class="header">{{ include.page.title }}</span>
+  </div>
 
 </a>
