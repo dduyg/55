@@ -5,7 +5,7 @@
     {% assign project_categories = project_pages | where: "language", language | map: "category" | sort | uniq %}
 
 {% if project_pages_in_lang.size > 0 %}
-  <div class="ui stackable four cards">
+  <div class="ui stackable five cards">
     {% for page in project_pages_in_lang %}
       {% if page.language == language %}
          {% unless page.draft %}
