@@ -1,7 +1,7 @@
 <a class="card" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
  
   <div class="large ui top attached right floated button">  
-    {{ include.page.title }}
+    <span style="color: black;">{{ include.page.title }}</span>
   </div>       
     
   {% if include.page.image %}
