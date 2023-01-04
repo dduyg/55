@@ -1,4 +1,4 @@
-<div style="padding-top: 20px" class="ui container">
+<div style="padding-top: 20px" class="ui text container">
   {% assign language = page.language %}
   {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
   {% assign essay_pages_in_lang = essay_pages | where: "language", language %}
