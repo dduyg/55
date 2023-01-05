@@ -1,21 +1,13 @@
-{% assign language = page.language %}
 <div class="ui two column centered stackable grid container">
 
   <div class="column">
 
-{% if page.language == 'pt' %}
-    <div style="font-family: 'Source Code Pro', monospace;" class="ui right aligned large header no-bottom"> Altijd blij om van je te horen </div>
-    <p style="font-size: 17px; text-align: right"> Wil je meer weten over mijn werk of mij, of wil je gewoon even hallo zeggen, stuur me dan een berichtje. Ik hoor graag van je. </p> 
-{% elsif page.language == 'en' %}
-    <div style="font-family: 'Source Code Pro', monospace;" class="ui right aligned large header no-bottom"> Always happy to hear from you </div>
-    <p style="font-size: 17px; text-align: right"> If you want to know more about my work or me, or if you would just like to say hello, send me a message and tell me what you have in mind. I'd love to hear from you.</p>
-{% endif %}
+   <div style="font-family: 'Source Code Pro', monospace;" class="ui right aligned large header no-bottom"> Always happy to hear from you </div>
+   <p style="font-size: 17px; text-align: right"> If you want to know more about my work or me, or if you would just like to say hello, send me a message and tell me what you have in mind. I'd love to hear from you.</p>
 
   <div class="ui hidden divider"></div>
     <p align="right">
-       {% assign language = include.language %}
-       {% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
-         {% for profile in bio.basics.profiles %}
+        {% for profile in bio.basics.profiles %}
            <a href="{{ profile.url }}"> <button class="ui black icon button"><i class="big {{ profile.network | downcase }} icon"></i> </button></a>
          {% endfor %}
 
