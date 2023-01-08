@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: true
+published: false
 title: "Quotes from Alchemy of Souls"
 permalink: en/posts/alchemyofsoulsquotes
 # All dates must be YYYY-MM-DD format!
