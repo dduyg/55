@@ -25,5 +25,5 @@ Apologies have increased over the years, peaking in 2018 among political figures
 <hr>
    
 <a class="ui black button" href="https://www.instagram.com/p/CldvdIbDw1D/?igshid=MDJmNzVkMjY=">
-  <span style="color: #fafafa; font-family: 'Source Code Pro', monospace;"> <i class="large instagram icon"></i>See on Instagram </span>
+  <i class="large instagram icon"></i>See on Instagram
 </a>
