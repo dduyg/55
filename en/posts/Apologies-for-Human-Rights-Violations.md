@@ -18,12 +18,11 @@ The Political Apologies across Cultures research project funded by the European 
 
 Apologies have increased over the years, peaking in 2018 among political figures. To date, six countries stand above the rest with more recognitions of human rights violations than any others: Japan, Germany, the U.K., the U.S., Canada and the Netherlands.
 
--
-
 <a class="image" href="https://www.instagram.com/p/CldvdIbDw1D/?igshid=MDJmNzVkMjY=">
-  <img class="ui centered image" src="https://raw.githubusercontent.com/duygudgd/insert-data/main/dataviz-archive/apologies-for-human-rights-violations/ApologiesForHRV-1.png" width="350px">
+  <img class="ui right floated image" src="https://raw.githubusercontent.com/duygudgd/insert-data/main/dataviz-archive/apologies-for-human-rights-violations/ApologiesForHRV-1.png" width="350px">
 </a>
-    
+
+<hr>    
 <a class="ui black button" href="https://www.instagram.com/p/CldvdIbDw1D/?igshid=MDJmNzVkMjY=">
   <span style="color: #fafafa; font-family: 'Source Code Pro', monospace;"> <i class="large instagram icon"></i>See on Instagram </span>
 </a>
