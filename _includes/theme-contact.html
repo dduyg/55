@@ -12,7 +12,7 @@
            <a href="{{ profile.url }}"><i style="color: #C0736B;" class="big {{ profile.network | downcase }} icon"></i></a>
          {% endfor %}
          {% if bio.basics.email %}
-           <a href="mailto:{{ site.data.bio.basics.email }}"> <i style="color: #C0736B;" class="big mail outline icon"></i></a>
+           <a style="text-align: center" href="mailto:{{ site.data.bio.basics.email }}"> <i style="color: #C0736B;" class="big mail outline icon"></i></a>
          {% endif %}
      </p>
      <div class="ui hidden divider"></div>
