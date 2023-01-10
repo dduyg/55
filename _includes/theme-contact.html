@@ -9,10 +9,10 @@
        {% assign language = include.language %}
        {% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
          {% for profile in bio.basics.profiles %}
-           <a href="{{ profile.url }}"><i style="color: #B95766;" class="big {{ profile.network | downcase }} icon"></i></a>
+           <a href="{{ profile.url }}"><i style="color: #a85047;" class="big {{ profile.network | downcase }} icon"></i></a>
          {% endfor %}
          {% if bio.basics.email %}
-           <a href="mailto:{{ site.data.bio.basics.email }}"> <i style="color: #B95766;" class="big mail outline icon"></i></a>
+           <a href="mailto:{{ site.data.bio.basics.email }}"> <i style="color: #a85047;" class="big mail outline icon"></i></a>
          {% endif %}
      </p>
      <div class="ui hidden divider"></div>
