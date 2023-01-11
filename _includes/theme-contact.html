@@ -1,23 +1,21 @@
-<div style="height: 40%;" class="ui middle aligned two column centered stackable grid container">
+<div style="max-width: 700px; padding-top: 20px" class="ui container">
 
-  <div class="column">
-    <h3 style="font-family: 'Source Code Pro', monospace;" class="header no-bottom">Conversations with open minded people are one of my favourite things.</h3>
-    <p style="font-size: 17px;"> Always happy to hear from you. If you want to know more about my work or me, or if you would just like to say hello, send me a message and tell me what you have in mind. I'd love to hear from you.</p>
-    <div class="ui hidden divider"></div>
+  <h3 style="font-family: 'Source Code Pro', monospace;" class="header no-bottom">Conversations with open minded people are one of my favourite things.</h3>
+  <p style="font-size: 17px;"> Always happy to hear from you. If you want to know more about my work or me, or if you would just like to say hello, send me a message and tell me what you have in mind. I'd love to hear from you.</p>
  
-    <p style="text-align: center">
-       {% assign language = include.language %}
-       {% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
-         {% for profile in bio.basics.profiles %}
-           <a href="{{ profile.url }}"><i style="color: #a85047;" class="big {{ profile.network | downcase }} icon"></i></a>
-         {% endfor %}
-         {% if bio.basics.email %}
-           <a href="mailto:{{ site.data.bio.basics.email }}"> <i style="color: #a85047;" class="big mail outline icon"></i></a>
-         {% endif %}
-     </p>
-     <div class="ui hidden divider"></div>
-     <img class="ui centered image" src="/images/contactpage-image.png" width="210px">
-  </div>
+  <p style="text-align: center">
+    {% assign language = include.language %}
+    {% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
+      {% for profile in bio.basics.profiles %}
+        <a href="{{ profile.url }}"><i style="color: #a85047;" class="big {{ profile.network | downcase }} icon"></i></a>
+      {% endfor %}
+      {% if bio.basics.email %}
+        <a href="mailto:{{ site.data.bio.basics.email }}"> <i style="color: #a85047;" class="big mail outline icon"></i></a>
+      {% endif %}
+  </p>
 
+  <div class="ui hidden divider"></div>
+  <div class="ui hidden divider"></div>
+  <img class="ui centered image" src="/images/contactpage-image.png" width="210px">
 
 </div>
