@@ -1,19 +1,19 @@
-<div style="max-width: 700px; padding-top: 20px" class="ui container">
+<div style="font-size: 17px; max-width: 700px; padding-top: 20px" class="ui container">
 
-  <h2 style="color: #a85047;" class="ui header no-bottom">
+  <div style="color: #a85047;" class="ui large header no-bottom">
    <i class="terminal icon"></i> 
    <div class="content">Conversations with open minded people are one of my favourite things.</div>
-  </h2>
+  </div>
 
-  <p style="font-size: 17px;"> 
+  <p> 
     As a social creature, I love to talk with others and exchange thoughts and ideas. Every conversation is a unique opportunity to learn, grow and create something new.
   </p>
 
-  <p style="font-size: 17px;">
+  <p>
     Whether you want to know more about my work or me, ask me a question, maybe share or discuss interesting thoughts, ideas, projects or just like to say hi, please don't hesitate to reach out to me. I would be happy to hear from you. You can send me a DM or reach me via email.
   </p>
  
-  <div style="margin-left: auto; margin-right: auto;" class="ui black basic icon buttons">
+  <div class="ui black basic icon buttons">
     {% assign language = include.language %}
     {% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
       {% for profile in bio.basics.profiles %}
@@ -24,6 +24,6 @@
       {% endif %}
   </div>
 
-  <img class="ui right floated bottom aligned image" src="/images/contactpage-image.png" width="210px">
+  <img class="ui right floated image" src="/images/contactpage-image.png" width="210px">
 
 </div>
