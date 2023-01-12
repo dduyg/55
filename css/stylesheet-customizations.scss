@@ -321,11 +321,11 @@ blockquote {
   scroll-behavior: auto; 
 } 
 
-.carousel.dragging a{ 
+.carousel.dragging card{ 
   pointer-events: none; 
 } 
 
-.carousel a{  
+.carousel card{  
   object-fit: cover; 
   user-select: none; 
   margin-left: 14px; 
@@ -337,13 +337,13 @@ blockquote {
 } 
 
 @media screen and (max-width: 900px) { 
-  .carousel a{ 
+  .carousel card{ 
    width: calc(100% / 2); 
    } 
 } 
 
 @media screen and (max-width: 550px) { 
-  .carousel a{ 
+  .carousel card{ 
    width: 100%; 
    } 
 }
