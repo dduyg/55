@@ -11,7 +11,7 @@
 <div class="carousel"> 
 
 {% if project_pages_in_lang.size > 0 %}
-  <div class="ui stackable five cards">
+
     {% for page in project_pages_in_lang %}
       {% if page.language == language %}
          {% unless page.draft %}
@@ -19,7 +19,7 @@
          {% endunless %}
       {% endif %}
     {% endfor %}
-  </div>
+
  {% endif %}
 
 </div>
