@@ -310,7 +310,6 @@ blockquote {
 } 
 
 .wrapper .carousel{ 
-  font-size: 0px; 
   cursor: pointer; 
   overflow: hidden; 
   white-space: nowrap; 
@@ -326,8 +325,7 @@ blockquote {
   pointer-events: none; 
 } 
 
-.carousel a{ 
-  height: 340px; 
+.carousel a{  
   object-fit: cover; 
   user-select: none; 
   margin-left: 14px; 
