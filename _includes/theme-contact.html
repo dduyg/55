@@ -13,7 +13,7 @@
   </p>
  
   <div class="ui hidden divider"></div>
-  <div style="color: black;" class="centeringg ui black basic icon buttons">
+  <div style="color: black; margin-left: 30%;" class="ui black basic icon buttons">
     {% assign language = include.language %}
     {% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
       {% for profile in bio.basics.profiles %}
