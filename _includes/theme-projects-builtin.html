@@ -3,6 +3,12 @@
     {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
     {% assign project_pages_in_lang = project_pages | where: "language", language %}
     {% assign project_categories = project_pages | where: "language", language | map: "category" | sort | uniq %}
+    <script src="/javascript/carousel.js" defer></script> 
+
+  <div class="wrapper"> 
+   <i id="left" class="chevron circle left icon"></i> 
+
+<div class="carousel"> 
 
 {% if project_pages_in_lang.size > 0 %}
   <div class="ui stackable five cards">
@@ -15,4 +21,13 @@
     {% endfor %}
   </div>
  {% endif %}
+
+</div>
+
+   <i id="right" class="chevron circle right icon"></i> 
+  </div>
+
+
+
+
 </div>
