@@ -1,5 +1,5 @@
 const carousel = document.querySelector(".carousel"),
-firstA = carousel.querySelectorAll("a")[0],
+firstCard = carousel.querySelectorAll("card")[0],
 arrowIcons = document.querySelectorAll(".wrapper i");
 
 let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, positionDiff;
@@ -13,9 +13,9 @@ const showHideIcons = () => {
 
 arrowIcons.forEach(icon => {
     icon.addEventListener("click", () => {
-        let firstAWidth = firstA.clientWidth + 14; // getting first a width & adding 14 margin value
+        let firstCardWidth = firstCard.clientWidth + 14; // getting first card width & adding 14 margin value
         // if clicked icon is left, reduce width value from the carousel scroll left else add to it
-        carousel.scrollLeft += icon.id == "left" ? -firstAWidth : firstAWidth;
+        carousel.scrollLeft += icon.id == "left" ? -firstCardWidth : firstCardWidth;
         setTimeout(() => showHideIcons(), 60); // calling showHideIcons after 60ms
     });
 });
@@ -25,15 +25,15 @@ const autoSlide = () => {
     if(carousel.scrollLeft - (carousel.scrollWidth - carousel.clientWidth) > -1 || carousel.scrollLeft <= 0) return;
 
     positionDiff = Math.abs(positionDiff); // making positionDiff value to positive
-    let firstAWidth = firstA.clientWidth + 14;
+    let firstCardWidth = firstCard.clientWidth + 14;
     // getting difference value that needs to add or reduce from carousel left to take middle a center
-    let valDifference = firstAWidth - positionDiff;
+    let valDifference = firstCardWidth - positionDiff;
 
     if(carousel.scrollLeft > prevScrollLeft) { // if user is scrolling to the right
-        return carousel.scrollLeft += positionDiff > firstAWidth / 3 ? valDifference : -positionDiff;
+        return carousel.scrollLeft += positionDiff > firstCardWidth / 3 ? valDifference : -positionDiff;
     }
     // if user is scrolling to the left
-    carousel.scrollLeft -= positionDiff > firstAWidth / 3 ? valDifference : -positionDiff;
+    carousel.scrollLeft -= positionDiff > firstCardWidth / 3 ? valDifference : -positionDiff;
 }
 
 const dragStart = (e) => {
@@ -44,7 +44,7 @@ const dragStart = (e) => {
 }
 
 const dragging = (e) => {
-    // scrolling a/carousel to left according to mouse pointer
+    // scrolling card/carousel to left according to mouse pointer
     if(!isDragStart) return;
     e.preventDefault();
     isDragging = true;
