@@ -13,14 +13,14 @@
   </p>
  
   <div class="ui hidden divider"></div>
-  <div style="color: #000000; margin-left: 50px;" class="ui black basic icon buttons">
+  <div style="margin-left: 50px;" class="ui black basic icon buttons">
     {% assign language = include.language %}
     {% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
       {% for profile in bio.basics.profiles %}
-        <a href="{{ profile.url }}" class="ui button"><i class="big {{ profile.network | downcase }} icon"></i> </a>
+        <a style="color: #000000;" href="{{ profile.url }}" class="ui button"><i class="big {{ profile.network | downcase }} icon"></i> </a>
       {% endfor %}
       {% if bio.basics.email %}
-        <a href="mailto:{{ site.data.bio.basics.email }}" class="ui button"><i class="big mail outline icon"></i> </a>
+        <a style="color: #000000;" href="mailto:{{ site.data.bio.basics.email }}" class="ui button"><i class="big mail outline icon"></i> </a>
       {% endif %}
   </div>
 
