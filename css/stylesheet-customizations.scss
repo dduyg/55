@@ -83,6 +83,15 @@ a {
   display: inline-block;
 }
 
+// two doubling cards on mobile screen insert.data
+@media only screen and (max-width: 767px) { 
+  .ui.twostacked.cards { 
+     width: 100%; 
+     margin-left: 0em; 
+     margin-right: 0em;
+    }
+}
+
 // Blockquotes in markdown
 blockquote { 
   border-left: 3px solid #1F1F1F;
