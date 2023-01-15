@@ -1,18 +1,17 @@
 <div style="padding-top: 32px; max-width: 700px;" class="ui container">
 
-<h2 class="ui dividing header">
-  Insert Data is my passion project,
- <div class="sub header">
-  where my love for data, programming and art collide, fueled by my curiosity and desire to create something truly unique and mesmerizing.
- </div>
+<h2 class="ui left floated block header">
+  Insert Data is my passion project, where my love for data, programming and art collide, fueled by my curiosity and desire to create something truly unique and mesmerizing.
 </h2>
+
+
 
 
 
 </div>
 
  
-<div style="margin-bottom: 20px" class="ui container">
+<div style="margin-top: 20px; margin-bottom: 20px" class="ui container">
    {% assign language = page.language %}
     {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
     {% assign project_pages_in_lang = project_pages | where: "language", language %}
