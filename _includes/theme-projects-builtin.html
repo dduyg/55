@@ -2,7 +2,7 @@
   {% include insert-data-intro.html %}
 </div>
 
-<div style="margin-top: 20px; margin-bottom: 20px" class="ui container">
+<div style="margin-bottom: 20px" class="ui container">
    {% assign language = page.language %}
     {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
     {% assign project_pages_in_lang = project_pages | where: "language", language %}
