@@ -92,13 +92,11 @@ blockquote {
   padding-left: 18px;
 }
 
-// Github button projects
-.ui.gitb.buttons .button,
-.ui.gitb.button {
-  border: 1px solid black;
-  color: black;
-  background-color: transparent;
-} 
+// contactpage buttons
+.ui.ct.buttons .button,
+.ui.ct.button {
+  box-shadow: 0px 0px 0px 1px #a85047 inset !important;
+}
 
 // Blogpost button/label linking
 .ui.blglink.labels .label,
