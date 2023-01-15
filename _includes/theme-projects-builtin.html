@@ -1,5 +1,14 @@
-<div style="padding-top: 32px" class="ui container ">
-    {% assign language = page.language %}
+<div style="padding-top: 32px; max-width: 700px;" class="ui container">
+
+
+
+
+
+</div>
+
+ 
+<div style="margin-bottom: 20px" class="ui container">
+   {% assign language = page.language %}
     {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
     {% assign project_pages_in_lang = project_pages | where: "language", language %}
     {% assign project_categories = project_pages | where: "language", language | map: "category" | sort | uniq %}
