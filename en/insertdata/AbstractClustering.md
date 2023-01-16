@@ -9,6 +9,8 @@ permalink: en/insertdata/abstract-clustering
 date: 2022-03-26
 language: en
 summary: A text adventure game I developed for ICS 313.
-projecturl: https://society6.com/art/abstract-clustering
+printsurl: https://society6.com/art/abstract-clustering
+kofiurl: https://society6.com/art/abstract-clustering
+instaurl: https://society6.com/art/abstract-clustering
 ---
 
