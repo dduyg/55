@@ -4,7 +4,6 @@ layout: projects
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/markdown.css">
 
 <div style="margin-top: 20px; margin-bottom: 20px" class="ui text container">
-
   {% if page.language == 'pt' %}
         <div class="ui breadcrumb">
             <a href="/pt/" class="section breadlink">Home</a>
@@ -22,12 +21,24 @@ layout: projects
             <div class="active section">{{ page.title }}</div>
         </div>
    {% endif %} 
+</div>
 
-   <h1 style="color: #01868B;font-family: 'Source Code Pro', monospace;"> {{ page.title }}</h1>
-      {{ content }}
-   <div class="ui hidden divider"></div>
+<div class="ui stackable grid text container">
+  
+    <div class="twelve wide column middle aligned">
+      <h1 style="color: #01868B;font-family: 'Source Code Pro', monospace;"> {{ page.title }}</h1>
+      
+ 
+      <div class="ui hidden divider"></div>
+    </div>
+
+    <div class="four wide column"> {{ content }} </div>
 
 </div>
+   
+   
+
+
 
 
 
