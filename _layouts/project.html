@@ -26,9 +26,10 @@ layout: projects
 <div class="ui stackable grid text container">
   
     <div class="twelve wide column middle aligned">
-      <h1 style="color: #01868B;font-family: 'Source Code Pro', monospace;"> {{ page.title }}</h1>
+     <div class="ui hidden divider"></div>
+     <h1 style="color: #01868B;font-family: 'Source Code Pro', monospace;"> {{ page.title }}</h1>
       <p>{{ page.summary }}</p>   
- 
+      <p>Be sure to check out this work on <a style="color: #454545;" href="{{ page.printsurl }}"><u>Society6</u></a> to elevate your space. {% if page.kofiurl %}You can also <a style="color: #454545;" href="{{ page.kofiurl }}"><u>download</u></a> a digital version.{% else %}<span></span{% endif %} {% if page.instaurl %}Additionally, you can save or share my post of this work on <a style="color: #454545;" href="{{ page.instaurl }}"><u>Instagram</u></a> for future inspiration.{% else %}<span></span{% endif %}</p>
 
       <div class="ui hidden divider"></div>
     </div>
