@@ -27,8 +27,7 @@ body {
 // General links
 a {
   color: #0005FF;
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
+  text-decoration: underline dotted #458588;
   &:hover {
     color: #454545;
   }
