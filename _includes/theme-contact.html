@@ -19,8 +19,8 @@
       {% for profile in bio.basics.profiles %}
         <a style="color: #000000;" href="{{ profile.url }}" class="ui button"><i class="big {{ profile.network | downcase }} icon"></i> </a>
       {% endfor %}
-      {% if bio.basics.email %}
-        <a style="color: #000000;" href="mailto:{{ site.data.bio.basics.email }}" class="ui button"><i class="big mail outline icon"></i> </a>
+      {% if bio.basics.email %} 
+        <a style="color: #000000;" href="mailto:{{ bio.basics.email }}" class="ui button"><i class="big mail outline icon"></i> </a>
       {% endif %}
   </div>
 
