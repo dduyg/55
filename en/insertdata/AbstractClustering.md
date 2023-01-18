@@ -11,5 +11,5 @@ language: en
 printsurl: https://society6.com/art/abstract-clustering
 kofiurl: https://dduyg.github.io/en/
 instaurl: https://www.instagram.com/p/CmJ7KfwD_M0/?igshid=MDJmNzVkMjY=
+# multiple: -
 ---
-
