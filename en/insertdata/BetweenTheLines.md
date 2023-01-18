@@ -10,6 +10,6 @@ date: 2022-02-25
 language: en
 summary: A text adventure game I developed for ICS 313.
 printsurl: https://society6.com/art/between-the-lines7794964
-kofiurl: https://soci7
+kofiurl: https://dduyg.github.io/en/
 instaurl: https://www.instagram.com/p/ClYISOnDnyo/?igshid=MDJmNzVkMjY=
 ---
