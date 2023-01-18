@@ -8,7 +8,6 @@ permalink: en/insertdata/contrasting-flows
 # All dates must be YYYY-MM-DD format!
 date: 2022-02-26
 language: en
-summary: A text adventure game I developed for ICS 313.
 printsurl: https://society6.com/art/d7709888
 kofiurl: https://dduyg.github.io/en/
 ---
