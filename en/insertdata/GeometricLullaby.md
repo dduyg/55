@@ -10,6 +10,6 @@ date: 2021-08-07
 language: en
 printsurl: https://society6.com/art/geometric-lullaby-07
 kofiurl: https://soci7
-instaurl: https://soc78
+instaurl: https://www.instagram.com/p/CflqtEnDzVC/?igshid=MDJmNzVkMjY=
 multiple: 1/7
 ---
