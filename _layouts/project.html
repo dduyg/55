@@ -3,7 +3,7 @@ layout: projects
 ---
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/markdown.css">
 
-<div style="margin-top: 20px; margin-bottom: 20px" class="ui stackable grid text container">
+<div style="margin-top: 20px; margin-bottom: 20px" class="ui text container">
 
   {% if page.language == 'pt' %}
         <div class="ui breadcrumb">
@@ -23,7 +23,7 @@ layout: projects
         </div>
    {% endif %} 
   
-      <div class="twelve wide column">
+      
         <div class="ui hidden divider"></div>
         <h1 style="color: #01868B;font-family: 'Source Code Pro', monospace;"> {{ page.title }}</h1>
         <p>{{ page.summary }}</p>   
@@ -33,10 +33,9 @@ layout: projects
         <p> Please feel free to <a style="color: black;” href="{{ site.baseurl}}/en/contact/"><u>contact</u></a> me with any questions, comments regarding this work or any of my other works, or with ideas for potential collaborations, or want to request a custom work. Love to see what we can create together.</p>
  
         <div class="ui hidden divider"></div>
-      </div>
+      
 
-       <div class="four wide column"> {{ content }} 
-      </div>
+       {{ content }} 
 
 
 </div>
