@@ -10,7 +10,7 @@ date: 2022-03-26
 language: en
 summary: A text adventure game I developed for ICS 313.
 printsurl: https://society6.com/art/abstract-clustering
-kofiurl: https://soci8
+kofiurl: https://dduyg.github.io/en/
 instaurl: https://www.instagram.com/p/CmJ7KfwD_M0/?igshid=MDJmNzVkMjY=
 ---
 
