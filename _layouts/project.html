@@ -22,22 +22,24 @@ layout: projects
             <div class="active section">{{ page.title }}</div>
         </div>
    {% endif %} 
-</div>
 
-<div class="ui stackable grid text container">
+ <div class="ui stackable grid">
   
-    <div class="twelve wide column">
-     <div class="ui hidden divider"></div>
-     <h1 style="color: #01868B;font-family: 'Source Code Pro', monospace;"> {{ page.title }}</h1>
-      <p>{{ page.summary }}</p>   
+      <div class="twelve wide column">
+        <div class="ui hidden divider"></div>
+        <h1 style="color: #01868B;font-family: 'Source Code Pro', monospace;"> {{ page.title }}</h1>
+        <p>{{ page.summary }}</p>   
 
-      <h4 class="ui horizontal left aligned divider header"> <i class="black fitted square outline icon"></i><i class="black circle outline icon"></i> </h4>
-      <p>Be sure to check out this work on <a style="color: black;” href="{{ page.printsurl }}"><u>Society6</u></a> to elevate your space. {% if page.kofiurl %}You can also <a style="color: black;” href="{{ page.kofiurl }}"><u>download</u></a> a digital version.{% else %}<span></span{% endif %} {% if page.instaurl %}Additionally, you can save or share my <a style="color: black;” href="{{ page.instaurl }}"><u>Instagram</u></a> post of this work for future inspiration.{% else %}<span></span{% endif %} </p>
-      <p> Please feel free to <a style="color: black;” href="{{ site.baseurl}}/en/contact/"><u>contact</u></a> me with any questions, comments regarding this work or any of my other works, or with ideas for potential collaborations, or want to request a custom work. Love to see what we can create together.</p>
+        <h4 class="ui horizontal left aligned divider header"> <i class="black fitted square outline icon"></i><i class="black circle outline icon"></i> </h4>
+        <p>Be sure to check out this work on <a style="color: black;” href="{{ page.printsurl }}"><u>Society6</u></a> to elevate your space. {% if page.kofiurl %}You can also <a style="color: black;” href="{{ page.kofiurl }}"><u>download</u></a> a digital version.{% else %}<span></span{% endif %} {% if page.instaurl %}Additionally, you can save or share my <a style="color: black;” href="{{ page.instaurl }}"><u>Instagram</u></a> post of this work for future inspiration.{% else %}<span></span{% endif %} </p>
+        <p> Please feel free to <a style="color: black;” href="{{ site.baseurl}}/en/contact/"><u>contact</u></a> me with any questions, comments regarding this work or any of my other works, or with ideas for potential collaborations, or want to request a custom work. Love to see what we can create together.</p>
  
-      <div class="ui hidden divider"></div>
-    </div>
+        <div class="ui hidden divider"></div>
+      </div>
 
-    <div class="four wide column"> {{ content }} </div>
+       <div class="four wide column"> {{ content }} 
+      </div>
+  
+ </div>
 
 </div>
