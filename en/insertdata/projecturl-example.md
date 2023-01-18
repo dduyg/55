@@ -1,9 +1,9 @@
 ---
 layout: project
 type: project
-published: true
+published: false
 image: images/dataart/Counterbalances5-squared.jpg
-title: Counterbalances 5
+title: Counterbalances example
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-12
 language: en
