@@ -4,6 +4,7 @@ layout: projects
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/markdown.css">
 
 <div style="margin-top: 20px; margin-bottom: 20px" class="ui text container">
+
   {% if page.language == 'pt' %}
         <div class="ui breadcrumb">
             <a href="/pt/" class="section breadlink">Home</a>
@@ -25,7 +26,7 @@ layout: projects
 
 <div class="ui stackable grid text container">
   
-    <div class="twelve wide column middle aligned">
+    <div class="twelve wide column">
      <div class="ui hidden divider"></div>
      <h1 style="color: #01868B;font-family: 'Source Code Pro', monospace;"> {{ page.title }}</h1>
       <p>{{ page.summary }}</p>   
@@ -40,26 +41,3 @@ layout: projects
     <div class="four wide column"> {{ content }} </div>
 
 </div>
-   
-   
-
-
-
-
-
-<!-- Naar beneden beweging bij start alinea verwijderen als je niet meer wilt -->
-<script>
-
-  function onStart(){
-      $('.container').transition({
-      animation: 'drop in' //"in" make a reverse animation
-    });
-  }
-
-  onStart();
-
-  $('#flip-box').hover(function() {
-    $(this).toggleClass('active');
-  });
-
-</script>
