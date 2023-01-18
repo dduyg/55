@@ -10,7 +10,7 @@ date: 2023-01-06
 language: en
 printsurl: https://society6.com/art/counterbalances-1
 # kofiurl: -
-instaurl: ht
+instaurl: https://www.instagram.com/p/CnM3bhYD1Ql/?igshid=YmMyMTA2M2Y=
 multiple: 1/5
 ---
 
