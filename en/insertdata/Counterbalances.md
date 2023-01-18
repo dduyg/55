@@ -18,3 +18,9 @@ As the shapes move and interact with one another, they create a visual represent
 
 images/dataart/Counterbalances3-squared.jpg
 https://society6.com/art/counterbalances-3
+
+images/dataart/Counterbalances4-squared.png
+https://society6.com/art/counterbalances-4
+
+images/dataart/Counterbalances5-squared.jpg
+https://society6.com/art/counterbalances-5
