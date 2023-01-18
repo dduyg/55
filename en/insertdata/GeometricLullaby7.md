@@ -11,4 +11,5 @@ language: en
 printsurl: https://society6.com/art/geometric-lullaby-07
 kofiurl: https://soci7
 instaurl: https://soc78
+multiple: 1/7
 ---
