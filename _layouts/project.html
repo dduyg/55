@@ -3,7 +3,7 @@ layout: projects
 ---
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/markdown.css">
 
-<div style="margin-top: 20px; margin-bottom: 20px" class="ui text container">
+<div style="margin-top: 20px; margin-bottom: 20px" class="ui stackable grid text container">
 
   {% if page.language == 'pt' %}
         <div class="ui breadcrumb">
@@ -22,8 +22,6 @@ layout: projects
             <div class="active section">{{ page.title }}</div>
         </div>
    {% endif %} 
-
- <div class="ui stackable grid">
   
       <div class="twelve wide column">
         <div class="ui hidden divider"></div>
@@ -39,7 +37,6 @@ layout: projects
 
        <div class="four wide column"> {{ content }} 
       </div>
-  
- </div>
+
 
 </div>
