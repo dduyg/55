@@ -11,17 +11,5 @@ language: en
 summary: A text adventure game I developed for ICS 313.
 printsurl: https://society6.com/art/between-the-lines7794964
 kofiurl: https://soci7
-instaurl: https://soc78
+instaurl: https://www.instagram.com/p/ClYISOnDnyo/?igshid=MDJmNzVkMjY=
 ---
-
-
-
-
-
-
-
-
-
-
-
-
