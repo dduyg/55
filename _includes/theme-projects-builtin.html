@@ -9,7 +9,7 @@
     {% assign project_categories = project_pages | where: "language", language | map: "category" | sort | uniq %}
 
 <h3 class="ui horizontal center aligned divider header no-bottom">
-   <i style="color: #f2f2f2; background-color: #458588;" class="circular hand paper icon"></i>
+   <i style="color: #f2f2f2; background-color: #458588;" class="circular expand icon"></i>
 </h3>
 <h3 style="color: #454545; font-family: 'Source Code Pro', monospace; margin-top: 4px;" class="ui center aligned header"> Selected works</h3>
 
@@ -24,6 +24,6 @@
     {% endfor %}
   </div>
  {% endif %}
-<div class="ui divider"></div>
+<div class="ui section divider"></div>
 
 </div>
