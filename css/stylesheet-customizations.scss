@@ -88,12 +88,14 @@ a.linedtwo {
   background-color: transparent;
 }
 
-// rotating hand icon about page
+// rotating and flipping hand icon about page
 i.rotated.icon,
 i.right.rotated.icon,
 i.clockwise.rotated.icon { 
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
+  -webkit-transform: scale(-1, 1); 
+  transform: scale(-1, 1);   
 }
 
 // Blockquotes in markdown
