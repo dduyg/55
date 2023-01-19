@@ -94,6 +94,14 @@ a.linedtwo {
   display: inline-block;
 }
 
+// rotating hand icon about page
+i.rotated.icon,
+i.right.rotated.icon,
+i.clockwise.rotated.icon {
+  -webkit-transform: rotate(330deg); 
+  transform: rotate(330deg);
+}
+
 // Blockquotes in markdown
 blockquote { 
   border-left: 3px solid #1F1F1F;
