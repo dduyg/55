@@ -92,8 +92,14 @@ a.linedtwo {
 i.rotated.icon,
 i.right.rotated.icon,
 i.clockwise.rotated.icon { 
-  -webkit-transform: rotate(315deg);
-  transform: rotate(315deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+// class="inline-img" tools about page
+.inline-img { 
+  vertical-align: middle; 
+  display: inline-block;
 }
 
 // Blockquotes in markdown
