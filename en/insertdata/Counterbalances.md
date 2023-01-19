@@ -17,7 +17,7 @@ multiple: 1/5
 <div class="ui stackable grid">
 
   <div class="twelve wide column">
-   As the shapes move and interact with one another, they create a visual representation of the idea that counterbalancing forces can be harmonious and beautiful. That different objects can come together to create balance and stability. 
+   As the shapes move and interact with one another, we see how different shapes can come together, and create a surprisingly sense of balance.
   </div> 
   
   <div class="four wide column">
