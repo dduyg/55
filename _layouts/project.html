@@ -24,25 +24,20 @@ layout: projects
    {% endif %} 
       
         <div class="ui hidden divider"></div>
+        <h1 style="color: #01868B;font-family: 'Source Code Pro', monospace;"> {{ page.title }}</h1>
 
         {% if page.multiple %}
-        <h1 style="color: #01868B;font-family: 'Source Code Pro', monospace;"> {{ page.title }}</h1>
-        <p>{{ content }}</p>   
-
+        <p>{{ content }}</p>
         <div class="ui hidden divider"></div>
-        <h4 class="ui horizontal left aligned divider header"> <i class="black fitted square outline icon"></i><i class="black circle outline icon"></i> </h4>
-        <p>Be sure to check out this work on <a href="{{ page.printsurl }}" class="lined">Society6</a> to elevate your space. {% if page.kofiurl %}You can also <a href="{{ page.kofiurl }}" class="lined">download</a> a digital version.{% else %}<span></span>{% endif %} {% if page.instaurl %}In addition, you can save or share my <a href="{{ page.instaurl }}" class="lined">Instagram</a> post of this work for future inspiration.{% else %}<span></span>{% endif %}</p>
-        <p>If you have any questions, comments or requests regarding this work or any of my other works, <a href="{{ site.baseurl}}/en/contact/" class="lined">send</a> me a message and let's talk.</p>
-
+  
         {% else %}
         <div class="ui stackable grid">
            <div class="twelve wide column">
-              <h1 style="color: #01868B;font-family: 'Source Code Pro', monospace;"> {{ page.title }}</h1>
               <p>{{ content }}</p>   
-
               <div class="ui hidden divider"></div>
+   
               <h4 class="ui horizontal left aligned divider header"> <i class="black fitted square outline icon"></i><i class="black circle outline icon"></i> </h4>
-              <p>Be sure to check out this work on <a href="{{ page.printsurl }}" class="lined">Society6</a> to elevate your space. {% if page.kofiurl %}You can also <a href="{{ page.kofiurl }}" class="lined">download</a> a digital version.{% else %}<span></span>{% endif %} {% if page.instaurl %}In addition, you can save or share my <a href="{{ page.instaurl }}" class="lined">Instagram</a> post of this work for future inspiration.{% else %}<span></span>{% endif %}</p>
+              <p><b style="color: #01868B; font-family: 'Source Code Pro', monospace;”>Explore this work:</b><br> A range of options available on <a href="{{ page.printsurl }}" target="_blank” class="lined">Society6</a>, to elevate your space. {% if page.kofiurl %}You can also <a href="{{ page.kofiurl }}" target="_blank” class="lined">download</a> a digital version.{% else %}<span></span>{% endif %} {% if page.instaurl %}In addition, you can save or share on <a href="{{ page.instaurl }}" target="_blank” class="lined">Instagram</a> for future inspiration.{% else %}<span></span>{% endif %}</p> 
               <p>If you have any questions, comments or requests regarding this work or any of my other works, <a href="{{ site.baseurl}}/en/contact/" class="lined">send</a> me a message and let's talk.</p>
            </div> 
   
