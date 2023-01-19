@@ -28,13 +28,13 @@ body {
 a {
   color: #0005FF;
   &:hover {
-    color: #01868B;
+    color: #454545;
   }
 }
 
 a.lined {
   color: black;
-  text-decoration: solid underline #458588 2px;
+  text-decoration: solid underline #01868B 2px;
 }
 
 // Import new fonts:
