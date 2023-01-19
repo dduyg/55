@@ -32,7 +32,7 @@ https://society6.com/art/counterbalances-5
   <div class="four wide column">
    <div class="ui two doubling cards">
      <a class="card" href="https://society6.com/art/counterbalances-3">
-       <div class="image"><img src="/images/dataart/Counterbalances3-squared.jpg"> </div>
+       <div class="image"><img src="/images/dataart/Counterbalances3-squared.jpg"></div>
        <div class="content">  
           <div class="description">Counterbalances 3/5</div>
        </div
