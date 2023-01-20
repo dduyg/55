@@ -103,12 +103,8 @@ i.clockwise.rotated.icon {
 }
 
 // at the bottom of its container
-.parentt { 
-  position: relative; 
-}
-.childd {
-  position: absolute; 
-  bottom: 0; 
+.atthebottom {
+  bottom: 50%; 
 }
 
 // Blockquotes in markdown
