@@ -4,9 +4,13 @@
   {% assign essay_pages_in_lang = essay_pages | where: "language", language %}
   {% assign essay_categories = essay_pages | where: "language", language | map: "labels" | sort_natural | uniq %}
 
-<div style="padding-top: 15px" class="ui one column stackable grid"> 
-  <div class="right floated six wide column">
+<div style="padding-top: 15px" class="ui stackable grid container">
+  <div class="row">
 
+  <div class="twelve wide column"></div>
+
+<div class="four wide column"> 
+    
 {% if essay_categories.size > 1 %}
 <div class="nonprintable jsOnly ui fluid floating labeled icon dropdown button">
    <i class="caret down icon"></i>
@@ -27,8 +31,9 @@
 </div>
   {% endif %}
 
+</div>
+
   </div>
-<div class="two wide column"></div> 
 </div>
 
  {% if essay_pages_in_lang.size > 0 %}
