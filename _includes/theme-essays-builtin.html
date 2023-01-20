@@ -5,6 +5,7 @@
   {% assign essay_categories = essay_pages | where: "language", language | map: "labels" | sort_natural | uniq %}
 
 <div style="padding-top: 15px" class="ui stackable grid container">
+  <div class="row">
   <div class="ten wide column"></div>
   <div class="six wide column"> 
     
@@ -28,6 +29,7 @@
 </div>
   {% endif %}
 
+  </div>
   </div>
 </div>
 
