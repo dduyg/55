@@ -13,7 +13,7 @@
   </p>
  
   <div class="ui hidden divider"></div>
-  <h4 style="margin-left: 50px;" class="ui horizontal left aligned divider header">
+  <h4 class="ui horizontal left aligned divider header">
   {% assign language = include.language %}
     {% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
       {% for profile in bio.basics.profiles %}
