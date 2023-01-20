@@ -102,6 +102,15 @@ i.clockwise.rotated.icon {
   transform: rotate(330deg);
 }
 
+// at the bottom of its container
+.parentt { 
+  position: relative; 
+}
+.childd {
+  position: absolute; 
+  bottom: 0; 
+}
+
 // Blockquotes in markdown
 blockquote { 
   border-left: 3px solid #1F1F1F;
