@@ -17,10 +17,10 @@
     {% assign language = include.language %}
     {% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
       {% for profile in bio.basics.profiles %}
-        <a style="color: #f2f2f2; background-color: #454545;" href="{{ profile.url }}" target="_blank"><i class="big {{ profile.network | downcase }} icon"></i> </a>
+        <a style="color: #f2f2f2; background-color: #454545;" href="{{ profile.url }}" target="_blank"><i class="big circular {{ profile.network | downcase }} icon"></i></a>
       {% endfor %}
       {% if bio.basics.email %} 
-        <a style="color: #f2f2f2; background-color: #454545;" href="mailto:{{ bio.basics.email }}" target="_blank"><i class="big mail outline icon"></i> </a>
+        <a style="color: #f2f2f2; background-color: #454545;" href="mailto:{{ bio.basics.email }}" target="_blank"><i class="big circular mail outline icon"></i></a>
       {% endif %}
   </div>
 
