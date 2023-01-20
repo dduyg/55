@@ -103,8 +103,11 @@ i.clockwise.rotated.icon {
 }
 
 // at the bottom of its container
-.atthebottom {
+.ui.bottomm.image {
+  position: absolute;
   bottom: 0;
+  left: 0;
+  z-index: -1;
 }
 
 // Blockquotes in markdown
