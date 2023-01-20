@@ -14,13 +14,11 @@ instaurl: https://www.instagram.com/p/CflqtEnDzVC/?igshid=MDJmNzVkMjY=
 multiple: 1/7
 ---
 
-"Geometric Lullaby" is an abstract and geometric visualisation of the soothing sounds that lull us to sleep. Generated using audio data, this work explores the harmony of sound and form. It's a visual lullaby, which translates sound into form.
-
 
 <div class="ui stackable grid container">
   <div class="eleven wide column">
        <p>
-        As the shapes move and interact with one another, we see how different shapes can come together, and create a surprisingly sense of balance.
+        "Geometric Lullaby" is an abstract and geometric visualisation of the soothing sounds that lull us to sleep. Generated using audio data, this work explores the harmony of sound and form. It's a visual lullaby, which translates sound into form.
        </p>   
        <div class="ui hidden divider"></div>
    
