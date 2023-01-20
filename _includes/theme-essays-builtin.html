@@ -4,7 +4,7 @@
   {% assign essay_pages_in_lang = essay_pages | where: "language", language %}
   {% assign essay_categories = essay_pages | where: "language", language | map: "labels" | sort_natural | uniq %}
 
-<div style="padding-top: 15px" class="ui stackable grid container no-bottom">
+<div style="padding-top: 15px" class="ui stackable grid container">
   <div class="row">
 
   <div class="ten wide column"></div>
