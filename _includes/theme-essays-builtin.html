@@ -1,15 +1,12 @@
-<div style="max-width: 700px; padding-top: 20px" class="ui container">
+<div style="max-width: 700px; padding-top: 35px" class="ui stackable grid container">
   {% assign language = page.language %}
   {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
   {% assign essay_pages_in_lang = essay_pages | where: "language", language %}
   {% assign essay_categories = essay_pages | where: "language", language | map: "labels" | sort_natural | uniq %}
 
-<div style="padding-top: 15px" class="ui stackable grid container">
-  <div class="row">
-
+<div class="row">
   <div class="ten wide column"></div>
-
-<div class="six wide column"> 
+  <div class="six wide column"> 
     
 {% if essay_categories.size > 1 %}
 <div class="nonprintable jsOnly ui fluid floating labeled icon dropdown button">
@@ -31,12 +28,10 @@
 </div>
   {% endif %}
 
-</div>
-
   </div>
 </div>
 
-<div class="ui hidden divider"></div>
+<div class="sixteen wide column">
 
  {% if essay_pages_in_lang.size > 0 %}
   <div class="ui stackable centered one doorzichtig cards" id="filterable">
@@ -53,6 +48,9 @@
   <div class="ui hidden divider"></div>
   <div class="ui hidden divider"></div>
   <img class="ui left floated image" src="/images/blogpage-image.png" width="270px">
+ 
+</div>
+
 
 </div>
 
