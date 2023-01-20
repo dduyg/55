@@ -24,15 +24,16 @@ layout: projects
    {% endif %} 
       
         <div class="ui hidden divider"></div>
-        <h1 style="color: #01868B;font-family: 'Source Code Pro', monospace;"> {{ page.title }}</h1>
-
+        
         {% if page.multiple %}
+        <h1 style="color: #01868B;font-family: 'Source Code Pro', monospace;"> {{ page.title }}</h1>
         <p>{{ content }}</p>
         <div class="ui hidden divider"></div>
   
         {% else %}
         <div class="ui stackable grid container">
            <div class="eleven wide column">
+              <h1 style="color: #01868B;font-family: 'Source Code Pro', monospace;"> {{ page.title }}</h1>
               <p>{{ content }}</p>   
               <div class="ui hidden divider"></div>
    
