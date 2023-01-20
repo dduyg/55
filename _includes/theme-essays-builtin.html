@@ -4,7 +4,6 @@
   {% assign essay_pages_in_lang = essay_pages | where: "language", language %}
   {% assign essay_categories = essay_pages | where: "language", language | map: "labels" | sort_natural | uniq %}
 
-<div class="row">
   <div class="ten wide column"></div>
   <div class="six wide column"> 
     
@@ -29,7 +28,6 @@
   {% endif %}
 
   </div>
-</div>
 
 <div class="sixteen wide column">
 
