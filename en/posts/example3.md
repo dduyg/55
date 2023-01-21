@@ -24,3 +24,7 @@ If you think about it, the world around us is made up of countless complex syste
 Attractor fields are areas in a system that exert a influence on the behavior or movement of objects within the system. They are defined as regions in the state space of a system that the system tends to move towards, or "attract," over time. It's a way to explain certain patterns, movements and describe how objects move and interact in a given environment. 
 
 This concept is often used in modelling of complex systems, like physics simulations such as the motion of particles in a fluid and computer graphics, to create realistic movement and behavior of particles or objects. But they can also be used to model more abstract systems, such as the dynamics of economic or social systems. For example the behavior of populations in a city or the spread of information through a network. 
+
+## Vizualizing a grid of points attractors
+
+Fascinated by this concept, I started experimenting with visualising distance based attractor fields, with the help of this tool I found.
