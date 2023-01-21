@@ -5,13 +5,12 @@ published: true
 title: "Using the concept of attractor fields to understand complex systems"
 permalink: en/posts/attractor-fields
 # All dates must be YYYY-MM-DD format!
-date: 2021-07-22
+date: 2023-01-20
 language: en
 labels:
   - Complex Dynamical Systems
   - Attractor Fields
   - Data Visualization
-  - Time Series
 ---
 
 
