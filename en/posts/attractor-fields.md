@@ -1,15 +1,17 @@
 ---
 layout: essay
 type: essay
-published: false
-title: "Impactful data story"
-permalink: en/posts/linkjetitel3
+published: true
+title: "Using the concept of attractor fields to understand complex systems"
+permalink: en/posts/attractor-fields
 # All dates must be YYYY-MM-DD format!
 date: 2021-07-22
 language: en
 labels:
-  - Data Storytelling
+  - Complex Dynamical Systems
+  - Attractor Fields
   - Data Visualization
+  - Time Series
 ---
 
 
