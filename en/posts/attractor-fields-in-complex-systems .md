@@ -14,9 +14,7 @@ labels:
 ---
 
 
-I’ve recently stumbled upon a concept called *attractor fields*. It is a mathematical construct used in the field of [dynamical systems](https://en.m.wikipedia.org/wiki/Dynamical_systems_theory) to describe the behavior of certain systems over time.
-
-If you think about it, the world around us is made up of countless complex systems, each one interacting and influencing the others in ways that we may not always fully understand. From natural systems, such as cells and ecological patterns, to the social systems of our societies, these systems are constantly in motion and constantly changing.
+I’ve recently stumbled upon a concept called *attractor fields*. It is a mathematical construct used in the field of [dynamical systems](https://en.m.wikipedia.org/wiki/Dynamical_systems_theory) to describe the behavior of certain systems over time. If you think about it, the world around us is made up of countless complex systems, each one interacting and influencing the others in ways that we may not always fully understand. From natural systems, such as cells and ecological patterns, to the social systems of our societies, these systems are constantly in motion and constantly changing.
 
 ## What is an attractor field? 
 
