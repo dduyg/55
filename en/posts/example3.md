@@ -13,21 +13,14 @@ labels:
 ---
 
 
-> Stories are the key source of human knowledge. Those who tell stories rule society. Stories provide patterns and structures and thus help us to adapt to our environments.
+I’ve recently stumbled upon a concept called “attractor fields”. It is a mathematical construct used in the field of dynamical systems to describe the behavior of certain systems over time.
 
-e more I though about it, the more I wondered to myself...damn that's a really great question; it's one that deserves some more thought. Most people I think stop at the answer I gave previously - he obviously isn't managing his time properly.
+If you think about it, the world around us is made up of countless complex systems, each one interacting and influencing the others in ways that we may not always fully understand. From natural systems, such as cells and ecological patterns, to the social systems of our societies, these systems are constantly in motion and constantly changing.
 
-Here's what I think: the difficult things will always be difficult.
+## What is an attractor field? 
 
-### In the context of programming
+> An attractor field is a force or point of attraction that can pull objects towards it. 
 
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
+Attractor fields are areas in a system that exert a influence on the behavior or movement of objects within the system. They are defined as regions in the state space of a system that the system tends to move towards, or "attract," over time. It's a way to explain certain patterns, movements and describe how objects move and interact in a given environment. 
 
-## In the context of relationships
-
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
-lways been difficult, and by nature will continue to be so.
-
-## Okay!
-
-So back to the original premise; why is being one of the club officers so difficult?
+This concept is often used in modelling of complex systems, like physics simulations such as the motion of particles in a fluid and computer graphics, to create realistic movement and behavior of particles or objects. But they can also be used to model more abstract systems, such as the dynamics of economic or social systems. For example the behavior of populations in a city or the spread of information through a network. 
