@@ -33,7 +33,7 @@ multiple: 1/5
    </div> 
   
    <div class="five wide column">
-    <div class="ui two doubling cards">
+    <div class="ui one cards">
 
      <a class="card" href="https://society6.com/art/counterbalances-3">
        <div class="image"><img src="/images/dataart/Counterbalances3-squared.jpg"></div>
