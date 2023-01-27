@@ -33,7 +33,7 @@ multiple: 1/7
    </div> 
   
    <div class="five wide column">
-    <div class="ui two doubling cards">
+    <div class="ui one cards">
 
      <a class="card" href="https://society6.com/art/sound-of-data-02">
        <div class="image"><img src="/images/dataart/GeometricLullaby01-squared.png"></div>
