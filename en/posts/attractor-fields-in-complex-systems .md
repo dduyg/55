@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 published: true
-title: "Using the concept of attractor fields to understand complex systems"
+title: "Using attractor fields to understand complex systems"
 permalink: en/posts/attractor-fields
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-20
