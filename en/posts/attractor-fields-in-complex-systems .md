@@ -36,3 +36,5 @@ With *distance based* attractor fields, the strength of the attraction is determ
   <img class="ui image" src="/images/attractorfields3.png">
   <img class="ui image" src="/images/attractorfields4.png">
 </div>
+
+For each point in the grid a value is generated, based on the distance of each point to the closest attractor (either point or line). Each point is affected only by one attractor (the closest). The output value for each point of the grid then controls the radii of circles positioned on the points.
