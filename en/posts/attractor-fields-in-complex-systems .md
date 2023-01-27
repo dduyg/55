@@ -32,7 +32,7 @@ With *distance based* attractor fields, the strength of the attraction is determ
 
 <div class="ui small rounded images">
   <img class="ui image" src="/images/attractorfields1.png">
-  <img class="ui image" src="/images/attractorfields1.png">
-  <img class="ui image" src="/images/attractorfields1.png">
-  <img class="ui image" src="/images/attractorfields1.png">
+  <img class="ui image" src="/images/attractorfields2.png">
+  <img class="ui image" src="/images/attractorfields3.png">
+  <img class="ui image" src="/images/attractorfields4.png">
 </div>
