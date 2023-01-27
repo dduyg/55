@@ -26,19 +26,19 @@ body {
 
 // General links
 a {
-  color: #73726E;
+  color: #4F4F4F;
   &:hover {
     color: #454545;
   }
 }
 
 a.lined {
-  color: #73726E;
+  color: #4F4F4F;
   text-decoration: solid underline #01868B 1px;
 }
 a.linedtwo {
-  color: #73726E;
-  text-decoration: solid underline #A75A52 2px;
+  color: #4F4F4F;
+  text-decoration: solid underline #A75A52 1px;
 }
 
 // Import new fonts:
@@ -179,12 +179,12 @@ blockquote {
 }
 
 .breadlink {
-  color: #C42829 !important;
+  color: #0005FF !important;
   font-weight: bold;
 }
 
 .breadlink:hover {
-  color: #C42829 !important;
+  color: #0005FF !important;
   font-weight: bold;
 }
 
