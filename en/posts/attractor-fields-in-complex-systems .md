@@ -31,8 +31,8 @@ Fascinated by this concept, I started experimenting with visualising distance ba
 With *distance based* attractor fields, the strength of the attraction is determined by the distance between the object and the attractor point. Objects are attracted to certain points or regions within the environment. The closer the object is to the attractor, the stronger the pull towards it. 
 
 <div class="ui small rounded images">
-  <img class="ui image" src="/images/micromouse-robot.png">
-  <img class="ui image" src="/images/micromouse-robot-2.jpg">
-  <img class="ui image" src="/images/micromouse.jpg">
-  <img class="ui image" src="/images/micromouse-circuit.png">
+  <img class="ui image" src="/images/attractorfields1.png">
+  <img class="ui image" src="/images/attractorfields1.png">
+  <img class="ui image" src="/images/attractorfields1.png">
+  <img class="ui image" src="/images/attractorfields1.png">
 </div>
