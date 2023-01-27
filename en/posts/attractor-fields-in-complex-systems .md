@@ -13,6 +13,7 @@ labels:
   - Data Visualization
 ---
 
+<base target="_blank">
 
 I’ve recently stumbled upon a concept called *attractor fields*. It is a mathematical construct used in the field of [dynamical systems](https://en.m.wikipedia.org/wiki/Dynamical_systems_theory) to describe the behavior of certain systems over time. If you think about it, the world around us is made up of countless complex systems, each one interacting and influencing the others in ways that we may not always fully understand. From natural systems, such as cells and ecological patterns, to the social systems of our societies, these systems are constantly in motion and constantly changing.
 
@@ -30,7 +31,7 @@ Fascinated by this concept, I started experimenting with visualising distance ba
 
 With *distance based* attractor fields, the strength of the attraction is determined by the distance between the object and the attractor point. Objects are attracted to certain points or regions within the environment. The closer the object is to the attractor, the stronger the pull towards it. 
 
-<code> Different output visuals </code>
+<span> Different output visuals </span>
 <div class="ui small rounded images">
   <img class="ui image" src="/images/attractorfields1.png">
   <img class="ui image" src="/images/attractorfields2.png">
