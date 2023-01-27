@@ -31,7 +31,7 @@ Fascinated by this concept, I started experimenting with visualising distance ba
 
 With *distance based* attractor fields, the strength of the attraction is determined by the distance between the object and the attractor point. Objects are attracted to certain points or regions within the environment. The closer the object is to the attractor, the stronger the pull towards it. 
 
-<div style="color: #454545; font-family: 'Source Code Pro', monospace;" class="no-bottom"> Different output visuals </div>
+<div style="color: #454545; font-family: 'Source Code Pro', monospace; text-align: center;" class="no-bottom"> Different output visuals </div>
 
 <div class="ui small rounded images">
   <img class="ui image" src="/images/attractorfields1.png">
@@ -41,3 +41,7 @@ With *distance based* attractor fields, the strength of the attraction is determ
 </div>
 
 For each point in the grid a value is generated, based on the distance of each point to the closest attractor (either point or line). Each point is affected only by one attractor (the closest). The output value for each point of the grid then controls the radii of circles positioned on the points.
+
+## The use of attractor fields
+
+Complex systems are constructed of many interacting parts that exhibit non-linear behaviors. Visualizing attractor fields can be a powerful tool for analyzing and understanding complex datasets. Many real-world systems have a high number of variables, making it challenging to understand the underlying patterns and relationships in the data. By inspecting the attractor field of a system, a data scientist may be able to reduce the number of variables that need to be considered in order to understand the system. It can help in identifying patterns and structures in the data, and can be used to predict future states of the system. 
