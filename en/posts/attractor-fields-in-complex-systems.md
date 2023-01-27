@@ -25,7 +25,7 @@ This concept is often used in modelling of complex systems, like physics simulat
 
 ## Vizualizing a grid of point attractors
 
-Fascinated by this concept, I started experimenting with visualising distance based attractor fields, with the help of [this](https://object-e.net/tools/attractorfields-tools-gh) tool I found.
+Fascinated by this concept, I started experimenting with visualising distance based attractor fields, with the help of <a href="https://object-e.net/tools/attractorfields-tools-gh" target="_blank">this</a> tool I found.
 
 With *distance based* attractor fields, the strength of the attraction is determined by the distance between the object and the attractor point. Objects are attracted to certain points or regions within the environment. The closer the object is to the attractor, the stronger the pull towards it. 
 
