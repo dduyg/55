@@ -1,7 +1,7 @@
 {% assign filters = page.labels %}
 <a style="background-color:transparent;" class="card {% for label in filters %} {{ label | remove: " " }} {% endfor %}" {% if page.projecturl %}target="_blank"{% endif %} href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">  
   <div class="content">
-    <div style="color: #01868B; font-family: 'Roboto Mono', monospace;" class="ui justified header">{{ include.page.title }}</div>
+    <div style="color: #01868B; font-family: 'Roboto Mono', monospace;" class="ui medium header">{{ include.page.title }}</div>
     <div class="meta">
       <span style="color: #C0736B;" class="date">{{ include.page.date | date_to_string }}</span>
     </div>
