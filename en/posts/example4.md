@@ -1,11 +1,11 @@
 ---
 layout: essay
 type: essay
-published: false
+published: true
 title: "Example"
 permalink: en/posts/linkjetitel4
 # All dates must be YYYY-MM-DD format!
-date: 2023-01-02
+date: 2022-06-02
 language: en
 labels:
   - Python
