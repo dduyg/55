@@ -4,8 +4,10 @@
   {% include head.html %}
 
   <body class="avoid-flicker"> 
-   <div id="content-wrap"> {{ content }} </div>
-   <footer id="footer"> {% include footer.html %} </footer> 
+  <div id="page-container">
+    <div id="content-wrap"> {{ content }} </div>
+    <footer id="footer"> {% include footer.html %} </footer> 
+  </div>
   </body>
 
 </html>
