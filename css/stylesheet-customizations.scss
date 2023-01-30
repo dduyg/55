@@ -34,8 +34,11 @@ a {
 
 a.lined {
   color: #616161;
-  text-decoration: solid underline #01868B 1px;
+  text-decoration: none; 
+  border-bottom: 2px solid #01868B;
+  padding-bottom: 3px;
 }
+
 a.linedtwo {
   color: #616161;
   text-decoration: solid underline #A75A52 1px;
