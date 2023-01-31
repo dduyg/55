@@ -9,10 +9,10 @@
   {% assign language = include.language %}
     {% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
       {% for profile in bio.basics.profiles %}
-        <a href="{{ profile.url }}" target="_blank"><i style="color: #f2f2f2; background-color: #454545;" class="large circular {{ profile.network | downcase }} icon"></i></a>
+        <a href="{{ profile.url }}" target="_blank"><i class="black inverted large circular {{ profile.network | downcase }} icon"></i></a>
       {% endfor %}
       {% if bio.basics.email %} 
-        <a href="mailto:{{ bio.basics.email }}?subject=Contact via dduyg.github.io" target="_blank"><i style="color: #f2f2f2; background-color: #454545;" class="large circular mail outline icon"></i></a>
+        <a href="mailto:{{ bio.basics.email }}?subject=Contact via dduyg.github.io" target="_blank"><i class="black inverted large circular mail outline icon"></i></a>
       {% endif %}
   </div>
 
