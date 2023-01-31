@@ -15,7 +15,7 @@ multiple: 1/7
 ---
 
 
-<div class="ui stackable grid container">
+<div class="ui stackable grid">
   <div class="eleven wide column">
        <p>
         "Geometric Lullaby" is an abstract and geometric visualisation of the soothing sounds that lull us to sleep. Generated using audio data, this work explores the harmony of sound and form. It's a visual lullaby, which translates sound into form.
