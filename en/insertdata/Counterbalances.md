@@ -15,7 +15,7 @@ multiple: 1/5
 ---
 
 
-<div class="ui stackable grid container">
+<div class="ui stackable grid">
   <div class="eleven wide column">
        <p>
         As the shapes move and interact with one another, we see how different shapes can come together, and create a surprisingly sense of balance.
