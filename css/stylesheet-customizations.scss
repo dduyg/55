@@ -154,6 +154,14 @@ blockquote {
   font-size: 14px;
 }
 
+// footer
+.ui.vertical.segment footer.ui.segment { 
+  height: 80px; 
+  width: 100%; 
+  position: absolute; 
+  bottom: 0;
+}
+
 
 
 
