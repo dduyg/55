@@ -9,7 +9,7 @@
    </div> 
 
    <div class="six wide column">
-     <div class="ui vertical divider">
+     <div class="ui horizontal divider">
       {% assign language = include.language %}
       {% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
       {% for profile in bio.basics.profiles %}
