@@ -9,7 +9,7 @@
    </div> 
 
    <div class="six wide column">
-     <div class="ui vertical divider">
+     <div class="ui horizontal divider">
       {% assign language = include.language %}
       {% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
       {% for profile in bio.basics.profiles %}
@@ -23,7 +23,7 @@
  
 </div>
 
-<div class="ui clearing divider"></div>
+<div class="ui clearing hidden divider"></div>
   <p>
    Whether you want to know more about my work or me, ask me a question, maybe share or discuss interesting thoughts, ideas, projects or just like to say hi, please don't hesitate to contact me. You can send me a DM or reach me via email. I would be happy to hear from you.
   </p>
