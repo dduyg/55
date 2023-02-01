@@ -9,6 +9,7 @@
    </div> 
 
    <div class="six wide column">
+     <div class="ui vertical divider">
       {% assign language = include.language %}
       {% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
       {% for profile in bio.basics.profiles %}
@@ -17,6 +18,7 @@
       {% if bio.basics.email %} 
         <a href="mailto:{{ bio.basics.email }}?subject=Contact via dduyg.github.io" target="_blank"><i class="black inverted large circular mail outline icon"></i></a>
       {% endif %}
+     </div>
    </div>
  
 </div>
