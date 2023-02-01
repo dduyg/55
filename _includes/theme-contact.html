@@ -1,20 +1,27 @@
 <div style="font-size: 17px; max-width: 650px; padding-top: 32px" class="ui container">
 
-  <h2 style="color: #a85047;" class="ui header no-bottom">
-   <i class="terminal icon"></i> 
-   <div class="content">Conversations with open minded people are one of my favourite things.</div>
-  </h2>
+  <div class="ui stackable grid"> 
+   <div class="eight wide column">
+     <h2 style="color: #a85047;" class="ui header no-bottom">
+      <i class="terminal icon"></i> 
+      <div class="content">Conversations with open minded people are one of my favourite things.</div>
+     </h2> 
+   </div> 
 
-  <div class="ui horizontal center aligned divider">
-  {% assign language = include.language %}
-    {% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
+   <div class="eight wide column">
+     <div class="ui horizontal center aligned divider">
+      {% assign language = include.language %}
+      {% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
       {% for profile in bio.basics.profiles %}
         <a href="{{ profile.url }}" target="_blank"><i class="black inverted large circular {{ profile.network | downcase }} icon"></i></a>
       {% endfor %}
       {% if bio.basics.email %} 
         <a href="mailto:{{ bio.basics.email }}?subject=Contact via dduyg.github.io" target="_blank"><i class="black inverted large circular mail outline icon"></i></a>
       {% endif %}
-  </div>
+     </div>
+   </div>
+ 
+</div>
 
   <p>
    Whether you want to know more about my work or me, ask me a question, maybe share or discuss interesting thoughts, ideas, projects or just like to say hi, please don't hesitate to contact me. You can send me a DM or reach me via email. I would be happy to hear from you.
