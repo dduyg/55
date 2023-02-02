@@ -38,10 +38,6 @@ a.lined {
   border-bottom: 1px solid #454545;
 }
 
-.emphasise { 
-  color: black; 
-  font-family: 'PT Sans', sans-serif;
-} 
 
 // Import new fonts:
 // font-family: 'Montserrat Alternates', sans-serif;
@@ -54,7 +50,7 @@ a.lined {
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&amp;subset=latin-ext');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 
 // Font & fontsize change menubar
 .ui.menu {
