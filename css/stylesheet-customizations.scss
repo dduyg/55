@@ -153,7 +153,11 @@ blockquote {
   font-size: 14px;
 }
 
-
+// no top space 
+.no-top {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
 
 
 
