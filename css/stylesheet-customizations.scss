@@ -40,8 +40,7 @@ a.lined {
 
 .emphasise { 
   color: black; 
-  font-family: 'Lato', sans-serif;
-  font-weight: bolder;
+  font-family: 'PT Sans', sans-serif;
 } 
 
 // Import new fonts:
@@ -55,6 +54,7 @@ a.lined {
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&amp;subset=latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 // Font & fontsize change menubar
 .ui.menu {
