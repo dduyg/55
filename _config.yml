@@ -5,15 +5,10 @@ url: "https://dduyg.github.io"
 # Edit next line so that baseurl is "" if your repo is <username>.github.io
 baseurl: ""
 
-projects-page-label-pt: Projecten
-essays-page-label-pt: Blog
-bio-page-label-pt: Over
-contact-page-label-pt: Contact
-
-projects-page-label-en: Insert Data
-essays-page-label-en: Posts
-bio-page-label-en: About
-contact-page-label-en: Contact
+projects-page-label: Insert Data
+essays-page-label: Posts
+bio-page-label: About
+contact-page-label: Contact
 
 theme-home: theme-home-builtin.html
 theme-projects: theme-projects-builtin.html
@@ -21,14 +16,9 @@ theme-essays: theme-essays-builtin.html
 theme-bio: theme-bio-builtin.html
 theme-contact: theme-contact.html
 
-projects-url-pt: projecten
-essays-url-pt: blog
-bio-url-pt: over
-
-projects-url-en: insertdata
-essays-url-en: posts
-bio-url-en: about
-
+projects-url: insertdata
+essays-url: posts
+bio-url: about
 contact-url: contact
 
 # Specify the rouge syntax highlighter theme. Pick one from css/rouge.
