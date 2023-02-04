@@ -31,15 +31,15 @@
        </a>
        {% endif %}
 
+       <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.bio-url-pt }}{% else %}{{ site.bio-url-en }}{% endif %}" class=" {% if include.active == "bio" %}active {% endif %}mycolor item">
+         <span class="menubutton"> {% if language == "pt" %}{{ site.bio-page-label-pt }}{% else %}{{ site.bio-page-label-en }}{% endif %}</span>
+       </a> 
+
        {% if num_projects > 0 %}
        <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.projects-url-pt }}{% else %}{{ site.projects-url-en }}{% endif %}" class="{% if include.active == "projects" %}active {% endif %}mycolor item">
          <span class="menubutton"> {% if language == "pt" %}{{ site.projects-page-label-pt }}{% else %}{{ site.projects-page-label-en }}{% endif %}</span> 
        </a>
        {% endif %}
-
-       <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.bio-url-pt }}{% else %}{{ site.bio-url-en }}{% endif %}" class=" {% if include.active == "bio" %}active {% endif %}mycolor item">
-         <span class="menubutton"> {% if language == "pt" %}{{ site.bio-page-label-pt }}{% else %}{{ site.bio-page-label-en }}{% endif %}</span>
-       </a> 
        
        <a href="{{ site.baseurl }}/{{ language }}/{{ site.contact-url }}" class="{% if include.active == "contact" %}active {% endif %}mycolor item">
          <span class="menubutton"><i style="color: #458588;" class="paper plane outline icon"></i></span>
