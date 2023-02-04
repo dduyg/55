@@ -137,8 +137,10 @@ blockquote {
 }
 
 // List font-size about page 
-.ui.list .list > .item > .content,
-.ui.list > .item > .content {
+ul.ui.list li,
+ol.ui.list li,
+.ui.list > .item,
+.ui.list .list > .item { 
   line-height: 140%;
   font-size: 17px;
 }
