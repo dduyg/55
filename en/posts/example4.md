@@ -9,6 +9,8 @@ date: 2022-06-02
 language: en
 labels:
   - Python
+  - Sentiment Analysis
+  - Word Embeddings
   - GitHub
 ---
 
