@@ -5,8 +5,8 @@
       <div class="ui compact icon top attached tabular four item menu jsOnly">
         <a class="active grey item" data-tab="quotes"> <i class="large gem outline icon"></i> </a>
         <a class="grey item" data-tab="lessons"> <i class="large flask icon"></i> </a>
-        <a class="grey item" data-tab="tools"> <i class="large wrench icon"></i> </a>
-        <a class="grey item" data-tab="goals"> <i class="large flag checkered icon"></i> </a>   
+        <a class="grey item" data-tab="current"> <i class="large flag checkered icon"></i> </a>   
+        <a class="grey item" data-tab="tools"> <i class="large wrench icon"></i> </a>  
       </div>
 
       <div class="ui bottom attached tab segment" data-tab="quotes">
@@ -15,12 +15,13 @@
       <div class="ui bottom attached tab segment" data-tab="lessons">
         {% include bio-mylessons.html %}
       </div>
+      <div class="ui bottom attached tab segment" data-tab="current">
+        {% include bio-current.html %} 
+      </div>
       <div class="ui bottom attached tab segment" data-tab="tools">
         {% include bio-tools.html %} 
       </div>
-      <div class="ui bottom attached tab segment" data-tab="goals">
-        {% include bio-currentgoals.html %} 
-      </div>
+      
       
  
 <!-- NO SCRIPT= alternate content to be displayed to users that have disabled scripts in their browser -->    
@@ -32,10 +33,10 @@
          {% include bio-mylessons.html %}
       </div>
       <div class="ui segment">
-         {% include bio-tools.html %}
+         {% include bio-current.html %}
       </div>
       <div class="ui segment">
-         {% include bio-currentgoals.html %}
+         {% include bio-tools.html %}
       </div>
  </noscript>
 
