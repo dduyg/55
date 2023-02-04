@@ -5,7 +5,7 @@ published: true
 title: "Example Post"
 permalink: en/posts/linkjetitel2
 # All dates must be YYYY-MM-DD format!
-date: 2022-11-25
+date: 2023-01-08
 language: en
 labels:
   - Sentiment Analysis
