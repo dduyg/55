@@ -92,14 +92,6 @@ a.lined {
   display: inline-block;
 }
 
-// rotating hand icon about page
-i.rotated.icon,
-i.right.rotated.icon,
-i.clockwise.rotated.icon {
-  -webkit-transform: rotate(-45deg); 
-  transform: rotate(-45deg);
-}
-
 // at the bottom of its container
 .ui.bottomm.image {
   position: absolute;
@@ -143,6 +135,11 @@ ol.ui.list li,
 .ui.list .list > .item { 
   line-height: 140%;
   font-size: 17px;
+}
+
+.ui.list .list > .item > .content,
+.ui.list > .item > .content {
+  line-height: 140%;
 }
 
 // Tabular menu about page
