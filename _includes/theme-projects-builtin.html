@@ -13,17 +13,15 @@
 </h3>
 <h3 style="color: #454545; font-family: 'Source Code Pro', monospace; margin-top: 4px;" class="ui center aligned header"> Selected works</h3>
 
-{% if project_pages_in_lang.size > 0 %}
+
   <div class="ui five doubling cards">
-    {% for page in project_pages_in_lang %}
-      {% if page.language == language %}
-         {% unless page.draft %}
+    {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
+    {% for page in project_pages %}
+      {% unless page.draft %}
         {% include project-card.html page=page %}
-         {% endunless %}
-      {% endif %}
+      {% endunless %}
     {% endfor %}
   </div>
- {% endif %}
 
 {% include footer.html %}
 
