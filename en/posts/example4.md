@@ -6,7 +6,6 @@ title: "Example"
 permalink: en/posts/linkjetitel4
 # All dates must be YYYY-MM-DD format!
 date: 2022-06-02
-language: en
 labels:
   - Python
   - Sentiment Analysis
