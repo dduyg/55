@@ -116,12 +116,6 @@ blockquote {
   background-color: transparent;
 }
 
-// Translate button no border
-.ui.basic.noborder.buttons .button,
-.ui.basic.noborder.button {
-  box-shadow: none !important;
-  color: #458588;
-}
 
 // List font-size about page 
 ul.ui.list li,
@@ -165,21 +159,13 @@ ol.ui.list li,
   --darkBG: #232B32;
 }
 
-
-.translate-button {
-  top: 15px;
-  right: 20px;
-  position: absolute;
-  z-index: 1;
-}
-
 .breadlink {
-  color: #0005FF !important;
+  color: #01868B !important;
   font-weight: bold;
 }
 
 .breadlink:hover {
-  color: #0005FF !important;
+  color: #01868B !important;
   font-weight: bold;
 }
 
