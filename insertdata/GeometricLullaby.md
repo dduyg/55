@@ -4,7 +4,7 @@ type: project
 published: true
 image: images/dataart/GeometricLullaby07-squared.png
 title: Geometric Lullaby
-permalink: en/insertdata/geometric-lullaby
+permalink: insertdata/geometric-lullaby
 # All dates must be YYYY-MM-DD format!
 date: 2021-08-07
 printsurl: https://society6.com/art/geometric-lullaby-07
