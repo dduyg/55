@@ -7,7 +7,6 @@ title: Abstract Clustering
 permalink: en/insertdata/abstract-clustering
 # All dates must be YYYY-MM-DD format!
 date: 2021-05-02
-language: en
 printsurl: https://society6.com/art/abstract-clustering
 kofiurl: https://dduyg.github.io/en/
 instaurl: https://www.instagram.com/p/CmJ7KfwD_M0/?igshid=MDJmNzVkMjY=
