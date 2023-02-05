@@ -3,7 +3,7 @@ layout: project
 type: project
 published: true
 image: images/dataart/GeometricLullaby07-squared.png
-title: Geometric Lullaby
+title: "Geometric Lullaby"
 permalink: insertdata/geometric-lullaby
 # All dates must be YYYY-MM-DD format!
 date: 2021-08-07
