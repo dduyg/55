@@ -1,8 +1,5 @@
-{% assign language = include.language %}
-{% if language == "pt" %}{% assign bio = site.data.bio-pt %}{% else %}{% assign bio = site.data.bio-en %}{% endif %}
-{% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.language == language" %}
-{% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.language == language" %}
-{% assign contact_pages = site.pages | where: "type", "portfolio" | where_exp: "page", "page.language == language" %}
+{% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
+{% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
 {% assign num_essays = essay_pages.size %}
 {% assign num_projects = project_pages.size %}
 
