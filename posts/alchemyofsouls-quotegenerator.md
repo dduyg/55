@@ -1,11 +1,11 @@
 ---
 layout: essay
 type: essay
-published: false
+published: true
 title: "Quotes from Alchemy of Souls"
 permalink: posts/alchemyofsoulsquotes
 # All dates must be YYYY-MM-DD format!
-date: 2023-01-03
+date: 2023-01-08
 labels:
   - Web Scraping
   - Data Cleaning
