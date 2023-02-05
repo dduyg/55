@@ -19,8 +19,8 @@
        </a>
        {% endif %}
 
-       <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.bio-url-pt }}{% else %}{{ site.bio-url-en }}{% endif %}" class=" {% if include.active == "bio" %}active {% endif %}mycolor item">
-         <span class="menubutton"> {% if language == "pt" %}{{ site.bio-page-label-pt }}{% else %}{{ site.bio-page-label-en }}{% endif %}</span>
+       <a href="{{ site.baseurl }}/{{ site.bio-url }}" class=" {% if include.active == "bio" %}active {% endif %}mycolor item">
+         <span class="menubutton"> {{ site.bio-page-label }}</span>
        </a> 
 
        {% if num_projects > 0 %}
