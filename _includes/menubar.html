@@ -19,13 +19,13 @@
        </a>
        {% endif %}
 
-       <a href="{{ site.baseurl }}/{{ site.bio-url }}" class=" {% if include.active == "bio" %}active {% endif %}mycolor item">
+       <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="{% if include.active == "bio" %}active {% endif %}mycolor item">
          <span class="menubutton"> {{ site.bio-page-label }}</span>
        </a> 
 
        {% if num_projects > 0 %}
-       <a href="{{ site.baseurl }}/{{ language }}/{% if language == 'pt' %}{{ site.projects-url-pt }}{% else %}{{ site.projects-url-en }}{% endif %}" class="{% if include.active == "projects" %}active {% endif %}mycolor item">
-         <span class="menubutton"> {% if language == "pt" %}{{ site.projects-page-label-pt }}{% else %}{{ site.projects-page-label-en }}{% endif %}</span> 
+       <a href="{{ site.baseurl }}/{{ site.projects-url }}" class="{% if include.active == "projects" %}active {% endif %}mycolor item">
+         <span class="menubutton"> {{ site.projects-page-label }}</span> 
        </a>
        {% endif %}
        
