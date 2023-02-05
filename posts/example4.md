@@ -3,7 +3,7 @@ layout: essay
 type: essay
 published: false
 title: "Example"
-permalink: en/posts/linkjetitel4
+permalink: posts/linkjetitel4
 # All dates must be YYYY-MM-DD format!
 date: 2022-06-02
 labels:
