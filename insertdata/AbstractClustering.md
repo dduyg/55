@@ -4,7 +4,7 @@ type: project
 published: true
 image: images/dataart/AbstractClustering-squared.jpg
 title: Abstract Clustering
-permalink: en/insertdata/abstract-clustering
+permalink: insertdata/abstract-clustering
 # All dates must be YYYY-MM-DD format!
 date: 2021-05-02
 printsurl: https://society6.com/art/abstract-clustering
