@@ -11,14 +11,14 @@
 {% if essay_categories.size > 1 %}
 <div class="nonprintable jsOnly ui fluid floating labeled icon dropdown button">
    <i class="caret down icon"></i>
-   <span class="text">{% if language == 'pt' %}Filter op tag{%- elsif language == 'en' -%}Filter by tag{% endif %}</span>
+   <span class="text">Filter by tag</span>
    <div class="menu">
       <div class="ui icon search input"> 
         <i class="search icon"></i> 
-        <input type="text" placeholder="{% if language == 'pt' %}Zoek tags...{%- elsif language == 'en' -%}Search tags...{% endif %}"> 
+        <input type="text" placeholder="Search tags..."> 
       </div>
      <div class="divider"></div>
-      <div class="item filter active" href="#" id="filter-all"> <i class="large bars icon"></i>{% if language == 'pt' %} Alle Posts {%- elsif language == 'en' -%} Show All Posts {% endif %}</div>       
+      <div class="item filter active" href="#" id="filter-all"> <i class="large bars icon"></i> Show All Posts</div>       
      <div class="scrolling menu">
       {% for category in essay_categories %}
       <div class="item filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</div>
