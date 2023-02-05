@@ -11,7 +11,7 @@
       <div style="background-color: #E0E1E2;" class="ui label">{{ label }}</div>
       {% endfor %}
     </div>
-    <div style="color: black;" class="description">
+    <div style="font-size: 14px;" class="description">
       {{ include.page.content | markdownify | strip_html | truncatewords: 30 }}
     </div>
   </div>
