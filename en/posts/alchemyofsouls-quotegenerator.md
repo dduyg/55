@@ -6,7 +6,6 @@ title: "Quotes from Alchemy of Souls"
 permalink: en/posts/alchemyofsoulsquotes
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-03
-language: en
 labels:
   - Web Scraping
   - Data Cleaning
