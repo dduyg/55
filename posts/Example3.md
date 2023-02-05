@@ -1,7 +1,9 @@
 ---
 layout: essay
 type: essay
-title: Example Text
+published: true
+title: "Example"
+permalink: posts/56788
 # All dates must be YYYY-MM-DD format!
 date: 2021-08-26
 labels:
