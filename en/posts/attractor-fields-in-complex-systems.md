@@ -6,7 +6,6 @@ title: "Using attractor fields to understand complex systems"
 permalink: en/posts/attractor-fields
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-20
-language: en
 labels:
   - Complex Systems
   - Time Series
