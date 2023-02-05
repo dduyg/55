@@ -15,12 +15,12 @@ layout: essays
     </div>
   
        <div class="ui hidden divider"></div>  
-       <h1 style="color: #576F73; font-family: 'Source Code Pro', monospace;">{{ page.title }}</h1>
+       <h1 style="color: #617574; font-family: 'Source Code Pro', monospace;">{{ page.title }}</h1>
        <span class="date"> <img class="ui avatar image" src="/images/avatar.png"> <span style="font-family: 'Roboto', sans-serif; font-size: 14px;"> {{ page.date | date_to_string }} &nbsp;·&nbsp; <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a></span> </span> 
  
        <div style="margin-top: 8px;" class="ui mini labels">
          {% for cat in page.labels %}
-         <div style="background-color: #E0E1E2;" class="ui label">{{ cat }}</div>
+         <div style="color: #576F73; background-color: #E0E1E2;" class="ui label">{{ cat }}</div>
          {% endfor %}
        </div>
 
