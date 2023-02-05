@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: true
+published: false
 title: "Example"
 permalink: posts/wmhere
 # All dates must be YYYY-MM-DD format!
