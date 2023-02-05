@@ -1,4 +1,5 @@
 <div style="max-width: 700px; padding-top: 20px" class="ui container">
+  {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
   {% assign essay_categories = essay_pages | where: "language", language | map: "labels" | sort_natural | uniq %}
 
 <div style="padding-top: 15px" class="ui stackable grid container">
@@ -33,7 +34,6 @@
 <div class="ui hidden divider"></div>
 
   <div class="ui stackable centered one doorzichtig cards" id="filterable">
-    {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
       {% for page in essay_pages %}
         {% unless page.draft %}
           {% include essay-card.html page=page %}
