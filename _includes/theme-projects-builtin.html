@@ -3,16 +3,11 @@
 </div>
 
 <div style="margin-bottom: 20px" class="ui container">
-   {% assign language = page.language %}
-    {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
-    {% assign project_pages_in_lang = project_pages | where: "language", language %}
-    {% assign project_categories = project_pages | where: "language", language | map: "category" | sort | uniq %}
 
-<h3 class="ui horizontal center aligned divider header no-bottom">
+  <h3 class="ui horizontal center aligned divider header no-bottom">
    <i style="color: #f2f2f2; background-color: #454545;" class="circular expand icon"></i>
-</h3>
-<h3 style="color: #454545; font-family: 'Source Code Pro', monospace; margin-top: 4px;" class="ui center aligned header"> Selected works</h3>
-
+  </h3>
+  <h3 style="color: #454545; font-family: 'Source Code Pro', monospace; margin-top: 4px;" class="ui center aligned header"> Selected works</h3>
 
   <div class="ui five doubling cards">
     {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
@@ -23,6 +18,6 @@
     {% endfor %}
   </div>
 
-{% include footer.html %}
+  {% include footer.html %}
 
 </div>
