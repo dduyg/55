@@ -3,9 +3,9 @@ layout: essay
 type: essay
 published: true
 title: "Example Post"
-permalink: en/posts/linkjetitel2
+permalink: posts/linkjetitel2
 # All dates must be YYYY-MM-DD format!
-date: 2023-01-08
+date: 2022-01-08
 labels:
   - Sentiment Analysis
   - Python
