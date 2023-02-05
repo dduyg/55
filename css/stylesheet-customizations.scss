@@ -11,14 +11,9 @@ body {
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
-  overflow-x: hidden;
-  min-width: 320px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.87);
-  font-smoothing: antialiased;
+  font-size: 15px;
   background-color: #f2f2f2;
   // background-color: #fafafa; witter versie als je terug wilt ook aanpassen in markdown.css 
 }
