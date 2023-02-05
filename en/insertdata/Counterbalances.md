@@ -7,7 +7,6 @@ title: Counterbalances
 permalink: en/insertdata/counterbalances
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-06
-language: en
 printsurl: https://society6.com/art/counterbalances-1
 # kofiurl: -
 instaurl: https://www.instagram.com/p/CnM3bhYD1Ql/?igshid=YmMyMTA2M2Y=
