@@ -10,7 +10,6 @@ labels:
   - Web Scraping
   - Data Cleaning
   - JavaScript
-  - HTML
   - Web Application
 ---
 
