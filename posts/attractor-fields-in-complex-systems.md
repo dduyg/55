@@ -3,7 +3,7 @@ layout: essay
 type: essay
 published: true
 title: "Using attractor fields to understand complex systems"
-permalink: en/posts/attractor-fields
+permalink: posts/attractor-fields
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-20
 labels:
