@@ -1,9 +1,11 @@
 ---
 layout: essay
 type: essay
-title: Smart Questions, Good Answers
+published: true
+title: "Example"
+permalink: posts/wmhere
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
+date: 2021-09-08
 labels:
   - Questions
   - Answers
