@@ -53,24 +53,20 @@ a.lined {
   font-size: 17px !important;
 }
 
-// Customize menubar active items 
+// Customize menubar active items & position 
 .ui.menu .mycolor.active.item,
 .ui.mycolor.menu .active.item {
-  color: #458588;
   font-weight: bold;
+  background: rgba(0, 0, 0, 0.87);
+  color: white !important;
 }
-
-// Menubar buttons
-.menubutton {
+.ui.secondary.menu { 
+//  margin-right: 10% !important;
+//  margin-top: 2% !important;
+}
+.ui.secondary.menu .item {
   color: black;
-  border: 1px solid black; 
-  border-radius: 0.28571429rem;
-  margin: 0em 0em;
-  padding: 7px; // space within button and text
-}
-
-.ui.text.menu .item { 
-  padding: 5px; // space between buttons
+  padding: 6px; // space between buttons
 }
 
 // On #f2f2f2 bg-page transparent card
