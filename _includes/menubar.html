@@ -6,31 +6,29 @@
 <div class="nonprintable">
  <div class="ui center aligned fluid container">
 
-     <div style="padding-bottom: 3px; text-align: center" class="center aligned content">
-       <a href="{{ site.baseurl}}/" class="ui tiny circular image">
+     <a href="{{ site.baseurl}}/" class="ui tiny circular image no-bottom">
         <img src="/images/start-button.jpg" style="border: 2px solid black;">
-       </a>
-     </div>
+     </a>
 
-     <div class="ui compact text menu">
+     <div class="ui compact secondary menu">
        {% if num_essays > 0 %}
        <a href="{{ site.baseurl }}/{{ site.essays-url }}" class="{% if include.active == "essays" %}active {% endif %}mycolor item">
-         <span class="menubutton"> {{ site.essays-page-label }}</span>
+         <span>{{ site.essays-page-label }}</span>
        </a>
        {% endif %}
 
        <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="{% if include.active == "bio" %}active {% endif %}mycolor item">
-         <span class="menubutton"> {{ site.bio-page-label }}</span>
+         <span>{{ site.bio-page-label }}</span>
        </a> 
 
        {% if num_projects > 0 %}
        <a href="{{ site.baseurl }}/{{ site.projects-url }}" class="{% if include.active == "projects" %}active {% endif %}mycolor item">
-         <span class="menubutton"> {{ site.projects-page-label }}</span> 
+         <span>{{ site.projects-page-label }}</span> 
        </a>
        {% endif %}
        
        <a href="{{ site.baseurl }}/{{ site.contact-url }}" class="{% if include.active == "contact" %}active {% endif %}mycolor item">
-         <span class="menubutton"><i style="color: #458588;" class="paper plane outline icon"></i></span>
+         <span><i style="color: #458588;" class="paper plane outline icon"></i></span>
        </a>
        
      </div>
