@@ -53,16 +53,12 @@ a.lined {
   font-size: 17px !important;
 }
 
-// Customize menubar active items & position 
+// Customize menubar items 
 .ui.menu .mycolor.active.item,
 .ui.mycolor.menu .active.item {
   font-weight: bold;
   background: rgba(0, 0, 0, 0.87);
   color: white !important;
-}
-.ui.secondary.menu { 
-//  margin-right: 10% !important;
-//  margin-top: 2% !important;
 }
 .ui.secondary.menu .item {
   color: black;
