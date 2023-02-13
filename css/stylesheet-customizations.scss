@@ -46,7 +46,24 @@ a.lined {
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&amp;subset=latin-ext');
 
-//  padding: 7px; // space between buttons
+// Menubar
+.ui.secondary.menu {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 17px !important;
+  display: none;
+  display: inline-flex;
+} 
+.ui.menu .mycolor.active.item,
+.ui.mycolor.menu .active.item {
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.87);
+  color: white !important;
+}
+.ui.secondary.menu .item {
+  color: black;
+  padding: 7px; // space between buttons
+}
+
 
 // On #f2f2f2 bg-page transparent card
 .ui.doorzichtig.cards > .card,
