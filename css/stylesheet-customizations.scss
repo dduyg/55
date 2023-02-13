@@ -47,10 +47,11 @@ a.lined {
 @import url('https://fonts.googleapis.com/css?family=Roboto&amp;subset=latin-ext');
 
 
-// Font & fontsize change menubar
-.ui.menu {
+// Change menubar style
+.ui.secondary.menu {
   font-family: 'Source Code Pro', monospace;
   font-size: 17px !important;
+  display: inline !important;
 }
 
 // Customize menubar items 
