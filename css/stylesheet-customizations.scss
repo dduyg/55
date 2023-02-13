@@ -231,25 +231,9 @@ ul.ui.list li:before,
     }
 }
 /*******************************
-           My input
+           ----
 *******************************/
-.item { 
-font-family: 'Source Code Pro', monospace; font-size: 17px !important;
-color: black; 
--webkit-transition: background 0.1s ease, box-shadow 0.1s ease, color 0.1s ease; 
-transition: background 0.1s ease, box-shadow 0.1s ease, color 0.1s ease;
-}
 
-.item .active { 
-font-weight: bold; 
-background: rgba(0, 0, 0, 0.87); 
-color: white !important;
-}
-
-.item .active:hover {
-background: rgba(0, 0, 0, 0.05); 
-color: rgba(0, 0, 0, 0.95);
-}
 
 
 
