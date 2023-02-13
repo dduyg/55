@@ -1,22 +1,24 @@
-<div class="ui two column stackable grid container">
+<div class="ui equal width center aligned stackable grid">
 
-  <div class="column"> 
-   <img class="ui centered image" src="/images/homepage-image.png" width="229px">
-  </div>
+  <div class="row">
+    <div class="column"> 
+     <img class="ui centered image" src="/images/homepage-image.png" width="229px">
+    </div>
 
-  <div class="column">
-    <h1 style="font-family: 'Source Code Pro', monospace;" class="header no-bottom">Hello world!</h1>
-    <h2 style="color: #01868B; font-family: 'Source Code Pro', monospace; margin-top: 0px; padding-top: 0px" class="no-bottom">I'm Duygu</h2>
-    <p style="font-size: 18px;">
-      {{ site.data.bio.basics.summary }}
-   </p>
-    <div class="ui hidden divider"></div>
-    <p style="text-align: center">      
-      {% include home-network-links.html language=language %}     
-    </p>
-    <p style="color: grey; font-size: 14px; text-align: center">
-      <i>“If one day, my words are against science, choose science."</i> —Mustafa Kemal Atatürk
-    </p>
+    <div class="column">
+     <h1 style="font-family: 'Source Code Pro', monospace;" class="header no-bottom">Hello world!</h1>
+     <h2 style="color: #01868B; font-family: 'Source Code Pro', monospace; margin-top: 0px; padding-top: 0px" class="no-bottom">I'm Duygu</h2>
+     <p style="font-size: 18px;">
+       {{ site.data.bio.basics.summary }}
+     </p>
+     <div class="ui hidden divider"></div>
+     <p style="text-align: center">      
+       {% include home-network-links.html language=language %}     
+     </p>
+     <p style="color: grey; font-size: 14px; text-align: center">
+       <i>“If one day, my words are against science, choose science."</i> —Mustafa Kemal Atatürk
+     </p>
+    </div>
   </div>
 
 </div>
