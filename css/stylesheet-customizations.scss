@@ -158,6 +158,10 @@ ul.ui.list li:before,
     border: 2px solid black;
 }
 
+.br-100 {
+    border-radius: 100%;
+}
+
 .db {
     display: block;
 }
@@ -166,8 +170,8 @@ ul.ui.list li:before,
     display: inline-block;
 }
 
-.h2 {
-    height: 2rem;
+.h-logo {
+    height: 4rem;
 }
 
 .link {
@@ -192,8 +196,8 @@ ul.ui.list li:before,
     outline: 1px dotted currentColor;
 }
 
-.w2 {
-    width: 2rem;
+.w-logo {
+    width: 4rem;
 }
 
 .w-100 {
