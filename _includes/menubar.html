@@ -11,22 +11,22 @@
  <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
              
        {% if num_essays > 0 %}
-       <a href="{{ site.baseurl }}/{{ site.essays-url }}" class="f6 f5-l dib mr3 mr4-l {% if include.active == "essays" %}active {% endif %} item">
+       <a href="{{ site.baseurl }}/{{ site.essays-url }}" class="{% if include.active == "essays" %}active {% endif %}mycolor item">
          {{ site.essays-page-label }}
        </a>
        {% endif %}
 
-       <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="f6 f5-l dib mr3 mr4-l {% if include.active == "bio" %}active {% endif %} item">
+       <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="{% if include.active == "bio" %}active {% endif %}mycolor item">
          {{ site.bio-page-label }}
-       </a> 
+       </a>
 
        {% if num_projects > 0 %}
-       <a href="{{ site.baseurl }}/{{ site.projects-url }}" class="f6 f5-l dib mr3 mr4-l {% if include.active == "projects" %}active {% endif %} item">
+       <a href="{{ site.baseurl }}/{{ site.projects-url }}" class="{% if include.active == "projects" %}active {% endif %}mycolor item">
          {{ site.projects-page-label }}
        </a>
        {% endif %}
        
-       <a style="color: #458588;" href="{{ site.baseurl }}/{{ site.contact-url }}" class="f6 f5-l dib {% if include.active == "contact" %}active {% endif %} item">
+       <a style="color: #458588;" href="{{ site.baseurl }}/{{ site.contact-url }}" class="{% if include.active == "contact" %}active {% endif %}mycolor item">
          <i class="fitted large paper plane outline icon"></i>
        </a>
            
