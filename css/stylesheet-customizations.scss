@@ -62,6 +62,7 @@ a.lined {
 }
 .ui.secondary.menu .item {
   color: black;
+  font-weight: bold;
   padding: 7px; // space between buttons
 }
 
@@ -127,6 +128,14 @@ ol.ui.list li,
 .ui.list > .item > .content {
   line-height: 140%;
 }
+
+ul.ui.list li:before,
+.ui.bulleted.list .list > .item:before,
+.ui.bulleted.list > .item:before {
+  color: #458588;
+  vertical-align: middle;
+}
+
 
 // Tabular menu about page
 .ui.tabular.menu { 
