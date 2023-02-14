@@ -20,7 +20,7 @@ layout: essays
  
        <div class="ui hidden divider"></div> 
        <h1 style="color: #647879; font-family: 'Source Code Pro', monospace;">{{ page.title }}</h1>
-       <span class="date"> <img class="ui avatar image" src="/images/avatar.png"> <span style="font-family: 'Roboto', sans-serif; font-size: 15px;"> {{ page.date | date_to_string }} &nbsp;·&nbsp; <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a></span> </span> 
+       <span style="font-family: 'Roboto', sans-serif; font-size: 15px;" class="date"> {{ page.date | date_to_string }} &nbsp;·&nbsp; <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a></span> 
  
        <div style="margin-top: 8px;" class="ui mini labels">
          {% for cat in page.labels %}
