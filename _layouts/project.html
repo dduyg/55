@@ -12,20 +12,16 @@ layout: projects
             <i class="right chevron icon divider"></i>
             <div class="active section">{{ page.title }}</div>
         </div>
-
-</div> 
- 
-<div style="font-size: 17px; max-width: 800px;" class="ui text container">
    
         <div class="ui hidden divider"></div>   
         <h1 style="color: #617574; font-family: 'Source Code Pro', monospace;">{{ page.title }}</h1>
  
         {% if page.multiple %}
-        <p>{{ content }}</p>
+        <p style="font-size: 17px;">{{ content }}</p>
         <div class="ui hidden divider"></div>
   
         {% else %}
-        <div class="ui stackable grid">
+        <div style="font-size: 17px;" class="ui stackable grid">
            <div class="eleven wide column">         
               <p>{{ content }}</p>   
               <div class="ui hidden divider"></div>
