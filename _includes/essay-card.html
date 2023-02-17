@@ -8,11 +8,11 @@
     
     <div style="margin-top: 8px" class="ui mini labels">
       {% for label in include.page.labels %}
-      <div style="color: white; background-color: #01868B;" class="ui basic label">{{ label }}</div>
+      <div style="color: white; background-color: #647879;" class="ui basic label">{{ label }}</div>
       {% endfor %}
     </div>
     <div style="color: #3B3B3B; font-size: 14px;" class="description">
-      {{ include.page.content | markdownify | strip_html | truncatewords: 30 }}
+      {{ include.page.content | markdownify | strip_html | truncatewords: 35 }}
     </div>
   </div>
 </a>
