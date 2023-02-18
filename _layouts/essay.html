@@ -20,10 +20,10 @@ layout: essays
       <h1 style="color: #647879; font-family: 'Source Code Pro', monospace;">{{ page.title }}</h1>
       <span style="font-family: 'Roboto', sans-serif; font-size: 15px;" class="date"> {{ page.date | date_to_string }} &nbsp;·&nbsp; <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a></span> 
       {% if page.mediumurl %}
-       <a href="{{ page.mediumurl }}" target="_blank" class="compact mini ui right floated basic grey button"><i style="color: #458588;" class="bookmark outline icon"></i>Read/Save on Medium</a>
+       <a href="{{ page.mediumurl }}" target="_blank" class="compact mini ui right floated basic grey button"><i style="color: #458588;" class="bordered inverted black bookmark outline icon"></i>Read/Save on Medium</a>
       {% endif %}
 
-      <div class="ui mini labels">
+      <div style="margin-top: 8px;" class="ui mini labels">
          {% for cat in page.labels %}
          <div style="background-color: #E0E1E2;" class="ui label">{{ cat }}</div>
          {% endfor %}
