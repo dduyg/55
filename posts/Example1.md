@@ -10,6 +10,7 @@ labels:
   - Questions
   - Answers
   - StackOverflow
+# mediumurl: -
 ---
 
 <img class="ui tiny right spaced image" src="../images/degree_difficulty.jpg">*Is there such thing as a stupid question?*
