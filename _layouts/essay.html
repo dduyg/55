@@ -15,13 +15,11 @@ layout: essays
    </div>
 
   <div style="font-size: 17px;" class="content">
-
       <div class="ui hidden divider"></div> 
-      <button class="mini ui right floated black labeled icon button"><i class="medium m icon"></i> Read/Save on Medium</button>
-      <div class="ui clearing hidden divider"></div>
 
-       <h1 style="color: #647879; font-family: 'Source Code Pro', monospace;">{{ page.title }}</h1>
-       <span style="font-family: 'Roboto', sans-serif; font-size: 15px;" class="date"> {{ page.date | date_to_string }} &nbsp;·&nbsp; <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a></span> 
+      <button class="mini ui right floated black labeled icon button"><i class="fitted medium m icon"></i> Read/Save on Medium</button>
+      <h1 style="color: #647879; font-family: 'Source Code Pro', monospace;">{{ page.title }}</h1>
+      <span style="font-family: 'Roboto', sans-serif; font-size: 15px;" class="date"> {{ page.date | date_to_string }} &nbsp;·&nbsp; <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a></span> 
  
        <div style="margin-top: 8px;" class="ui mini labels">
          {% for cat in page.labels %}
