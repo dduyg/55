@@ -9,6 +9,7 @@ date: 2021-08-26
 labels:
   - Software Engineering
   - Learning
+# mediumurl: -
 ---
 
 <img class="ui tiny left circular floated image" src="../images/paintbrushes.jpg">
