@@ -61,7 +61,7 @@ a.lined {
 }
 .ui.secondary.menu .item {
   color: black;
-  padding: 7px; // space between buttons
+  padding: 0.38em; // space between buttons
 }
 
 
@@ -148,7 +148,7 @@ ul.ui.list li:before,
   padding-top: 0px !important;
 }
 
-// Custom menu (https://tachyons.io/components/nav/logo-links-inline-collapse/index.html#)
+// Custom menu (https://tachyons.io/components/nav/logo-links-inline-collapse/index.html)
 .border-box {
     box-sizing: border-box;
 }
