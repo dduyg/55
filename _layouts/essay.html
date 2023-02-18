@@ -18,17 +18,19 @@ layout: essays
       <div class="ui hidden section divider"></div> 
      
       <h1 style="color: #647879; font-family: 'Source Code Pro', monospace;">{{ page.title }}</h1>
-      <span style="font-family: 'Roboto', sans-serif; font-size: 15px;" class="date"> {{ page.date | date_to_string }} &nbsp;·&nbsp; <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a>    
-      {% if page.mediumurl %}
-       <br> <a style="margin-top: 10px; color: black; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;" href="{{ page.mediumurl }}" target="_blank"> <i class="circular inverted bookmark outline icon"></i><b>Read/Save on Medium</b></a>
-      {% endif %}
-      </span>
+      <span style="font-family: 'Roboto', sans-serif; font-size: 15px;" class="date"> {{ page.date | date_to_string }} &nbsp;·&nbsp; <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a></span>
 
       <div style="margin-top: 8px;" class="ui mini labels">
          {% for cat in page.labels %}
          <div style="background-color: #E0E1E2;" class="ui label">{{ cat }}</div>
          {% endfor %}
-       </div> 
+       </div>
+
+      <div style="font-size: 15px; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;" class="mediumlink">
+      {% if page.mediumurl %}
+      <a style="color: black;" href="{{ page.mediumurl }}" target="_blank"><i class="circular inverted bookmark outline icon"></i><b>Read/Save on Medium</b></a>
+      {% endif %}
+      </div>
 
        {{ content }}
 
