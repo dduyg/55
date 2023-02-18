@@ -12,12 +12,14 @@ layout: projects
             <i class="right chevron icon divider"></i>
             <div class="active section">{{ page.title }}</div>
         </div>
-   
+  
+  <div style="font-size: 17px;" class="content">
+ 
         <div class="ui hidden divider"></div>   
         <h1 style="color: #617574; font-family: 'Source Code Pro', monospace;">{{ page.title }}</h1>
  
         {% if page.multiple %}
-        <p style="font-size: 17px;">{{ content }}</p>
+        {{ content }}
         <div class="ui hidden divider"></div>
   
         {% else %}
@@ -38,7 +40,9 @@ layout: projects
   
            <div class="five wide column"></div> 
         </div>
-       {% endif %} 
+       {% endif %}
+
+  </div>
 
        {% include footer.html %}
 
