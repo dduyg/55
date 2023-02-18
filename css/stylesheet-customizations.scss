@@ -105,12 +105,10 @@ blockquote {
   color: #1B1C1D !important;
 }
 
-// Blogpost button/label linking
-.ui.blglink.labels .label,
-.ui.blglink.label { 
-  border: 1px solid #0005FF;
-  color: #0005FF;
-  background-color: transparent;
+// Blogpost tags
+.ui.basic.mytag.label {
+  background-color: #FFFFFF !important;
+  color: rgba(0, 0, 0, 0.6) !important;
 }
 
 
