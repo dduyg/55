@@ -9,7 +9,7 @@ date: 2023-02-19
 labels:
   - Data Visualization
   - Python
-  - JavaScript
+  - Seaborn
 mediumurl: mybyy.github.io
 ---
 
