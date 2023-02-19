@@ -34,6 +34,13 @@ a.lined {
 }
 
 
+u {
+  padding-bottom: 1px;
+  text-decoration: none;
+  border-bottom: 3px solid #458588;
+}
+
+
 // Import new fonts:
 // font-family: 'Montserrat Alternates', sans-serif;
 // font-family: 'Source Code Pro', monospace;
@@ -110,12 +117,6 @@ blockquote {
 .ui.basic.mytag.label {
   background-color: #E0E1E2 !important;
   color: rgba(0, 0, 0, 0.6) !important;
-}
-
-// marking text in posts
-.marking { 
-  text-decoration: none;
-  border-bottom: 2px solid #458588;
 }
 
 // List font-size about page 
