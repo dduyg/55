@@ -1,30 +1,21 @@
 ---
 layout: essay
 type: essay
-published: false
-title: "Example Post"
-permalink: posts/linkjetitel2
+published: true
+title: "Earthquakes in"
+permalink: posts/earthquakesturkiye
 # All dates must be YYYY-MM-DD format!
-date: 2022-01-08
+date: 2023-02-19
 labels:
-  - Sentiment Analysis
+  - Data Visualization
   - Python
-  - Word Embeddings
-# mediumurl: -
+  - JavaScript
+mediumurl: mybyy.github.io
 ---
 
 
 
-<div class="ui small rounded images">
-  <img class="ui image" src="/images/vacay-home-page.png">
-  <img class="ui image" src="/images/vacay-home-page.png">
-  <img class="ui image" src="/images/vacay-home-page.png">
-  <img class="ui image" src="/images/vacay-home-page.png">
-</div>
-
-I turned raw subtitles data into a collection of favorite quotes
-
-In this project, I want to use data to support my observation during my first six months in the U.S, that the milk tea in New York City is much, much, more expensive than it in Beijing.
+I this project, I want to use data to support my observation during my first six months in the U.S, that the milk tea in New York City is much, much, more expensive than it in Beijing.
 
 So, I manually scrape 144 drinks from three milk tea shops I mentioned above in Beijing, and scrape 292 drinks from five milk tea shops that I visited in New York. I extract the base drinks, toppings and fruit types of all 436 drinks, as well as their prices.
 
