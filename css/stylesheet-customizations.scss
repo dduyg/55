@@ -222,8 +222,8 @@ ul.ui.list li:before,
     }
 
     .ph5-l {
-        padding-left: 6em;
-        padding-right: 6em;
+        padding-left: 6em;   // was originally 4em;
+        padding-right: 6em;  // was originally 4em;
     }
 
     .mr4-l {
