@@ -27,7 +27,7 @@ This concept is often used in modelling of complex systems, like physics simulat
 
 Fascinated by this concept, I started experimenting with visualising distance based attractor fields, with the help of <a href="https://object-e.net/tools/attractorfields-tools-gh" target="_blank">this</a> tool I found.
 
-With *distance based* attractor fields, the strength of the attraction is determined by the distance between the object and the attractor point. Objects are attracted to certain points or regions within the environment. The closer the object is to the attractor, the stronger the pull towards it. 
+With *distance based* attractor fields, the strength of the attraction is determined by the distance between the object and the attractor point. Objects are attracted to certain points or regions within the environment, and the closer the object is to the attractor, the stronger the pull towards it.
 
 <div style="color: #454545; font-family: 'Source Code Pro', monospace;" class="no-bottom"> Different output visuals </div>
 
