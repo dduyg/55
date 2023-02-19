@@ -112,6 +112,11 @@ blockquote {
   color: rgba(0, 0, 0, 0.6) !important;
 }
 
+// marking text in posts
+.marking { 
+  text-decoration: none;
+  border-bottom: 2px solid #458588;
+}
 
 // List font-size about page 
 ul.ui.list li,
