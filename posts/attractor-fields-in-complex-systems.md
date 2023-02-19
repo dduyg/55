@@ -19,7 +19,9 @@ I’ve recently stumbled upon a concept called <span class="marking">attractor f
 
 > An attractor field is a force or point of attraction that can pull objects towards it.
 
-Attractor fields are areas in a system that exert an influence on the behavior or movement of objects within the system. They are defined as regions in the state space of a system that the system tends to move towards, or "attract" over time. To put it simply, they are a way to explain certain patterns, movements, and describe how objects move and interact in a given environment.
+Attractor fields are areas in a system that exert an influence on the behavior or movement of objects within the system. They are defined as regions in the state space of a system that the system tends to move towards, or "<span class="marking">attract</span>" <span class="marking">over time</span>.
+
+To put it simply, they are a way to explain certain patterns, movements, and describe how objects move and interact in a given environment.
 
 This concept is often used in modelling of complex systems, like physics simulations such as the motion of particles in a fluid and computer graphics, to create realistic movement and behavior of particles or objects. They can also be used to model more abstract systems, such as the dynamics of economic or social systems. For example, the behavior of populations in a city or the spread of information through a network.
 
