@@ -33,6 +33,8 @@ Those acting as the ‘attractors’ for the field can be represented as points 
 
 Fascinated by this concept, I started experimenting with visualizing distance-based attractor fields using a <a href="https://object-e.net/tools/attractorfields-tools-gh" target="_blank">tool</a> I found.
 
+To create these visualizations, I used a grid of points, and for each point in the grid, a value is generated based on the distance of each point to the closest attractor (either point or line). Each point is affected only by one attractor (the closest), but the definition can be easily adapted to use influence from several attractors at once quite easily. The output of the definition is one value for each point of the grid that can then be used to control any property. In my outputs it controls the radii of circles positioned on the points.
+
 <div style="color: #454545; font-family: 'Source Code Pro', monospace;" class="no-bottom"> Different output visuals </div>
 
 <div class="ui small rounded images">
@@ -41,8 +43,6 @@ Fascinated by this concept, I started experimenting with visualizing distance-ba
   <img class="ui image" src="/images/attractorfields3.png">
   <img class="ui image" src="/images/attractorfields4.jpg">
 </div>
-
-For each point in the grid a value is generated, based on the distance of each point to the closest attractor (either point or line). Each point is affected only by one attractor (the closest). The output value for each point of the grid then controls the radii of circles positioned on the points.
 
 ## The use of attractor fields
 
