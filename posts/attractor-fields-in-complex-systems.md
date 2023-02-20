@@ -27,9 +27,9 @@ This concept is often used in modelling of complex systems, like physics simulat
 
 These systems are dynamical systems that change over time. They can be simple, like the motion of a pendulum, or complex, like the weather. The behavior of these systems is often difficult to predict, as they can exhibit non-linear behavior. Attractor fields are a tool used by scientists to understand the patterns and relationships in these systems.
 
-## Vizualizing a grid of point attractors
+## Visualizing Attractor Fields
 
-Fascinated by this concept, I started experimenting with visualising distance based attractor fields, with the help of <a href="https://object-e.net/tools/attractorfields-tools-gh" target="_blank">this</a> tool I found.
+Fascinated by this concept, I started experimenting with visualizing distance-based attractor fields using a <a href="https://object-e.net/tools/attractorfields-tools-gh" target="_blank">tool</a> I found.
 
 With *distance based* attractor fields, the strength of the attraction is determined by the distance between the object and the attractor point. Objects are attracted to certain points or regions within the environment, and the closer the object is to the attractor, the stronger the pull towards it.
 
