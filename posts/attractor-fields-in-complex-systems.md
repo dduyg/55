@@ -25,6 +25,8 @@ To put it simply, they are a way to explain certain patterns, movements, and des
 
 This concept is often used in modelling of complex systems, like physics simulations such as the motion of particles in a fluid and computer graphics, to create realistic movement and behavior of particles or objects. They can also be used to model more abstract systems, such as the dynamics of economic or social systems. For example, the behavior of populations in a city or the spread of information through a network.
 
+These systems are dynamical systems that change over time. They can be simple, like the motion of a pendulum, or complex, like the weather. The behavior of these systems is often difficult to predict, as they can exhibit non-linear behavior. Attractor fields are a tool used by scientists to understand the patterns and relationships in these systems.
+
 ## Vizualizing a grid of point attractors
 
 Fascinated by this concept, I started experimenting with visualising distance based attractor fields, with the help of <a href="https://object-e.net/tools/attractorfields-tools-gh" target="_blank">this</a> tool I found.
