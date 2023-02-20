@@ -25,7 +25,7 @@ To put it simply, they are a way to explain certain patterns, movements, and des
 
 This concept is often used in modelling of complex systems, like physics simulations such as the motion of particles in a fluid and computer graphics, to create realistic movement and behavior of particles or objects. They can also be used to model more abstract systems, such as the dynamics of economic or social systems. For example, the behavior of populations in a city or the spread of information through a network.
 
-These systems are mainly dynamical systems that change over time. An attractor has a set of states or values to which a dynamic system tends to evolve over time, regardless of the starting state. They can be simple, like the motion of a pendulum, or complex, like the weather. The behavior of these systems is often difficult to predict, as they can exhibit non-linear behavior.
+These systems are dynamical systems that change over time. An attractor has a set of states or values to which a dynamic system tends to evolve over time, regardless of the starting state. They can be simple, like the motion of a pendulum, or complex, like the weather.
 
 ## Visualizing Attractor Fields
 
