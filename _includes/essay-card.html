@@ -1,14 +1,14 @@
 {% assign filters = page.labels %}
 <a style="background-color:transparent;" class="card {% for label in filters %} {{ label | remove: " " }} {% endfor %}" {% if page.projecturl %}target="_blank"{% endif %} href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">  
   <div class="content">
-    <span style="font-family: 'Roboto Mono', monospace; font-weight: bold;" class="header">{{ include.page.title }}</span>
+    <span style="color: #01868B; font-family: 'Roboto Mono', monospace; font-weight: bold;" class="header">{{ include.page.title }}</span>
     <div class="meta">
       <span class="date">{{ include.page.date | date_to_string }}</span>
     </div>
     
     <div style="margin-top: 8px" class="ui mini labels">
       {% for label in include.page.labels %}
-      <div style="color: white; background-color: #01868B;" class="ui basic label">{{ label }}</div>
+      <div class="ui mytag basic label">{{ label }}</div>
       {% endfor %}
     </div>
     <div style="color: #3B3B3B; font-size: 14px;" class="description">
