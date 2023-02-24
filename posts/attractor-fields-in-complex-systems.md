@@ -42,6 +42,6 @@ To create the visualizations, I used a grid of points, and for each point in the
   <img class="ui image" src="/images/attractorfields4.jpg">
 </div>
 
-## The use of attractor fields
+## Using Attractor Fields in Data Science
 
 Complex systems are constructed of many interacting parts that exhibit non-linear behaviors. Visualizing attractor fields can be a powerful tool for analyzing and understanding complex datasets. Many real-world systems have a high number of variables, making it challenging to understand the underlying patterns and relationships in the data. By inspecting the attractor field of a system, a data scientist may be able to reduce the number of variables that need to be considered in order to understand the system. It can help in identifying patterns and structures in the data, and can be used to predict future states of the system. 
