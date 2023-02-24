@@ -1,8 +1,8 @@
 ---
 layout: essay
 type: essay
-published: true
-title: "Vizualizing Earthquakes in Turkey"
+published: false
+title: "Visualising Earthquakes in Turkey"
 permalink: posts/earthquakesturkiye
 # All dates must be YYYY-MM-DD format!
 date: 2023-02-19
