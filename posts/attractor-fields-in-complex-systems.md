@@ -38,8 +38,8 @@ To create the visualizations, I used a grid of points, and for each point in the
 <div class="ui small rounded images">
   <img class="ui image" src="/images/attractorfields1.png">
   <img class="ui image" src="/images/attractorfields2.png">
-  <img class="ui image" src="/images/attractorfields3.png">
   <img class="ui image" src="/images/attractorfields4.jpg">
+  <img class="ui image" src="/images/attractorfields3.png">
 </div>
 
 ## Using Attractor Fields in Data Science
