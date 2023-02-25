@@ -37,8 +37,8 @@ To create the visualizations, I used a grid of points, and for each point in the
 
 <div class="ui small images">
   <img class="ui image" src="/images/attractorfields1.png" style="border: 1px solid black;">
-  <img class="ui image" src="/images/attractorfields2.png" style="border: 1px solid black;">
   <img class="ui image" src="/images/attractorfields4.jpg" style="border: 1px solid black;">
+  <img class="ui image" src="/images/attractorfields2.png" style="border: 1px solid black;">
   <img class="ui image" src="/images/attractorfields3.png" style="border: 1px solid black;">
 </div>
 
