@@ -35,7 +35,12 @@ To create the visualizations, I used a grid of points, and for each point in the
 
 <div style="color: #454545; font-family: 'Source Code Pro', monospace;" class="no-bottom"> Different output visuals </div>
 
-<img class="ui medium image" src="/images/attractorfields-outputs.png">
+<div class="ui small images">
+  <img class="ui image" src="/images/attractorfields1.png" style="border: 1px solid black;">
+  <img class="ui image" src="/images/attractorfields2.png" style="border: 1px solid black;">
+  <img class="ui image" src="/images/attractorfields4.jpg" style="border: 1px solid black;">
+  <img class="ui image" src="/images/attractorfields3.png" style="border: 1px solid black;">
+</div>
 
 ## Using Attractor Fields in Data Science
 
