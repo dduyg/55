@@ -11,10 +11,8 @@ printsurl: https://society6.com/art/counterbalances-1
 # kofiurl: -
 instaurl: https://www.instagram.com/p/CnM3bhYD1Ql/?igshid=YmMyMTA2M2Y=
 multiple: 1/5
-multipleurls:
-  - https://society6.com/art/counterbalances-3
-  - https://society6.com/art/counterbalances-4
-  - https://society6.com/art/counterbalances-5
+# [['url', 'image', 'description]]
+collection: [['https://society6.com/art/counterbalances-3', '/images/dataart/Counterbalances3-squared.jpg', 'Counterbalances 3/5'], ['https://society6.com/art/counterbalances-4', '/images/dataart/Counterbalances4-squared.png', 'Counterbalances 4/5']]
 ---
 
 
