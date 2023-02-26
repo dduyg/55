@@ -30,15 +30,15 @@ a {
 
 a.lined {
   color: #3B444B;
+  font-family: 'Source Code Pro', monospace;
   text-decoration: none;
   border-bottom: 1px solid #454545;
 }
 
 a.lined2 {
   color: #647879;
-  font-family: 'Source Code Pro', monospace;
   text-decoration: none;
-  padding-bottom: 1px !important;
+  padding-bottom: 0px !important;
   border-bottom: 2px solid #647879;
 }
 
