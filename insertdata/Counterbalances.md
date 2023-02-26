@@ -12,10 +12,9 @@ printsurl: https://society6.com/art/counterbalances-1
 instaurl: https://www.instagram.com/p/CnM3bhYD1Ql/?igshid=YmMyMTA2M2Y=
 multiple: 1/5
 multipleurls:
-  - Web Scraping
-  - Data Cleaning
-  - JavaScript
-  - Web Application
+  - https://society6.com/art/counterbalances-3
+  - https://society6.com/art/counterbalances-4
+  - https://society6.com/art/counterbalances-5
 ---
 
 
