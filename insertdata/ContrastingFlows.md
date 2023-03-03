@@ -8,7 +8,7 @@ permalink: insertdata/contrasting-flows
 # All dates must be YYYY-MM-DD format!
 date: 2022-02-26
 category:
-  - Design
+  - Art
 printsurl: https://society6.com/art/d7709888
 kofiurl: https://dduyg.github.io/en/
 # instaurl: -
