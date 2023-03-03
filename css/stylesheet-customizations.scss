@@ -55,7 +55,7 @@ a.lined2 {
 
 
 // Menubar
-.ui.secondary.menu {
+.ui.custom.secondary.menu {
   font-family: 'Source Code Pro', monospace;
   font-size: 17px !important;
   display: none;
@@ -67,7 +67,7 @@ a.lined2 {
   background: rgba(0, 0, 0, 0.87);
   color: white !important;
 }
-.ui.secondary.menu .item {
+.ui.custom.secondary.menu .item {
   color: black;
   padding: 0.40em; // space between buttons
 }
