@@ -8,7 +8,7 @@ permalink: insertdata/geometric-lullaby
 # All dates must be YYYY-MM-DD format!
 date: 2021-08-07
 category:
-  - Art
+  - Data Design
 printsurl: https://society6.com/art/geometric-lullaby-07
 kofiurl: https://soci7
 instaurl: https://www.instagram.com/p/CflqtEnDzVC/?igshid=MDJmNzVkMjY=
