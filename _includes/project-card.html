@@ -1,4 +1,4 @@
-{% assign filters = page.labels %}
+{% assign filters = page.category %}
 <a class="card {% for label in filters %} {{ label | remove: " " }} {% endfor %}" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
     
   {% if include.page.image %}
