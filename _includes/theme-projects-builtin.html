@@ -8,6 +8,18 @@
   </h3>
   <h3 style="color: #454545; font-family: 'Source Code Pro', monospace; margin-top: 4px;" class="ui center aligned header"> Selected works</h3>
 
+  {% if project_categories.size > 1 %}
+    <div class="nonprintable filter-buttons jsOnly">
+
+        {% for category in project_categories[Art] %}
+        <a class="button ui toggle filter active" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">Data Design</a>
+        {% endfor %}
+        {% for category in project_categories %}
+        <a class="button ui toggle filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</a>
+        {% endfor %}
+    </div>
+  {% endif %}
+
   <div class="ui five doubling cards" id="filterable">
     {% for page in project_pages %}
       {% unless page.draft %}
