@@ -1,4 +1,6 @@
 <div style="padding-top: 32px; margin-bottom: 20px; font-size: 18px;" class="ui container">
+  {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
+  {% assign project_categories = project_pages | where: "language", language | map: "category" | sort | uniq %}
   {% include insert-data-intro.html %}
 
   <h3 class="ui horizontal center aligned divider header no-bottom">
@@ -6,8 +8,7 @@
   </h3>
   <h3 style="color: #454545; font-family: 'Source Code Pro', monospace; margin-top: 4px;" class="ui center aligned header"> Selected works</h3>
 
-  <div class="ui five doubling cards">
-    {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
+  <div class="ui five doubling cards" id="filterable">
     {% for page in project_pages %}
       {% unless page.draft %}
         {% include project-card.html page=page %}
