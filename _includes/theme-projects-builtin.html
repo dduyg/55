@@ -26,7 +26,12 @@
   {% endif %}
 
   <div class="ui five doubling cards" id="filterable">
-    {% for page in project_pages %}
+    {% assign filtered_pages = project_pages %}
+    {% if selector_query %}
+     {% assign filtered_pages = filtered_pages | where: "category", selector_query %}
+    {% endif %}
+
+    {% for page in filtered_pages %}
       {% unless page.draft %}
         {% include project-card.html page=page %}
       {% endunless %}
