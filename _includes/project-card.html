@@ -1,5 +1,5 @@
-{% assign filters = page.category | where: "name", "Data Design" %}
-<a class="card {% for label in filters %} {{ label | remove: " " }} {% endfor %}" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
+{% assign filters = page.category | first | replace: " ", "" %}
+<a class="card {{ filters }}" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">
     
   {% if include.page.image %}
   <div class="image">
