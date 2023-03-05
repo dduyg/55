@@ -8,7 +8,7 @@ title: "Attractor Fields"
 date: 2023-03-05
 category:
   - Data Visualization
-projecturl: "{{ site.baseurl }}/{{ site.essays-url }}/attractor-fields"
+projecturl: https://dduyg.github.io/posts/attractor-fields
 ---
 
 
