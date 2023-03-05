@@ -33,7 +33,7 @@
 
 <div class="ui hidden divider"></div>
 
-  <div class="ui stackable centered one doorzichtig cards" id="filterable">
+  <div class="ui stackable centered three doorzichtig cards" id="filterable">
       {% for page in essay_pages %}
         {% unless page.draft %}
           {% include essay-card.html page=page %}
