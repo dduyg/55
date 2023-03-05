@@ -8,7 +8,7 @@ title: "Attractor Fields"
 date: 2023-03-05
 category:
   - Data Visualization
-projecturl: https://society6.com/
+projecturl: "{{ site.baseurl }}/{{ site.essays-url }}/attractor-fields"
 ---
 
 
