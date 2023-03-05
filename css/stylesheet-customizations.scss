@@ -86,11 +86,9 @@ a.lined2 {
   color: #458588;
 }
 
-// active item Insert Data menu
-.ui.menu .art.active.item,
-.ui.art.menu .active.item {
-  font-weight: bold;
-  color: #5a5a5a;
+// Insert Data menu
+.ui.secondary.pointing.menu {
+  border-bottom: 4px solid rgba(34, 36, 38, 0.15);
 }
 
 // class="inline-img" tools about page
