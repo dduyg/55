@@ -1,6 +1,7 @@
 <div style="padding-top: 32px; margin-bottom: 20px; font-size: 18px;" class="ui container">
+  {% assign default_category = "Data Design" %}
   {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
-  {% assign project_categories = project_pages | where: "type", "project" | map: "category" | sort | uniq %}
+  {% assign project_categories = project_pages | where: "type", "project" | where: "category", default_category | map: "category" | sort | uniq %}
   {% include insert-data-intro.html %}
 
   <h3 class="ui horizontal center aligned divider header no-bottom">
