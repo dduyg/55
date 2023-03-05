@@ -87,8 +87,8 @@ a.lined2 {
 }
 
 // Insert Data menu
-.ui.secondary.pointing.menu {
-  border-bottom: 4px solid rgba(34, 36, 38, 0.15);
+.ui.secondary.pointing.menu .active.item {
+  border-bottom-width: 4px;
 }
 
 // class="inline-img" tools about page
