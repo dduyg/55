@@ -12,7 +12,7 @@
   {% if project_categories.size > 1 %}
     <div class="nonprintable jsOnly ui fluid two item secondary pointing menu">
       {% for category in project_categories %}
-       {% if category == "Data Design" %}
+       {% if category == default_category %}
         <a class="item filter active" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</a>
        {% else %}  
         <a class="item filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</a>
