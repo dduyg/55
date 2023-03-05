@@ -1,10 +1,5 @@
 <div style="padding-top: 32px; margin-bottom: 20px; font-size: 18px;" class="ui container">
   {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
-
-  {% if selector_query %}
-   {% assign project_pages = project_pages | where: "category", selector_query %}
-  {% endif %}
-
   {% assign project_categories = project_pages | where: "type", "project" | map: "category" | sort | uniq %}
   {% include insert-data-intro.html %}
 
@@ -26,12 +21,7 @@
   {% endif %}
 
   <div class="ui five doubling cards" id="filterable">
-    {% assign filtered_pages = project_pages %}
-    {% if selector_query %}
-     {% assign filtered_pages = filtered_pages | where: "category", selector_query %}
-    {% endif %}
-
-    {% for page in filtered_pages %}
+    {% for page in project_pages %}
       {% unless page.draft %}
         {% include project-card.html page=page %}
       {% endunless %}
@@ -41,5 +31,6 @@
   {% include footer.html %}
 
 </div>
+
 
 <script src="/javascript/filters.js"></script>
