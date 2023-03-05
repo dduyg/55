@@ -1,5 +1,10 @@
 <div style="padding-top: 32px; margin-bottom: 20px; font-size: 18px;" class="ui container">
   {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
+
+  {% if selector_query %}
+   {% assign project_pages = project_pages | where: "category", selector_query %}
+  {% endif %}
+
   {% assign project_categories = project_pages | where: "type", "project" | map: "category" | sort | uniq %}
   {% include insert-data-intro.html %}
 
