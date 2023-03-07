@@ -44,11 +44,11 @@ a.lined2 {
 
 // links homepage 
 a.home {
-  color: #647879;
+  color: #01868C;
   font-family: 'Source Code Pro', monospace;
   text-decoration: none;
   padding-bottom: 0px !important;
-  border-bottom: 2px solid #647879;
+  border-bottom: 2px solid #a85047;
 }
 
 // Import new fonts:
@@ -94,6 +94,7 @@ a.home {
 .ui.cards > .doorzichtig.card:hover,
 .ui.doorzichtig.card:hover {
   background: #E0E1E2;
+  box-shadow: 0px 0px 0px 1px #647879, 0px 2px 0px 0px #647879, 0px 1px 3px 0px #647879;
 }
 
 // active item dropdown blogpage
