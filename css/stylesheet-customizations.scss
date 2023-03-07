@@ -57,7 +57,7 @@ a.lined2 {
 // Menubar
 .ui.secondary.custom.menu {
   font-family: 'Source Code Pro', monospace;
-  font-size: 17px !important;
+  font-size: 18px !important;
   display: none;
   display: inline-flex;
 } 
@@ -88,7 +88,7 @@ a.lined2 {
 
 // active item dropdown blogpage
 .ui.dropdown .menu .active.item {
-  color: #458588;
+  background: #458588;
 }
 
 // Insert Data menu
