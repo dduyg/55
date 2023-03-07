@@ -34,9 +34,18 @@ a.lined {
   border-bottom: 1px solid #454545;
 }
 
-// Insert Data work reference links
+// Insert Data work links
 a.lined2 {
   color: #647879;
+  text-decoration: none;
+  padding-bottom: 0px !important;
+  border-bottom: 2px solid #647879;
+}
+
+// links homepage 
+a.home {
+  color: #647879;
+  font-family: 'Source Code Pro', monospace;
   text-decoration: none;
   padding-bottom: 0px !important;
   border-bottom: 2px solid #647879;
@@ -53,7 +62,7 @@ a.lined2 {
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&amp;subset=latin-ext');
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
 
 // Menubar
 .ui.secondary.custom.menu {
