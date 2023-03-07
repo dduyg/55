@@ -80,6 +80,11 @@ a.lined2 {
   box-shadow: 0px 0px 0px 1px transparent, 0px 2px 0px 0px transparent, 0px 1px 3px 0px transparent;
   background-color: transparent;
 }
+.ui.doorzichtig.cards > .card:hover,
+.ui.cards > .doorzichtig.card:hover,
+.ui.doorzichtig.card:hover {
+  background: #E0E1E2;
+}
 
 // active item dropdown blogpage
 .ui.dropdown .menu .active.item {
