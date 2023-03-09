@@ -13,17 +13,17 @@
      <div class="ui secondary custom menu">      
        {% if num_essays > 0 %}
        <a href="{{ site.baseurl }}/{{ site.essays-url }}" class="{% if include.active == "essays" %}active {% endif %}mycolor item">
-         {{ site.essays-page-label }}
+         <b>{{ site.essays-page-label }}</b>
        </a>
        {% endif %}
 
        <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="{% if include.active == "bio" %}active {% endif %}mycolor item">
-         {{ site.bio-page-label }}
+         <b>{{ site.bio-page-label }}</b>
        </a>
 
        {% if num_projects > 0 %}
        <a href="{{ site.baseurl }}/{{ site.projects-url }}" class="{% if include.active == "projects" %}active {% endif %}mycolor item">
-         {{ site.projects-page-label }}
+         <b>{{ site.projects-page-label }}</b>
        </a>
        {% endif %}
        
