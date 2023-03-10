@@ -54,9 +54,10 @@ layout: projects
         <div class="ui stackable grid">
            <div class="eleven wide column">         
               <h1 style="color: #617574; font-family: 'Source Code Pro', monospace;">{{ page.title }}</h1>
-              <p>{{ content }}</p>   
-              <div class="ui hidden divider"></div>
-   
+              {{ content }}
+           </div> 
+  
+           <div class="five wide column">
               <div style="color: black; font-family: 'Source Code Pro', monospace;" class="ui tertiary segment"> 
               <h3 style="font-family: 'Montserrat Alternates', sans-serif;" class="ui horizontal left aligned divider header">
                <i class="fitted square outline icon"></i> <i class="circle outline icon"></i>
@@ -67,8 +68,6 @@ layout: projects
               <p>If you have any questions, comments or requests regarding this work or any of my other works, <a href="{{ site.baseurl }}/{{ site.contact-url }}" class="lined2">send</a> me a message and let's talk.</p>
               </div>
            </div> 
-  
-           <div class="five wide column"></div> 
         </div>
        {% endif %}
 
