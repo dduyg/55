@@ -36,9 +36,11 @@ a.lined {
 
 // Insert Data work links
 a.lined2 {
+  color: rgba(0, 0, 0, 0.87);
   text-decoration: none;
   padding-bottom: 0px !important;
   border-bottom: 2px solid #647879;
+  transform: skew(-12deg) translateX(-50%);
 }
 
 // links homepage 
