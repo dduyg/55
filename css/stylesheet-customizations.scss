@@ -122,6 +122,13 @@ a.home {
   vertical-align: middle; 
   display: inline-block;
 }
+// profil image about page
+.custom-divider-image {
+  width: 50px; /* set the desired width of the image */
+  height: 50px; /* set the desired height of the image */
+  object-fit: cover; /* to ensure the image is centered and fills the available space */
+  border-radius: 50%; /* to make the image circular */
+}
 
 .wave {
   animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
