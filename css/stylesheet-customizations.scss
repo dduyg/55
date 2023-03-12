@@ -105,11 +105,9 @@ a.home {
   box-shadow: 0px 0px 0px 1px #647879, 0px 2px 0px 0px #647879, 0px 1px 3px 0px #647879;
 }
 
-// active item blogpage filtermenu
-.ui.menu .filt.active.item,
-.ui.filt.menu .active.item {
-  font-weight: bold;
-  color: #01868B !important;
+// all item blogpage filter
+.ui.dropdown .menu > .all.item { 
+  background-color: #E0E1E2;
 }
 
 // Insert Data menu
