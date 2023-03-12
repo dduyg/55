@@ -205,6 +205,12 @@ ul.ui.list li:before,
   font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
+// active item about me menu
+.ui.menu .myy.active.item,
+.ui.myy.menu .active.item {
+  font-weight: bold;
+  color: #458588 !important;
+}
 
 // no top space 
 .no-top {
