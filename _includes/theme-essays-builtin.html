@@ -8,7 +8,9 @@
   <div class="six wide column"> 
     
 {% if essay_categories.size > 1 %}
-<div class="nonprintable jsOnly ui fluid floating labeled icon dropdown button">
+<div class="nonprintable jsOnly ui fluid two item menu">
+  <div class="item filter active" href="#" id="filter-all">View All</div>       
+  <div class="ui dropdown item">
    <i class="caret down icon"></i>
    <span class="text">Filter by tag</span>
    <div class="menu">
@@ -17,15 +19,15 @@
         <input type="text" placeholder="Search tags..."> 
       </div>
      <div class="divider"></div>
-      <div class="item filter active" href="#" id="filter-all"> <i class="grey bars right floated icon"></i>All</div>       
      <div class="scrolling menu">
       {% for category in essay_categories %}
       <div class="item filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</div>
-    {% endfor %}
+      {% endfor %}
      </div>
    </div>
+  </div>
 </div>
-  {% endif %}
+{% endif %}
 
   </div>
   </div>
