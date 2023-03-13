@@ -127,8 +127,8 @@ a.home {
   width: 90px; /* set the desired width of the image */
   height: 90px; /* set the desired height of the image */
   object-fit: cover; /* to ensure the image is centered and fills the available space */
-// border-radius: 50%; /* to make the image circular */
-  border: 1px solid black;
+  border-radius: 25%; /* to make the image circular */
+  border: 2px solid #458588;
 }
 
 .wave {
