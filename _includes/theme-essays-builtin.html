@@ -14,12 +14,10 @@
    <div class="menu">
        <div class="ui icon search input"> 
        <input type="text" placeholder="Search tags..."> 
-       <i class="search link icon"></i>  
-    <div class="scrolling menu">
+       <i class="search link icon"></i>   
        {% for category in essay_categories %}
        <div class="item filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</div>
        {% endfor %}
-     </div>
    </div>
   </div>
 </div>
