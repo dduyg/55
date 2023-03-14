@@ -13,9 +13,8 @@
   <i class="dropdown icon"></i>
   <div class="default text">Filter by tag</div>
   <div class="menu">
-    <div class="item" data-value="">All</div>
     {% for category in essay_categories %}
-    <div class="item" data-value="{{ category }}">{{ category }}</div>
+    <div class="item filter" data-value="{{ category }}">{{ category }}</div>
     {% endfor %}
   </div>
 </div>
@@ -42,5 +41,5 @@
 
 </div>
 
-
+<script src="/javascript/filters.js"></script>
 <script src="/javascript/filters-tags.js"></script>
