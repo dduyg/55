@@ -8,21 +8,16 @@
   <div class="six wide column"> 
     
 {% if essay_categories.size > 1 %}
-<div class="nonprintable jsOnly ui fluid floating labeled icon dropdown button">
-   <i class="caret down icon"></i>
-   <span class="text">Filter by tag</span>
-   <div class="menu">
-      <div class="ui icon search input"> 
-        <i class="search icon"></i> 
-        <input type="text" placeholder="Search tags..."> 
-      </div>
-      <div class="all item filter active" href="#" id="filter-all">View All</div>       
-     <div class="scrolling menu">
-      {% for category in essay_categories %}
-      <div class="item filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</div>
+<div class="nonprintable jsOnly ui fluid search selection dropdown">
+  <input type="hidden" name="tags">
+  <i class="dropdown icon"></i>
+  <div class="default text">Filter by tag</div>
+  <div class="menu">
+    <div class="item" data-value="">All</div>
+    {% for category in essay_categories %}
+    <div class="item" data-value="{{ category }}">{{ category }}</div>
     {% endfor %}
-     </div>
-   </div>
+  </div>
 </div>
   {% endif %}
 
@@ -47,9 +42,5 @@
 
 </div>
 
-<script>
-  $('.ui.dropdown')
-  .dropdown();
-</script>
 
-<script src="/javascript/filters.js"></script>
+<script src="/javascript/filters-tags.js"></script>
