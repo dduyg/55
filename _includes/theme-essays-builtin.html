@@ -8,17 +8,26 @@
   <div class="six wide column"> 
     
 {% if essay_categories.size > 1 %}
-<div class="nonprintable jsOnly ui fluid search selection dropdown">
-  <input type="hidden" name="tags">
-  <i class="dropdown icon"></i>
-  <div class="default text">Filter by tag</div>
-  <div class="menu">
-    {% for category in essay_categories %}
-    <div class="item filter" data-value="{{ category }}">{{ category }}</div>
-    {% endfor %}
+<div class="nonprintable jsOnly ui fluid two item menu">
+  <div class="filt item filter active" href="#" id="filter-all">View All</div>       
+  <div class="ui dropdown filt item">
+   <i class="caret square down outline icon"></i>
+   <span class="text">Filter by tag</span>
+   <div class="menu">
+      <div class="ui icon search input"> 
+        <i class="search icon"></i> 
+        <input type="text" placeholder="Search tags..."> 
+      </div>
+     <div class="divider"></div>
+     <div class="scrolling menu">
+      {% for category in essay_categories %}
+      <div class="item filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</div>
+      {% endfor %}
+     </div>
+   </div>
   </div>
 </div>
-  {% endif %}
+{% endif %}
 
   </div>
   </div>
