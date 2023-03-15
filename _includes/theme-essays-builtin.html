@@ -20,7 +20,7 @@
       </div>
      <div class="scrolling menu">
       {% for category in essay_categories %}
-      <div class="item" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</div>
+      <div class="button filter item" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</div>
       {% endfor %}
      </div>
    </div>
