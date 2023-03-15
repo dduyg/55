@@ -10,7 +10,8 @@
 {% if essay_categories.size > 1 %}
 <div class="nonprintable jsOnly ui fluid two item text menu">
   <div class="item filter active" href="#" id="filter-all">View All</div>       
-  <div class="ui labeled icon button dropdown item">
+  <div class="ui dropdown item">
+<div class="ui labeled icon button">
    <i class="caret down icon"></i>
    <span class="text">Filter by tag</span>
    <div class="menu">
@@ -24,6 +25,7 @@
       {% endfor %}
      </div>
    </div>
+</div>
   </div>
 </div>
 {% endif %}
