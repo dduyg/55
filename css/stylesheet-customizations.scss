@@ -105,12 +105,16 @@ a.home {
   box-shadow: 0px 0px 0px 1px #647879, 0px 2px 0px 0px #647879, 0px 1px 3px 0px #647879;
 }
 
-// all item blogpage filter
-.ui.dropdown .menu > .all.item { 
-  background-color: #E0E1E2;
-  font-size: 0.78571429em;
-  text-transform: uppercase;
+// posts page filter toggle button
+.ui.toggle.buttons .active.button,
+.ui.buttons .button.toggle.active,
+.ui.button.toggle.active {
+  background-color: #458588 !important;
 }
+.ui.button.toggle.active:hover {
+  background-color: #E0E1E2 !important;
+}
+
 
 // Insert Data menu
 .ui.secondary.pointing.menu .active.item {
