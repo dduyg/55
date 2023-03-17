@@ -10,6 +10,9 @@
       {% for label in include.page.labels %}
       <div style="background-color: #E0E1E2;" class="ui basic black label">{{ label }}</div>
       {% endfor %}
+      {% if page.projectcheck == 'true' %}
+      <div class="ui grey label">Project</div>
+      {% endif %}
     </div>
     <div style="color: #3B3B3B; font-size: 14px;" class="description">
       {{ include.page.content | markdownify | strip_html | truncatewords: 35 }}
