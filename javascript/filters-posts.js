@@ -1,5 +1,6 @@
 let selector_query = window.location.hash.substr(1);
-let filterButtons = $('.button.filter')
+let filterButtons = $('.item.filter')
+let viewAllButton = $('#filter-all')
 
 if (selector_query) {
     let element = $('#filter-' + selector_query)
@@ -18,6 +19,12 @@ filterButtons.click(function () {
     filterButtons.removeClass('active');
     $(this).addClass('active');
     $(this).blur();
+})
+
+viewAllButton.click(function() {
+    filter('all');
+    filterButtons.removeClass('active');
+    viewAllButton.addClass('active');
 })
 
 function filter(category) {
@@ -41,3 +48,10 @@ function filter(category) {
         });
     }
 }
+
+viewAllButton.click(function() {
+    filter('all');
+    filterButtons.removeClass('active');
+    viewAllButton.addClass('active');
+    $('.ui.dropdown').dropdown('clear');
+})
