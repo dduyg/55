@@ -1,37 +1,50 @@
-$(document).ready(function() {
-  let selector_query = window.location.hash.substr(1);
-  let filterButtons = $('.item.filter');
-  let filterDropdown = $('.ui.labeled.icon.dropdown.button');
-  let viewAllButton = $('.item.all');
+let selector_query = window.location.hash.substr(1);
+let filterButtons = $('.item.filter');
+let filterDropdown = $('.ui.toggle.labeled.icon.dropdown.button');
 
-  // set initial filter state based on URL hash
-  if (selector_query) {
-    filterButtons.removeClass('active');
-    viewAllButton.removeClass('active');
-    $(`[data-filter="${selector_query}"]`).addClass('active');
-  } else {
-    viewAllButton.addClass('active');
-  }
-
-  // set filter state when filter button is clicked
-  filterButtons.on('click', function() {
-    let filter = $(this).data('filter');
-    filterButtons.removeClass('active');
-    viewAllButton.removeClass('active');
-    $(this).addClass('active');
-    filterDropdown.dropdown('clear');
-    if (filter === 'all') {
-      window.location.hash = '';
-    } else {
-      window.location.hash = filter;
+if (selector_query) {
+    let element = $('#filter-' + selector_query)
+    
+    if (element.length) {
+        filter(selector_query);
+        filterButtons.removeClass('active');
+        element.addClass('active');
+        element.blur();
     }
-  });
+}
 
-  // set filter state when view all button is clicked
-  viewAllButton.on('click', function() {
+filterButtons.click(function () {
+    filter(this.id.replace("filter-", ""));
+
     filterButtons.removeClass('active');
     $(this).addClass('active');
-    filterDropdown.dropdown('clear');
-    window.location.hash = '';
-  });
+    $(this).blur();
+    filterDropdown.dropdown('restore defaults');
 });
+
+$('.filter-all').click(function() {
+    filterButtons.removeClass('active');
+    filterDropdown.dropdown('restore defaults');
+});
+
+function filter(category) {
+    let selector = $('#filterable > div, #filterable > a')
+
+    if (category.toLowerCase() == 'all' || category.toLowerCase() == 'todos') {
+        selector.fadeOut('fast', function() {
+            selector.attr("style", "display: none !important");
+        }).promise().done(function() {
+            selector.fadeIn('slow').promise().done(function() {
+                $(this).trigger("fadeInComplete");
+            })
+        });
+    } else {
+        selector.fadeOut('fast', function() {
+            selector.attr("style", "display: none !important");
+        }).promise().done(function() {
+            $('.' + category).fadeIn('slow').promise().done(function() {
+                $(this).trigger("fadeInComplete");
+            })
+        });
+    }
+}
