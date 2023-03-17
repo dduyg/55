@@ -1,45 +1,37 @@
-const filters = {
-  tag: "all",
-  init() {
-    const dropdownItems = document.querySelectorAll(".ui.dropdown .item");
-    const viewAllButton = document.querySelector("#view-all");
+$(document).ready(function() {
+  let selector_query = window.location.hash.substr(1);
+  let filterButtons = $('.item.filter');
+  let filterDropdown = $('.ui.labeled.icon.dropdown.button');
+  let viewAllButton = $('.item.all');
 
-    dropdownItems.forEach((item) => {
-      item.addEventListener("click", () => {
-        this.tag = item.dataset.tag;
-        this.filter();
-      });
-    });
+  // set initial filter state based on URL hash
+  if (selector_query) {
+    filterButtons.removeClass('active');
+    viewAllButton.removeClass('active');
+    $(`[data-filter="${selector_query}"]`).addClass('active');
+  } else {
+    viewAllButton.addClass('active');
+  }
 
-    viewAllButton.addEventListener("click", () => {
-      this.tag = "all";
-      this.filter();
-      const dropdown = document.querySelector(".ui.dropdown");
-      dropdown.querySelector(".text").textContent = "Filter by tag";
-      dropdown.querySelectorAll(".item").forEach((item) => {
-        item.classList.remove("active");
-      });
-    });
-  },
-  filter() {
-    const projects = document.querySelectorAll(".project");
-    projects.forEach((project) => {
-      if (this.tag === "all" || project.dataset.tag === this.tag) {
-        project.classList.remove("hidden");
-      } else {
-        project.classList.add("hidden");
-      }
-    });
-    const dropdown = document.querySelector(".ui.dropdown");
-    dropdown.querySelector(".text").textContent = this.tag;
-    dropdown.querySelectorAll(".item").forEach((item) => {
-      if (item.dataset.tag === this.tag) {
-        item.classList.add("active");
-      } else {
-        item.classList.remove("active");
-      }
-    });
-  },
-};
+  // set filter state when filter button is clicked
+  filterButtons.on('click', function() {
+    let filter = $(this).data('filter');
+    filterButtons.removeClass('active');
+    viewAllButton.removeClass('active');
+    $(this).addClass('active');
+    filterDropdown.dropdown('clear');
+    if (filter === 'all') {
+      window.location.hash = '';
+    } else {
+      window.location.hash = filter;
+    }
+  });
 
-filters.init();
+  // set filter state when view all button is clicked
+  viewAllButton.on('click', function() {
+    filterButtons.removeClass('active');
+    $(this).addClass('active');
+    filterDropdown.dropdown('clear');
+    window.location.hash = '';
+  });
+});
