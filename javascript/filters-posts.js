@@ -1,51 +1,45 @@
-let selector_query = window.location.hash.substr(1);
-let filterButtons = $('.item.filter')
-let filterDropdown = $('.ui.labeled.icon.dropdown.button')
+const filters = {
+  tag: "all",
+  init() {
+    const dropdownItems = document.querySelectorAll(".ui.dropdown .item");
+    const viewAllButton = document.querySelector("#view-all");
 
-if (selector_query) {
-    let element = $('#filter-' + selector_query)
-    
-    if (element.length) {
-        filter(selector_query);
-        filterButtons.removeClass('active');
-        element.addClass('active');
-        filterDropdown.dropdown('set selected', selector_query)
-        element.blur();
-    }
-}
+    dropdownItems.forEach((item) => {
+      item.addEventListener("click", () => {
+        this.tag = item.dataset.tag;
+        this.filter();
+      });
+    });
 
-filterButtons.click(function () {
-    filter(this.id.replace("filter-", ""));
+    viewAllButton.addEventListener("click", () => {
+      this.tag = "all";
+      this.filter();
+      const dropdown = document.querySelector(".ui.dropdown");
+      dropdown.querySelector(".text").textContent = "Filter by tag";
+      dropdown.querySelectorAll(".item").forEach((item) => {
+        item.classList.remove("active");
+      });
+    });
+  },
+  filter() {
+    const projects = document.querySelectorAll(".project");
+    projects.forEach((project) => {
+      if (this.tag === "all" || project.dataset.tag === this.tag) {
+        project.classList.remove("hidden");
+      } else {
+        project.classList.add("hidden");
+      }
+    });
+    const dropdown = document.querySelector(".ui.dropdown");
+    dropdown.querySelector(".text").textContent = this.tag;
+    dropdown.querySelectorAll(".item").forEach((item) => {
+      if (item.dataset.tag === this.tag) {
+        item.classList.add("active");
+      } else {
+        item.classList.remove("active");
+      }
+    });
+  },
+};
 
-    filterButtons.removeClass('active');
-    $(this).addClass('active');
-    filterDropdown.dropdown('set selected', this.id.replace("filter-", ""));
-    $(this).blur();
-})
-
-$('.compact.ui.toggle.button.item.filter').click(function() {
-  filterButtons.removeClass('active');
-  filterDropdown.dropdown('restore defaults');
-})
-
-function filter(category) {
-    let selector = $('#filterable > div, #filterable > a')
-
-    if (category.toLowerCase() == 'all' || category.toLowerCase() == 'todos') {
-        selector.fadeOut('fast', function() {
-            selector.attr("style", "display: none !important");
-        }).promise().done(function() {
-            selector.fadeIn('slow').promise().done(function() {
-                $(this).trigger("fadeInComplete");
-            })
-        });
-    } else {
-        selector.fadeOut('fast', function() {
-            selector.attr("style", "display: none !important");
-        }).promise().done(function() {
-            $('.' + category).fadeIn('slow').promise().done(function() {
-                $(this).trigger("fadeInComplete");
-            })
-        });
-    }
-}
+filters.init();
