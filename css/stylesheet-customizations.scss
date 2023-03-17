@@ -109,10 +109,13 @@ a.home {
 .ui.toggle.buttons .active.button,
 .ui.buttons .button.toggle.active,
 .ui.button.toggle.active {
-  background-color: #767676 !important;
+  background-color: #ABACAE !important;
 }
 .ui.button.toggle.active:hover {
-  background-color: #767676 !important;
+  background-color: #ABACAE !important;
+}
+.item.filter.labeled.icon.dropdown {
+  width: 150px; /* set a fixed width for the dropdown button */
 }
 
 
