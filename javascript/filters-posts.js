@@ -1,6 +1,6 @@
 let selector_query = window.location.hash.substr(1);
-let filterButtons = $('.item.filter');
-let viewAllButton = $('#filter-all');
+let filterButtons = $('.item.filter')
+let filterDropdown = $('.ui.labeled.icon.dropdown.button')
 
 if (selector_query) {
     let element = $('#filter-' + selector_query)
@@ -9,6 +9,7 @@ if (selector_query) {
         filter(selector_query);
         filterButtons.removeClass('active');
         element.addClass('active');
+        filterDropdown.dropdown('set selected', selector_query)
         element.blur();
     }
 }
@@ -18,13 +19,13 @@ filterButtons.click(function () {
 
     filterButtons.removeClass('active');
     $(this).addClass('active');
+    filterDropdown.dropdown('set selected', this.id.replace("filter-", ""));
     $(this).blur();
 })
 
-viewAllButton.click(function () {
-    filterButtons.removeClass('active');
-    viewAllButton.addClass('active');
-    filter('all');
+$('.compact.ui.toggle.button.item.filter').click(function() {
+  filterButtons.removeClass('active');
+  filterDropdown.dropdown('restore defaults');
 })
 
 function filter(category) {
