@@ -1,8 +1,9 @@
 let selector_query = window.location.hash.substr(1);
 let filterButtons = $('.item.filter');
+let viewAllButton = $('#filter-all');
 
 if (selector_query) {
-    let element = $('#filter-' + selector_query);
+    let element = $('#filter-' + selector_query)
     
     if (element.length) {
         filter(selector_query);
@@ -20,14 +21,14 @@ filterButtons.click(function () {
     $(this).blur();
 })
 
-$('#filter-all').click(function() {
-  filterButtons.removeClass('active');
-  $(this).addClass('active');
-  filter('all');
-});
+viewAllButton.click(function () {
+    filterButtons.removeClass('active');
+    viewAllButton.addClass('active');
+    filter('all');
+})
 
 function filter(category) {
-    let selector = $('#filterable > div, #filterable > a');
+    let selector = $('#filterable > div, #filterable > a')
 
     if (category.toLowerCase() == 'all' || category.toLowerCase() == 'todos') {
         selector.fadeOut('fast', function() {
@@ -37,8 +38,6 @@ function filter(category) {
                 $(this).trigger("fadeInComplete");
             })
         });
-        filterButtons.removeClass('active');
-        $('#filter-all').addClass('active');
     } else {
         selector.fadeOut('fast', function() {
             selector.attr("style", "display: none !important");
