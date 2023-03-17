@@ -11,6 +11,7 @@ labels:
   - Python
   - Seaborn
 mediumurl: mybyy.github.io
+projectcheck: false
 ---
 
 
