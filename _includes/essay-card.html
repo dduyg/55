@@ -10,7 +10,7 @@
       {% for label in include.page.labels %}
       <div style="background-color: #E0E1E2;" class="ui basic black label">{{ label }}</div>
       {% endfor %}
-      {% if include.page.projectcheck == 'true' %}
+      {% if page.projectcheck %}
       <div class="ui grey label">Project</div>
       {% endif %}
     </div>
