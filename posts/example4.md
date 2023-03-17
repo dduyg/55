@@ -12,6 +12,7 @@ labels:
   - Word Embeddings
   - GitHub
 # mediumurl: -
+projectcheck: false
 ---
 
 
