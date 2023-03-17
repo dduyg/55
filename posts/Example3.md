@@ -10,6 +10,7 @@ labels:
   - Software Engineering
   - Learning
 # mediumurl: -
+projectcheck: true
 ---
 
 <img class="ui tiny left circular floated image" src="../images/paintbrushes.jpg">
