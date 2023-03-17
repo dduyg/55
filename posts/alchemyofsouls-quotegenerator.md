@@ -12,6 +12,7 @@ labels:
   - JavaScript
   - Web Application
 mediumurl: mybyy.github.io
+projectcheck: true
 ---
 
 
