@@ -11,6 +11,7 @@ labels:
   - Answers
   - StackOverflow
 # mediumurl: -
+projectcheck: true
 ---
 
 <img class="ui tiny right spaced image" src="../images/degree_difficulty.jpg">*Is there such thing as a stupid question?*
