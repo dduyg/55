@@ -115,12 +115,6 @@ a.home {
 .ui.button.toggle.active:hover {
   background-color: #C0C1C2 !important;
 }
-.ui.labeled.dropdown.button {
-  width: 150px; /* set a fixed width for the buttons */
-  white-space: nowrap; /* prevent text from wrapping */
-  overflow: hidden; /* hide any text that doesn't fit */
-  text-overflow: ellipsis; /* add an ellipsis at the end of the visible text */
-}
 
 
 // Insert Data menu
