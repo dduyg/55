@@ -16,13 +16,14 @@ layout: essays
   <div style="font-size: 17px; line-height: 1.5;" class="content"> 
 
       <h1 style="color: #262626; font-family: 'Source Code Pro', monospace;">{{ page.title }}</h1>
-      <span style="font-family: 'Roboto', sans-serif; font-size: 15px;" class="date"> {{ page.date | date_to_string }} &nbsp;·&nbsp; <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a></span>
+      <span style="font-family: 'Roboto', sans-serif; font-size: 15px;" class="date"> {{ page.date | date_to_string }} &nbsp;·&nbsp; <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a>
 
-      <div style="margin: 8px;" class="ui mini labels">
+      <div class="ui mini labels">
          {% for cat in page.labels %}
          <div class="ui label">{{ cat }}</div>
          {% endfor %}
        </div>
+       </span>
 
       <div style="font-size: 15px; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;" class="mediumlink">
       {% if page.mediumurl %}
