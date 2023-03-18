@@ -13,6 +13,17 @@ layout: essays
         <i class="right chevron icon divider"></i>
    </div>
 
+   <div style="font-size: 15px; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;" class="mediumlink">
+      {% if page.mediumurl %}
+      <a href="{{ page.mediumurl }}" target="_blank">
+        <button class="compact tiny ui active right floated button">
+         <i class="bookmark outline icon"></i>
+         Read/Save on Medium
+        </button>
+      </a>
+      {% endif %}
+    </div>
+
   <div style="font-size: 17px; line-height: 1.5;" class="content"> 
 
       <h1 style="color: #262626; font-family: 'Source Code Pro', monospace;">{{ page.title }}</h1>
@@ -22,17 +33,6 @@ layout: essays
        <div style="margin: 6px;" class="ui mini label">{{ cat }}</div>
        {% endfor %}
       </span>
-
-      <div style="font-size: 15px; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;" class="mediumlink">
-      {% if page.mediumurl %}
-      <a href="{{ page.mediumurl }}" target="_blank">
-        <button class="compact tiny ui labeled icon active button">
-         <i class="bookmark outline icon"></i>
-         Read/Save on Medium
-        </button>
-      </a>
-      {% endif %}
-      </div>
 
       <div class="ui hidden divider"></div>
        {{ content }}
