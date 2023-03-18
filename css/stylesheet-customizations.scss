@@ -159,6 +159,13 @@ blockquote {
   padding-left: 18px;
 }
 
+// post title marked
+.marked-title {
+  background-color: rgba(0, 0, 0, .9);
+  color: #fff;
+  letter-spacing: -.05em;
+}
+
 // contactpage buttons
 .ui.basic.ct.buttons .button,
 .ui.basic.ct.button { 
