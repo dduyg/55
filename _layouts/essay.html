@@ -15,19 +15,18 @@ layout: essays
 
   <div style="font-size: 17px; line-height: 1.5;" class="content"> 
 
-     <h1 style="color: #262626; font-family: 'Source Code Pro', monospace;">{{ page.title }}
+     <h1 style="color: #262626; font-family: 'Source Code Pro', monospace;">{{ page.title }}</h1>
  
      <span style="font-size: 15px; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;">
       {% if page.mediumurl %}
       <a href="{{ page.mediumurl }}" target="_blank">
-        <button class="compact tiny ui active button">
+        <button class="compact tiny right attached ui active button">
          <i class="bookmark outline icon"></i>
          Read/Save on Medium
         </button>
       </a>
       {% endif %}
      </span>
-     </h1>
 
      <span style="font-family: 'Roboto', sans-serif; font-size: 15px;" class="date"> {{ page.date | date_to_string }} &nbsp;·&nbsp; <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a>&nbsp;·</span>
       <span>
