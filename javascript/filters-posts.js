@@ -23,7 +23,7 @@ filterButtons.click(function () {
     $(this).blur();
 })
 
-$('.compact.ui.toggle.button.item.filter').click(function() {
+$('.ui.button.item.filter').click(function() {
   filterButtons.removeClass('active');
   filterDropdown.dropdown('restore defaults');
 })
