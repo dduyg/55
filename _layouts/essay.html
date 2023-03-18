@@ -26,7 +26,12 @@ layout: essays
 
       <div style="font-size: 15px; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;" class="mediumlink">
       {% if page.mediumurl %}
-      <a style="color: black;" href="{{ page.mediumurl }}" target="_blank"><i class="circular inverted bookmark outline icon"></i><b>Read/Save on Medium</b></a>
+      <a href="{{ page.mediumurl }}" target="_blank">
+        <button class="ui labeled icon black button">
+         <i class="bookmark outline icon"></i>
+         Read/Save on Medium
+        </button>
+      </a>
       {% endif %}
       </div>
 
