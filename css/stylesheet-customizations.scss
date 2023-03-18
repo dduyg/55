@@ -160,10 +160,11 @@ blockquote {
 }
 
 // post title marked
-.marked-title {
-  background-color: rgba(0, 0, 0, .9);
+mark {
+  background: rgba(0, 0, 0, .9);
   color: #fff;
   letter-spacing: -.05em;
+  font-family: 'Source Code Pro', monospace;
 }
 
 // contactpage buttons
