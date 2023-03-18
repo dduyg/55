@@ -115,7 +115,7 @@ a.home {
 .ui.button.toggle.active:hover {
   background-color: #ABACAE !important;
 }
-.ui.dropdown .menu .item.filter {
+.ui.labeled.dropdown.button {
   width: 150px; /* set a fixed width for the buttons */
   white-space: nowrap; /* prevent text from wrapping */
   overflow: hidden; /* hide any text that doesn't fit */
