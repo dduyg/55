@@ -60,6 +60,7 @@ a.home {
 // first letter title post
 .poststitle { 
   font-family: 'Source Code Pro', monospace;
+  text-decoration: overline;
 }
 .poststitle::first-letter {
   color: #A75A52;
