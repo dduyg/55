@@ -57,6 +57,13 @@ a.home {
 .boldertxt { 
   font-weight: 800;
 }
+// first letter title post
+.poststitle { 
+  font-family: 'Source Code Pro', monospace;
+}
+.poststitle::first-letter {
+  color: #A75A52;
+}
 
 // Import new fonts:
 // font-family: 'Montserrat Alternates', sans-serif;
