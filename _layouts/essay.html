@@ -19,7 +19,7 @@ layout: essays
       <span style="font-family: 'Roboto', sans-serif; font-size: 15px;" class="date"> {{ page.date | date_to_string }} &nbsp;·&nbsp; <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a></span>
       <span>
        {% for cat in page.labels %}
-       <div class="ui mini label">{{ cat }}</div>
+       <div style="margin: 6px;" class="ui mini label">{{ cat }}</div>
        {% endfor %}
       </span>
 
