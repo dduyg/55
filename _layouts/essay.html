@@ -26,8 +26,8 @@ layout: essays
 
   <div style="font-size: 17px; line-height: 1.5;" class="content"> 
 
-      <div class="ui clearing divider"></div>
-      <h1 style="color: #262626; font-family: 'Source Code Pro', monospace;">{{ page.title }}</h1>
+      <div class="ui clearing hidden divider"></div>
+      <h1 style="color: #262626; font-family: 'Source Code Pro', monospace;" class="no-top">{{ page.title }}</h1>
       <span style="font-family: 'Roboto', sans-serif; font-size: 15px;" class="date"> {{ page.date | date_to_string }} &nbsp;·&nbsp; <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a>&nbsp;·</span>
       <span>
        {% for cat in page.labels %}
