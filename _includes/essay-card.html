@@ -15,7 +15,7 @@
       {% endif %}
     </div>
     <div style="color: #3B3B3B; font-size: 14px;" class="description">
-      {{ include.page.content | markdownify | strip_html | truncatewords: 35 }}
+      {{ include.page.summary }}
     </div>
   </div>
 </a>
