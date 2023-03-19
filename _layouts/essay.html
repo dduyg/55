@@ -15,9 +15,10 @@ layout: essays
 
   <div style="font-size: 17px; line-height: 1.5;" class="content"> 
 
-     <h1 style="color: #262626; font-family: 'Source Code Pro', monospace;">{{ page.title }}
- 
-     <span style="font-size: 15px; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;">
+     <h1 style="color: #262626; font-size: 2em; font-family: 'Source Code Pro', monospace;">{{ page.title }}</h1>
+     <span style="color: #999999; font-family: 'Roboto', sans-serif; font-size: 15px;" class="date"> {{ page.date | date_to_string }} &nbsp;·&nbsp; <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a></span>
+
+     <div style="font-size: 15px; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;">
       {% if page.mediumurl %}
       <a href="{{ page.mediumurl }}" target="_blank">
         <button class="mini ui active button">
@@ -26,11 +27,9 @@ layout: essays
         </button>
       </a>
       {% endif %}
-     </span>
-     </h1>
+     </div>
 
-     <span style="font-family: 'Roboto', sans-serif; font-size: 15px;" class="date"> {{ page.date | date_to_string }} &nbsp;·&nbsp; <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a>&nbsp;·</span>
-     <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
      {{ content }}
 
    </div>
