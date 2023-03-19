@@ -13,6 +13,7 @@ labels:
   - GitHub
 # mediumurl: -
 projectcheck: false
+summary: A text adventure game I developed for ICS 313.
 ---
 
 
