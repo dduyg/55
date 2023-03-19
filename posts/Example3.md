@@ -11,6 +11,7 @@ labels:
   - Learning
 # mediumurl: -
 projectcheck: true
+summary: A text adventure game I developed for ICS 313.
 ---
 
 <img class="ui tiny left circular floated image" src="../images/paintbrushes.jpg">
