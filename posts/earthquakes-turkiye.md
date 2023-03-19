@@ -12,6 +12,7 @@ labels:
   - Seaborn
 mediumurl: mybyy.github.io
 projectcheck: false
+summary: A text adventure game I developed for ICS 313.
 ---
 
 
