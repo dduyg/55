@@ -17,10 +17,10 @@ layout: essays
 
      <h1 style="color: #262626; font-family: 'Source Code Pro', monospace;">{{ page.title }}
  
-     <span style="font-size: 15px; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;">
+     <span style="font-size: 14px; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;">
       {% if page.mediumurl %}
       <a href="{{ page.mediumurl }}" target="_blank">
-        <button class="no-top compact tiny ui active button">
+        <button class="compact tiny ui active button">
          <i class="bookmark outline icon"></i>
          Read/Save on Medium
         </button>
@@ -35,8 +35,8 @@ layout: essays
        <div style="margin: 6px;" class="ui mini label">{{ cat }}</div>
        {% endfor %}
       </span>
+      <div class="ui divider"></div>
 
-      <div class="ui hidden divider"></div>
        {{ content }}
 
    </div>
