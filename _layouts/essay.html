@@ -15,10 +15,6 @@ layout: essays
 
   <div style="font-size: 17px; line-height: 1.5;" class="content"> 
 
-<button class="ui button like">
-      <i class="thumbs up icon"></i> Like
-    </button>
-
      <h1 style="color: #262626; font-family: 'Source Code Pro', monospace;">{{ page.title }}
  
      <span style="font-size: 15px; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;">
@@ -34,19 +30,11 @@ layout: essays
      </h1>
 
      <span style="font-family: 'Roboto', sans-serif; font-size: 15px;" class="date"> {{ page.date | date_to_string }} &nbsp;·&nbsp; <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a>&nbsp;·</span>
-      <span>
-       {% for cat in page.labels %}
-       <div style="margin: 6px;" class="ui mini label">{{ cat }}</div>
-       {% endfor %}
-      </span>
-      <div class="ui hidden divider"></div>
-
-       {{ content }}
+     <div class="ui hidden divider"></div>
+     {{ content }}
 
    </div>
 
        {% include footer.html %}
         
 </div>
-
-<script src="/javascript/like-button.js"></script>
