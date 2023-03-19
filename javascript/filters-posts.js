@@ -1,6 +1,6 @@
 let selector_query = window.location.hash.substr(1);
 let filterButtons = $('.item.filter')
-let filterDropdown = $('.ui.labeled.icon.dropdown.button')
+let filterDropdown = $('.ui.dropdown.item')
 
 if (selector_query) {
     let element = $('#filter-' + selector_query)
@@ -23,7 +23,7 @@ filterButtons.click(function () {
     $(this).blur();
 })
 
-$('.ui.button.item.filter').click(function() {
+$('.view.item.filter').click(function() {
   filterButtons.removeClass('active');
   filterDropdown.dropdown('restore defaults');
 })
