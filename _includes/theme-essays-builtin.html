@@ -3,37 +3,35 @@
   {% assign essay_categories = essay_pages | where: "type", "essay" | map: "labels" | sort_natural | uniq %}
 
 <div style="padding-top: 15px" class="ui stackable grid">
-
-  <div class="ten wide column">
-   <h2 style="color: #454545; font-family: 'Source Code Pro', monospace;" class="no-bottom">Latest Posts </h2>
-   You can easily filter by tool/technique used (e.g. Python, Sentiment Analysis), or project/blog topics.
-  </div>
+   <div class="ten wide column">
+    <h2 style="color: #454545; font-family: 'Source Code Pro', monospace;" class="no-bottom">Latest Posts </h2>
+    You can easily filter by tool/technique used (e.g. Python, Sentiment Analysis), or project/blog topics.
+   </div>
 
   <div class="six wide column">   
-{% if essay_categories.size > 1 %}
-<div class="nonprintable jsOnly ui fluid two item menu">
-  <div style="background-color: #C0C1C2;" class="view item filter active" href="#" id="filter-all">View All</div>       
-  <div class="ui dropdown item">
-   <i class="caret down icon"></i>
-   <div class="text">Filter by tag</div>
-   <div class="menu">
-      <div class="ui icon search input"> 
-        <i class="search icon"></i> 
-        <input type="text" placeholder="Search tags..."> 
-      </div>
-     <div class="scrolling menu">
-      {% for category in essay_categories %}
-      <div class="item filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</div>
-      {% endfor %}
+  {% if essay_categories.size > 1 %}
+    <div class="nonprintable jsOnly ui fluid two item menu">
+     <div style="background-color: #C0C1C2;" class="view item filter active" href="#" id="filter-all">View All</div>       
+     <div class="ui dropdown item">
+       <i class="caret down icon"></i>
+       <div class="text">Filter by tag</div>
+       <div class="menu">
+         <div class="ui icon search input"> 
+         <i class="search icon"></i> 
+         <input type="text" placeholder="Search tags..."> 
+       </div>
+       <div class="scrolling menu">
+        {% for category in essay_categories %}
+        <div class="item filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</div>
+        {% endfor %}
+       </div>
      </div>
+    </div>
    </div>
-  </div>
-</div>
-{% endif %}
+  {% endif %}
   </div>
 
 </div>
-
 <div class="ui hidden divider"></div>
 
   <div class="ui stackable centered three doorzichtig cards" id="filterable">
