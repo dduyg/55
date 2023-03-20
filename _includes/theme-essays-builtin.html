@@ -3,12 +3,12 @@
   {% assign essay_categories = essay_pages | where: "type", "essay" | map: "labels" | sort_natural | uniq %}
 
 <div style="padding-top: 15px" class="ui stackable grid">
-   <div class="ten wide column">
+   <div class="nine wide column">
     <h2 style="color: #454545; font-family: 'Source Code Pro', monospace;" class="no-bottom">Latest Posts </h2>
     You can easily filter by tool/technique used (e.g. Python, Sentiment Analysis), or project/blog topics.
    </div>
 
-  <div class="centered six wide column">   
+  <div class="seven wide column"><div class="ui hidden divider"></div>  
   {% if essay_categories.size > 1 %}
     <div class="nonprintable jsOnly ui fluid two item menu">
      <div style="background-color: #C0C1C2;" class="view item filter active" href="#" id="filter-all">View All</div>       
