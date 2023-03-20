@@ -217,6 +217,13 @@ ul.ui.list li:before,
   padding-top: 0px !important;
 }
 
+// Mobile Only Hide
+@media only screen and (max-width: 767px) {
+  .mobileonly-hide {
+    display: none !important;
+  }
+}
+
 // Custom menu (https://tachyons.io/components/nav/logo-links-inline-collapse/index.html)
 .border-box {
     box-sizing: border-box;
