@@ -2,7 +2,7 @@
   {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
   {% assign essay_categories = essay_pages | where: "type", "essay" | map: "labels" | sort_natural | uniq %}
 
-<div style="padding-top: 15px" class="ui stackable grid">
+<div style="padding-top: 15px" class="ui stackable padded grid">
   <div class="row">
   <div class="seven wide column"><h2 style="color: #454545; font-family: 'Source Code Pro', monospace;" class="no-bottom">Latest Posts </h2></div>
   <div class="nine wide column">You can easily filter by tool/technique used (e.g. Python, Sentiment Analysis), or project/blog topics.</div>
