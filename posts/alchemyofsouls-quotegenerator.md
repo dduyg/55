@@ -3,12 +3,12 @@ layout: essay
 type: essay
 published: true
 title: "Alchemy of Souls: Extracting Valuable Lessons From Fictional Stories by Creating A Web Application"
-permalink: posts/alchemyofsoulsquotes
+permalink: posts/alchemyofsoulsproject
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-08
 labels:
-  - Web Scraping
   - Data Cleaning
+  - Dataset
   - JavaScript
   - Web Application
 mediumurl: mybyy.github.io
