@@ -30,6 +30,7 @@ SOFTWARE.
 *******************************/
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic&subset=latin');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 html,
 body {
   height: 100%;
@@ -80,7 +81,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Nunito', sans-serif;
   line-height: 1.2857em;
   margin: calc(2rem -  0.14285em ) 0em 1rem;
   font-weight: bold;
