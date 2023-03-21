@@ -163,11 +163,10 @@ blockquote {
   padding-left: 18px;
 }
 
-// contactpage buttons
-.ui.basic.ct.buttons .button,
-.ui.basic.ct.button { 
-  box-shadow: 0px 0px 0px 1px #a85047 inset !important;
-  color: #1B1C1D !important;
+// mediumurl buttons
+.ui.mu.buttons .button,
+.ui.mu.button { 
+  box-shadow: 0px 0px 0px 1px black inset !important;
 }
 
 // Blogpost tags
