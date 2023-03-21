@@ -10,7 +10,7 @@ labels:
   - Complex Systems
   - Time Series
   - Data Visualization
-mediumurl: https://www.instagram.com/p/ComUzxpAMO_/?igshid=MDJmNzVkMjY=
+# mediumurl: https://www
 projectcheck: false
 summary: What attractor fields are, and how they can be visualized and applied in data science to understand complex datasets.
 ---
