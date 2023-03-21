@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 published: true
-title: "Quotes from Alchemy of Souls"
+title: "Alchemy of Souls: Extracting Valuable Lessons From Fictional Stories by Creating A Web Application"
 permalink: posts/alchemyofsoulsquotes
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-08
