@@ -207,6 +207,11 @@ ul.ui.list li:before,
   font-weight: bold;
   color: #458588 !important;
 }
+// background tab segments
+.ui.tab.segment {
+  background-color: #C0C1C2 !important;
+  border: 1px solid rgba(0, 0, 0, 0.87);
+}
 
 // no top space 
 .no-top {
