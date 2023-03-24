@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 published: true
-title: "Alchemy of Souls: Extracting Valuable Lessons From Fictional Stories by Creating A Web Application"
+title: "Extracting Valuable Lessons from \"Alchemy of Souls\": Creating a application to learn new perspectives from fictional stories"
 permalink: posts/alchemyofsoulsproject
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-08
