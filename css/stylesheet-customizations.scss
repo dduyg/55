@@ -10,8 +10,8 @@ body {
   height: 100%;
 }
 
-
 body {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   color: rgba(0, 0, 0, 0.87);
   font-size: 15px;
   line-height: 1.7;
@@ -80,7 +80,7 @@ a.home {
 .ui.menu .mycolor.active.item,
 .ui.mycolor.menu .active.item {
   font-weight: bold;
-  background: #454545;
+  background: #202020;
   color: white !important;
 }
 .ui.secondary.custom.menu .item {
