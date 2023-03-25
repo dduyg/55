@@ -69,12 +69,11 @@ a.home {
 @import url('https://fonts.googleapis.com/css?family=Roboto&amp;subset=latin-ext');
 
 
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap');
 // Menubar
 .ui.secondary.custom.menu {
-  font-family: 'VT323', monospace;
-  font-size: 18px !important;
-  letter-spacing: 1px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 17px !important;
   display: none;
   display: inline-flex;
 } 
