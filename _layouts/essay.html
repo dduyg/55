@@ -13,10 +13,8 @@ layout: essays
         <i class="right chevron icon divider"></i>
    </div>
 
-  <div style="font-size: 17px; line-height: 1.7;" class="content"> 
-
-    <h1 style="color: #262626; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;">{{ page.title }}</h1>
-    <span style="font-size: 15px;">
+   <h1 style="color: #262626; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;">{{ page.title }}</h1>
+   <span style="font-size: 15px;">
       <span style="color: #616161; font-family: 'Roboto', sans-serif;" class="date"> {{ page.date | date_to_string }} &nbsp;•&nbsp; <a style="color: #616161;" href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a></span>
       {% if page.mediumurl %}
       <a href="{{ page.mediumurl }}" target="_blank">
@@ -28,11 +26,11 @@ layout: essays
        {% else %}
        <div class="ui hidden divider"></div>
        {% endif %}
-     </span>
+    </span>
 
+    <span style="font-size: 17px; line-height: 1.7;"> 
      {{ content }}
-
-   </div>
+    </span>
 
        {% include footer.html %}
         
