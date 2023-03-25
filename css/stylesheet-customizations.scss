@@ -207,6 +207,10 @@ ul.ui.list li:before,
   font-weight: bold;
   color: #458588 !important;
 }
+// bordered icon about page
+i.bordered.icon {
+  box-shadow: 0em 0em 0em 0.1em #458588 inset;
+}
 
 // no top space 
 .no-top {
