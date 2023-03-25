@@ -12,22 +12,22 @@
 
      <div class="ui secondary custom menu">      
        {% if num_essays > 0 %}
-       <a href="{{ site.baseurl }}/{{ site.essays-url }}" class="{% if include.active == "essays" %}active {% endif %}mycolor item">
+       <a href="{{ site.baseurl }}/{{ site.essays-url }}" class="{% if include.active == "essays" %}active {% endif %}mycolor item f6 f5-l">
          <b>{{ site.essays-page-label }}</b>
        </a>
        {% endif %}
 
-       <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="{% if include.active == "bio" %}active {% endif %}mycolor item">
+       <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="{% if include.active == "bio" %}active {% endif %}mycolor item f6 f5-l">
          <b>{{ site.bio-page-label }}</b>
        </a>
 
        {% if num_projects > 0 %}
-       <a href="{{ site.baseurl }}/{{ site.projects-url }}" class="{% if include.active == "projects" %}active {% endif %}mycolor item">
+       <a href="{{ site.baseurl }}/{{ site.projects-url }}" class="{% if include.active == "projects" %}active {% endif %}mycolor item f6 f5-l">
          <b>{{ site.projects-page-label }}</b>
        </a>
        {% endif %}
        
-       <a style="color: #458588;" href="{{ site.baseurl }}/{{ site.contact-url }}" class="{% if include.active == "contact" %}active {% endif %}mycolor item">
+       <a style="color: #458588;" href="{{ site.baseurl }}/{{ site.contact-url }}" class="{% if include.active == "contact" %}active {% endif %}mycolor item f6 f5-l">
          <i class="fitted large paper plane outline icon"></i>
        </a>
      </div>
