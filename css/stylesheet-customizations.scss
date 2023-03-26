@@ -19,24 +19,6 @@ body {
   // background-color: #fafafa; witter versie als je terug wilt ook aanpassen in markdown.css 
 }
 
-// Design
-.srcfnt { 
-  font-family: 'Source Code Pro', monospace;
-}
-.clr45 { 
-  color: #458588;
-}
-.clr18 { 
-  color: #01868B;
-}
-.homelightred { 
-  color: #C0736B;
-}
-.contactdarkred { 
-  color: #a85047;
-}
-
-
 // General links
 a {
   color: #6E6E6E;
@@ -72,7 +54,7 @@ a.home {
 
 // boldest text
 .boldertxt { 
-  font-weight: 800;
+  font-weight: 800 !important;
 }
 
 // Import new fonts:
