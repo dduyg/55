@@ -119,10 +119,10 @@ a.home {
   display: inline-block;
 }
 // tools section images
-@media screen and (min-width: 60em) {
- .tools-img {
-    max-width: 50%;
-  }
+.tools-img {
+  border-radius: 100%;
+  height: 3em;
+  width: 3em;
 }
 
 // profil image about page
