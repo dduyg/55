@@ -118,6 +118,14 @@ a.home {
   vertical-align: middle; 
   display: inline-block;
 }
+// tools section images
+@media only screen and (max-width: 768px) { /* Adjust the max-width value as needed */
+  .tools-img {
+    max-width: 50%;
+    margin-right: 5px; /* Add some space between the image and the text */
+  }
+}
+
 // profil image about page
 .custom-divider-image {
   width: 90px; /* set the desired width of the image */
