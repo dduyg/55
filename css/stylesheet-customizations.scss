@@ -119,7 +119,7 @@ a.home {
   display: inline-block;
 }
 // tools section images
-@media only screen and (min-width: 768px) { /* Adjust the max-width value as needed */
+@media screen and (min-width: 60em) {
  .tools-img {
     max-width: 50%;
   }
