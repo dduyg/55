@@ -12,6 +12,7 @@ labels:
   - StackOverflow
 # mediumurl: -
 projectcheck: true
+# summary of max. 165 characters
 summary: fjkkfhjjijjghj
 ---
 
