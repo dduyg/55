@@ -13,6 +13,7 @@ labels:
   - Web Application
 mediumurl: mybyy.github.io
 projectcheck: true
+# summary of max. 165 characters
 summary: A text adventure game I developed for ICS 313.
 ---
 
