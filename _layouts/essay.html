@@ -3,20 +3,19 @@ layout: essays
 ---
 
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/markdown.css">
-
 <div style="font-size: 18px; margin-top: 20px;" class="ui container">
 
    <div style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;" class="ui breadcrumb">
-        <a href="{{ site.baseurl}}/" class="section breadlink">Home</a>
-        <i class="right chevron icon divider"></i>
-        <a href="/{{ site.essays-url }}" class="section breadlink">{{ site.essays-page-label }}</a>
-        <i class="right chevron icon divider"></i>
+      <a href="{{ site.baseurl}}/" class="section breadlink">Home</a>
+      <i class="right chevron icon divider"></i>
+      <a href="/{{ site.essays-url }}" class="section breadlink">{{ site.essays-page-label }}</a>
+      <i class="right chevron icon divider"></i>
    </div>
 
-   <h1 style="color: #262626; font-size: 2.5em; font-family: 'Poppins', sans-serif;" class="no-top">{{ page.title }}</h1>
+   <h1 style="color: #262626; font-size: 2em; font-family: 'Poppins', sans-serif;" class="no-top">{{ page.title }}</h1>
 
    <span style="font-size: 15px;">
-      <span style="font-family: 'Source Code Pro', monospace;"> ▉ {{ page.date | date_to_string }}&nbsp; &nbsp; &nbsp; ▉ <a style="color: #212121;" href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a> &nbsp; &nbsp; </span>
+      <span style="font-family: 'Source Code Pro', monospace;"> ▉ {{ page.date | date_to_string }}&nbsp; &nbsp; &nbsp; ▉ <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a> &nbsp; &nbsp; </span>
       {% if page.mediumurl %}
       <a href="{{ page.mediumurl }}" target="_blank">
         <button style="margin: 14px;" class="compact tiny ui labeled icon active mu button">
