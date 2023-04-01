@@ -4,7 +4,7 @@ layout: essays
 
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl}}/css/markdown.css">
 
-<div style="margin-top: 20px;" class="ui container">
+<div style="font-size: 18px; margin-top: 20px;" class="ui container">
 
    <div style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;" class="ui breadcrumb">
         <a href="{{ site.baseurl}}/" class="section breadlink">Home</a>
@@ -14,6 +14,7 @@ layout: essays
    </div>
 
    <h1 style="color: #262626; font-size: 2.5em; font-family: 'Poppins', sans-serif;" class="no-top">{{ page.title }}</h1>
+
    <span style="font-size: 15px;">
       <span style="font-family: 'Source Code Pro', monospace;"> ▉ {{ page.date | date_to_string }}&nbsp; &nbsp; &nbsp; ▉ <a style="color: #212121;" href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a> &nbsp; &nbsp; </span>
       {% if page.mediumurl %}
@@ -27,10 +28,8 @@ layout: essays
        <div class="ui hidden divider"></div>
        {% endif %}
     </span>
-
-    <div style="font-size: 18px;"> 
-     {{ content }}
-    </div>
+ 
+    {{ content }}
     {% include footer.html %}
         
 </div>
