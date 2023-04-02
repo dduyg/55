@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: true
+published: false
 title: "Visualising Earthquakes in Turkey"
 permalink: posts/earthquakesturkiye
 # All dates must be YYYY-MM-DD format!
