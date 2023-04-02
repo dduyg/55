@@ -14,6 +14,7 @@ layout: essays
 
    <h1 style="color: #262626; font-size: 2em; font-family: 'Poppins', sans-serif;" class="no-top">{{ page.title }}</h1>
 
+   <hr>
    <span style="font-size: 15px;">
       <span style="font-family: 'Source Code Pro', monospace;"> ▉ {{ page.date | date_to_string }}&nbsp; &nbsp; &nbsp; ▉ <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a> &nbsp; &nbsp; </span>
       {% if page.mediumurl %}
@@ -27,6 +28,7 @@ layout: essays
        <div class="ui hidden divider"></div>
        {% endif %}
     </span>
+    <hr>
  
     {{ content }}
     {% include footer.html %}
