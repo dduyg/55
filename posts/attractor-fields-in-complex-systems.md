@@ -11,6 +11,7 @@ labels:
   - Time Series
   - Data Visualization
 # mediumurl: https://www
+githuburl: https://github.com/dduyg/
 projectcheck: false
 # summary of max. 165 characters <meta name="description>
 summary: What attractor fields are, and how they can be visualized and applied in data science to understand complex datasets.
