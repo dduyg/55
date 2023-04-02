@@ -12,11 +12,13 @@ layout: essays
      <i class="right chevron icon divider"></i>
   </div>
 
-  <h1 style="color: #262626; font-size: 2em; font-family: 'Poppins', sans-serif;" class="no-top">{{ page.title }}
+  <h1 style="color: #262626; font-size: 2em; font-family: 'Poppins', sans-serif;" class="no-top">{{ page.title }}</h1>
+  <div style="font-size: 15px; font-family: 'Source Code Pro', monospace;"> ▉ {{ page.date | date_to_string }}&nbsp; &nbsp; &nbsp; ▉ <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a></div>
 
-  <span style="font-size: 14px; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;">
+  <span style="font-size: 15px;">
    {% if page.mediumurl and page.githuburl %}
-          <a href="{{ page.mediumurl }}" target="_blank">
+         <hr>
+         <a href="{{ page.mediumurl }}" target="_blank">
             <button style="margin-left: 5%; background-color: #E0E1E2;" class="compact tiny ui labeled icon mu button">
               <i class="bordered inverted black fitted medium m icon"></i> Read/Save on Medium
             </button>
@@ -25,26 +27,29 @@ layout: essays
             <button class="compact small ui black button">
               <i class="github icon"></i> Source code
             </button>
-          </a>   
+          </a>
+          <hr>  
     {% elsif page.mediumurl %}
+          <hr>
           <a href="{{ page.mediumurl }}" target="_blank">
             <button style="margin-left: 5%; background-color: #E0E1E2;" class="compact tiny ui labeled icon mu button">
               <i class="bordered inverted black fitted medium m icon"></i> Read/Save on Medium
             </button>
           </a>
+          <hr>
     {% elsif page.githuburl %}
+          <hr>
           <a href="{{ page.githuburl }}" target="_blank">
             <button style="margin-left: 5%;" class="compact small ui black button">
               <i class="github icon"></i> Source code
             </button>
           </a>
+          <hr>
     {% else %}
           <div class="ui hidden divider"></div>
     {% endif %}
   </span>
-  </h1> 
 
-  <div style="font-size: 15px; font-family: 'Source Code Pro', monospace;"> ▉ {{ page.date | date_to_string }}&nbsp; &nbsp; &nbsp; ▉ <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a></div>
   {{ content }}
   {% include footer.html %}
         
