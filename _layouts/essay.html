@@ -16,13 +16,28 @@ layout: essays
 
    <span style="font-size: 15px;">
       <span style="font-family: 'Source Code Pro', monospace;"> ▉ {{ page.date | date_to_string }}&nbsp; &nbsp; &nbsp; ▉ <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a> &nbsp; &nbsp; </span>
-      {% if page.mediumurl %}
-      <a href="{{ page.mediumurl }}" target="_blank">
-        <button style="margin: 14px; background-color: #E0E1E2:" class="compact small ui labeled icon mu button">
-         <i class="bordered inverted black fitted medium m icon"></i>
-         Read/Save on Medium
-        </button>
-       </a>
+      {% if page.mediumurl and page.githuburl %}
+          <div style="margin: 14px;" class="two compact small ui buttons">         
+               <a href="{{ page.mediumurl }}" target="_blank" class="ui labeled icon mu button" style="background-color: #E0E1E2:">
+                 <i class="bordered inverted black fitted medium m icon"></i> Read/Save on Medium
+               </a>
+               <a href="{{ page.githuburl }}" target="_blank" class="ui black button">
+                 <i class="large github icon"></i> Source code
+               </a>
+          </div>
+      {% elsif page.mediumurl %}
+          main
+      {% elsif page.githuburl %}
+  
+
+
+{% else %}
+  <main>
+{% endif %}
+
+
+
+
        {% else %}
        <div class="ui hidden divider"></div>
        {% endif %}
