@@ -14,57 +14,36 @@ layout: essays
 
    <h1 style="color: #262626; font-size: 2em; font-family: 'Poppins', sans-serif;" class="no-top">{{ page.title }}</h1>
 
-   <span style="font-size: 15px;">  
+   <span style="font-size: 15px;">
+      <span style="font-family: 'Source Code Pro', monospace;"> ▉ {{ page.date | date_to_string }}&nbsp; &nbsp; &nbsp; ▉ <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a>&nbsp; &nbsp;</span>
       {% if page.mediumurl and page.githuburl %}
-         <div class="ui stackable grid"> 
-            <div class="twelve wide column">
-                  <div style="font-family: 'Source Code Pro', monospace;"> ▉ {{ page.date | date_to_string }}&nbsp; &nbsp; &nbsp; ▉ <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a></div>
-            </div> 
-            <div class="four wide column">
-                  <a href="{{ page.mediumurl }}" target="_blank">
-                     <button style="background-color: #E0E1E2;" class="compact tiny ui labeled icon mu button">
-                        <i class="bordered inverted black fitted medium m icon"></i> Read/Save on Medium
-                     </button>
-                  </a>
-                  <a href="{{ page.githuburl }}" target="_blank">
-                    <button class="compact small ui black button">
-                      <i class="github icon"></i> Source code
-                    </button>
-                  </a>
-            </div>
-         </div>                
+          <a href="{{ page.mediumurl }}" target="_blank">
+            <button style="margin: 8px; background-color: #E0E1E2;" class="compact tiny ui labeled icon mu button">
+              <i class="bordered inverted black fitted medium m icon"></i> Read/Save on Medium
+            </button>
+          </a>
+          <a href="{{ page.githuburl }}" target="_blank">
+            <button class="compact small ui black button">
+              <i class="github icon"></i> Source code
+            </button>
+          </a>       
       {% elsif page.mediumurl %}
-         <div class="ui stackable grid"> 
-            <div class="twelve wide column">
-                 <span style="font-family: 'Source Code Pro', monospace;"> ▉ {{ page.date | date_to_string }}&nbsp; &nbsp; &nbsp; ▉ <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a></span>
-            </div> 
-            <div class="four wide column">
-                 <a href="{{ page.mediumurl }}" target="_blank">
-                    <button style="background-color: #E0E1E2;" class="compact tiny ui labeled icon mu button">
-                      <i class="bordered inverted black fitted medium m icon"></i> Read/Save on Medium
-                    </button>
-                 </a>
-            </div>
-         </div>
+          <a href="{{ page.mediumurl }}" target="_blank">
+            <button style="margin: 8px; background-color: #E0E1E2;" class="compact tiny ui labeled icon mu button">
+              <i class="bordered inverted black fitted medium m icon"></i> Read/Save on Medium
+            </button>
+          </a>
       {% elsif page.githuburl %}
-         <div class="ui stackable grid"> 
-            <div class="twelve wide column">
-                 <span style="font-family: 'Source Code Pro', monospace;"> ▉ {{ page.date | date_to_string }}&nbsp; &nbsp; &nbsp; ▉ <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a></span>
-            </div> 
-            <div class="four wide column">
-                 <a href="{{ page.githuburl }}" target="_blank">
-                    <button class="compact small ui black button">
-                      <i class="github icon"></i> Source code
-                    </button>
-                 </a>
-            </div>
-         </div>           
+          <a href="{{ page.githuburl }}" target="_blank">
+            <button style="margin: 8px; class="compact small ui black button">
+              <i class="github icon"></i> Source code
+            </button>
+          </a> 
       {% else %}
-          <span style="font-family: 'Source Code Pro', monospace;"> ▉ {{ page.date | date_to_string }}&nbsp; &nbsp; &nbsp; ▉ <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a></span>
           <div class="ui hidden divider"></div>
       {% endif %}
     </span>
- 
+
     {{ content }}
     {% include footer.html %}
         
