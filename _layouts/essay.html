@@ -25,19 +25,22 @@ layout: essays
             <button class="compact small ui black right floated button">
               <i class="github icon"></i> Source code
             </button>
-          </a>   
+          </a>
+          <div class="ui clearing fitted hidden divider"></div>   
     {% elsif page.mediumurl %}
           <a href="{{ page.mediumurl }}" target="_blank">
             <button style="background-color: #E0E1E2;" class="compact tiny ui labeled icon mu right floated button">
               <i class="bordered inverted black fitted medium m icon"></i> Read/Save on Medium
             </button>
           </a>
+          <div class="ui clearing fitted hidden divider"></div>
     {% elsif page.githuburl %}
           <a href="{{ page.githuburl }}" target="_blank">
             <button class="compact small ui black right floated button">
               <i class="github icon"></i> Source code
             </button>
           </a>
+          <div class="ui clearing fitted hidden divider"></div>
     {% else %}
           <div class="ui hidden divider"></div>
     {% endif %}
