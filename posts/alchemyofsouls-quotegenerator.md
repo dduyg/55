@@ -12,6 +12,7 @@ labels:
   - JavaScript
   - Web Application
 mediumurl: mybyy.github.io
+githuburl: https://github.com/dduyg/alchemy-of-souls
 projectcheck: true
 # summary of max. 165 characters <meta name="description>
 summary: A text adventure game I developed for ICS 313.
