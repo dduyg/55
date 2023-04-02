@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: false
+published: true
 title: "Visualising Earthquakes in Turkey"
 permalink: posts/earthquakesturkiye
 # All dates must be YYYY-MM-DD format!
@@ -11,6 +11,7 @@ labels:
   - Python
   - Seaborn
 mediumurl: mybyy.github.io
+# githuburl: -
 projectcheck: false
 # summary of max. 165 characters <meta name="description>
 summary: A text adventure game I developed for ICS 313.
