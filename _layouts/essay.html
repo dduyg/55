@@ -14,27 +14,27 @@ layout: essays
 
   <h1 style="color: #262626; font-size: 2em; font-family: 'Poppins', sans-serif;" class="no-top">{{ page.title }}
 
-  <span style="font-size: 15px;">
+  <span style="font-size: 14px; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;">
    {% if page.mediumurl and page.githuburl %}
           <a href="{{ page.mediumurl }}" target="_blank">
-            <button style="margin: 9px; background-color: #E0E1E2;" class="compact tiny ui labeled icon mu button">
+            <button style="margin-left: 5%; background-color: #E0E1E2;" class="compact tiny ui labeled icon mu button">
               <i class="bordered inverted black fitted medium m icon"></i> Read/Save on Medium
             </button>
           </a>
           <a href="{{ page.githuburl }}" target="_blank">
-            <button style="margin: 9px;" class="compact small ui black button">
+            <button style="margin-left: 5%;" class="compact small ui black button">
               <i class="github icon"></i> Source code
             </button>
           </a>   
     {% elsif page.mediumurl %}
           <a href="{{ page.mediumurl }}" target="_blank">
-            <button style="margin: 9px; background-color: #E0E1E2;" class="compact tiny ui labeled icon mu button">
+            <button style="margin-left: 5%; background-color: #E0E1E2;" class="compact tiny ui labeled icon mu button">
               <i class="bordered inverted black fitted medium m icon"></i> Read/Save on Medium
             </button>
           </a>
     {% elsif page.githuburl %}
           <a href="{{ page.githuburl }}" target="_blank">
-            <button style="margin: 9px;" class="compact small ui black button">
+            <button style="margin-left: 5%;" class="compact small ui black button">
               <i class="github icon"></i> Source code
             </button>
           </a>
