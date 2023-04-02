@@ -17,8 +17,9 @@ layout: essays
    <span style="font-size: 15px;">
       <span style="font-family: 'Source Code Pro', monospace;"> ▉ {{ page.date | date_to_string }}&nbsp; &nbsp; &nbsp; ▉ <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a>&nbsp; &nbsp;</span>
       {% if page.mediumurl and page.githuburl %}
+         <div class="ui basic compact right floated segment">
           <a href="{{ page.mediumurl }}" target="_blank">
-            <button style="margin: 8px; background-color: #E0E1E2;" class="compact tiny ui labeled icon mu button">
+            <button style="background-color: #E0E1E2;" class="compact tiny ui labeled icon mu button">
               <i class="bordered inverted black fitted medium m icon"></i> Read/Save on Medium
             </button>
           </a>
@@ -26,7 +27,8 @@ layout: essays
             <button class="compact small ui black button">
               <i class="github icon"></i> Source code
             </button>
-          </a>       
+          </a>
+         </div>   
       {% elsif page.mediumurl %}
           <a href="{{ page.mediumurl }}" target="_blank">
             <button style="margin: 8px; background-color: #E0E1E2;" class="compact tiny ui labeled icon mu button">
