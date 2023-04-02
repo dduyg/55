@@ -14,10 +14,9 @@ layout: essays
 
    <h1 style="color: #262626; font-size: 2em; font-family: 'Poppins', sans-serif;" class="no-top">{{ page.title }}</h1>
 
-   <span style="font-size: 15px;">
+   <div style="font-size: 15px;">
       <div style="font-family: 'Source Code Pro', monospace;"> ▉ {{ page.date | date_to_string }}&nbsp; &nbsp; &nbsp; ▉ <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a></div>
       {% if page.mediumurl and page.githuburl %}
-         <div class="ui basic compact right floated segment">
           <a href="{{ page.mediumurl }}" target="_blank">
             <button style="margin: 8px; background-color: #E0E1E2;" class="compact tiny ui labeled icon mu button">
               <i class="bordered inverted black fitted medium m icon"></i> Read/Save on Medium
@@ -27,8 +26,7 @@ layout: essays
             <button class="compact small ui black button">
               <i class="github icon"></i> Source code
             </button>
-          </a>
-         </div>   
+          </a>       
       {% elsif page.mediumurl %}
           <a href="{{ page.mediumurl }}" target="_blank">
             <button style="margin: 8px; background-color: #E0E1E2;" class="compact tiny ui labeled icon mu button">
@@ -44,7 +42,7 @@ layout: essays
       {% else %}
           <div class="ui hidden divider"></div>
       {% endif %}
-    </span>
+    </div>
 
     {{ content }}
     {% include footer.html %}
