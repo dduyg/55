@@ -17,9 +17,11 @@ layout: essays
   <span style="font-size: 15px;">
       <span style="font-family: 'Source Code Pro', monospace;"> ▉ {{ page.date | date_to_string }}&nbsp; &nbsp; &nbsp; ▉ <a href="{{ site.baseurl }}/{{ site.bio-url }}" class="lined">Duygu Dağdelen</a> &nbsp; &nbsp; </span>
       {% if page.mediumurl %}
-        <a href="{{ page.mediumurl }}" target="_blank" class="postlink">
-         <i class="clockwise rotated large braille icon"></i> Read/Save on Medium
-        </a>
+         <a href="{{ page.mediumurl }}" target="_blank">
+          <button style="margin: 18px 0; background-color: transparent;" class="ui labeled icon mu button">
+           <i class="bordered inverted black fitted compress icon"></i>Read/Save on Medium
+          </button>
+         </a>
       {% else %}
          <div class="ui hidden divider"></div>
       {% endif %}
