@@ -51,13 +51,6 @@ a.home {
   transform: skew(52deg) translateX(-50%);
 }
 
-// links medium urls
-a.postlink {
-  text-decoration: none;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-}
-
 // boldest text
 .boldertxt { 
   font-weight: 800 !important;
@@ -181,6 +174,7 @@ blockquote {
 .ui.mu.buttons .button,
 .ui.mu.button { 
   box-shadow: 0px 0px 0px 1px black inset !important;
+  font-family: 'Source Code Pro', monospace;
 }
 
 // Blogpost tags
