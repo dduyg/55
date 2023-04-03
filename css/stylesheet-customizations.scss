@@ -172,9 +172,10 @@ blockquote {
 
 // mediumurl buttons
 .ui.mu.buttons .button,
-.ui.mu.button { 
-  box-shadow: 0px 0px 0px 1px black inset !important;
-  font-family: 'Source Code Pro', monospace;
+.ui.mu.button {
+  color: black !important;
+  font-weight: normal !important;
+  font-family: 'Source Code Pro', monospace !important;
 }
 
 // Blogpost tags
