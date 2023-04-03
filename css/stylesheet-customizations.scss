@@ -54,6 +54,7 @@ a.home {
 // mediumurl link
 a.mu {
   text-decoration: none;
+  padding-bottom: 0px !important;
   border-bottom: 2px solid #a85047;
   transform: skew(52deg) translateX(-50%);
 }
