@@ -51,6 +51,12 @@ a.home {
   transform: skew(52deg) translateX(-50%);
 }
 
+// mediumurl link
+a.mu {
+  text-decoration: none;
+  border-bottom: 2px solid black;
+}
+
 // boldest text
 .boldertxt { 
   font-weight: 800 !important;
