@@ -19,8 +19,8 @@ layout: essays
       {% if page.mediumurl %}
          <a href="{{ page.mediumurl }}" target="_blank">
            <button style="margin-left: 3%; background-color: transparent;" class="ui mu button">
-            <i class="icons"> <i class="large black square icon"></i> <i style="color: #a85047;" class="dot circle outline icon"></i> </i>
-             <u>Read/Save on Medium</u>
+            <i style="color: #a85047;" class="bordered inverted black dot circle outline icon"></i>
+              <a href="{{ page.mediumurl }}" target="_blank" class="lined">Read/Save on Medium</a>
            </button>
          </a>
       {% else %}
