@@ -2,11 +2,11 @@
 layout: project
 type: project
 published: true
-image: images/global-land.png
+image: images/global-land-square.jpg
 title: "Unequal Distribution of Global Land"
 permalink: insertdata/unequal-distribution-of-global-land
 # All dates must be YYYY-MM-DD format!
-date: 2022-12-19
+date: 2022-05-20
 category:
   - Data Visualization
 # instaurl: -
