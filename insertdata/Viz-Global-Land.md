@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/dataart/TangledNetwork-squared.jpg
+image: images/global-land.png
 title: "Unequal Distribution of Global Land"
 permalink: insertdata/unequal-distribution-of-global-land
 # All dates must be YYYY-MM-DD format!
@@ -12,7 +12,7 @@ category:
 # instaurl: -
 ---
 
-<img class="ui image" src="/images/global-land.png">
+<img class="ui fluid image" src="/images/global-land.png">
 
 It may come as a surprise, but no more than 1% of the world's habitable land is occupied by human-built infrastructure. That means all of our bustling cities, roads, towns and villages we call home, and all other human settlements combined. While agriculture takes up a whopping 50% of the world's habitable land.
 
