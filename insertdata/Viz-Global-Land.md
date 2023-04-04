@@ -3,8 +3,8 @@ layout: project
 type: project
 published: true
 image: images/dataart/TangledNetwork-squared.jpg
-title: "Global Land"
-permalink: insertdata/global-land
+title: "Unequal Distribution of Global Land"
+permalink: insertdata/unequal-distribution-of-global-land
 # All dates must be YYYY-MM-DD format!
 date: 2022-12-19
 category:
