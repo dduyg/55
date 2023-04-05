@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/dataart/TangledNetwork-squared.jpg
+image: images/TangledNetwork-squared.jpg
 title: "Tangled Network"
 permalink: insertdata/tangled-network
 # All dates must be YYYY-MM-DD format!
