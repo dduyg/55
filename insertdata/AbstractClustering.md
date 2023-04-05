@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/dataart/AbstractClustering-squared.jpg
+image: images/AbstractClustering-squared.jpg
 title: "Abstract Clustering"
 permalink: insertdata/abstract-clustering
 # All dates must be YYYY-MM-DD format!
