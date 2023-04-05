@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/dataart/OpposingSides-squared.png
+image: images/OpposingSides-squared.png
 title: "Opposing Sides"
 permalink: insertdata/opposing-sides
 # All dates must be YYYY-MM-DD format!
