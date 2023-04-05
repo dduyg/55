@@ -12,7 +12,7 @@ category:
 # instaurl: -
 ---
 
-<img class="ui large image" src="/images/global-land.png">
+<div style="max-width: 700px;"><img class="ui fluid image" src="/images/global-land.png"></div>
 
 It may come as a surprise, but no more than 1% of the world's habitable land is occupied by human-built infrastructure. That means all of our bustling cities, roads, towns and villages we call home, and all other human settlements combined. While agriculture takes up a whopping 50% of the world's habitable land.
 
