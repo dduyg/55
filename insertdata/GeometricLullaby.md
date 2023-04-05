@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/dataart/GeometricLullaby07-squared.png
+image: images/GeometricLullaby07-squared.png
 title: "Geometric Lullaby"
 permalink: insertdata/geometric-lullaby
 # All dates must be YYYY-MM-DD format!
@@ -14,7 +14,7 @@ kofiurl: https://soci7
 instaurl: https://www.instagram.com/p/CflqtEnDzVC/?igshid=MDJmNzVkMjY=
 multiple: 1/7
 # [['url', 'image', 'description]]
-multipleworks: [['https://society6.com/art/sound-of-data-02', '/images/dataart/GeometricLullaby01-squared.png', 'Geometric Lullaby 1/7'], ['https://society6.com/art/geometric-lullaby-01', '/images/dataart/GeometricLullaby05-squared.png', 'Geometric Lullaby 5/7']]
+multipleworks: [['https://society6.com/art/sound-of-data-02', '/images/GeometricLullaby01-squared.png', 'Geometric Lullaby 1/7'], ['https://society6.com/art/geometric-lullaby-01', '/images/GeometricLullaby05-squared.png', 'Geometric Lullaby 5/7']]
 ---
 
 "Geometric Lullaby" is an abstract and geometric visualisation of the soothing sounds that lull us to sleep. Generated using audio data, this work explores the harmony of sound and form. It's a visual lullaby, which translates sound into form.
