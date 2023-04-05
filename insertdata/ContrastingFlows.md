@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/dataart/ContrastingFlows-squared.png
+image: images/ContrastingFlows-squared.png
 title: "Contrasting Flows"
 permalink: insertdata/contrasting-flows
 # All dates must be YYYY-MM-DD format!
