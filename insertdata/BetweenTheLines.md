@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/dataart/BetweenTheLines-squared.png
+image: images/BetweenTheLines-squared.png
 title: "Between The Lines"
 permalink: insertdata/between-the-lines 
 # All dates must be YYYY-MM-DD format!
