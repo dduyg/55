@@ -29,16 +29,19 @@ For this project, I was the lead programmer who was responsible for programming 
 
 Here is some code that illustrates how we read values from the line sensors:
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
+```python
+!pip install pandas
+import pandas as pd
+
+url = "https://raw.githubusercontent.com/username/repo/main/subtitles.srt"
+df = pd.read_csv(url, delimiter=None, header=None)
+
+df = df.drop(columns=[0])
+
+df = df[1].str.split(" --> ", expand=True)
+df.columns = ["start_time", "end_time", "text"]
+
+df.to_csv("subtitles.csv", index=False)
 ```
 
 You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
