@@ -30,7 +30,8 @@ For this project, I was the lead programmer who was responsible for programming 
 Here is some code that illustrates how we read values from the line sensors:
 
 ```python
-!pip install pandas
+# Using the Python pandas library to convert the SRT file to CSV
+
 import pandas as pd
 
 url = "https://raw.githubusercontent.com/username/repo/main/subtitles.srt"
