@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 published: true
-title: "Extracting Valuable Lessons from <i>Alchemy of Souls</i> by Creating a Web Application"
+title: "Extracting Valuable Lessons from <i>Alchemy of Souls</i>"
 permalink: posts/alchemyofsoulsproject
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-08
@@ -15,7 +15,7 @@ mediumurl: mybyy.github.io
 githuburl: https://github.com/dduyg/alchemy-of-souls
 projectcheck: true
 # summary of max. 165 characters <meta name="description>
-summary: A text adventure game I developed for ICS 313.
+summary: How fictional stories can help you learn new perspectives by turning it into a simple data-driven web application.
 ---
 
 
