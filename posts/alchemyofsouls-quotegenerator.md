@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 published: true
-title: "Extracting Valuable Lessons from <i>Alchemy of Souls</i>"
+title: "Extracting Valuable Lessons from ‘Alchemy of Souls’"
 permalink: posts/alchemyofsoulsproject
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-08
