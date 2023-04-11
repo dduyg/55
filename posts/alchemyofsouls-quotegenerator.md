@@ -30,19 +30,42 @@ For this project, I was the lead programmer who was responsible for programming 
 Here is some code that illustrates how we read values from the line sensors:
 
 ```python
-# Using the Python pandas library to convert the SRT file to CSV
+import random
 
-import pandas as pd
+# define maze size
+WIDTH = 21
+HEIGHT = 21
 
-url = "https://raw.githubusercontent.com/username/repo/main/subtitles.srt"
-df = pd.read_csv(url, delimiter=None, header=None)
+# define maze symbols
+WALL = "#"
+SPACE = " "
+START = "S"
+END = "E"
 
-df = df.drop(columns=[0])
+# initialize maze grid
+maze = [[WALL for x in range(WIDTH)] for y in range(HEIGHT)]
 
-df = df[1].str.split(" --> ", expand=True)
-df.columns = ["start_time", "end_time", "text"]
+# recursive backtracker algorithm
+def create_maze(x, y):
+    directions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
+    random.shuffle(directions)
+    for dx, dy in directions:
+        nx, ny = x + dx, y + dy
+        if 0 <= nx < WIDTH and 0 <= ny < HEIGHT and maze[ny][nx] == WALL:
+            maze[y + dy // 2][x + dx // 2] = SPACE
+            maze[ny][nx] = SPACE
+            create_maze(nx, ny)
 
-df.to_csv("subtitles.csv", index=False)
+# create maze starting from (0, 0)
+create_maze(0, 0)
+
+# add start and end points
+maze[0][0] = START
+maze[HEIGHT - 1][WIDTH - 1] = END
+
+# print maze
+for row in maze:
+    print("".join(row))
 ```
 
 You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
