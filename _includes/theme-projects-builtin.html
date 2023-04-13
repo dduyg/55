@@ -1,4 +1,4 @@
-<div style="padding-top: 32px; margin-bottom: 20px; font-size: 18px; line-height: 1.7;" class="ui container">
+<div style="margin-top: 62px; font-size: 18px; line-height: 1.7;" class="ui container">
   {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
   {% assign project_categories = project_pages | where: "type", "project" | map: "category" | sort | uniq %}
   {% include insert-data-intro.html %}
