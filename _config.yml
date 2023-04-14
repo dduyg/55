@@ -5,9 +5,9 @@ url: "https://dduyg.github.io"
 # Edit next line so that baseurl is "" if your repo is <username>.github.io
 baseurl: ""
 
-projects-page-label: Insert Data
-essays-page-label: Posts
-bio-page-label: About
+projects-page-label: INSERT DATA
+essays-page-label: POSTS
+bio-page-label: ABOUT
 contact-page-label: Contact
 
 theme-home: theme-home-builtin.html
