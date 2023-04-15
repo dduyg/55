@@ -16,7 +16,7 @@ theme-essays: theme-essays-builtin.html
 theme-bio: theme-bio-builtin.html
 theme-contact: theme-contact.html
 
-projects-url: insertdata
+projects-url: insert-data
 essays-url: posts
 bio-url: about
 contact-url: contact
