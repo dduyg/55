@@ -172,6 +172,12 @@ a.mu {
   100% { transform: rotate( 0.0deg) }
 }
 
+// content of header with image change to same as header with icon
+.ui.header > img + .content,
+.ui.header > .image + .content {
+  display: table-cell;
+}
+
 // at the bottom of its container
 .ui.bottomm.image {
   position: absolute;
