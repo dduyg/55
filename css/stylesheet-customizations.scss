@@ -130,9 +130,11 @@ a.mu {
 }
 
 // class="inline-img" tools about page
-.inline-img { 
-  vertical-align: middle; 
+.inline-img {
+  position: relative;
   display: inline-block;
+  vertical-align: middle;
+  height: 1em;
 }
 // tools section images
 .tools-img {
