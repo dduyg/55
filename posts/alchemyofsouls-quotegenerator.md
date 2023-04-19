@@ -15,7 +15,7 @@ mediumurl: mybyy.github.io
 githuburl: https://github.com/dduyg/alchemy-of-souls
 projectcheck: true
 # summary of max. 165 characters <meta name="description>
-summary: How fictional stories can help you learn new perspectives by turning it into a simple data-driven web application.
+summary: How fictional stories can help you learn new perspectives by turning it into a data-based web application.
 ---
 
 
