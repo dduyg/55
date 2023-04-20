@@ -82,7 +82,7 @@ a.mu {
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&amp;subset=latin-ext');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
@@ -131,6 +131,11 @@ a.mu {
   border-bottom-width: 3px;
 }
 
+// hand outline waving icon rotate
+i.my.rotated.icon {
+  -webkit-transform: rotate(0.90turn);
+          transform: rotate(0.90turn);
+}
 // class="inline-img" tools about page
 .inline-img {
   position: relative;
