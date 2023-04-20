@@ -130,9 +130,11 @@ a.mu {
 }
 
 // hand outline waving icon rotate
-i.my.rotated.icon {
-  -webkit-transform: rotate(0.70turn);
-          transform: rotate(0.70turn);
+i.rotated.icon,
+i.right.rotated.icon,
+i.clockwise.rotated.icon {
+  -webkit-transform: rotate(-45deg); 
+  transform: rotate(-45deg);
 }
 // class="inline-img" tools about page
 .inline-img {
