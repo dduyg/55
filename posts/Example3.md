@@ -18,7 +18,7 @@ summary: A text adventure game I developed for ICS 313.
 
 <img class="ui tiny left circular floated image" src="../images/paintbrushes.jpg">
 
-Ever since I first grasped a paintbrush, I’ve always been eager to learn about design. Design is such a complex concept. For example, when looking at abstract art, its meaning can be completely different for different people. It motivates a person to think thoughtfully and has the potential to submerge them in a sea of imagination. It’s that special relationship between the viewer and the art that makes something as technical as software engineering interesting to me.
+In this project, I want to use data to support my observation during my first six months in the U.S, that the milk tea in New York City is much, much, more expensive than it in Beijing. So, I manually scrape 144 drinks from three milk tea shops I mentioned above in Beijing, and scrape 292 drinks from five milk tea shops that I visited in New York. I extract the base drinks, toppings and fruit types of all 436 drinks, as well as their prices.
 
 <img class="ui tiny left circular floated image" src="../images/design-technology.jpg">
 
