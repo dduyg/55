@@ -23,6 +23,8 @@ summary: How fictional stories can help you learn new perspectives by turning it
 
 As a result of my line of work, I have a habit of seeing everything as a potential dataset that can be expressed in numbers and strings.
 
+The South Korean TV series is set in a fictional country called Daeho, where two people's fates become intertwined due to a forbidden magic spell known as the "alchemy of souls". This spell allows souls to switch bodies, while also introducing various political conflicts alongside.
+
 For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
 
 Here is some code that illustrates how we read values from the line sensors:
