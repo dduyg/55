@@ -348,7 +348,24 @@ i.bordered.icon {
            ----
 *******************************/
 
+// footer
+@media screen and (min-width: 30em) {
+    .dt-ns {
+        display: table;
+    }
 
+    .dtc-ns {
+        display: table-cell;
+    }
+
+    .dt--fixed-ns {
+        table-layout: fixed;
+        width: 100%;
+    }
+}
+/*******************************
+           ----
+*******************************/
 
 
 // Vanaf nu cloned
