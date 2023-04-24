@@ -3,7 +3,7 @@
   {% assign essay_categories = essay_pages | where: "type", "essay" | map: "labels" | sort_natural | uniq %}
 
 <div style="padding-top: 15px" class="ui stackable grid">
-   <div class="ten wide column"><h1 style="color: #262626; font-size: 2em;">Latest Posts</h1></div>
+   <div class="ten wide column"><h1 style="font-family: 'Montserrat Alternates', sans-serif; font-size: 2em;">Latest Posts</h1></div>
 
   <div class="six wide column">
   {% if essay_categories.size > 1 %}
