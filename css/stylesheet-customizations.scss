@@ -47,7 +47,7 @@ a.lined2 {
 // links homepage 
 a.home {
   color: rgba(0, 0, 0, 0.87);
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Space Mono', monospace;
   text-decoration: none;
   padding-bottom: 0px !important;
   border-bottom: 2px solid #C0736B;
@@ -348,7 +348,7 @@ i.bordered.icon {
            ----
 *******************************/
 
-// footer
+// footer (https://tachyons.io/components/layout/three-column-collapse-one)
 @media screen and (min-width: 30em) {
     .dt-ns {
         display: table;
