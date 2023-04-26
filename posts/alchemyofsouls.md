@@ -7,7 +7,7 @@ permalink: posts/alchemy-of-souls-project
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-08
 labels:
-  - Data Cleaning
+  - Data Extraction
   - Dataset
   - Natural Language Processing
   - JavaScript
