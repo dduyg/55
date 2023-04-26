@@ -9,7 +9,9 @@ date: 2023-01-08
 labels:
   - Data Cleaning
   - Dataset
+  - Natural Language Processing
   - JavaScript
+  - HTML
   - Web Application
 mediumurl: mybyy.github.io
 githuburl: https://github.com/dduyg/alchemy-of-souls
