@@ -67,13 +67,10 @@ a.mu {
   font-weight: 800 !important;
 }
 
-// home intro
-.intro {
-  font-size: 1.8em;
-}
+// home header on large screen
 @media screen and (min-width: 60em) {
   .intro-l {
-    font-size: 3em;
+    font-size: 2.5em !important;
   }
 }
 
