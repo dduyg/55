@@ -67,6 +67,16 @@ a.mu {
   font-weight: 800 !important;
 }
 
+// home intro
+.intro {
+  font-size: 1.8em;
+}
+@media screen and (min-width: 60em) {
+  .intro-l {
+    font-size: 3em;
+  }
+}
+
 // Import new fonts:
 // font-family: 'Montserrat Alternates', sans-serif;
 // font-family: 'Source Code Pro', monospace;
