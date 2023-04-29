@@ -8,7 +8,8 @@ permalink: posts/alchemy-of-souls-project
 date: 2023-01-08
 labels:
   - Data Extraction
-  - Natural Language Processing
+  - NLP
+  - Python
   - JavaScript
   - HTML
   - Web Application
