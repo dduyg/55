@@ -9,10 +9,10 @@ date: 2023-01-08
 labels:
   - Data Extraction
   - NLP
+  - Web Application
   - Python
   - JavaScript
   - HTML
-  - Web Application
 mediumurl: mybyy.github.io
 githuburl: https://github.com/dduyg/alchemy-of-souls
 projectcheck: true
