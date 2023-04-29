@@ -23,7 +23,7 @@ summary: How fictional stories can help you learn new perspectives by turning it
 
 <img class="ui medium right floated rounded image" src="/images/vacay-home-page.png">
 
-“Alchemy of Souls” was my guilty pleasure this past months. The South Korean TV series is set in a fictional country called Daeho, where two people's fates become intertwined due to a forbidden magic spell known as the "alchemy of souls". This spell allows souls to switch bodies, while also introducing various political conflicts alongside.
+‘Alchemy of Souls’ was my guilty pleasure this past months. The South Korean TV series is set in a fictional country, where two people's fates become intertwined due to the forbidden "alchemy of souls". This magical process allows souls to switch bodies, while also introducing various political conflicts alongside.
 
 As a data scientist, I have a habit of seeing everything as a potential dataset that can be expressed in numbers and strings.
 
