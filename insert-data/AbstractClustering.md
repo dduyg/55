@@ -10,7 +10,7 @@ date: 2021-05-02
 category:
   - Data Design
 printsurl: https://society6.com/art/abstract-clustering
-kofiurl: https://dduyg.github.io/en/
+kofiurl: https://ko-fi.com/i/IU6U8LZXXX
 instaurl: https://www.instagram.com/p/CmJ7KfwD_M0/?igshid=MDJmNzVkMjY=
 # multiple: -
 ---
