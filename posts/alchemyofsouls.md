@@ -51,9 +51,9 @@ corpus = [dictionary.doc2bow(text.split()) for text in df_ep19['clean_text']]
 lda_model = LdaModel(corpus=corpus, id2word=dictionary, num_topics=5, random_state=42)
 ```
 
-The top 5 topics and the top words in each topic:
-```python
+Viewing the top 5 topics and the top words in each topic:
 
+```python
 # print the topics and the top words in each topic
 for idx, topic in lda_model.print_topics(-1):
     print(f"Topic: {idx} \nWords: {topic}\n")
