@@ -28,3 +28,17 @@ I never used to think that design and technology went hand in hand.  Thus, learn
 
 I am now starting to take a Software Engineering class. I hope to learn a lot through the course, but I know it will be just the beginning of my journey. By the time I’m done with it, I hope I’ve learned enough to take the next step in my life as a developer. But until then, my fire will keep on burning.
 
+Here is some code that illustrates how we read values from the line sensors:
+```python
+
+# recursive backtracker algorithm
+def create_maze(x, y):
+    directions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
+    random.shuffle(directions)
+    for dx, dy in directions:
+        nx, ny = x + dx, y + dy
+        if 0 <= nx < WIDTH and 0 <= ny < HEIGHT and maze[ny][nx] == WALL:
+            maze[y + dy // 2][x + dx // 2] = SPACE
+            maze[ny][nx] = SPACE
+            create_maze(nx, ny)
+```
