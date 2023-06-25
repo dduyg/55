@@ -59,8 +59,8 @@ for idx, topic in lda_model.print_topics(-1):
     print(f"Topic: {idx} \nWords: {topic}\n")
 ```
 
-If you're curious to see the application, you can find it <a href="https://dduyg.github.io/alchemy-of-souls/" class="home">here <i class="external alternate icon"></i></a>. I hope you enjoy it as much as I enjoyed creating it, and that it inspires you to explore the meaningful messages that can be found in your favorite stories. 
+If you're curious to see the application, you can find it <a href="https://dduyg.github.io/alchemy-of-souls/" target="_blank" class="home">here</a>. <i class="top right corner grey external alternate icon"></i> I hope you enjoy it as much as I enjoyed creating it, and that it inspires you to explore the meaningful messages that can be found in your favorite stories. 
 
-<a href="https://github.com/theVacay/vacay">
+<a href="https://github.com/dduyg" target="_blank">
    <button class="ui black button"> <i class="large github icon"></i> Source code </button>
 </a>
