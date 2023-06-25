@@ -27,7 +27,9 @@ summary: How fictional stories can help you learn new perspectives by turning it
 
 As a data scientist, I have a habit of seeing everything as a potential dataset that can be expressed in numbers and strings.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+## Fictional Stories Help You Learn New Perspectives
+
+Korean series are well known for their phenomenal storytelling. They often have complex and well-developed plots with compelling characters, were various themes and issues are explored. Whether it's the charming and charismatic leading man or the strong and independent leading woman, they have an interesting way of incorporating what a character is thinking into the plot. These characters are often written in a way that makes them feel like real people with flaws, hopes, and dreams. I have personally watched many K-dramas with relatable themes, that tackle pretty important issues. By depicting these themes in a way that is both honest and emotional, Korean dramas are able to connect with viewers on a deep level. Also worth mentioning are the visual elements that draw viewers in. Their high production values are no joke. It’s hard to look away from their high-quality cinematography, beautiful locations, and well-choreographed scenes. 
 
 Here is some code that illustrates how we read values from the line sensors:
 
