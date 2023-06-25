@@ -72,7 +72,7 @@ for row in maze:
     print("".join(row))
 ```
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+If you're curious to see the application, you can find it <a href="https://dduyg.github.io/alchemy-of-souls/" class="home">here <i class="external alternate icon"></i></a>. I hope you enjoy it as much as I enjoyed creating it, and that it inspires you to explore the meaningful messages that can be found in your favorite stories. 
 
 <a href="https://github.com/theVacay/vacay">
    <button class="ui black button"> <i class="large github icon"></i> Source code </button>
