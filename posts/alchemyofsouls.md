@@ -27,7 +27,9 @@ summary: How fictional stories can help you learn new perspectives by turning it
 
 As a data scientist, I have a habit of seeing everything as a potential dataset that can be expressed in numbers and strings.
 
-## Fictional Stories Help You Learn New Perspectives
+## How fictional stories can help you 
+
+We all enjoy a good story. Throughout history, telling stories has been one of our most fundamental communication methods. Interestingly, even in the realm of Data Science, we recognize and appreciate the influence of data storytelling. Stories go beyond mere entertainment; they possess a remarkable ability to teach us important life lessons, help us make sense of the world around us, and inspire us to think and act in new ways. Undoubtedly, they are a timeless and universal tool, capable of engaging, entertaining, and inspiring us all.
 
 Korean series are well known for their phenomenal storytelling. They often have complex and well-developed plots with compelling characters, were various themes and issues are explored. Whether it's the charming and charismatic leading man or the strong and independent leading woman, they have an interesting way of incorporating what a character is thinking into the plot. These characters are often written in a way that makes them feel like real people with flaws, hopes, and dreams. I have personally watched many K-dramas with relatable themes, that tackle pretty important issues. By depicting these themes in a way that is both honest and emotional, Korean dramas are able to connect with viewers on a deep level. Also worth mentioning are the visual elements that draw viewers in. Their high production values are no joke. It’s hard to look away from their high-quality cinematography, beautiful locations, and well-choreographed scenes. 
 
