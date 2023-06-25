@@ -51,19 +51,12 @@ corpus = [dictionary.doc2bow(text.split()) for text in df_ep19['clean_text']]
 lda_model = LdaModel(corpus=corpus, id2word=dictionary, num_topics=5, random_state=42)
 ```
 
-Here is some code that illustrates how we read values from the line sensors:
+The top 5 topics and the top words in each topic:
 ```python
 
-# recursive backtracker algorithm
-def create_maze(x, y):
-    directions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
-    random.shuffle(directions)
-    for dx, dy in directions:
-        nx, ny = x + dx, y + dy
-        if 0 <= nx < WIDTH and 0 <= ny < HEIGHT and maze[ny][nx] == WALL:
-            maze[y + dy // 2][x + dx // 2] = SPACE
-            maze[ny][nx] = SPACE
-            create_maze(nx, ny)
+# print the topics and the top words in each topic
+for idx, topic in lda_model.print_topics(-1):
+    print(f"Topic: {idx} \nWords: {topic}\n")
 ```
 
 If you're curious to see the application, you can find it <a href="https://dduyg.github.io/alchemy-of-souls/" class="home">here <i class="external alternate icon"></i></a>. I hope you enjoy it as much as I enjoyed creating it, and that it inspires you to explore the meaningful messages that can be found in your favorite stories. 
