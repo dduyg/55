@@ -26,7 +26,7 @@ summary: How fictional stories can help you learn new perspectives by turning it
 As a data scientist, I have a habit of seeing everything as a potential dataset that can be expressed in numbers and strings.
 
 <div class="ui embed">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/axXUNvd47GI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/axXUNvd47GI?cc_load_policy=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 </div>
 
 
