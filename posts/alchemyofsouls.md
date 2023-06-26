@@ -20,7 +20,7 @@ projectcheck: true
 summary: How fictional stories can help you learn new perspectives by turning it into a data-based web application.
 ---
 
-<div class="ui secondary stackable menu">
+<div class="ui grey one item inverted stackable menu">
   <div class="ui dropdown item">
     Table of Contents
     <i class="dropdown icon"></i>
