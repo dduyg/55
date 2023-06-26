@@ -21,11 +21,14 @@ summary: How fictional stories can help you learn new perspectives by turning it
 ---
 
 
-<img class="ui medium right floated rounded image" src="/images/vacay-home-page.png">
-
 ‘<a href="https://www.imdb.com/title/tt20859920/" target="_blank" class="lined">Alchemy of Souls</a>’ was my guilty pleasure this past months. The South Korean TV series is set in a fictional country where the fates of two people become intertwined due to the forbidden 'alchemy of souls', which allows souls to switch bodies, while also introducing various political conflicts alongside.
 
 As a data scientist, I have a habit of seeing everything as a potential dataset that can be expressed in numbers and strings.
+
+<div class="ui embed">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/axXUNvd47GI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+</div>
+
 
 ## How fictional stories can help conceptualize the world
 
@@ -64,3 +67,7 @@ If you're curious to see the application, you can find it <a href="https://dduyg
 <a href="https://github.com/dduyg/alchemy-of-souls" target="_blank">
    <button class="ui black button"> <i class="large github icon"></i> Source code </button>
 </a>
+
+<script>
+  $('.ui.embed').embed();
+</script>
