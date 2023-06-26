@@ -20,9 +20,9 @@ projectcheck: true
 summary: How fictional stories can help you learn new perspectives by turning it into a data-based web application.
 ---
 
-<div style="font-family: 'Source Code Pro', monospace;" class="ui fluid floating labeled icon dropdown button">
+<div class="ui fluid floating labeled icon dropdown button">
   <i class="caret down icon"></i>
-  <span class="text">Table of Contents</span>
+  <span style="font-family: 'Source Code Pro', monospace;" class="text">Table of Contents</span>
   <div class="menu">
     <div class="ui grey message">
       <div class="header">Table of Contents</div>
