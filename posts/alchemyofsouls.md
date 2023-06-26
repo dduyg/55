@@ -20,17 +20,16 @@ projectcheck: true
 summary: How fictional stories can help you learn new perspectives by turning it into a data-based web application.
 ---
 
-<div class="ui text stackable menu">
-  <div class="ui dropdown item">
-    <i class="dropdown icon"></i>
-    &nbsp;&nbsp;&nbsp;&nbsp;Table of Contents
-    <div class="menu">
-      <a href="#section-1" class="item"><p><div class="ui black empty circular mini label"></div>How fictional stories can help conceptualize the world</p></a>
-       <a href="#section-2" class="item"><div class="ui black empty circular mini label"></div>Creating the data</a>
+<div class="ui dropdown">
+  <i class="dropdown icon"></i>
+  <span class="text">Table of Contents</span>
+  <div class="menu">
+    <div class="ui message">
+      <p><a href="#section-1" class="item">How fictional stories can help conceptualize the world</a>
+       <a href="#section-2" class="item">Creating the data</a></p>
     </div>
   </div>
 </div>
-
 
 ‘<a href="https://www.imdb.com/title/tt20859920/" target="_blank" class="lined">Alchemy of Souls</a>’ was my guilty pleasure this past months. The South Korean TV series is set in a fictional country where the fates of two people become intertwined due to the forbidden 'alchemy of souls', which allows souls to switch bodies, while also introducing various political conflicts alongside.
 
