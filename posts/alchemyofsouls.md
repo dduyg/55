@@ -83,6 +83,12 @@ If you're curious to see the application, you can find it <a href="https://dduyg
    <button class="ui black button"> <i class="large github icon"></i> Source code </button>
 </a>
 
+
+<script>
+  $('.ui.dropdown')
+  .dropdown();
+</script>
+
 <script>
   $('.ui.embed').embed();
 </script>
