@@ -21,12 +21,21 @@ summary: How fictional stories can help you learn new perspectives by turning it
 ---
 
 <div class="ui stackable menu">
-  <div class="ui dropdown item">   
+  <a class="browse item active">
+    Table of Contents
     <i class="dropdown icon"></i>
-    &nbsp;&nbsp;&nbsp;&nbsp;Table of Contents
-    <div class="menu">
-      <a href="#section-1" class="item"><div class="ui black empty circular mini label"></div>How fictional stories can help conceptualize the world</a>
+  </a>
+</div>
+<div class="ui fluid popup bottom center transition hidden">
+  <div class="ui two column relaxed equal height divided grid"> 
+    <div class="column">
+      <div class="ui vertical divider"></div>
+    </div>
+    <div class="column">
+      <div class="ui link list">
+        <a href="#section-1" class="item"><div class="ui black empty circular mini label"></div>How fictional stories can help conceptualize the world</a>
        <a href="#section-2" class="item"><div class="ui black empty circular mini label"></div>Creating the data</a>
+      </div>
     </div>
   </div>
 </div>
