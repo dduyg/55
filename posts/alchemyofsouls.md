@@ -20,8 +20,8 @@ projectcheck: true
 summary: How fictional stories can help you learn new perspectives by turning it into a data-based web application.
 ---
 
-<div class="ui floating labeled icon dropdown button">
-  <i class="dropdown icon"></i>
+<div class="ui fluid floating labeled icon dropdown button">
+  <i class="caret down icon"></i>
   <span class="text">&nbsp;&nbsp;Table of Contents</span>
   <div class="menu">
     <div class="ui compact grey message">
