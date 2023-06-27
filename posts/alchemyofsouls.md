@@ -49,6 +49,8 @@ Korean series are well known for their phenomenal storytelling. They often have 
 
 ## <a id="section-2"></a>Creating the data
 
+To create my dataset, I turned to the English subtitles for each episode, available in SRT format. Using Python, I <a href="https://github.com/dduyg/alchemy-of-souls/blob/main/scripts/srt2csv_converter.py" target="_blank" class="home">wrote a script</a>  to extract the dialogue from the subtitle files (.srt) per episode and convert them into a CSV file. The output CSV files contained all the spoken lines by the characters throughout the episode, along with the season and episode number they were spoken in, and the timestamps. With this <a href="https://github.com/dduyg/alchemy-of-souls/tree/main/data/AoS-episodes" target="_blank" class="home">collection</a> of csv datasets per episode in hand, I was ready to analyze the dialogue and find/extract the iconic lines that contain valuable messages, lessons using Natural Language Processing (NLP) techniques in Python.
+
 Using a topic modeling technique like Latent Dirichlet Allocation (LDA) to extract themes and messages from the preprocessed text data:
 
 ```python
