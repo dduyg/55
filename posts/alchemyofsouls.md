@@ -29,6 +29,7 @@ summary: How fictional stories can help you learn new perspectives by turning it
   <ul class="list">
     <li><a href="#section-1" class="lined">How fictional stories can help <br> conceptualize the world</a></li>
     <li><a href="#section-2" class="lined">Creating the data</a></li>
+    <li><a href="#section-3" class="lined">Topic Modeling</a></li>
   </ul>
     </div>
   </div>
@@ -52,6 +53,8 @@ Korean series are well known for their phenomenal storytelling. They often have 
 ## <a id="section-2"></a>Creating the data
 
 To create my dataset, I turned to the English subtitles for each episode, which where available in SRT format. Using Python, I <a href="https://github.com/dduyg/alchemy-of-souls/blob/main/scripts/srt2csv_converter.py" target="_blank" class="lined">wrote a script</a>  to extract the dialogue from the subtitle files `(.srt)` per episode and convert them into a `CSV` file. The output files contained all the spoken lines by the characters throughout the episode, along with timestamps, the season and episode number they were spoken in. With this <a href="https://github.com/dduyg/alchemy-of-souls/tree/main/data/AoS-episodes" target="_blank" class="lined">collection</a> of datasets per episode in hand, I was ready to analyze the dialogue and find/extract the iconic lines that contain valuable messages, lessons using Natural Language Processing (NLP) techniques in Python.
+
+## <a id="section-3"></a>Topic Modeling
 
 Using a topic modeling technique like Latent Dirichlet Allocation (LDA) to extract themes and messages from the preprocessed text data:
 
