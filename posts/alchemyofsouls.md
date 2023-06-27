@@ -34,6 +34,8 @@ summary: How fictional stories can help you learn new perspectives by turning it
   </div>
 </div>
 
+<div class="ui hidden divider"></div>
+
 *<a href="https://www.imdb.com/title/tt20859920/" target="_blank" class="lined">Alchemy of Souls</a>* was my guilty pleasure this past months. The South Korean TV series is set in a fictional country where the fates of two people become intertwined due to the forbidden 'alchemy of souls', which allows souls to switch bodies, while also introducing various political conflicts alongside. As a data scientist, I have a habit of seeing everything as a potential dataset that can be expressed in numbers and strings.
 
 
@@ -49,7 +51,7 @@ Korean series are well known for their phenomenal storytelling. They often have 
 
 ## <a id="section-2"></a>Creating the data
 
-To create my dataset, I turned to the English subtitles for each episode, which where available on opensubtitles.org in SRT format. Using Python, I <a href="https://github.com/dduyg/alchemy-of-souls/blob/main/scripts/srt2csv_converter.py" target="_blank" class="lined">wrote a script</a>  to extract the dialogue from the subtitle files (.srt) per episode and convert them into a CSV file. The output CSV files contained all the spoken lines by the characters throughout the episode, along with the season and episode number they were spoken in, and the timestamps. With this <a href="https://github.com/dduyg/alchemy-of-souls/tree/main/data/AoS-episodes" target="_blank" class="lined">collection</a> of csv data per episode in hand, I was ready to analyze the dialogue and find/extract the iconic lines that contain valuable messages, lessons using Natural Language Processing (NLP) techniques in Python.
+To create my dataset, I turned to the English subtitles for each episode, which where available in SRT format. Using Python, I <a href="https://github.com/dduyg/alchemy-of-souls/blob/main/scripts/srt2csv_converter.py" target="_blank" class="lined">wrote a script</a>  to extract the dialogue from the subtitle files `(.srt)` per episode and convert them into a `CSV` file. The output CSV files contained all the spoken lines by the characters throughout the episode, along with timestamps, the season and episode number they were spoken in. With this <a href="https://github.com/dduyg/alchemy-of-souls/tree/main/data/AoS-episodes" target="_blank" class="lined">collection</a> of csv data per episode in hand, I was ready to analyze the dialogue and find/extract the iconic lines that contain valuable messages, lessons using Natural Language Processing (NLP) techniques in Python.
 
 Using a topic modeling technique like Latent Dirichlet Allocation (LDA) to extract themes and messages from the preprocessed text data:
 
