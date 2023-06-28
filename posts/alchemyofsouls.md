@@ -33,6 +33,7 @@ summary: How fictional stories can help you learn new perspectives by turning it
           <li><a href="#section-3" class="lined">Topic Modeling</a></li>
        </ul> 
     </li>
+    <li><a href="#section-4" class="lined">Building a application with my dataset</a>
   </ul>
     </div>
   </div>
@@ -82,6 +83,9 @@ Viewing the top 5 topics and the top words in each topic:
 for idx, topic in lda_model.print_topics(-1):
     print(f"Topic: {idx} \nWords: {topic}\n")
 ```
+
+## <a id="section-4"></a>Building a application with my dataset
+
 
 If you're curious to see the application, you can find it <a href="https://dduyg.github.io/alchemy-of-souls/" target="_blank" class="home">here</a>. <i class="small grey external alternate icon"></i> I hope you enjoy it as much as I enjoyed creating it, and that it inspires you to explore the meaningful messages that can be found in your favorite stories. 
 
