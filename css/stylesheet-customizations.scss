@@ -130,6 +130,14 @@ a.mu {
   font-weight: bold !important;
 }
 
+// Table of Contents button color toggle opened
+.ui.post.button:focus,
+.ui.post.button:hover {
+  background: #E0E1E2 none;
+  color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+}
+
 // Insert Data menu
 .ui.secondary.pointing.menu .active.item {
   border-bottom-width: 3px;
