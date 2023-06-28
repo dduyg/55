@@ -24,7 +24,7 @@ summary: How fictional stories can help you learn new perspectives by turning it
   <i class="caret down icon"></i>
   <span style="font-family: 'Source Code Pro', monospace;" class="text">Table of Contents</span>
   <div class="menu">
-    <div class="ui grey message">
+    <div class="ui message">
       <div class="header">Table of Contents</div>
   <ul class="list">
     <li><a href="#section-1" class="lined">How fictional stories can help <br> conceptualize the world</a></li>
