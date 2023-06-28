@@ -20,10 +20,20 @@ projectcheck: true
 summary: How fictional stories can help you learn new perspectives by turning it into a data-based web application.
 ---
 
+<div class="ui accordion">
+    
+   
+  <div class="content">
+      >
+    </div>
+
+
   <div class="ui accordion">
-    <div class="ui labeled icon button title">
-      <i class="caret down icon"></i>
-      Table of Contents
+    <div class="title">
+      <div class="ui labeled icon button">
+        <i class="dropdown icon"></i>
+        Table of Contents
+      </div>
     </div>
     <div class="content">
             <div class="ui grey message">
