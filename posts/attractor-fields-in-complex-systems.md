@@ -10,7 +10,7 @@ labels:
   - Complex Systems
   - Time Series
   - Data Visualization
-# mediumurl: https://www
+mediumurl: mybyy.github.io
 githuburl: https://github.com/dduyg/
 projectcheck: false
 # summary of max. 165 characters <meta name="description>
