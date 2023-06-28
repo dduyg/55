@@ -13,7 +13,7 @@ labels:
   - Python
   - JavaScript
   - HTML
-mediumurl: mybyy.github.io
+# mediumurl: https://67
 githuburl: https://github.com/dduyg/alchemy-of-souls
 projectcheck: true
 # summary of max. 165 characters <meta name="description>
