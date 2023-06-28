@@ -33,7 +33,7 @@ summary: How fictional stories can help you learn new perspectives by turning it
           <li><a href="#section-3" class="lined">Topic Modeling</a></li>
        </ul> 
     </li>
-    <li><a href="#section-4" class="lined">Building a application with my dataset</a>
+    <li><a href="#section-4" class="lined">Building a application with my dataset</a></li>
   </ul>
     </div>
   </div>
