@@ -20,26 +20,6 @@ projectcheck: true
 summary: How fictional stories can help you learn new perspectives by turning it into a data-based web application.
 ---
 
-<div class="ui floating labeled icon dropdown button">
-  <i class="caret down icon"></i>
-  <span style="font-family: 'Source Code Pro', monospace;" class="text">Table of Contents</span>
-  <div class="menu">
-    <div class="ui grey message">
-      <div style="color: black;" class="header">Table of Contents</div>
-  <ul class="list">
-    <li><a href="#section-1" class="lined">How fictional stories can help <br> conceptualize the world</a></li>
-    <li><a href="#section-2" class="lined">Creating the data</a>
-       <ul class="list">
-          <li><a href="#section-3" class="lined">Topic Modeling</a></li>
-       </ul> 
-    </li>
-    <li><a href="#section-4" class="lined">Building a application with my dataset</a></li>
-  </ul>
-    </div>
-  </div>
-</div>
-
-
   <div class="ui accordion">
     <div class="ui labeled icon button title">
       <i class="dropdown icon"></i>
@@ -57,8 +37,6 @@ summary: How fictional stories can help you learn new perspectives by turning it
   </ul>
     </div>
   </div>
-
-
 
 <div class="ui hidden divider"></div>
 
