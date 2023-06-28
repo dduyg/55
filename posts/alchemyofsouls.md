@@ -39,6 +39,27 @@ summary: How fictional stories can help you learn new perspectives by turning it
   </div>
 </div>
 
+
+  <div class="ui accordion">
+    <div class="title">
+      <i class="dropdown icon"></i>
+      Table of Contents
+    </div>
+    <div class="content">
+        <ul>
+    <li><a href="#section-1" class="lined">How fictional stories can help conceptualize the world</a></li>
+    <li><a href="#section-2" class="lined">Creating the data</a>
+       <ul>
+          <li><a href="#section-3" class="lined">Topic Modeling</a></li>
+       </ul> 
+    </li>
+    <li><a href="#section-4" class="lined">Building a application with my dataset</a></li>
+  </ul>
+    </div>
+  </div>
+
+
+
 <div class="ui hidden divider"></div>
 
 *<a href="https://www.imdb.com/title/tt20859920/" target="_blank" class="lined">Alchemy of Souls</a>* was my guilty pleasure this past months. The South Korean TV series is set in a fictional country where the fates of two people become intertwined due to the forbidden 'alchemy of souls', which allows souls to switch bodies, while also introducing various political conflicts alongside. As a data scientist, I have a habit of seeing everything as a potential dataset that can be expressed in numbers and strings.
@@ -97,6 +118,11 @@ If you're curious to see the application, you can find it <a href="https://dduyg
 <script>
   $('.ui.dropdown')
   .dropdown();
+</script>
+
+<script>
+  $('.ui.accordion')
+  .accordion();
 </script>
 
 <script>
