@@ -41,7 +41,7 @@ summary: How fictional stories can help you learn new perspectives by turning it
 
 
   <div class="ui accordion">
-    <div class="title">
+    <div class="ui labeled icon button title">
       <i class="dropdown icon"></i>
       Table of Contents
     </div>
@@ -116,13 +116,7 @@ If you're curious to see the application, you can find it <a href="https://dduyg
 
 
 <script>
-  $('.ui.dropdown')
-  .dropdown();
-</script>
-
-<script>
-  $('.ui.accordion')
-  .accordion();
+   $('.ui.accordion').accordion();
 </script>
 
 <script>
