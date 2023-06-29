@@ -23,7 +23,7 @@ summary: How fictional stories can help you learn new perspectives by turning it
   <div class="ui accordion">
     <div class="ui labeled icon post button title">    
       <div class="ui icon"><i class="dropdown icon"></i></div>
-       <div style="font-family: 'Source Code Pro', monospace;" class="ui content">Table of Contents&nbsp;&nbsp;&nbsp;&nbsp;</div>
+       <div style="font-family: 'Source Code Pro', monospace;" class="ui content">Table of Contents&nbsp;&nbsp;</div>
       </div>
     <div class="content">
             <div class="ui small grey message">
