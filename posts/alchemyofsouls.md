@@ -1,4 +1,4 @@
-1---
+---
 layout: essay
 type: essay
 published: true
