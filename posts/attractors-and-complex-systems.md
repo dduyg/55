@@ -5,7 +5,7 @@ published: true
 title: "Using Attractors to Understand Complex Systems"
 permalink: posts/attractor-fields
 # All dates must be YYYY-MM-DD format!
-date: 2023-01-20
+date: 2023-07-05
 labels:
   - Complex Systems
   - Time Series
