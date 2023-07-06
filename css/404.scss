@@ -8,7 +8,7 @@ $light-grey: #0005FF;
 $grey: #0005FF;
 $blue: #f2f2f2!important;
 
-$base-font-size: 18px;
+$base-font-size: 15px;
 $font-stack: 'VT323', monospace;
 
 body,
@@ -21,10 +21,7 @@ a { color: $light-grey; }
 
 body,
 p { font: normal #{$base-font-size}/1.25rem $font-stack; }
-h1 { font: normal 2.75rem/1.05em $font-stack; }
-h2 { font: normal 2.25rem/1.25em $font-stack; }
-h3 { font: lighter 1.5rem/1.25em $font-stack; }
-h4 { font: lighter 1.125rem/1.2222222em $font-stack; }
+h1 { font: normal 3.75rem/2.05em $font-stack; }
 
 body { background: $blue; }
 
