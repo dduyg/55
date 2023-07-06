@@ -33,7 +33,7 @@ These systems are dynamical systems that change over time. An attractor has a se
 
 Fascinated by this concept, I started experimenting with visualizing distance based attractor fields using a <a href="https://object-e.net/tools/attractorfields-tools-gh" target="_blank" class="lined">tool</a> I found. Those acting as the ‘attractors’ in the field can be represented as points or lines, with each point or line exerting a force of attraction on nearby objects or particles. The strength of the attraction is usually determined by the distance between the object and the attractor point or line, with closer objects experiencing a stronger pull. Objects move and interact in response to the collective influence of all the attractors in the system, creating patterns and movements that can be analyzed and understood.
 
-Below are some of my outputs that showcase the concept of attractor fields. By exploring and experimenting with the system's parameters, I generated multiple creations. Also note that I applied some aesthetical efforts to emphasise the attractor dynamics. When you change the values of the parameters of a system, it can alter the behavior and dynamics of the system. This, in turn, can affect the basins of attraction. Thereby changing the set of initial conditions that lead to different outcomes or attractor states. The basins of attraction refers to the regions in the state space where the system's trajectories converge to specific attractor points or behaviors. Changing the parameters can affect the shape, size, and location of these basins.
+Below are some of my outputs that showcase the concept of attractor fields. By exploring and experimenting with the system's parameters, I generated multiple creations. Also note that I applied some aesthetical efforts to emphasise the attractor dynamics. 
 
 <div class="ui small images">
   <img class="ui image" src="/images/attractorfields1.png" style="border: 1px solid black;">
@@ -41,6 +41,8 @@ Below are some of my outputs that showcase the concept of attractor fields. By e
   <img class="ui image" src="/images/attractorfields2.png" style="border: 1px solid black;">
   <img class="ui image" src="/images/attractorfields3.png" style="border: 1px solid black;">
 </div>
+
+When you change the values of the parameters of a system, it can alter the behavior and dynamics of the system. This, in turn, can affect the basins of attraction. Thereby changing the set of initial conditions that lead to different outcomes or attractor states. The basins of attraction refers to the regions in the state space where the system's trajectories converge to specific attractor points or behaviors. Changing the parameters can affect the shape, size, and location of these basins.
 
 <div class="ui secondary segment">
   <p>To create the visualizations, I used a grid of points, and for each point in the grid, a value is generated based on the distance of each point to the closest attractor (either point or line). Each point is affected only by one attractor (the closest), but the definition can be easily adapted to use influence from several attractors at once quite easily. The output of the definition is one value for each point of the grid that can then be used to control any property. In my outputs it controls the radii of circles positioned on the points.</p></div>
