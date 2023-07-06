@@ -42,7 +42,7 @@ Below are some of my outputs that showcase the concept of attractor fields. By e
   <img class="ui image" src="/images/attractorfields3.png" style="border: 1px solid black;">
 </div>
 
-<div class="ui tertiary inverted segment">
+<div class="ui tertiary center aligned segment">
   <p>To create the visualizations, I used a grid of points, and for each point in the grid, a value is generated based on the distance of each point to the closest attractor (either point or line). Each point is affected only by one attractor (the closest), but the definition can be easily adapted to use influence from several attractors at once quite easily. The output of the definition is one value for each point of the grid that can then be used to control any property. In my outputs it controls the radii of circles positioned on the points.</p></div>
 
 ## Using Attractor Fields in Data Science
