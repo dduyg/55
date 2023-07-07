@@ -47,14 +47,6 @@ When you change the values of the parameters of a system, it can alter the behav
 <div style="font-family: 'Source Code Pro', monospace;" class="ui secondary segment">
   <p>To visualize the distance-based attractor fields, I used a grid of points. For each point in the grid, a value is generated based on the distance to the closest attractor (either a point or a line). Each point is affected only by its closest attractor, but the definition can be easily adapted to incorporate influence from multiple attractors simultaneously. The output of this definition is a single value for each point on the grid, which can then be used to control any property. In this case, it controls the radii of circles positioned on the points.</p></div>
 
-## Using Attractor Fields in Data Science
+## Using Attractor Fields to understand complex systems
 
-Attractor fields provide a useful framework for data science, particularly in the analysis of complex systems and nonlinear dynamical systems.
-
-Attractor fields are a valuable tool for analyzing and understanding complex systems, and visualizing them can help make sense of complex datasets, especially those with a high number of dynamic and time-series data. 
-
-Attractors can be used to visualize complex high-dimensional data by projecting it onto a lower-dimensional spaces. In these cases, the attractor field provides a low-dimensional representation of the data that captures the underlying structure of the system. By identifying the underlying attractors that govern the behavior of the dynamical system, attractor fields can help reduce the complexity of high-dimensional data while preserving important patterns and relationships in the data, and can be used to predict future states of the system.
-
-While attractor fields and data science may seem unrelated, they can intersect in the context of complex dynamical systems with high-dimensional data. Machine learning models often seek to find attractors in high-dimensional data spaces in order to cluster similar data points together. In this case, the attractors are not explicitly referred to as such, but the concept is still relevant to the algorithms being used.
-
-For instance, attractor fields have been used in the development and improvement of self-organizing maps (SOMs). SOMs are a type of neural network that can be used to visualize high-dimensional data in a low-dimensional space. They work by mapping the data onto a grid of nodes, where each node represents a different region of the data space. By adjusting the connections between nodes over time, the SOM can learn to recognize patterns in the data and map them onto the grid.
+Attractor fields provide a valuable framework for analyzing and understanding complex systems, and visualizing them can help make sense of complex datasets, especially those with a high number of dynamic and time-series data. The attractor field approach aims to represent the data in a lower-dimensional space that captures the inherent structure of the system. By identifying the underlying attractors governing the dynamical system's behavior, it is possible to reduce the complexity of high-dimensional data while retaining important patterns and relationships in the data. This, in turn, facilitates improved predictions about future states of the system.
