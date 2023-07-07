@@ -21,7 +21,7 @@ a { color: $light-grey; }
 
 body,
 p { font: normal #{$base-font-size}/1.25rem $font-stack; }
-h1 { font: normal 3.05rem/1.75em $font-stack; }
+h1 { font: normal 2.95rem/1.45em $font-stack; }
 
 body { background: $blue; }
 
@@ -32,7 +32,7 @@ body { background: $blue; }
 }
 
 .bsod {
-  padding-top: 5%;
+  padding-top: 6%;
   
   .neg {
     text-align: center;
