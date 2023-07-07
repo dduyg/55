@@ -29,7 +29,7 @@ This concept is often used in modelling of complex systems, like physics simulat
 
 These systems are dynamical systems that change over time. An attractor has a set of states or values to which a dynamic system tends to evolve over time, regardless of the starting state. They can be simple, like the motion of a pendulum, or complex, like the weather.
 
-## Visualizing Attractor Fields
+## Visualizing with attractors
 
 Fascinated by this concept, I began experimenting with visualizing “*distance-based attractor fields*” inspired by a <a href="https://object-e.net/tools/attractorfields-tools-gh" target="_blank" class="lined">tool</a> I found. Those acting as the ‘attractors’ in the field can be represented as points or lines, with each point or line exerting a force of attraction on nearby objects or particles. The strength of the attraction is usually determined by the distance between the object and the attractor point or line, with closer objects experiencing a stronger pull. Objects move and interact in response to the collective influence of all the attractors in the system, creating patterns and movements that can be analyzed and understood.
 
@@ -47,6 +47,6 @@ When you change the values of the parameters of a system, it can alter the behav
 <div style="font-family: 'Source Code Pro', monospace;" class="ui secondary segment">
   <p>To visualize the distance-based attractor fields, I used a grid of points. For each point in the grid, a value is generated based on the distance to the closest attractor (either a point or a line). Each point is affected only by its closest attractor, but the definition can be easily adapted to incorporate influence from multiple attractors simultaneously. The output of this definition is a single value for each point on the grid, which can then be used to control any property. In this case, it controls the radii of circles positioned on the points.</p></div>
 
-## Using Attractor Fields to understand complex systems
+## Using attractor fields in complex datasets
 
 Attractor fields provide a valuable framework for analyzing and understanding complex systems, and visualizing them can help make sense of complex datasets, especially those with a high number of dynamic and time-series data. The attractor field approach aims to represent the data in a lower-dimensional space that captures the inherent structure of the system. By identifying the underlying attractors governing the dynamical system's behavior, it is possible to reduce the complexity of high-dimensional data while retaining important patterns and relationships in the data. This, in turn, facilitates improved predictions about future states of the system.
