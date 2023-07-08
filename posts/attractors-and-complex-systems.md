@@ -23,7 +23,7 @@ I’ve recently stumbled upon a concept called *attractor fields*. It is a mathe
 
 > An attractor is a force or point of attraction that pulls objects towards it, while an attractor field is a more general concept that refers to a collection of attractors and their associated features in a dynamical system's state space.
 
-Attractor fields are areas in a system that exert an influence on the behavior and movement of objects residing within the system. These fields are defined as regions in the system's state space, which the system naturally gravitates towards or "attracts" over time. The state space of a system is a mathematical idealisation of all the possible states a system can take. To put it simply, they are a way to explain certain patterns, movements, and describe how objects move and interact in a given environment.
+Attractor fields are areas in a system that exert an influence on the behavior and movement of objects residing within the system. These fields are defined as regions in the system's state space, which the system naturally gravitates towards or "attracts" over time. The state space of a system is a mathematical idealisation of all the possible states a system can take. To put it simply, attractor fields are a way to explain certain patterns, movements, and describe how objects move and interact in a given environment.
 
 ## The Role of Attractors in Dynamical and Complex Systems
 
