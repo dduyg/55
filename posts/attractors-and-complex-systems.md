@@ -19,13 +19,15 @@ summary: What attractor fields are, and how they can be visualized and applied i
 
 I’ve recently stumbled upon a concept called *attractor fields*. It is a mathematical construct used in the field of <a href="https://en.m.wikipedia.org/wiki/Dynamical_systems_theory" target="_blank" class="lined">dynamical systems</a> to describe the behavior of certain systems *over time*. If you think about it, the world around us is made up of countless complex systems, each one interacting and influencing the others in ways that we may not always fully understand. From natural systems, such as cells and ecological patterns, to the social systems of our societies, these systems are constantly in motion and constantly changing. Understanding attractor fields can help us gain insights into the behavior of these systems. In this post, we will explore what attractor fields are, how they are used to model complex systems, and how they can be used in our datasets.
 
-## What are attractor fields? 
+## What are Attractor Fields? 
 
 > An attractor is a force or point of attraction that pulls objects towards it, while an attractor field is a more general concept that refers to a collection of attractors and their associated features in a dynamical system's state space.
 
-Attractor fields are areas in a system that exert an influence on the behavior or movement of objects within the system. They are defined as regions in the state space of a system (a mathematical idealisation of all the possible states a system can take) that the system tends to move towards, or "attract" over time. To put it simply, they are a way to explain certain patterns, movements, and describe how objects move and interact in a given environment.
+Attractor fields are areas in a system that exert an influence on the behavior and movement of objects residing within the system. These fields are defined as regions in the system's state space, which the system naturally gravitates towards or "attracts" over time. The state space of a system is a mathematical idealisation of all the possible states a system can take. To put it simply, they are a way to explain certain patterns, movements, and describe how objects move and interact in a given environment.
 
-This concept is often used in modelling of complex systems, like physics simulations such as the motion of particles in a fluid and computer graphics, to create realistic movement and behavior of particles or objects. They can also be used to model more abstract systems, such as the dynamics of economic or social systems. For example, the behavior of populations in a city or the spread of information through a network.
+## The Role of Attractors in Dynamical and Complex Systems
+
+Attractor fields provide insights into the behavior of various systems over time, allowing us to gain a deeper understanding of their complexities. The concept of attractors is often used in modelling of complex systems, like physics simulations such as the motion of particles in a fluid and computer graphics, to create realistic movement and behavior of particles or objects. They can also be used to model more abstract systems, such as the dynamics of economic or social systems. For example, the behavior of populations in a city or the spread of information through a network.
 
 These systems are dynamical systems that change over time. An attractor has a set of states or values to which a dynamic system tends to evolve over time, regardless of the starting state. They can be simple, like the motion of a pendulum, or complex, like the weather.
 
