@@ -20,6 +20,8 @@ projectcheck: true
 summary: How fictional stories can help you learn new perspectives by turning it into a data-based web application.
 ---
 
+*<a href="https://www.imdb.com/title/tt20859920/" target="_blank" class="lined">Alchemy of Souls</a>* was my guilty pleasure this past months. The South Korean TV series is set in a fictional country where the fates of two people become intertwined due to the forbidden 'alchemy of souls', which allows souls to switch bodies, while also introducing various political conflicts alongside. As a data scientist, I have a habit of seeing everything as a potential dataset that can be expressed in numbers and strings.
+
   <div class="ui accordion">
     <div class="ui labeled icon post button title">    
       <div class="ui icon"><i class="dropdown icon"></i></div>
@@ -42,9 +44,6 @@ summary: How fictional stories can help you learn new perspectives by turning it
   </div>
 
 <div class="ui hidden divider"></div>
-
-*<a href="https://www.imdb.com/title/tt20859920/" target="_blank" class="lined">Alchemy of Souls</a>* was my guilty pleasure this past months. The South Korean TV series is set in a fictional country where the fates of two people become intertwined due to the forbidden 'alchemy of souls', which allows souls to switch bodies, while also introducing various political conflicts alongside. As a data scientist, I have a habit of seeing everything as a potential dataset that can be expressed in numbers and strings.
-
 
 ## <a id="section-1"></a>How fictional stories can help conceptualize the world
 
