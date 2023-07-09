@@ -29,7 +29,7 @@ Attractor fields are areas in a system that exert an influence on the behavior a
 
 Attractor fields provide insights into the behavior of various systems over time, allowing us to gain a deeper understanding of their complexities. The concept of attractors is often used in modelling of complex systems, like physics simulations such as the motion of particles in a fluid and computer graphics, to create realistic movement and behavior of particles or objects. They can also be used to model more abstract systems, such as the dynamics of economic or social systems. For example, the behavior of populations in a city or the spread of information through a network.
 
-These systems are dynamical systems that change over time. An attractor has a set of states or values to which a dynamic system tends to evolve over time, regardless of the starting state. They can be simple, like the motion of a pendulum, or complex, like the weather.
+These systems are dynamical systems that change over time. An attractor has a set of states or values to which a dynamic system tends to evolve over time, regardless of the starting state. These dynamic systems are constantly evolving, never remaining static. And to make sense of their intricate workings, we can turn to attractor fields. These fields serve as a lens through which we can explore and understand the intricate web of interactions and influences that shape our world. They can be simple, like the motion of a pendulum, or complex, like the weather.
 
 ## Visualizing with attractors
 
