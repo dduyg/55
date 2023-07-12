@@ -23,7 +23,7 @@ summary: How fictional stories can help you learn new perspectives by turning it
 *<a href="https://www.imdb.com/title/tt20859920/" target="_blank" class="lined">Alchemy of Souls</a>* was my guilty pleasure this past months. The South Korean TV series is set in a fictional country where the fates of two people become intertwined due to the forbidden 'alchemy of souls', which allows souls to switch bodies, while also introducing various political conflicts alongside. As a data scientist, I have a habit of seeing everything as a potential dataset that can be expressed in numbers and strings.
 
   <div class="ui accordion">
-    <div class="ui labeled icon post button title">    
+    <div class="fluid ui labeled icon post button title">    
       <div class="ui icon"><i class="dropdown icon"></i></div>
        <div style="font-family: 'Source Code Pro', monospace;" class="ui content">Table of Contents&nbsp;&nbsp;</div>
       </div>
