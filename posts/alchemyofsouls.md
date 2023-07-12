@@ -45,6 +45,7 @@ summary: How fictional stories can help you learn new perspectives by turning it
 
 *<a href="https://www.imdb.com/title/tt20859920/" target="_blank" class="lined">Alchemy of Souls</a>* was my guilty pleasure this past months. The South Korean TV series is set in a fictional country where the fates of two people become intertwined due to the forbidden 'alchemy of souls', which allows souls to switch bodies, while also introducing various political conflicts alongside. As a data scientist, I have a habit of seeing everything as a potential dataset that can be expressed in numbers and strings.
 
+
 ## <a id="section-1"></a>How fictional stories can help conceptualize the world
 
 We all enjoy a good story. Throughout history, telling stories has been one of our most fundamental communication methods. Interestingly, even in the realm of Data Science, we recognize and appreciate the influence of data storytelling. Stories go beyond mere entertainment; they possess a remarkable ability to teach us important life lessons, help us make sense of the world around us, and inspire us to think and act in new ways. Undoubtedly, they are a timeless and universal tool, capable of engaging, entertaining, and inspiring us all.
