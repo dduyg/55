@@ -20,10 +20,8 @@ projectcheck: true
 summary: How fictional stories can help you learn new perspectives by turning it into a data-based web application.
 ---
 
-*<a href="https://www.imdb.com/title/tt20859920/" target="_blank" class="lined">Alchemy of Souls</a>* was my guilty pleasure this past months. The South Korean TV series is set in a fictional country where the fates of two people become intertwined due to the forbidden 'alchemy of souls', which allows souls to switch bodies, while also introducing various political conflicts alongside. As a data scientist, I have a habit of seeing everything as a potential dataset that can be expressed in numbers and strings.
-
   <div class="ui accordion">
-    <div class="fluid ui labeled icon post button title">    
+    <div class="ui labeled icon post button title">    
       <div class="ui icon"><i class="dropdown icon"></i></div>
        <div style="font-family: 'Source Code Pro', monospace;" class="ui content">Table of Contents&nbsp;&nbsp;</div>
       </div>
@@ -31,6 +29,7 @@ summary: How fictional stories can help you learn new perspectives by turning it
             <div class="ui small grey message">
       <div style="color: black;" class="header">Table of Contents</div>
   <ul class="list">
+    <li><a href="#section-0" class="lined">Introducing Alchemy of Souls</a></li>
     <li><a href="#section-1" class="lined">How fictional stories can help conceptualize the world</a></li>
     <li><a href="#section-2" class="lined">Creating the data</a>
        <ul class="list">
@@ -44,6 +43,8 @@ summary: How fictional stories can help you learn new perspectives by turning it
   </div>
 
 <div class="ui hidden divider"></div>
+
+<a id="section-0"></a>*<a href="https://www.imdb.com/title/tt20859920/" target="_blank" class="lined">Alchemy of Souls</a>* was my guilty pleasure this past months. The South Korean TV series is set in a fictional country where the fates of two people become intertwined due to the forbidden 'alchemy of souls', which allows souls to switch bodies, while also introducing various political conflicts alongside. As a data scientist, I have a habit of seeing everything as a potential dataset that can be expressed in numbers and strings.
 
 ## <a id="section-1"></a>How fictional stories can help conceptualize the world
 
