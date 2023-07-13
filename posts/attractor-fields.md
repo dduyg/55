@@ -49,7 +49,7 @@ Modifying the parameters of a dynamical system can have several effects. It can 
 <div style="font-family: 'Source Code Pro', monospace;" class="ui secondary segment">
   <p>To visualize the distance-based attractor fields, I used a grid of points. For each point in the grid, a value is generated based on the distance to the closest attractor, whether it's a point or a line. While each point is solely influenced by its closest attractor, the definition can be easily adapted to incorporate influence from multiple attractors simultaneously. The output of this definition is a single value for each point on the grid, which can then be used to control any property. In this case, it controls the radii of circles positioned on the points.</p></div>
 
-## Analyzing attractors in complex datasets
+## Using attractors to analyze complex datasets
 
 Attractor fields provide a valuable framework for analyzing and understanding complex systems, and visualizing them can help make sense of complex datasets, especially those with a high number of dynamic and time-series data. The attractor field approach aims to represent the data in a lower-dimensional space that captures the inherent structure of the system. By identifying the underlying attractors governing the dynamical system's behavior, it is possible to reduce the complexity of high-dimensional data while retaining important patterns and relationships in the data. This, in turn, facilitates improved predictions about future states of the system.
 
