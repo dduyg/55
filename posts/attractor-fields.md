@@ -52,3 +52,5 @@ Modifying the parameters of a dynamical system can have several effects. It can 
 ## Analyzing attractors in complex datasets
 
 Attractor fields provide a valuable framework for analyzing and understanding complex systems, and visualizing them can help make sense of complex datasets, especially those with a high number of dynamic and time-series data. The attractor field approach aims to represent the data in a lower-dimensional space that captures the inherent structure of the system. By identifying the underlying attractors governing the dynamical system's behavior, it is possible to reduce the complexity of high-dimensional data while retaining important patterns and relationships in the data. This, in turn, facilitates improved predictions about future states of the system.
+
+There are different types of attractors that can be observed in datasets, depending on the nature of the data. Some common types of attractors include point attractors (single stable points), limit cycle attractors (repetitive patterns), and strange attractors (complex, non-repetitive patterns).
