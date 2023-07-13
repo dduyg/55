@@ -40,7 +40,7 @@ a.lined2 {
   color: rgba(0, 0, 0, 0.87);
   text-decoration: none;
   padding-bottom: 0px !important;
-  border-bottom: 2px solid #647879;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.6);
   transform: skew(-12deg) translateX(-50%);
 }
 
@@ -122,7 +122,7 @@ a.mu {
 .ui.cards > .doorzichtig.card:hover,
 .ui.doorzichtig.card:hover {
   background: #E0E1E2;
-  box-shadow: 0px 0px 0px 1px #647879, 0px 2px 0px 0px #647879, 0px 1px 3px 0px #647879;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.6), 0px 2px 0px 0px rgba(0, 0, 0, 0.6), 0px 1px 3px 0px rgba(0, 0, 0, 0.6);
 }
 
 // Table of Contents button color toggle opened
