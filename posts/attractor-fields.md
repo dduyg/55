@@ -31,7 +31,7 @@ It is important to understand that attractors serve as islands of stability amid
 
 So, while attractors may seem like a small detail in the larger study of complex systems, they are in fact a critical concept that underpins our understanding and influence of these systems.
 
-## The role of attractors in dynamical and complex systems
+### The role of attractors in modeling complex and dynamical systems
 
 Attractors offer glimpses into the behavior of different systems over time, allowing us to gain a deeper understanding of their complexities. Therefore, they play a vital role in modeling complex systems, such as physics simulations involving the motion of particles in a fluid and computer graphics, to create realistic movement and behavior of particles or objects. Attractors can also be used to model more abstract systems, such as the dynamics of economic or social systems. For instance, they can help us understand the behavior of populations in a city or the spread of information through a network.
 
