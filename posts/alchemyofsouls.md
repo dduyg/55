@@ -58,7 +58,7 @@ Korean series are well known for their phenomenal storytelling. They often have 
 
 ## <a id="section-2"></a>Creating the data
 
-To create my dataset, I turned to the English subtitles for each episode, which where available in `srt` format. Using Python, I <a href="https://github.com/dduyg/alchemy-of-souls/blob/main/scripts/srt2csv_converter.py" target="_blank" class="lined">wrote a script</a>  to extract the dialogue from the subtitle files per episode and convert them into a `csv` file. This process involved identifying and selecting the relevant data, with the result of these output csv files containing all the spoken lines by the characters throughout the episode, along with timestamps, the season, and the episode number in which they were spoken. With this <a href="https://github.com/dduyg/alchemy-of-souls/tree/main/data/AoS-episodes" target="_blank" class="lined">collection</a> of prepped datasets in hand, I was ready to analyze the dialogue and find the meaningful, iconic lines that contain valuable messages, lessons using Natural Language Processing (NLP) techniques in Python.
+To create my dataset, I turned to the English subtitles for each episode, which where available in `srt` format. Using Python, I <a href="https://github.com/dduyg/alchemy-of-souls/blob/main/scripts/srt2csv_converter.py" target="_blank" class="lined">wrote a script</a>  to extract the dialogue from the subtitle files per episode and convert them into a `csv` file. This process involved identifying and selecting the relevant data, with the result of these output csv files containing all the spoken lines by the characters throughout the episode, along with timestamps, the season and the episode number in which they were spoken. With this <a href="https://github.com/dduyg/alchemy-of-souls/tree/main/data/AoS-episodes" target="_blank" class="lined">collection</a> of prepped datasets in hand, I was ready to analyze the dialogue and find the meaningful, iconic lines that contain valuable messages, lessons using Natural Language Processing (NLP) techniques in Python.
 
 ### <a id="section-3"></a>Topic Modeling
 
@@ -88,8 +88,7 @@ for idx, topic in lda_model.print_topics(-1):
 
 ## <a id="section-4"></a>Building a application with my dataset
 
-
-If you're curious to see the application, you can find it <a href="https://dduyg.github.io/alchemy-of-souls/" target="_blank" class="home">here</a>. <i class="small grey external alternate icon"></i> I hope you enjoy it as much as I enjoyed creating it, and that it inspires you to explore the meaningful messages that can be found in your favorite stories. 
+<img class="ui tiny right spaced image" src="https://github.com/dduyg/alchemy-of-souls/blob/60c40a16785899938ad9c41325f268a9bd79ccc0/images/project-image.png">If you're curious to see the application, you can find it <a href="https://dduyg.github.io/alchemy-of-souls/" target="_blank" class="home">here</a>. <i class="small grey external alternate icon"></i> I hope you enjoy it as much as I enjoyed creating it, and that it inspires you to explore the meaningful messages that can be found in your favorite stories. 
 
 <a href="https://github.com/dduyg/alchemy-of-souls" target="_blank">
    <button class="ui black button"> <i class="large github icon"></i> Source code </button>
