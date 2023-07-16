@@ -32,7 +32,7 @@ summary: How fictional stories can help you learn new perspectives by turning it
     <li><a href="#section-1" class="lined">How fictional stories can help conceptualize the world</a></li>
     <li><a href="#section-2" class="lined">Creating the data</a>
        <ul class="list">
-          <li><a href="#section-3" class="lined">Topic Modeling</a></li>
+          <li><a href="#section-3" class="lined">Applying NLP techniques to find the valuable lines</a></li>
        </ul> 
     </li>
     <li><a href="#section-4" class="lined">Building a application with my dataset</a></li>
@@ -60,7 +60,7 @@ Korean series are well known for their phenomenal storytelling. They often have 
 
 To create my dataset, I turned to the English subtitles for each episode, which where available in `srt` format. Using Python, I <a href="https://github.com/dduyg/alchemy-of-souls/blob/main/scripts/srt2csv_converter.py" target="_blank" class="lined">wrote a script</a>  to extract the dialogue from the subtitle files per episode and convert them into a `csv` file. This process involved identifying and selecting the relevant data, with the result of these output csv files containing all the spoken lines by the characters throughout the episode, along with timestamps, the season and the episode number in which they were spoken. With this <a href="https://github.com/dduyg/alchemy-of-souls/tree/main/data/AoS-episodes" target="_blank" class="lined">collection</a> of prepped datasets in hand, I was ready to analyze the dialogue and find the meaningful, iconic lines that contain valuable messages, lessons using Natural Language Processing (NLP) techniques in Python.
 
-### <a id="section-3"></a>Topic Modeling
+### <a id="section-3"></a>Applying NLP techniques to find the valuable lines
 
 Using a topic modeling technique like Latent Dirichlet Allocation (LDA) to extract themes and messages from the preprocessed text data:
 
