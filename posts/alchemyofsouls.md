@@ -88,7 +88,7 @@ for idx, topic in lda_model.print_topics(-1):
 
 ## <a id="section-4"></a>Building a application with my dataset
 
-<img class="ui tiny right spaced image" src="https://raw.githubusercontent.com/dduyg/alchemy-of-souls/main/images/project-image.png">If you're curious to see the application, you can find it <a href="https://dduyg.github.io/alchemy-of-souls/" target="_blank" class="home">here</a>. <i class="small grey external alternate icon"></i> I hope you enjoy it as much as I enjoyed creating it, and that it inspires you to explore the meaningful messages that can be found in your favorite stories. 
+<img class="ui small left floated image" src="https://raw.githubusercontent.com/dduyg/alchemy-of-souls/main/images/project-image.png">If you're curious to see the application, you can find it <a href="https://dduyg.github.io/alchemy-of-souls/" target="_blank" class="home">here</a>. <i class="small grey external alternate icon"></i> I hope you enjoy it as much as I enjoyed creating it, and that it inspires you to explore the meaningful messages that can be found in your favorite stories. 
 
 <a href="https://github.com/dduyg/alchemy-of-souls" target="_blank">
    <button class="ui black button"> <i class="large github icon"></i> Source code </button>
