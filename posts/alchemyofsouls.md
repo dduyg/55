@@ -17,7 +17,7 @@ labels:
 githuburl: https://github.com/dduyg/alchemy-of-souls
 projectcheck: true
 # summary of max. 165 characters <meta name="description>
-summary: How a fictional story can help you learn new perspectives by turning it into a data-based web application using NLP techniques.
+summary: How a fictional story can help you learn new perspectives, by turning it into a data-based web application using NLP techniques.
 ---
 
   <div class="ui accordion">
