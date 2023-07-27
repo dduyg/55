@@ -19,9 +19,7 @@ summary: fjkkfhjjijjghj
 
 <img class="ui tiny right spaced image" src="../images/degree_difficulty.jpg">*Is there such thing as a stupid question?*
 
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know thaStack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
-
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
+I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know thaStack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
 
 ```
 Q: python date of the previous month
@@ -79,11 +77,4 @@ The asker received six possible answers, and he or she was successful in incitin
 
 ## The foolproof way to get ignored.
 
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer not only .
-
-<div class="ui small rounded images">
-  <img class="ui image" src="/images/degree_difficulty.jpg">
-  <img class="ui image" src="/images/degree_difficulty.jpg">
-  <img class="ui image" src="/images/degree_difficulty.jpg">
-  <img class="ui image" src="/images/degree_difficulty.jpg">
-</div>
+A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further 
