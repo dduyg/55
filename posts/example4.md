@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: False
+published: false
 title: "Example"
 permalink: posts/linkjetitel4
 # All dates must be YYYY-MM-DD format!
