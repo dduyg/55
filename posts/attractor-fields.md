@@ -51,12 +51,15 @@ Below are a few examples of my creations, showcasing the concept of attractor fi
 </div>
 
 <pre>
-<------------------------------------------------------------------->
-hhjj
-<------------------------------------------------------------------->
+<------------------------------------------------------------------------------------------------>
+To visualize the distance-based attractor fields, I used a grid of points. For each point in the
+grid, a value is generated based on the distance to the closest attractor, whether it's a point
+or a line. While each point is solely influenced by its closest attractor, the definition can
+be easily adapted to incorporate influence from multiple attractors simultaneously. The output
+of this definition is a single value for each point on the grid, which can then be used to
+control any property. In this case, it controls the radii of circles positioned on the points.
+<------------------------------------------------------------------------------------------------>
 </pre>
-
-<br>
 
 Modifying the parameters of a dynamical system can have several effects. It can lead to the creation or elimination of attractors, shift the position or alter the shape of existing attractors. The basins of attraction associated with these attractors can change in size, shape, and location. Parameters can also influence the stability of the system, potentially converting stable regions into unstable ones and vice versa. Overall, modifying parameters has the potential to significantly influence the long-term trajectories and dynamics of a system, as well as the sets of initial conditions that lead to specific attractors. By altering parameters, we can explore how changes in the system's dynamics impact the basins of attraction and ultimately understand how different parameter settings affect the system's behavior. Understanding the sensitivity of the system to parameter variations is crucial for analyzing and predicting the dynamics of complex systems.
 
