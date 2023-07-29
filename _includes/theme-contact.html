@@ -1,34 +1,40 @@
 <div style="font-size: 18px; margin-top: 62px" class="ui container">
-  <div style="max-width: 800px" class="content">
-      
-  <div class="ui centered stackable grid"> 
-      <div class="ten wide column">
-         <h1 style="color: #a85047;" class="ui header no-bottom">
-           <i class="terminal icon"></i> 
-           <div class="content">Conversations with open minded people are one of my favourite things.</div>
-         </h1> 
-      </div> 
-      <div class="six wide column">
-         <div class="ui horizontal divider">
-            {% for profile in site.data.bio.basics.profiles %}
-              <a href="{{ profile.url }}" target="_blank"> <i class="black inverted large circular {{ profile.network | downcase }} icon"></i></a>
-            {% endfor %}
 
-            {% if site.data.bio.basics.email %}
-              <a href="mailto:{{ site.data.bio.basics.email }}?subject=Contact via dduyg.github.io" target="_blank"><i class="black inverted large circular mail outline icon"></i></a>
-            {% endif %}
-         </div>
-      </div>
-      <div class="row"> 
-         <div class="column">
+  <div class="ui stackable grid">
+     <div class="row">
+        <div class="three wide column"></div>
+        <div class="ten wide column">
+                <div class="ui grid"> 
+                   <div class="ten wide column">
+                       <h1 style="color: #a85047;" class="ui header no-bottom">
+                       <i class="terminal icon"></i> 
+                       <div class="content">Conversations with open minded people are one of my favourite things.</div>
+                       </h1> 
+                   </div> 
+                   <div class="six wide column">
+                       <div class="ui horizontal divider">
+                           {% for profile in site.data.bio.basics.profiles %}
+                            <a href="{{ profile.url }}" target="_blank"> <i class="black inverted large circular {{ profile.network | downcase }} icon"></i></a>
+                           {% endfor %}
+
+                           {% if site.data.bio.basics.email %}
+                            <a href="mailto:{{ site.data.bio.basics.email }}?subject=Contact via dduyg.github.io" target="_blank"><i class="black inverted large circular mail outline icon"></i></a>
+                           {% endif %}
+                       </div>
+                   </div> 
+                 </div>
+        </div>
+        <div class="three wide column"></div>
+     </div>
+     <div class="row">
+        <div class="three wide column"></div>
+        <div class="ten wide column">
             <p style="font-size: 18px;">Whether you want to know more about my work or me, ask me a question, maybe share or discuss interesting thoughts, ideas, projects or just like to say hi, please don't hesitate to contact me. You can send me a DM or reach me via email. I would be happy to hear from you.</p>
-            <p style="font-size: 18px;">As a social creature, I love to talk with others and exchange thoughts and ideas. Every conversation is a unique opportunity to learn, grow and create something new.</p>  
-         </div>
-      </div> 
-   </div>
-
-
-</div>
+            <p style="font-size: 18px;">As a social creature, I love to talk with others and exchange thoughts and ideas. Every conversation is a unique opportunity to learn, grow and create something new.</p>      
+        </div>
+        <div class="three wide column"></div>
+     </div>
+  </div>
 
    <div class="ui hidden section divider"></div>
    <div class="ui hidden section divider"></div>
