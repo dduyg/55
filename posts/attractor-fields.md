@@ -50,7 +50,7 @@ Below are a few examples of my creations, showcasing the concept of attractor fi
   <img class="ui image" src="/images/attractorfields3.png" style="border: 1px solid black;">
 </div>
 
-<pre>
+<pre style="max-width: 600px">
 <------------------------------------------------------------------------------------------------>
 To visualize the distance-based attractor fields, I used a grid of points. For each point in the
 grid, a value is generated based on the distance to the closest attractor, whether it's a point
