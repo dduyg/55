@@ -38,3 +38,12 @@
 
 
 <script src="/javascript/filters-insertdata.js"></script>
+<script>
+  $(document).ready(function() {
+  $('.shape').shape();
+
+  $('#flipRightButton').on('click', function() {
+    $('.shape').shape('flip right');
+  });
+});
+</script>
