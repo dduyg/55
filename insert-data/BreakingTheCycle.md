@@ -16,3 +16,16 @@ instaurl: https://www.instagram.com/p/ClMQDZsj9Er/?igshid=MDJmNzVkMjY=
 ---
 
 
+<div class="ui grid">
+        <div class="computer only row">
+           <div class="column">
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+           </div> 
+         </div>
+     </div>
