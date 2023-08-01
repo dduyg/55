@@ -14,3 +14,18 @@ kofiurl: https://soci7
 # instaurl: -
 # multiple: -
 ---
+
+
+<div class="ui grid">
+        <div class="computer only row">
+           <div class="column">
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+           </div> 
+         </div>
+     </div>
