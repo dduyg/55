@@ -25,7 +25,16 @@
       {% for page in project_pages %}
         {% unless page.draft %}
           <div class="side">
-            {% include project-card.html page=page %}
+            <a class="card {% for label in page.category %} {{ label | remove: " " }} {% endfor %}" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ page.url }}{% endif %}">
+              {% if page.image %}
+                <div class="image">
+                  <img src="{{ site.baseurl }}/{{ page.image }}">
+                </div>
+              {% endif %}
+              <div class="content">
+                <div class="description">{{ page.title }} {% if page.multiple %} <span>{{ page.multiple }}</span> {% else %}<span></span>{% endif %}</div>
+              </div>
+            </a>
           </div>
         {% endunless %}
       {% endfor %}
