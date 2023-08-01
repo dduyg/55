@@ -16,3 +16,16 @@ kofiurl: https://dduyg.github.io/en/
 ---
 
 
+<div class="ui grid">
+        <div class="computer only row">
+           <div class="column">
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+           </div> 
+         </div>
+     </div>
