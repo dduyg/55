@@ -14,3 +14,18 @@ printsurl: https://society6.com/art/between-the-lines7794964
 instaurl: https://www.instagram.com/p/ClYISOnDnyo/?igshid=MDJmNzVkMjY=
 # multiple: -
 ---
+
+
+<div class="ui grid">
+        <div class="computer only row">
+           <div class="column">
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+             <div class="ui hidden section divider"></div>
+           </div> 
+         </div>
+     </div>
