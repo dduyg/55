@@ -4,18 +4,18 @@
   {% include insert-data-intro.html %}
 
   <h3 class="ui horizontal center aligned divider header no-bottom">
-   <i style="background-color: #454545;" class="circular inverted expand icon"></i>
+    <i style="background-color: #454545;" class="circular inverted expand icon"></i>
   </h3>
   <h3 style="color: #454545; font-family: 'Source Code Pro', monospace; margin-top: 4px;" class="ui center aligned header"> Selected works</h3>
 
   {% if project_categories.size > 1 %}
     <div class="nonprintable jsOnly ui fluid two item secondary pointing menu">
       {% for category in project_categories %}
-       {% if category == "Data Design" %}
-        <a class="item filter active" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</a>
-       {% else %}  
-        <a class="item filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</a>
-       {% endif %}
+        {% if category == "Data Design" %}
+          <a class="item filter active" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</a>
+        {% else %}  
+          <a class="item filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</a>
+        {% endif %}
       {% endfor %}
     </div>
   {% endif %}
@@ -41,18 +41,18 @@
     </div>
   </div>
 
+  <button id="flipRightButton">Flip Right</button>
+
   {% include footer.html %}
-
 </div>
-
 
 <script src="/javascript/filters-insertdata.js"></script>
 <script>
   $(document).ready(function() {
-  $('.shape').shape();
+  $('.ui.shape').shape();
 
   $('#flipRightButton').on('click', function() {
-    $('.shape').shape('flip right');
+    $('.ui.shape').shape('flip right');
   });
 });
 </script>
