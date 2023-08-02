@@ -1,15 +1,15 @@
 ---
 layout: essay
 type: essay
-published: false
-title: "Example"
+published: true
+title: "Example Post"
 permalink: posts/wmhere
 # All dates must be YYYY-MM-DD format!
 date: 2021-09-08
 labels:
-  - Questions
-  - Answers
-  - StackOverflow
+  - HTML
+  - JavaScript
+  - R
 # mediumurl: -
 # githuburl: -
 projectcheck: true
