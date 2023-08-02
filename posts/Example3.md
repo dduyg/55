@@ -1,8 +1,8 @@
 ---
 layout: essay
 type: essay
-published: false
-title: "Example"
+published: true
+title: "Summer Night Bytes"
 permalink: posts/56788
 # All dates must be YYYY-MM-DD format!
 date: 2021-08-26
