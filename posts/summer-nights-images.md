@@ -20,7 +20,7 @@ summary: Unveiling patterns from images captured during summer family vacations.
 In this project, I want to use data to 
 
 
-Here is some code that illustrates how we read values from the line sensors:
+To give you a flavor of the game/ Here is some code that illustrates how we read values from the line sensors:
 ```python
 
 # recursive backtracker algorithm
