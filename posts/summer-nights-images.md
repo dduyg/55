@@ -22,7 +22,6 @@ In this project, I want to use data to
 
 To give you a flavor of the game/ Here is some code that illustrates how we read values from the line sensors:
 ```python
-
 # recursive backtracker algorithm
 def create_maze(x, y):
     directions = [(1, 0), (-1, 0), (0, 1), (0, -1)]
