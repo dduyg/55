@@ -7,8 +7,9 @@ permalink: posts/56788
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-06
 labels:
-  - Software Engineering
-  - Learning
+  - Python
+  - OpenCV
+  - Computer Vision
 # mediumurl: -
 # githuburl: -
 projectcheck: true
