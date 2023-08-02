@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 published: true
-title: "Summer Nights Bytes"
+title: "Decoding our summer memories: Summer Nights Bytes"
 permalink: posts/analyzing-summer-photos
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-06
@@ -14,7 +14,7 @@ labels:
 # githuburl: -
 projectcheck: true
 # summary of max. 165 characters <meta name="description>
-summary: Unveiling patterns from images captured during summer family vacations.
+summary: Unveiling patterns from images captured during summer times.
 ---
 
 In this project, I want to use data to 
