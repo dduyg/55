@@ -1,14 +1,13 @@
 ---
 layout: essay
 type: essay
-published: true
-title: "Example"
-permalink: posts/linkjetitel4
+published: false
+title: "Example Post Text"
+permalink: posts/linktitelhere
 # All dates must be YYYY-MM-DD format!
 date: 2022-06-02
 labels:
   - Python
-  - Sentiment Analysis
   - Word Embeddings
   - GitHub
 # mediumurl: -
