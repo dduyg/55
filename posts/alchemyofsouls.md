@@ -13,9 +13,9 @@ labels:
   - Python
   - JavaScript
   - HTML
+projectlabel: Project
 # mediumurl: https://67
 githuburl: https://github.com/dduyg/alchemy-of-souls
-projectlabel: Project
 # summary of max. 165 characters <meta name="description>
 summary: How a fictional story can help you learn new perspectives, by turning it into a data-based web application using NLP techniques.
 ---
