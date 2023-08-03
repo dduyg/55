@@ -12,7 +12,8 @@ labels:
   - Computer Vision
 # mediumurl: -
 # githuburl: -
-projectcheck: true
+projectcheck: false
+insertdatacheck: true
 # summary of max. 165 characters <meta name="description>
 summary: Unveiling patterns from images captured during summer times.
 ---
