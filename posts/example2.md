@@ -10,9 +10,9 @@ labels:
   - Python
   - Word Embeddings
   - GitHub
+projectlabel: Project
 # mediumurl: -
 # githuburl: -
-projectlabel: false
 # summary of max. 165 characters <meta name="description>
 summary: A text adventure game I developed for ICS 313.
 ---
