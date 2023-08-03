@@ -1,5 +1,5 @@
 {% assign filters = page.labels %}
-<a style="background-color:transparent;" class="card {% for label in filters %} {{ label | remove: " " }} {% endfor %}" {% if page.projecturl %}target="_blank"{% endif %} href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">  
+<a style="background-color:transparent;" class="card {% for label in filters %} {{ label | remove: " " }} {% endfor %}" href="{% if page.projecturl %}{{ page.projecturl }}{% else %}{{ site.baseurl}}{{ include.page.url }}{% endif %}">  
   <div class="content">
     <span style="color: #01868C;" class="boldertxt header">{{ include.page.title }}</span>
     <div class="meta">
