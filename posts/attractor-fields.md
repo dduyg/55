@@ -12,7 +12,7 @@ labels:
   - Data Visualization
 mediumurl: mybyy.github.io
 githuburl: https://github.com/dduyg/
-projectcheck: false
+projectlabel: false
 # summary of max. 165 characters <meta name="description>
 summary: What attractor fields are, and how they can be visualized and applied in data science to understand complex datasets.
 ---
