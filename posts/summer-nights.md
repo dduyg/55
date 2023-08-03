@@ -9,10 +9,9 @@ labels:
   - Python
   - OpenCV
   - Computer Vision
+projectlabel: Insert Data Project
 # mediumurl: -
 # githuburl: -
-projectlabel: false
-connection: Insert Data Project
 # summary of max. 165 characters <meta name="description>
 summary: Unveiling patterns from images captured during summer times. Analyzing summer photos.
 projecturl: https://dduyg.github.io/insertdata/summer-night-bytes
