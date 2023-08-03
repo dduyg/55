@@ -10,9 +10,9 @@ labels:
   - Complex Systems
   - Time Series
   - Data Visualization
+# projectlabel: -
 mediumurl: mybyy.github.io
 githuburl: https://github.com/dduyg/
-# projectlabel: -
 # summary of max. 165 characters <meta name="description>
 summary: What attractor fields are, and how they can be visualized and applied in data science to understand complex datasets.
 ---
