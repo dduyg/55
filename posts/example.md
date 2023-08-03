@@ -12,7 +12,7 @@ labels:
   - R
 # mediumurl: -
 # githuburl: -
-projectcheck: true
+projectlabel: true
 # summary of max. 165 characters <meta name="description>
 summary: fjkkfhjjijjghj
 ---
