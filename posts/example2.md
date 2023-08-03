@@ -12,7 +12,7 @@ labels:
   - GitHub
 # mediumurl: -
 # githuburl: -
-projectcheck: false
+projectlabel: false
 # summary of max. 165 characters <meta name="description>
 summary: A text adventure game I developed for ICS 313.
 ---
