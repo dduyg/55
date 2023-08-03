@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 published: true
-title: "Decoding our summer memories: Summer Nights Bytes"
+title: "Decoding Our Summer Times: Summer Nights Bytes"
 permalink: posts/analyzing-summer-photos
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-06
