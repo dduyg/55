@@ -10,9 +10,9 @@ labels:
   - HTML
   - JavaScript
   - R
+# projectlabel: -
 # mediumurl: -
 # githuburl: -
-projectlabel: true
 # summary of max. 165 characters <meta name="description>
 summary: fjkkfhjjijjghj
 ---
