@@ -6,7 +6,7 @@ image: images/BetweenTheLines-squared.png
 title: "Between The Lines"
 permalink: insertdata/between-the-lines 
 # All dates must be YYYY-MM-DD format!
-date: 2022-03-26
+date: 2021-01-26
 category:
   - Data Design
 printsurl: https://society6.com/art/between-the-lines7794964
