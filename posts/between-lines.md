@@ -13,6 +13,6 @@ projectlabel: Insert Data Project
 # mediumurl: -
 # githuburl: -
 # summary of max. 165 characters <meta name="description>
-summary: fjkkfhjjijjghj
+summary: Explaining the process behind the "Between The Lines" work and the difference between hedonic and eudaimonic motives 
 projecturl: https://dduyg.github.io/insertdata/between-the-lines
 ---
