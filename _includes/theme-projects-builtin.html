@@ -1,10 +1,10 @@
-<div style="padding-top: 32px; margin-bottom: 20px; font-size: 18px;" class="ui container">
+<div style="margin-top: 62px; font-size: 18px; line-height: 1.7;" class="ui container">
   {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
   {% assign project_categories = project_pages | where: "type", "project" | map: "category" | sort | uniq %}
   {% include insert-data-intro.html %}
 
   <h3 class="ui horizontal center aligned divider header no-bottom">
-   <i style="color: #f2f2f2; background-color: #454545;" class="circular expand icon"></i>
+   <i style="background-color: #454545;" class="circular inverted expand icon"></i>
   </h3>
   <h3 style="color: #454545; font-family: 'Source Code Pro', monospace; margin-top: 4px;" class="ui center aligned header"> Selected works</h3>
 
