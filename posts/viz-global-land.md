@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 published: true
-title: "Distribution of Global Land"
+title: "A Visual Exploration into the Disparities in Human Influence on Earth's Surface"
 permalink: posts/distribution-of-global-land
 # All dates must be YYYY-MM-DD format!
 date: 2022-05-20
