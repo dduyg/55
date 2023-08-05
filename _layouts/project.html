@@ -12,7 +12,6 @@ layout: projects
       <i class="right chevron icon divider"></i>
    </div>
 
-   {% for cat in page.category %}
    {% if page.multiple %}
         
      <div class="ui stackable grid">
@@ -44,12 +43,6 @@ layout: projects
               </div>
         </div>
      </div>
-
-    {% elsif cat == "Data Visualization" %}
-
-       <h1 style="color: #262626; font-size: 1.714em; font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;" class="no-top">{{ page.title }}</h1>
-       {{ content }}
-       <div class="ui hidden divider"></div>
  
     {% else %}
 
@@ -71,6 +64,5 @@ layout: projects
           </div> 
      </div>
      {% endif %}
-     {% endfor %}
      {% include footer.html %}
 </div>
