@@ -17,40 +17,18 @@ labels:
 summary: fjkkfhjjijjghj
 ---
 
-<img class="ui tiny right spaced image" src="../images/degree_difficulty.jpg">*Is there such thing as a stupid question?*
-
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know thaStack Overflow, a  date of the previous month in Python.mportant as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
-
-```
-A: datetime and the datetime.timedelta classes are your friend.
-
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion.
-
-## The foolproof way to get ignored.
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately,
+<div style="max-width: 700px;"><img class="ui fluid image" src="/images/global-land.png"></div>
 
 <img class="ui tiny left circular floated image" src="../images/tools-section1.jpg">
 
-In this project, I want to use data to support my observation during my first six months in the U.S, that the milk tea in New York City is much, much, more expensive than it in Beijing. So, I manually scrape 144 drinks from three milk tea shops I mentioned above in Beijing, and scrape 292 drinks from five milk tea shops that I visited in New York. I extract the base drinks, toppings and fruit types of all 436 drinks, as well as their prices.
+It may come as a surprise, but no more than 1% of the world's habitable land is occupied by human built-up infrastructure. That means all of our bustling cities, roads, towns and villages we call home, and all other human settlements combined. While agriculture takes up a whopping 50% of the world's habitable land.
+
+Yes, you read that right - we use half of the earth's habitable land just to feed ourselves. Can you believe that to feed the human population, we use 50 times more land than we do to actually live on? This unequal distribution of land use between human infrastructure and consumption is both fascinating and alarming.
+
+It hasn't always been this way. Looking back at human history, it's clear that our planet's land was once dominated by wilderness, forests, and grasslands. But in recent centuries this has changed dramatically.
+
+<div style="margin-top: 8%; margin-bottom: 8%; max-width: 700px;"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/1xd1A/embed.js?v=4" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/1xd1A/full.png" alt="" /></noscript></div>
 
 <img class="ui tiny left circular floated image" src="../images/tools-section1.jpg">
 
-I never used to think that design and technology went hand in hand.  Thus, learning about software engineering and the role of design has been incredibly interesting to me. Design, implementation, and management are just some of the many things I wish to learn more about. Good art, in a way, makes a person question it. They become joined in the idea of visualization – where captivation meets inspiration.
+We have fundamentally transformed the landscape of our planet by expanding agricultural land to meet the growing demands of human consumption. As a result, agriculture has become one of the largest human impacts on the planet's landscape. In fact, some experts stated that the expansion of agriculture has been the biggest contributor to global environmental change. It leaves us to take a moment to think about the vast amount of land required to sustain our way of life.
