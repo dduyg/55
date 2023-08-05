@@ -23,9 +23,7 @@ summary: fjkkfhjjijjghj
 
 It may come as a surprise, but no more than 1% of the world's habitable land is occupied by human built-up infrastructure. That means all of our bustling cities, roads, towns and villages we call home, and all other human settlements combined. While agriculture takes up a whopping 50% of the world's habitable land.
 
-Yes, you read that right - we use half of the earth's habitable land just to feed ourselves. Can you believe that to feed the human population, we use 50 times more land than we do to actually live on? This unequal distribution of land use between human infrastructure and consumption is both fascinating and alarming.
-
-It hasn't always been this way. Looking back at human history, it's clear that our planet's land was once dominated by wilderness, forests, and grasslands. But in recent centuries this has changed dramatically.
+Yes, you read that right - we use half of the earth's habitable land just to feed ourselves. Can you believe that to feed the human population, we use 50 times more land than we do to actually live on? This unequal distribution of land use between human infrastructure and consumption is both fascinating and alarming. However, it hasn't always been this way. Looking back at human history, it's clear that our planet's land was once dominated by wilderness, forests, and grasslands. But in recent centuries this has changed dramatically.
 
 <div style="margin-top: 8%; margin-bottom: 8%; max-width: 700px;"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/1xd1A/embed.js?v=4" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/1xd1A/full.png" alt="" /></noscript></div>
 
