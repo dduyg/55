@@ -1,11 +1,11 @@
 ---
 layout: essay
 type: essay
-published: false
-title: "Example Post"
-permalink: posts/wmhere
+published: true
+title: "Distribution of Global Land"
+permalink: posts/distribution-of-global-land
 # All dates must be YYYY-MM-DD format!
-date: 2021-09-08
+date: 2022-05-20
 labels:
   - HTML
   - JavaScript
