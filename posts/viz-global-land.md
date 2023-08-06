@@ -24,9 +24,9 @@ In our bustling world, where cities and human-built infrastructure seem to domin
 
 Yes, you read that right - we use half of the earth's habitable land just to feed ourselves. Can you believe that to feed the human population, we use 50 times more land than we do to actually live on? This unequal distribution of land use between human infrastructure and consumption is both fascinating and alarming. 
 
-# It hasn't always been this way.
+## It hasn't always been this way.
 
-Looking back at human history, it's clear that our planet's land was once dominated by wilderness, forests, and grasslands. But in recent centuries this has changed dramatically.
+Looking back at human history, it’s clear that our planet's landscape was once dominated by vast wilderness, lush forests, and sprawling grasslands. However, in recent centuries, this has changed dramatically.
 
 <div style="margin-top: 12px; margin-bottom: 12px; max-width: 700px; min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/1xd1A/embed.js?v=6" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/1xd1A/full.png" alt="" /></noscript></div>
 
