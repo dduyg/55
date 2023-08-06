@@ -3,7 +3,7 @@ layout: essay
 type: essay
 published: true
 title: "A Visual Exploration into the Disparities in Human Influence on Earth's Surface"
-permalink: posts/distribution-of-global-land
+permalink: posts/visualizing-global-land
 # All dates must be YYYY-MM-DD format!
 date: 2022-05-20
 labels:
@@ -14,7 +14,7 @@ labels:
 # mediumurl: -
 # githuburl: -
 # summary of max. 165 characters <meta name="description>
-summary: How the world’s land is used
+summary: Visualizing how the world’s land is used.
 ---
 
 In our bustling world, where cities and human-built infrastructure seem to dominate the landscape, it might come as a surprise to learn that no more than 1% of the world's habitable land is occupied by these infrastructures. That includes everything from our big cities, roads, towns, to the villages we call home, along with all other human settlements. Conversely, a significant 50% of the world’s habitable land is dedicated to agriculture, playing a pivotal role in shaping our planet's landscape.
