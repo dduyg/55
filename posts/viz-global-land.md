@@ -28,6 +28,6 @@ Yes, you read that right - we use half of the earth's habitable land just to fee
 
 Looking back at human history, it's clear that our planet's land was once dominated by wilderness, forests, and grasslands. But in recent centuries this has changed dramatically.
 
-<div style="min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/1xd1A/embed.js?v=5" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/1xd1A/full.png" alt="" /></noscript></div>
+<div style="margin-top: 8%; margin-bottom: 8%; max-width: 700px; min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/1xd1A/embed.js?v=5" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/1xd1A/full.png" alt="" /></noscript></div>
 
 We have fundamentally transformed the landscape of our planet by expanding agricultural land to meet the growing demands of human consumption. As a result, agriculture has become one of the largest human impacts on the planet's landscape. In fact, some experts stated that the expansion of agriculture has been the biggest contributor to global environmental change. It leaves us to take a moment to think about the vast amount of land required to sustain our way of life.
