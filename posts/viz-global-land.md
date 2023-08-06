@@ -7,7 +7,7 @@ permalink: posts/visualizing-global-land
 # All dates must be YYYY-MM-DD format!
 date: 2022-05-20
 labels:
-  - HTML
+  - Data Visualization
   - JavaScript
   - R
 # projectlabel: -
