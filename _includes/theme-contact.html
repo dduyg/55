@@ -10,13 +10,13 @@
       </div> 
       <div class="six wide column">
          <div class="ui horizontal divider">
-            {% for profile in site.data.bio.basics.profiles %}
-              <a href="{{ profile.url }}" target="_blank"> <i class="black inverted large circular {{ profile.network | downcase }} icon"></i></a>
-            {% endfor %}
-
             {% if site.data.bio.basics.email %}
               <a href="mailto:{{ site.data.bio.basics.email }}?subject=Contact via dduyg.github.io" target="_blank"><i class="black inverted large circular mail outline icon"></i></a>
             {% endif %}
+           
+            {% for profile in site.data.bio.basics.profiles %}
+              <a href="{{ profile.url }}" target="_blank"> <i class="black inverted large circular {{ profile.network | downcase }} icon"></i></a>
+            {% endfor %}
          </div>
       </div>
       <div class="sixteen wide column">
