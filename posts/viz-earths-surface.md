@@ -9,6 +9,7 @@ date: 2022-05-20
 labels:
   - Data Visualization
   - R
+  - Land Distribution
 # projectlabel: -
 # mediumurl: -
 # githuburl: -
