@@ -2,7 +2,6 @@
   "basics": {
     "name": "Duygu Dağdelen",
     "label": "Data Scientist",
-    "picture": "https://dduyg.github.io/images/avatar.png",
     "email": "dduyg.info@gmail.com",
     "summary": "bringing ideas to life with data and code",
     "profiles": [
@@ -22,7 +21,7 @@
         "url": "https://ko-fi.com/dduyg"
       },
       {
-        "network": "behance",
+        "network": "behance square",
         "username": "",
         "url": "https://www.behance.net/dduyg"
       },
