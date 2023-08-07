@@ -7,27 +7,22 @@
     "profiles": [
       {
         "network": "github",
-        "username": "",
         "url": "http://github.com/dduyg"
       },
       {
         "network": "instagram",
-        "username": "",
         "url": "https://instagram.com/insert.data"
       },
       {
         "network": "heart outline",
-        "username": "",
         "url": "https://ko-fi.com/dduyg"
       },
       {
         "network": "behance square",
-        "username": "",
         "url": "https://www.behance.net/dduyg"
       },
       {
         "network": "medium m",
-        "username": "",
         "url": "https://medium.com/@dduyg"
       },
     ]
