@@ -30,7 +30,7 @@ Looking back at human history, it’s clear that our planet's landscape was once
 
 <div style="margin-top: 12px; margin-bottom: 12px; max-width: 700px; min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/1xd1A/embed.js?v=6" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/1xd1A/full.png" alt="" /></noscript></div>
 
-<div style="margin-top: 12px; margin-bottom: 12px; max-width: 700px; min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/Me5LU/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/Me5LU/full.png" alt="" /></noscript></div>
+<div style="margin-top: 12px; margin-bottom: 12px; max-width: 700px; min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/Me5LU/embed.js?v=2" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/Me5LU/full.png" alt="" /></noscript></div>
 
 Vast swaths of natural ecosystems were cleared to make way for agricultural purposes, leading to dominance in the world's land use. By expanding agricultural land to meet the needs of a growing population, we have fundamentally altered the landscape of our planet. The transformation of once-wild landscapes into land devoted to keeping pace with growing consumption patterns has emerged as one of the significant human-induced impacts on the health of our planet, affecting not only the environment but also biodiversity and climate patterns.
 
