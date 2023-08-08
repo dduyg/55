@@ -8,7 +8,7 @@ permalink: posts/visualizing-earths-surface
 date: 2022-05-20
 labels:
   - Data Visualization
-  - R
+  - Our World in Data
   - Land Distribution
 # projectlabel: -
 # mediumurl: -
@@ -22,7 +22,7 @@ In our bustling world, where cities and human-built infrastructure seem to domin
 <div class="ui hidden divider"></div>
 <div style="max-width: 700px;"><img class="ui fluid image" src="/images/global-land.png"></div>
 
-Yes, you read that right - we use half of the earth's habitable land just to feed ourselves. Can you believe that to feed the human population, we use 50 times more land than we do to actually live on? This unequal distribution of land use between human infrastructure and consumption is both fascinating and alarming. 
+Yes, you read that right - we use half of the earth's habitable land solely to feed ourselves. Isn't it remarkable that we use much more land to nourish ourselves than we do to build our homes and communities? This glaring disparity between land allocated to human infrastructure and human consumption is both fascinating and alarming, painting a vivid picture of a profound transformation of our planet's landscape over the centuries due to human activities.
 
 ## It hasn't always been this way.
 
