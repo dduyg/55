@@ -38,4 +38,4 @@ As we find ourselves grappling with the environmental repercussions of our relia
 
 ### The world population has increased rapidly over the last century.
 
-<div style="margin-top: 12px; margin-bottom: 12px; max-width: 700px; min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/PLq7l/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/PLq7l/full.png" alt="" /></noscript></div>
+<div style="margin-bottom: 12px; max-width: 700px; min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/PLq7l/embed.js?v=3" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/PLq7l/full.png" alt="" /></noscript></div>
