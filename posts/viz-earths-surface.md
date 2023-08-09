@@ -26,7 +26,7 @@ Yes, you read that right - we use half of the earth's habitable land solely to f
 
 ## It hasn't always been this way.
 
-Looking back at human history, it’s clear that our planet's landscape was once dominated by vast wilderness, lush forests, and sprawling grasslands. However, in recent centuries, this has changed dramatically. Vast swaths of natural ecosystems were cleared to make way for agricultural purposes, leading to dominance in the world's land use. By expanding agricultural land to meet the needs of a growing population, we have fundamentally altered the landscape of our planet.
+Looking back at human history, it’s clear that our world's landscape was once dominated by vast wilderness, lush forests, and sprawling grasslands. However, in recent centuries, this has changed dramatically. Vast swaths of natural ecosystems were cleared to make way for agricultural purposes, leading to dominance in the world's land use. By expanding agricultural land to meet the needs of a growing population, we have fundamentally altered the landscape of our planet.
 
 ### Declining natural habitat land share over time
 
