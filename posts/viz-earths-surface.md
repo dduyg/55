@@ -7,9 +7,9 @@ permalink: posts/visualizing-earths-surface
 # All dates must be YYYY-MM-DD format!
 date: 2022-05-20
 labels:
-  - Data Visualization
   - Our World in Data
-  - Land Distribution
+  - Data Visualization
+  - Datawrapper
 # projectlabel: -
 # mediumurl: -
 # githuburl: -
