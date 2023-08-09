@@ -32,7 +32,7 @@ Looking back at human history, it’s clear that our planet's landscape was once
 
 <div style="margin-bottom: 12px; max-width: 700px; min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/Me5LU/embed.js?v=4" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/Me5LU/full.png" alt="" /></noscript></div>
 
-The transformation of once-wild landscapes into land devoted to keeping pace with growing consumption patterns has emerged as one of the significant human-induced impacts on the health of our planet, affecting not only the environment but also biodiversity and climate patterns. As we find ourselves grappling with the environmental repercussions of our reliance, it leaves us to take a moment to think about the vast amount of land required to sustain our way of life.
+The transformation of once-wild landscapes into land devoted to keeping pace with growing consumption patterns has emerged as one of the significant human-induced impacts on the health of our planet, affecting not only the environment but also biodiversity and climate patterns. As we find ourselves grappling with the environmental repercussions of our reliance, it leaves us to take a moment to think about the vast amount of land required to sustain our way of life. Whether intentionally or unintentionally, humans inevitably compete for limited space with numerous wild species as our planet becomes more densely populated.
 
 ### The world population has increased rapidly over the decades.
 
