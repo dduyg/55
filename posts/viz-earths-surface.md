@@ -28,9 +28,7 @@ Yes, you read that right - we use half of the earth's habitable land solely to f
 
 Looking back at human history, it’s clear that our planet's landscape was once dominated by vast wilderness, lush forests, and sprawling grasslands. However, in recent centuries, this has changed dramatically.
 
-<div style="margin-top: 12px; margin-bottom: 12px; max-width: 700px; min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/1xd1A/embed.js?v=6" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/1xd1A/full.png" alt="" /></noscript></div>
-
-#### Declining natural habitat land share over time
+### Declining natural habitat land share over time
 
 <div style="margin-bottom: 12px; max-width: 700px; min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/Me5LU/embed.js?v=4" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/Me5LU/full.png" alt="" /></noscript></div>
 
