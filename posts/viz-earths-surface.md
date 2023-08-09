@@ -36,5 +36,6 @@ Vast swaths of natural ecosystems were cleared to make way for agricultural purp
 
 As we find ourselves grappling with the environmental repercussions of our reliance, it leaves us to take a moment to think about the vast amount of land required to sustain our way of life. The world's population is projected to continue growing, putting even greater pressure on our finite resources. Balancing the need for food production with responsible land management and environmental stewardship is paramount.
 
+### The world population has increased rapidly over the last century.
 
-<div style="margin-top: 12px; margin-bottom: 12px; max-width: 700px; min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/N40G3/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/N40G3/full.png" alt="" /></noscript></div>
+<div style="margin-top: 12px; margin-bottom: 12px; max-width: 700px; min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/PLq7l/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/PLq7l/full.png" alt="" /></noscript></div>
