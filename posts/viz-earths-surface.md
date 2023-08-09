@@ -38,4 +38,4 @@ The transformation of once-wild landscapes into land devoted to keeping pace wit
 
 <div style="margin-bottom: 12px; max-width: 700px; min-height:400px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/PLq7l/embed.js?v=4" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/PLq7l/full.png" alt="" /></noscript></div>
 
-The world's population is projected to continue growing, putting even greater pressure on our finite resources. Balancing the need for food production with responsible land management and environmental stewardship is paramount.
+The world's population is projected to continue growing, putting even greater pressure on our finite resources. In the delicate dance of our existence on this increasingly crowded planet, we must strive to meet people’s needs while minimizing the impact on nature. How to feed, house, clothe and power 10 billion of us without eliminating very many species and wrecking the planet is perhaps this century’s greatest chal­lenge. Balancing the need for food production with responsible land management and environmental stewardship is paramount.
