@@ -17,7 +17,7 @@ labels:
 summary: Visualizing how the world’s land is used.
 ---
 
-In our bustling world, where cities and human-built infrastructure seem to dominate the landscape, it might come as a surprise to learn that no more than 1% of the world's habitable land is taken up by all of these infrastructures. That includes everything from our big cities, roads, towns, to the villages we call home, along with all other human settlements. Conversely, a significant 50% of the world’s habitable land is dedicated to agriculture, playing a pivotal role in transforming our planet's landscape.
+In our bustling world, where cities and human-built infrastructure seem to dominate the landscape, it might come as a surprise to learn that no more than 1% of the world's habitable land is taken up by all of these infrastructures. That includes everything from our big cities and roads to the towns and cozy villages we call home. Conversely, a significant 50% of the world’s habitable land is dedicated to agriculture, playing a pivotal role in transforming our planet's landscape.
 
 <div class="ui hidden divider"></div>
 <div style="max-width: 700px;"><img class="ui fluid image" src="/images/global-land.png"></div>
