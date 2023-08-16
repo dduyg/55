@@ -6,7 +6,7 @@ image: images/TangledNetwork-squared.jpg
 title: "Tangled Network"
 permalink: insertdata/tangled-network
 # All dates must be YYYY-MM-DD format!
-date: 2023-05-19
+date: 2023-06-20
 printsurl: https://society6.com/art/tangled-network
 kofiurl: https://soci7
 # instaurl: -
