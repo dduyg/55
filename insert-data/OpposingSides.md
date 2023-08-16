@@ -6,7 +6,7 @@ image: images/OpposingSides-squared.png
 title: "Opposing Sides"
 permalink: insertdata/opposing-sides
 # All dates must be YYYY-MM-DD format!
-date: 2023-06-02
+date: 2022-06-02
 printsurl: https://society6.com/art/opposing-sides7818744
 kofiurl: https://soci7
 # instaurl: -
