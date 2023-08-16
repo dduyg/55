@@ -5,7 +5,7 @@ published: true
 title: "Extracting Valuable Messages from ‘Alchemy of Souls’"
 permalink: posts/alchemy-of-souls-project
 # All dates must be YYYY-MM-DD format!
-date: 2023-05-30
+date: 2023-06-30
 labels:
   - Data Extraction
   - NLP
