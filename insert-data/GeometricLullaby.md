@@ -6,7 +6,7 @@ image: images/GeometricLullaby07-squared.png
 title: "Geometric Lullaby"
 permalink: insertdata/geometric-lullaby
 # All dates must be YYYY-MM-DD format!
-date: 2023-01-18
+date: 2023-04-18
 printsurl: https://society6.com/art/geometric-lullaby-07
 kofiurl: https://soci7
 instaurl: https://www.instagram.com/p/CflqtEnDzVC/?igshid=MDJmNzVkMjY=
