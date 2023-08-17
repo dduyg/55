@@ -28,7 +28,7 @@ Attractor fields are areas in a system that exert an influence on the behavior a
 ## Understanding the relation between complexity and attractors
 Complexity is essentially a multitude of overlapping, dynamic influences that are bound by context and time, leading to different outcomes depending on the specific conditions. It is precisely due to this web of interconnected layers that makes complex systems challenging to predict and control. The importance of attractors lies in their ability to provide stable and predictable patterns within complex systems, which supports the understanding and modeling of dynamic behaviors.
 
-It is important to understand that attractors serve as islands of stability amidst the sea of chaos. Although chaotic and unstable by nature, dynamic complex systems tend to settle into one of several possible steady states, known as "attractor basins". By inducing transitions between these attractor basins, it is possible to exert some control over these systems.
+It is important to understand that attractors serve as islands of stability amidst the sea of chaos. Although chaotic and unstable by nature, dynamic complex systems tend to settle into one of several possible steady states, known as "attractor basins". By inducing transitions between these attractor basins, it is possible to exert some control and guide the system towards desired states.
 
 So, while attractors may seem like a small detail in the larger study of complex systems, they are in fact a fascinating concept that underpins our understanding and influence of these systems.
 
