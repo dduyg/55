@@ -40,7 +40,7 @@ These systems are dynamical systems that are constantly evolving, and attractors
 
 ## Visualizing the influence of parameter changes on attractor fields
 
-Fascinated by this concept, I began to further explore attractors by visualizing *distance-based attractor fields*, with inspiration from a <a href="https://object-e.net/tools/attractorfields-tools-gh" target="_blank" class="lined">tool</a> I had come across. Those acting as the ‘attractors’ in the field can be represented as points or lines that exert a force of attraction on nearby objects or particles. The strength of this attraction depends on the distance between the object and the attractor point or line, with closer objects experiencing a stronger pull. Objects move and interact in response to the collective influence of all the attractors in the system, creating patterns and movements that can be analyzed and understood.
+Fascinated by this concept, I began to further explore attractors by visualizing *distance-based attractor fields*, with inspiration from a <a href="https://object-e.net/tools/attractorfields-tools-gh" target="_blank" class="lined">tool</a> I had come across. Those acting as the ‘attractors’ in the field can be represented as points that exert a force of attraction on nearby objects. The strength of this attraction depends on the distance between the object and the attractor point, with closer objects experiencing a stronger pull. Objects move and interact in response to the collective influence of all the attractors in the system, creating patterns and movements that can be analyzed and understood.
 
 Below are a few examples of my creations, showcasing the concept of attractor fields. I generated multiple outputs, by experimenting with the system's parameters and applying aesthetic efforts to emphasize the attractor dynamics.
 
@@ -54,8 +54,7 @@ Below are a few examples of my creations, showcasing the concept of attractor fi
 <pre style="max-width: 500px">
 <------------------------------------------------------------------------------------------------>
 To visualize the distance-based attractor fields, I used a grid of points. For each point in the
-grid, a value is generated based on the distance to the closest attractor, whether it's a point
-or a line. While each point is solely influenced by its closest attractor, the definition can
+grid, a value is generated based on the distance to the closest attractor. While each point is solely influenced by its closest attractor, the definition can
 be easily adapted to incorporate influence from multiple attractors simultaneously. The output
 of this definition is a single value for each point on the grid, which can then be used to
 control any property. In this case, it controls the radii of circles positioned on the points.
