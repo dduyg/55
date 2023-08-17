@@ -20,9 +20,9 @@ githuburl: https://github.com/dduyg/alchemy-of-souls
 summary: How a fictional story can help you learn new perspectives, by turning it into a data-based web application using NLP techniques.
 ---
 
-*<a href="https://www.imdb.com/title/tt20859920/" target="_blank" class="lined">Alchemy of Souls</a>* was my guilty pleasure this past months. The South Korean TV series is set in a fictional country where the fates of two people become intertwined due to the forbidden 'alchemy of souls', which allows souls to switch bodies, while also introducing various political conflicts alongside. As a data scientist, I have a habit of seeing everything as a potential dataset that can be expressed in numbers and strings.
+*<a href="https://www.imdb.com/title/tt20859920/" target="_blank">Alchemy of Souls</a>* was my guilty pleasure this past months. The South Korean TV series is set in a fictional country where the fates of two people become intertwined due to the forbidden 'alchemy of souls', which allows souls to switch bodies, while also introducing various political conflicts alongside. As a data scientist, I have a habit of seeing everything as a potential dataset that can be expressed in numbers and strings.
 
-In this post, we will explore <a href="#section-1" class="lined">how fictional stories can help conceptualize the world</a>, and I will share how I build a data-based application by each step: <a href="#section-2" class="lined">creating the data</a>, <a href="#section-3" class="lined">applying NLP techniques to find the valuable lines</a>, and finally <a href="#section-4" class="lined">building the application with my dataset</a>.
+In this post, we will explore <a href="#section-1">how fictional stories can help conceptualize the world</a>, and I will share how I build a data-based application by each step: <a href="#section-2">creating the data</a>, <a href="#section-3">applying NLP techniques to find the valuable lines</a>, and finally <a href="#section-4">building the application with my dataset</a>.
 You can find the live website <a href="https://dduyg.github.io/alchemy-of-souls/" target="_blank" class="home">here</a>.
 
 ## <a id="section-1"></a>How fictional stories can help conceptualize the world
@@ -68,10 +68,6 @@ for idx, topic in lda_model.print_topics(-1):
 ## <a id="section-4"></a>Building a application with my dataset
 
 <img class="ui small left floated image" src="https://raw.githubusercontent.com/dduyg/alchemy-of-souls/main/images/project-image.png">If you're curious to see the application, you can find it <a href="https://dduyg.github.io/alchemy-of-souls/" target="_blank" class="home">here</a>. <i class="small grey external alternate icon"></i> I hope you enjoy it as much as I enjoyed creating it, and that it inspires you to explore the meaningful messages that can be found in your favorite stories.
-
-<script>
-   $('.ui.accordion').accordion();
-</script>
 
 <script>
   $('.ui.embed').embed();
