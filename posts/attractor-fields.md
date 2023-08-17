@@ -30,7 +30,7 @@ Complexity is essentially a multitude of overlapping, dynamic influences that ar
 
 It is important to understand that attractors serve as islands of stability amidst the sea of chaos. Although chaotic and unstable by nature, dynamic complex systems tend to settle into one of several possible steady states, known as "attractor basins". By inducing transitions between these attractor basins, it is possible to exert some control over these systems.
 
-So, while attractors may seem like a small detail in the larger study of complex systems, they are in fact a critical concept that underpins our understanding and influence of these systems.
+So, while attractors may seem like a small detail in the larger study of complex systems, they are in fact a fascinating concept that underpins our understanding and influence of these systems.
 
 ## The role of attractors in modeling complex and dynamical systems
 
