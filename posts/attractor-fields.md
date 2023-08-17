@@ -25,13 +25,13 @@ I’ve recently stumbled upon a concept called *attractor fields*. It is a mathe
 
 Attractor fields are areas in a system that exert an influence on the behavior and movement of objects residing within the system. These fields are defined as regions in the system's state space, which the system naturally gravitates towards or "attracts" over time. The state space of a system is a mathematical idealisation of all the possible states a system can take. To put it simply, attractor fields help explain certain patterns, movements, and describe how objects move and interact in a given environment.
 
-## Understanding attractor dynamics
+## Understanding complexity
 
 It is important to understand that attractors serve as islands of stability amidst the sea of chaos. Although chaotic and unstable by nature, dynamic complex systems tend to settle into one of several possible steady states, known as "attractor basins". By inducing transitions between these attractor basins, it is possible to exert some control over these systems.
 
 So, while attractors may seem like a small detail in the larger study of complex systems, they are in fact a critical concept that underpins our understanding and influence of these systems.
 
-### The role of attractors in modeling complex and dynamical systems
+## The role of attractors in modeling complex and dynamical systems
 
 Attractors offer glimpses into the behavior of systems, allowing us to gain a deeper understanding of their complexities. Therefore, they play a vital role in modeling complex systems, such as physics simulations involving the motion of particles in a fluid and computer graphics, to create realistic movement and behavior of particles or objects. Attractors can also be used to model more abstract systems, such as the dynamics of economic or social systems. For instance, they can help us understand the behavior of populations in a city or the spread of information through a network.
 
