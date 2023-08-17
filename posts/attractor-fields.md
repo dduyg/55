@@ -53,11 +53,11 @@ Below are a few examples of my creations, showcasing the concept of attractor fi
 
 <pre style="max-width: 500px">
 <------------------------------------------------------------------------------------------------>
-To visualize the distance-based attractor fields, I used a grid of points. For each point in the
-grid, a value is generated based on the distance to the closest attractor. While each point is solely influenced by its closest attractor, the definition can
-be easily adapted to incorporate influence from multiple attractors simultaneously. The output
-of this definition is a single value for each point on the grid, which can then be used to
-control any property. In this case, it controls the radii of circles positioned on the points.
+To visualize the distance-based attractor fields, I used a grid of points. For each point in the grid, a value is
+generated based on the distance to the closest attractor. While each point is solely influenced by its closest
+attractor, the definition can be easily adapted to incorporate influence from multiple attractors simultaneously.
+The output of this definition is a single value for each point on the grid, which can then be used to control any
+property. In this case, it controls the radii of circles positioned on the points.
 <------------------------------------------------------------------------------------------------>
 </pre>
 
