@@ -22,7 +22,7 @@ In our bustling world, where cities and human-built infrastructure seem to domin
 <div class="ui hidden divider"></div>
 <div style="max-width: 700px;"><img class="ui fluid image" src="/images/global-land.png"></div>
 
-Yes, you read that right - we use half of the habitable land solely to feed ourselves. Isn't it just mind-blowing how we ended up using far more land for our consumption than we do for building our homes and communities? This glaring disparity between the land we use for human-built infrastructure and human consumption is both fascinating and alarming, painting a vivid picture of the profound changes our landscape has undergone over the centuries due to human activities.
+Yes, you read that right - we use half of the habitable land solely to feed ourselves. Isn't it just mind-blowing how we ended up using far more land for our consumption than we do to build our homes and communities? This glaring disparity between the land we use for human-built infrastructure and human consumption is both fascinating and alarming, painting a vivid picture of the profound changes our landscape has undergone over the centuries due to human activities.
 
 ## It hasn't always been this way.
 
