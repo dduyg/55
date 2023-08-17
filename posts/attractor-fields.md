@@ -36,7 +36,7 @@ So, while attractors may seem like a small detail in the larger study of complex
 
 Attractors offer glimpses into the behavior of systems, allowing us to gain a deeper understanding of their complexities. Therefore, they play a vital role in modeling complex systems, such as physics simulations involving the motion of particles in a fluid and computer graphics, to create realistic movement and behavior of particles or objects. Attractors can also be used to model more abstract systems, such as the dynamics of economic or social systems. For instance, they can help us understand the behavior of populations in a city or the spread of information through a network.
 
-These systems are dynamical systems that are constantly evolving, and attractors have a set of states or values towards which the system tends to evolve, regardless of its initial state. By employing attractors, we can explore the intricate web of interactions and influences that shape our world, whether they're simple, like the motion of a pendulum, or complex, like the weather.
+These systems are dynamical systems that are constantly evolving, and attractors have a set of states or values towards which the system tends to evolve, regardless of its initial state. By using attractors, we can explore the intricate web of interactions and influences that shape our world.
 
 ## Visualizing the influence of parameter changes on attractor fields
 
