@@ -19,7 +19,7 @@
        </div>
        <div class="scrolling menu">
         {% for category in essay_categories %}
-        <div class="item filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category }}</div>
+          <div class="item filter" href="#{{ category | remove: " " }}" id="filter-{{ category | remove: " " }}">{{ category | url_decode }}</div>
         {% endfor %}
        </div>
      </div>
