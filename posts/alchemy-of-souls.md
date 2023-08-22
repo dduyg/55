@@ -12,7 +12,7 @@ labels:
   - Web Application
   - Python
   - JavaScript
-  - HTML/CSS
+  - HTML%2FCSS
 projectlabel: Project
 # mediumurl: https://67
 githuburl: https://github.com/dduyg/alchemy-of-souls
