@@ -9,7 +9,7 @@ labels:
   - Data Design
   - JavaScript
   - R
-projectlabel: Insert Data Project
+projectlabel: Insert Data Work
 # mediumurl: -
 # githuburl: -
 # summary of max. 165 characters <meta name="description>
