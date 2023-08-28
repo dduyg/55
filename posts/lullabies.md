@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: true
+published: false
 title: "Decoding Lullabies"
 permalink: posts/decoding-lullabies-project
 # All dates must be YYYY-MM-DD format!
