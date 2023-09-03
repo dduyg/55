@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: true
+published: false
 title: "Summer Night Bytes: Unveiling Patterns from Our Summer Memories"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-06
