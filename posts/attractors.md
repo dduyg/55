@@ -5,7 +5,7 @@ published: true
 title: "Using Attractors to Understand Complex Systems"
 permalink: posts/using-attractors-to-understand-complex-systems
 # All dates must be YYYY-MM-DD format!
-date: 2023-05-17
+date: 2023-09-28
 labels:
   - Complex Systems
   - Time Series
@@ -24,8 +24,7 @@ Attractors help us understand the intriguing dynamics of objects within a system
 
 Attractors exert an influence on the behavior and movement of objects residing within the system. These attractors are defined as regions in the system's state space, which the system naturally gravitates towards or "attracts" over time. The state space of a system is a mathematical idealisation of all the possible states a system can take. To put it simply, attractors help explain certain patterns, movements, and describe how objects move and interact in a given environment.
 
-## The role of attractors in modeling complexity
-
+## The role of attractors in complex system modeling
 Complexity is essentially a multitude of overlapping, dynamic influences that are bound by context and time, leading to different outcomes depending on the specific conditions. It is precisely due to this web of interconnected layers that makes complex systems challenging to predict and control. The importance of attractors lies in their ability to provide stable and predictable patterns within complex systems, which supports the understanding and modeling of dynamic behaviors.
 
 It is important to understand that attractors serve as islands of stability amidst the sea of chaos. Although chaotic and unstable by nature, dynamic complex systems tend to settle into one of several possible steady states, known as "attractor basins". By inducing transitions between these attractor basins, it is possible to exert some control and guide the system towards desired states. So, while attractors may seem like a small detail in the larger study of complex systems, they are in fact a fascinating concept that underpins our understanding and influence of these systems. Attractors offer glimpses into the behavior of systems, allowing us to gain a deeper understanding of their complexities. 
