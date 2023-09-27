@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: false
+published: true
 title: "Using Attractors to Understand Complex Systems"
 permalink: posts/using-attractors-to-understand-complex-systems
 # All dates must be YYYY-MM-DD format!
