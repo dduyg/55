@@ -23,10 +23,8 @@ offering a unique blend of nostalgia and contemporary innovation.
 
 Created through an innovative fusion of data and art, this piece employs sentiment analysis on the lyrical content of various lullabies. <lullabies across cultures and time.
 
-meticulously shaped by the emotional nuances extracted from the lullaby lyrics.
+meticulously shaped by the emotional nuances extracted from a rich dataset of lullaby lyrics,
 
-"Geometric Lullaby" invites viewers to contemplate the intersection of data and nostalgia, as it transforms intangible sentiments into tangible visual form.
+"Geometric Lullaby" invites to contemplate the intersection of data and nostalgia, as it transforms intangible sentiments into tangible visual form.
 
 Crafted through an intricate fusion of sentiment analysis and geometric abstraction, this piece
-
-Drawing from a rich dataset of lullaby lyrics, the work meticulously translates the emotional cadence of these soothing melodies into a visual symphony of shapes and colors.
