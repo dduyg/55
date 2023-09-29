@@ -17,22 +17,13 @@ multipleworks: [['https://society6.com/art/sound-of-data-02', '/images/Geometric
 
 *Geometric Lullaby* is an abstract and geometric reflection of the soothing sounds that lull us to sleep. Generated using audio data, this work explores the synergy of sound and form. It's a visual lullaby, which translates sound into form.
 
-
- the intricate patterns of sentiment-laden lullaby lyrics into a visual symphony.
-
-work that seamlessly merges the emotive power of lullaby lyrics with the precision of sentiment analysis.
-
-Crafted through a meticulous process, this piece translates the sentiment dynamics of timeless lullabies into a visually stunning geometric composition. 
+Crafted through a meticulous process, this piece translates the sentiment dynamics of timeless lullabies into a visual symphony of shapes, colors, and patterns.  
 
 offering a unique blend of nostalgia and contemporary innovation.
 
-Created through an intricate process involving the analysis
-
-Crafted through an innovative fusion of data and art, this piece employs sentiment analysis on the lyrical content of various lullabies. 
+Created through an innovative fusion of data and art, this piece employs sentiment analysis on the lyrical content of various lullabies. <lullabies across cultures and time.
 
 meticulously shaped by the emotional nuances extracted from the lullaby lyrics.
-
-by translating the sentiments into a visual symphony of shapes, colors, and patterns. Through the lens of sentiment analysis, the piece captures the tender melancholy, the soothing reassurance, and the gentle cadence inherent in lullabies across cultures and time.
 
 "Geometric Lullaby" invites viewers to contemplate the intersection of data and nostalgia, as it transforms intangible sentiments into tangible visual form.
 
