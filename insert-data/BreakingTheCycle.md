@@ -7,7 +7,7 @@ title: "Breaking The Cycle"
 permalink: insertdata/breaking-the-cycle
 # All dates must be YYYY-MM-DD format!
 date: 2022-11-07
-printsurl: https://society6.com/art/breaking-the-cycle7906525
+printsurl: https://www.inprnt.com/gallery/insert.data/breaking-the-cycle/
 # kofiurl: -
 instaurl: https://www.instagram.com/p/ClMQDZsj9Er/?igshid=MDJmNzVkMjY=
 # multiple: -
