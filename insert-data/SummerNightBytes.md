@@ -7,7 +7,7 @@ title: "Summer Night Bytes"
 permalink: insertdata/summer-night-bytes
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-06
-printsurl: https://society6.com/art/summer-night-bytes7802315
+printsurl: https://www.inprnt.com/gallery/insert.data/summer-night-bytes/
 kofiurl: https://soci7
 # instaurl: -
 # multiple: -
