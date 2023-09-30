@@ -13,6 +13,7 @@ instaurl: https://www.instagram.com/p/CflqtEnDzVC/?igshid=MDJmNzVkMjY=
 multiple: 1/5
 # [['url', 'image', 'description]]
 multipleworks: [['https://www.inprnt.com/gallery/insert.data/geometric-lullaby-2/', '/images/GeometricLullaby01-squared.png', 'Geometric Lullaby 2/5'], ['https://www.inprnt.com/gallery/insert.data/geometric-lullaby-5/', '/images/GeometricLullaby05-squared.png', 'Geometric Lullaby 5/5']]
+# techniques: --
 ---
 
 *Geometric Lullaby* is an abstract and geometric reflection of the soothing sounds that lull us to sleep. Generated using audio data, this work explores the synergy of sound and form. It's a visual lullaby, which translates sound into form.
