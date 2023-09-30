@@ -11,6 +11,7 @@ printsurl: https://society6.com/art/abstract-clustering
 kofiurl: https://ko-fi.com/i/IU6U8LZXXX
 instaurl: https://www.instagram.com/p/CmJ7KfwD_M0/?igshid=MDJmNzVkMjY=
 # multiple: -
+# techniques: --
 ---
 
 Clustering involves grouping similar data points into distinct clusters or subgroups based on their features. Clustering algorithms typically work by defining a distance or similarity metric that measures how similar or dissimilar two data points are, and then iteratively groups the data points into clusters based on this metric. The goal is to find and identify natural groupings of data points without prior knowledge of their labels or categories.
