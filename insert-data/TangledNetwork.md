@@ -10,8 +10,6 @@ date: 2023-06-20
 printsurl: https://www.inprnt.com/gallery/insert.data/tangled-network/
 kofiurl: https://soci7
 # instaurl: -
-# multiple: -
-# techniques: --
 ---
 
 
