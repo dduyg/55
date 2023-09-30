@@ -10,7 +10,6 @@ date: 2023-04-22
 printsurl: https://society6.com/art/abstract-clustering
 kofiurl: https://ko-fi.com/i/IU6U8LZXXX
 instaurl: https://www.instagram.com/p/CmJ7KfwD_M0/?igshid=MDJmNzVkMjY=
-# multiple: -
 # techniques: --
 ---
 
