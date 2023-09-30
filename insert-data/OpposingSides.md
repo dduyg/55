@@ -11,6 +11,7 @@ printsurl: https://www.inprnt.com/gallery/insert.data/opposing-sides/
 kofiurl: https://soci7
 # instaurl: -
 # multiple: -
+# techniques: --
 ---
 
 "Opposing Sides" tells a story of balance and tension. The mirrored circle visually represents the opposing nature of urban growth and deforestation. The piece serves as a reminder that every action has an equal and opposite reaction. 
