@@ -7,7 +7,7 @@ title: "Between The Lines"
 permalink: insertdata/between-the-lines 
 # All dates must be YYYY-MM-DD format!
 date: 2023-05-15
-printsurl: https://society6.com/art/between-the-lines7794964
+printsurl: https://www.inprnt.com/gallery/insert.data/between-the-lines/
 # kofiurl: -
 instaurl: https://www.instagram.com/p/ClYISOnDnyo/?igshid=MDJmNzVkMjY=
 # multiple: -
