@@ -11,6 +11,7 @@ printsurl: https://www.inprnt.com/gallery/insert.data/breaking-the-cycle/
 # kofiurl: -
 instaurl: https://www.instagram.com/p/ClMQDZsj9Er/?igshid=MDJmNzVkMjY=
 # multiple: -
+# techniques: --
 ---
 
 
