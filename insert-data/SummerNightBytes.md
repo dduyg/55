@@ -11,6 +11,7 @@ printsurl: https://www.inprnt.com/gallery/insert.data/summer-night-bytes/
 kofiurl: https://soci7
 # instaurl: -
 # multiple: -
+# techniques: --
 ---
 
 In this project, I want to use data to 
