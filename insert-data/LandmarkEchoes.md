@@ -12,7 +12,7 @@ printsurl: https://www.inprnt.com/gallery/insert.data/landmark-echoes-1/
 instaurl: https://www.instagram.com/p/CxkTGQsAW52/?igshid=NjIwNzIyMDk2Mg==
 multiple: 1/3
 # [['url', 'image', 'description]]
-multipleworks: [['https://www.inprnt.com/gallery/insert.data/landmark-echoes-2/', 'images/LandmarkEchoes2-squared.png', 'Landmark Echoes 2/3'], ['https://www.inprnt.com/gallery/insert.data/landmark-echoes-3/', 'images/LandmarkEchoes3-squared.png', 'Landmark Echoes 3/3']]
+multipleworks: [['https://www.inprnt.com/gallery/insert.data/landmark-echoes-2/', '/images/LandmarkEchoes2-squared.png', 'Landmark Echoes 2/3'], ['https://www.inprnt.com/gallery/insert.data/landmark-echoes-3/', '/images/LandmarkEchoes3-squared.png', 'Landmark Echoes 3/3']]
 # techniques: --
 ---
 
