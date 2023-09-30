@@ -16,12 +16,12 @@ multipleworks: [['https://www.inprnt.com/gallery/insert.data/geometric-lullaby-2
 # techniques: sentiment analysis on the lyrical content of various lullabies across cultures, with a unique blend of geometric abstraction
 ---
 
-*Geometric Lullaby* is an abstract and geometric reflection of the soothing sounds that lull us to sleep. Generated using audio data, this work explores the synergy of sound and form. It's a visual lullaby, which translates sound into form.
+*Geometric Lullaby* is an abstract and geometric reflection of the soothing sounds that lull us to sleep. 
 
-Crafted through a meticulous process, this piece translates the sentiment dynamics of timeless lullabies into a visual symphony of shapes, colors, and patterns.  
+Generated using audio data, this work explores the synergy of sound and form. It's a visual lullaby, which translates sound into form.
 
 blend of nostalgia and contemporary innovation, 
 
-Meticulously shaped by the emotional nuances extracted from a rich dataset of lullaby lyrics,
+Shaped by the nuances extracted from a rich dataset of lullaby lyrics, this work translates the sentiment dynamics of timeless lullabies into a visual symphony of shapes, colors, and patterns.
 
 "Geometric Lullaby" invites to contemplate the intersection of data and nostalgia, as it transforms intangible sentiments into tangible visual form.
