@@ -4,7 +4,7 @@ type: essay
 published: false
 title: "Summer Night Bytes: Unveiling Patterns from Our Summer Memories"
 # All dates must be YYYY-MM-DD format!
-date: 2023-08-06
+date: 2023-08-30
 labels:
   - Python
   - OpenCV
