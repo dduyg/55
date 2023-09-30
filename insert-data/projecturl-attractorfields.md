@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/attractorfields1.png
+image: images/attractorfields3.png
 title: "Attractor Fields"
 # All dates must be YYYY-MM-DD format!
 date: 2023-05-27
