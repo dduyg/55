@@ -1,12 +1,12 @@
 ---
 layout: project
 type: project
-published: true
+published: false
 image: images/SummerNightBytes-squared.png
 title: "Summer Night Bytes"
 permalink: insertdata/summer-night-bytes
 # All dates must be YYYY-MM-DD format!
-date: 2023-08-06
+date: 2024-08-30
 printsurl: https://www.inprnt.com/gallery/insert.data/summer-night-bytes/
 kofiurl: https://soci7
 # instaurl: -
