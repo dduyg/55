@@ -19,7 +19,7 @@ summary: What attractors are, and how they can be visualized and applied to unde
 
 Recently, I stumbled upon an intriguing concept known as *attractors*, which originates from the study of <a href="https://en.m.wikipedia.org/wiki/Dynamical_systems_theory" target="_blank" class="lined">dynamical systems</a> and <a href="https://en.m.wikipedia.org/wiki/Chaos_theory" target="_blank" class="lined">chaos theory</a>. They provide a way to understand the behavior of various systems over time. If you think about it, the world around us is made up of countless complex systems, each one interacting and influencing the others in ways that we may not always fully understand. From natural systems to the social systems of our societies, these systems are constantly in motion and constantly changing. Understanding the concept of attractors can help us gain insights into the behavior of these systems. In this post, we will explore what attractors are, how they are used to model complex systems, and how they can be used in our datasets.
 
-## What are attractors?
+## What are Attractors?
 An attractor offers a lens through which we can explore the dynamics of complex systems as it describes the long-term behavior of a system. Attractors are certain points, states, or regions within a dynamic system that possess the ability to draw or ‘attract’ nearby points over time. It represents a set of values or states toward which a system tends to evolve over time, regardless of its initial conditions.
 
 They help us understand the behavior of chaotic and nonlinear systems with complex behavior by revealing underlying patterns and shedding light on the system’s stability. This allows us to predict where things might end up or what patterns they might follow, even when they’re complex and seem unpredictable.
@@ -28,16 +28,16 @@ By using attractors, we can explore the intricate web of interactions and influe
 
 Because attractors represent stable patterns in time towards which a system is drawn, they help identify the underlying patterns and structures in a system’s dynamics, even when the system exhibits nonlinear or chaotic behavior. This can manifest as specific patterns, cycles, or even chaotic trajectories within the data of complex systems. By analyzing the attractors and their stability, we can explore the transitions between different attractors and the emergence of complex patterns.
 
-## Modeling complexity with attractors
+## Modeling Complexity with Attractors
 Complexity is essentially a multitude of overlapping, dynamic influences that are bound by context and time, leading to different outcomes depending on the specific conditions. It is precisely due to this web of interconnected layers that makes complex systems challenging to predict and control.
 
-The importance of attractors lies in their ability to provide stable and predictable patterns within complex systems, supporting the understanding and modeling of dynamic behaviors. Attractors serve as islands of stability amidst the sea of chaos. Although chaotic and unstable by nature, dynamic complex systems tend to settle into one of several possible steady states, known as “attractor basins.”
+This complexity might seem overwhelming, but this is where attractors become invaluable. They provide stable and predictable patterns within complex systems, which supports the understanding and modeling of dynamic behaviors. Attractors serve as islands of stability amidst the sea of chaos. Although chaotic and unstable by nature, dynamic complex systems tend to settle into one of several possible steady states, known as “attractor basins.”
 
 By inducing transitions between these attractor basins, it is possible to exert some control and guide the system towards desired states. While attractors may seem like a small detail in the larger study of complex systems, they are, in fact, a fascinating concept that underpins our understanding and influence of these systems.
 
 Attractors offer glimpses into the behavior of systems, allowing us to gain a deeper understanding of their complexities. As a result, they play a vital role in modeling complex systems, such as physics simulations involving the motion of particles in a fluid and computer graphics, to create realistic movement and behavior of particles or objects. Attractors can also be used to model more abstract systems, such as the dynamics of economic or social systems. For instance, they can help us understand the behavior of populations in a city or the spread of information through a network.
 
-## Visualizing the influence of parameter changes on attractor fields
+## Visualizing the Influence of Parameter Changes on Attractors
 
 Fascinated by this concept, I began to further explore attractors by visualizing *distance-based attractor fields*, with inspiration from a <a href="https://object-e.net/tools/attractorfields-tools-gh" target="_blank" class="lined">tool</a> I had come across. Those acting as the ‘attractors’ in the field can be represented as points that exert a force of attraction on nearby objects. The strength of this attraction depends on the distance between the object and the attractor point, with closer objects experiencing a stronger pull. Objects move and interact in response to the collective influence of all the attractors in the system, creating patterns and movements that can be analyzed and understood.
 
