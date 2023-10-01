@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: true
+published: false
 title: "Between The Lines: The Hedonic and Eudaimonic Motives for Activities"
 # All dates must be YYYY-MM-DD format!
 date: 2023-05-15
