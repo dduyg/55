@@ -2,7 +2,7 @@
 layout: project
 type: project
 published: true
-image: images/Counterbalances1-squared.jpg
+image: images/Counterbalances3-squared.jpg
 title: "Counterbalances"
 permalink: insertdata/counterbalances
 # All dates must be YYYY-MM-DD format!
@@ -12,7 +12,7 @@ printsurl: https://www.inprnt.com/gallery/insert.data/counterbalances-15/
 instaurl: https://www.instagram.com/p/CnM3bhYD1Ql/?igshid=YmMyMTA2M2Y=
 multiple: 1/5
 # [['url', 'image', 'description]]
-multipleworks: [['https://www.inprnt.com/gallery/insert.data/counterbalances-35/', '/images/Counterbalances3-squared.jpg', 'Counterbalances 3/5'], ['https://www.inprnt.com/gallery/insert.data/counterbalances-45/', '/images/Counterbalances4-squared.png', 'Counterbalances 4/5'], ['https://www.inprnt.com/gallery/insert.data/counterbalances-55/', '/images/Counterbalances5-squared.jpg', 'Counterbalances 5/5']]
+multipleworks: [['https://www.inprnt.com/gallery/insert.data/counterbalances-15/', '/images/Counterbalances1-squared.jpg', 'Counterbalances 3/5'], ['https://www.inprnt.com/gallery/insert.data/counterbalances-45/', '/images/Counterbalances4-squared.png', 'Counterbalances 4/5'], ['https://www.inprnt.com/gallery/insert.data/counterbalances-55/', '/images/Counterbalances5-squared.jpg', 'Counterbalances 5/5']]
 # techniques: --
 ---
 
