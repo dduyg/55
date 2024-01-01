@@ -56,10 +56,14 @@ In this project, I want to use data to support my observation during my first si
 I never used to think that design and technology went hand in hand.  Thus, learning about software engineering and the role of design has been incredibly interesting to me. Design, implementation, and management are just some of the many things I wish to learn more about. Good art, in a way, makes a person question it. They become joined in the idea of visualization – where captivation meets inspiration.
 
 ```python
-def happy_new_year(year):
-    if year == 2024:
-        print("Here's to a year filled with endless loops of happiness, peace, and moments to cherish.")
+import random
 
-happy_new_year(2024)
-
+def new_year_resolution():
+    resolutions = ["find happiness in little things", "optimize handling unexpected life events algorithm", "debug sleep routine", "upgrade my knowledge base to version 3.0"]
+    resolution = random.choice(resolutions)
+    
+    if random.choice([True, False]):  
+        print(f"My resolution is to: {resolution}")
+    else:
+        print("It's okay, resolutions can be unpredictable too; the journey matters.")
 ```
