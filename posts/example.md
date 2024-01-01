@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-published: false
+published: true
 title: "Example Post"
 permalink: posts/wmhere
 # All dates must be YYYY-MM-DD format!
@@ -54,3 +54,12 @@ In this project, I want to use data to support my observation during my first si
 <img class="ui tiny left circular floated image" src="../images/tools-section1.jpg">
 
 I never used to think that design and technology went hand in hand.  Thus, learning about software engineering and the role of design has been incredibly interesting to me. Design, implementation, and management are just some of the many things I wish to learn more about. Good art, in a way, makes a person question it. They become joined in the idea of visualization – where captivation meets inspiration.
+
+```python
+def happy_new_year(year):
+    if year == 2024:
+        print("Here's to a year filled with endless loops of happiness, peace, and moments to cherish.")
+
+happy_new_year(2024)
+
+```
