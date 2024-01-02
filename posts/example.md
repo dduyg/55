@@ -56,12 +56,13 @@ In this project, I want to use data to support my observation during my first si
 I never used to think that design and technology went hand in hand.  Thus, learning about software engineering and the role of design has been incredibly interesting to me. Design, implementation, and management are just some of the many things I wish to learn more about. Good art, in a way, makes a person question it. They become joined in the idea of visualization – where captivation meets inspiration.
 
 ```python
-def loop_through_years(start_year, end_year):
-    for year in range(start_year, end_year + 1):
-        if year % 2 == 0:
-            print(f"Year: {year} - Laugh, love, repeat!")
-        else:
-            print(f"Year: {year} - Let your loops be joyful and your errors be forgiving.")
 
-loop_through_years(2024, 2035)
+def loop_through_years(start_year, end_year):
+    for year in range(start_year, end_year + 1):
+        if year % 2 == 0:
+            print(f"{year}: Laugh, love, repeat!")
+        else:
+            print(f"{year}: Let your loops be joyful and your errors be forgiving.")
+
+loop_through_years(2024, 2035)
 ```
