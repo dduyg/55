@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-published: true
+published: false
 image: images/BetweenTheLines-squared.png
 title: "Between The Lines"
 permalink: insertdata/between-the-lines 
