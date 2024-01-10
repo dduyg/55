@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-published: true
+published: false
 image: images/OpposingSides-squared.png
 title: "Opposing Sides"
 permalink: insertdata/opposing-sides
