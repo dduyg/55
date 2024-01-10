@@ -5,7 +5,7 @@ published: true
 title: "A Visual Exploration into the Disparities in Human Influence on Earth's Surface"
 permalink: posts/visualizing-earths-surface
 # All dates must be YYYY-MM-DD format!
-date: 2022-07-20
+date: 2023-08-20
 labels:
   - Our World in Data
   - Data Visualization
