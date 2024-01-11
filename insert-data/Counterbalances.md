@@ -8,7 +8,7 @@ permalink: insertdata/counterbalances
 # All dates must be YYYY-MM-DD format!
 date: 2023-05-25
 printsurl: https://www.inprnt.com/gallery/insert.data/counterbalances-35/
-# kofiurl: -
+kofiurl: https://ko-fi.com/s/1f38c44c5b
 instaurl: https://www.instagram.com/p/CnM3bhYD1Ql/?igshid=YmMyMTA2M2Y=
 multiple: 1/5
 # [['url', 'image', 'description]]
