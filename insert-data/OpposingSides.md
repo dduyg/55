@@ -8,7 +8,7 @@ permalink: insertdata/opposing-sides
 # All dates must be YYYY-MM-DD format!
 date: 2023-06-02
 printsurl: https://www.inprnt.com/gallery/insert.data/opposing-sides/
-kofiurl: https://soci7
+kofiurl: https://ko-fi.com/dduyg
 # instaurl: -
 # multiple: -
 # techniques: --
