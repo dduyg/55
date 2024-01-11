@@ -8,7 +8,7 @@ permalink: insertdata/abstract-clustering
 # All dates must be YYYY-MM-DD format!
 date: 2022-10-22
 printsurl: https://society6.com/art/abstract-clustering
-kofiurl: https://ko-fi.com/i/IU6U8LZXXX
+kofiurl: https://ko-fi.com/s/66c4d95f6a
 instaurl: https://www.instagram.com/p/CmJ7KfwD_M0/?igshid=MDJmNzVkMjY=
 # techniques: --
 ---
