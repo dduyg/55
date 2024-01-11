@@ -8,7 +8,7 @@ permalink: insertdata/geometric-lullaby
 # All dates must be YYYY-MM-DD format!
 date: 2023-03-18
 printsurl: https://www.inprnt.com/gallery/insert.data/geometric-lullaby-1/
-kofiurl: https://soci7
+kofiurl: https://ko-fi.com/s/764cffade8
 instaurl: https://www.instagram.com/p/CflqtEnDzVC/?igshid=MDJmNzVkMjY=
 multiple: 1/5
 # [['url', 'image', 'description]]
