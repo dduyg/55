@@ -1,11 +1,11 @@
 ---
 layout: essay
 type: essay
-published: false
+published: true
 title: "Example Post"
-permalink: posts/wmhere
+permalink: posts/fenced-code-blocks
 # All dates must be YYYY-MM-DD format!
-date: 2021-09-08
+date: 2023-09-08
 labels:
   - HTML
   - JavaScript
