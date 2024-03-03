@@ -7,9 +7,9 @@ permalink: posts/fenced-code-blocks
 # All dates must be YYYY-MM-DD format!
 date: 2023-09-08
 labels:
-  - HTML
+  - Text Transformation
   - JavaScript
-  - R
+  - Glitch
 # projectlabel: -
 # mediumurl: -
 # githuburl: -
