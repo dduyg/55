@@ -1,9 +1,9 @@
 # Site settings
 
-title: Duygu Dağdelen
+title: Archived Antenna
 url: "https://dduyg.github.io"
 # Edit next line so that baseurl is "" if your repo is <username>.github.io
-baseurl: ""
+baseurl: "/site-archives"
 
 projects-page-label: Insert Data
 essays-page-label: Posts
