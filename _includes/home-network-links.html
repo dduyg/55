@@ -1,7 +1,0 @@
-{% for profile in site.data.bio.basics.profiles %}
-   <a href="{{ profile.url }}" target="_blank"> <i class="big {{ profile.network | downcase }} icon icon-color"></i></a>
-{% endfor %}
-
-{% if site.data.bio.basics.email %}
-  <a href="mailto:{{ site.data.bio.basics.email }}?subject=Contact via dduyg.github.io" target="_blank"><i class="big mail outline icon icon-color"></i></a>
-{% endif %}
