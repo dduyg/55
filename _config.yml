@@ -8,18 +8,15 @@ baseurl: "/site-archives"
 projects-page-label: Insert Data
 essays-page-label: Posts
 bio-page-label: About
-contact-page-label: Contact
 
 theme-home: theme-home-builtin.html
 theme-projects: theme-projects-builtin.html
 theme-essays: theme-essays-builtin.html
 theme-bio: theme-bio-builtin.html
-theme-contact: theme-contact.html
 
 projects-url: insert-data
 essays-url: posts
 bio-url: about
-contact-url: contact
 
 # Specify the rouge syntax highlighter theme. Pick one from css/rouge.
 rouge-theme: gruvbox
