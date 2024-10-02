@@ -52,47 +52,37 @@ a.mu {
   }
 }
 
-// Custom menu (https://tachyons.io/components/nav/logo-links-inline-collapse/index.html)
+// Custom menu
 .border-box {
     box-sizing: border-box;
 }
-
 .db {
     display: block;
 }
-
 .dib {
     display: inline-block;
 }
-
 .w-logo {
     width: 5.1em;
 }
-
 .w-100 {
     width: 100%;
 }
-
 .pa3 {
     padding: 1em;
 }
-
 .mr3 {
     margin-right: 0.775em;
 }
-
 .mb2 {
     margin-bottom: .5em;
 }
-
 .tc {
     text-align: center;
 }
-
 .f6 {
     font-size: .875em;
 }
-
 .v-mid {
     vertical-align: middle;
 }
@@ -101,40 +91,31 @@ a.mu {
     .dt-l {
         display: table;
     }
-
     .dtc-l {
         display: table-cell;
     }
-
     .w-25-l {
         width: 25%;
     }
-
     .w-75-l {
         width: 75%;
     }
-
     .ph5-l {
         padding-left: 8em;   // was originally 4em;
         padding-right: 8em;  // was originally 4em;
     }
-
     .mr4-l {
         margin-right: 2em;
     }
-
     .mb0-l {
         margin-bottom: 0;
     }
-
     .tl-l {
         text-align: left;
     }
-
     .tr-l {
         text-align: right;
     }
-
     .f5-l {
         font-size: 1em;
     }
